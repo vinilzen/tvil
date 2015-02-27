@@ -6608,12 +6608,13 @@ button.close {
   min-width: 474px; }
   /* line 87, /www/tvil/sass/tvil/theme */
   .main.affix {
-    position: static; }
-  /* line 90, /www/tvil/sass/tvil/theme */
+    position: static;
+    padding-top: 130px; }
+  /* line 91, /www/tvil/sass/tvil/theme */
   .main .page-header {
     margin-top: 0; }
 
-/* line 95, /www/tvil/sass/tvil/theme */
+/* line 96, /www/tvil/sass/tvil/theme */
 .container-wrapper {
   min-width: 1024px;
   padding-left: 260px;
