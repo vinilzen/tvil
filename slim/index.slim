@@ -5,7 +5,7 @@ html
   body
     == Slim::Template.new("nav.slim").render
     .container-wrapper
-      .left-sidebar data-spy="affix" data-offset-top="50"
+      .left-sidebar data-spy="affix" data-offset-top="60"
         ul.nav.nav-sidebar
           li.active
             a href="#" 
@@ -35,7 +35,7 @@ html
             a href=""  One more nav
           li
             a href=""  Another nav item
-      .main
+      .main data-spy="affix" data-offset-top="60"
         .container-fluid
           h1.page-header Dashboard
           .row.placeholders
@@ -145,7 +145,7 @@ html
                 td sodales
                 td ligula
                 td in
-      .right-sidebar data-spy="affix" data-offset-top="50"
+      .right-sidebar data-spy="affix" data-offset-top="60"
         ul.nav.nav-sidebar
           li.active
             a href="#" 
