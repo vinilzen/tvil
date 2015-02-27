@@ -1668,7 +1668,7 @@ dd {
 /* line 19, /www/tvil/sass/bootstrap/mixins/clearfix */
 .dl-horizontal dd:after {
   clear: both; }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 211, /www/tvil/sass/bootstrap/type */
   .dl-horizontal dt {
     float: left;
@@ -3703,7 +3703,7 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px; }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 205, /www/tvil/sass/bootstrap/dropdowns */
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4154,7 +4154,7 @@ tbody.collapse.in {
   /* line 19, /www/tvil/sass/bootstrap/mixins/clearfix */
   .navbar:after {
     clear: both; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar {
       border-radius: 4px; } }
 
@@ -4165,7 +4165,7 @@ tbody.collapse.in {
 /* line 19, /www/tvil/sass/bootstrap/mixins/clearfix */
 .navbar-header:after {
   clear: both; }
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .navbar-header {
     float: left; } }
 
@@ -4187,7 +4187,7 @@ tbody.collapse.in {
   /* line 59, /www/tvil/sass/bootstrap/navbar */
   .navbar-collapse.in {
     overflow-y: auto; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-collapse {
       width: auto;
       border-top: 0;
@@ -4218,7 +4218,7 @@ tbody.collapse.in {
 .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
       margin-right: 0;
       margin-left: 0; } }
@@ -4227,7 +4227,7 @@ tbody.collapse.in {
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-static-top {
       border-radius: 0; } }
 
@@ -4237,7 +4237,7 @@ tbody.collapse.in {
   right: 0;
   left: 0;
   z-index: 1030; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-fixed-top, .navbar-fixed-bottom {
       border-radius: 0; } }
 
@@ -4265,7 +4265,7 @@ tbody.collapse.in {
   /* line 176, /www/tvil/sass/bootstrap/navbar */
   .navbar-brand > img {
     display: block; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     /* line 182, /www/tvil/sass/bootstrap/navbar */
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; }
@@ -4295,7 +4295,7 @@ tbody.collapse.in {
   /* line 218, /www/tvil/sass/bootstrap/navbar */
   .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 4px; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-toggle {
       display: none; } }
 
@@ -4307,7 +4307,7 @@ tbody.collapse.in {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px; }
-  @media (max-width: 767px) {
+  @media (max-width: 479px) {
     /* line 244, /www/tvil/sass/bootstrap/navbar */
     .navbar-nav .open .dropdown-menu {
       position: static;
@@ -4327,7 +4327,7 @@ tbody.collapse.in {
         .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
           background-image: none; }
  }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-nav {
       float: left;
       margin: 0; }
@@ -4403,13 +4403,13 @@ tbody.collapse.in {
     .navbar-form .has-feedback .form-control-feedback {
       top: 0; }
  }
-  @media (max-width: 767px) {
+  @media (max-width: 479px) {
     .navbar-form .form-group {
       margin-bottom: 5px; }
       /* line 303, /www/tvil/sass/bootstrap/navbar */
       .navbar-form .form-group:last-child {
         margin-bottom: 0; } }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-form {
       width: auto;
       border: 0;
@@ -4451,13 +4451,13 @@ tbody.collapse.in {
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px; }
-  @media (min-width: 768px) {
+  @media (min-width: 480px) {
     .navbar-text {
       float: left;
       margin-left: 15px;
       margin-right: 15px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   /* line 380, /www/tvil/sass/bootstrap/navbar */
   .navbar-left {
     float: left !important; }
@@ -4516,7 +4516,7 @@ tbody.collapse.in {
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #e7e7e7;
     color: #555; }
-  @media (max-width: 767px) {
+  @media (max-width: 479px) {
     /* line 474, /www/tvil/sass/bootstrap/navbar */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
       color: #777; }
@@ -4594,7 +4594,7 @@ tbody.collapse.in {
   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #1b1d24;
     color: #fff; }
-  @media (max-width: 767px) {
+  @media (max-width: 479px) {
     /* line 608, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
       border-color: #1b1d24; }
@@ -6523,37 +6523,38 @@ button.close {
  * Top navigation
  * Hide default border to remove 1px line.
  */
-/* line 5, /www/tvil/sass/tvil/theme */
-.navbar-inverse {
+/* line 6, /www/tvil/sass/tvil/theme */
+.navbar {
   margin-bottom: 0;
-  width: 100%;
   min-width: 1024px;
-  border: none; }
-  /* line 10, /www/tvil/sass/tvil/theme */
-  .navbar-inverse.affix {
-    overflow: hidden;
-    height: 50px; }
-    /* line 13, /www/tvil/sass/tvil/theme */
-    .navbar-inverse.affix .top-line {
-      display: none; }
+  border: none;
+  width: 100%; }
 
-/* line 18, /www/tvil/sass/tvil/theme */
+/* line 13, /www/tvil/sass/tvil/theme */
+.navbar-inverse.navbar-tvil-fixed-top.affix {
+  overflow: hidden;
+  height: 50px; }
+  /* line 16, /www/tvil/sass/tvil/theme */
+  .navbar-inverse.navbar-tvil-fixed-top.affix .top-line {
+    display: none; }
+
+/* line 21, /www/tvil/sass/tvil/theme */
 .top-line {
   height: 60px; }
 
-/* line 21, /www/tvil/sass/tvil/theme */
+/* line 24, /www/tvil/sass/tvil/theme */
 .second-line {
   background-color: #fff; }
 
-/* line 24, /www/tvil/sass/tvil/theme */
+/* line 27, /www/tvil/sass/tvil/theme */
 .navbar-right {
   margin-right: 0; }
 
 /*
  * Sidebar
  */
-/* line 33, /www/tvil/sass/tvil/theme */
-.left-sidebar, .right-sidebar {
+/* line 34, /www/tvil/sass/tvil/theme */
+.sidebar-left, .sidebar-right {
   position: absolute;
   top: 110px;
   bottom: 0;
@@ -6567,33 +6568,38 @@ button.close {
   background-color: #f5f5f5;
   border-right: 1px solid #eee;
   width: 260px; }
-  /* line 46, /www/tvil/sass/tvil/theme */
-  .left-sidebar.affix, .right-sidebar.affix {
+  /* line 47, /www/tvil/sass/tvil/theme */
+  .sidebar-left.affix, .sidebar-right.affix {
     position: fixed;
     top: 50px; }
 
-/* line 51, /www/tvil/sass/tvil/theme */
-.right-sidebar {
+/* line 52, /www/tvil/sass/tvil/theme */
+.sidebar-right {
   left: inherit;
   right: 0;
   width: 290px; }
   @media (max-width: 1023px) {
-    .right-sidebar {
+    .sidebar-right {
       left: 734px;
       right: inherit; } }
 
+/* line 61, /www/tvil/sass/tvil/theme */
+.map {
+  height: 100%;
+  min-height: 300px; }
+
 /* Sidebar navigation */
-/* line 62, /www/tvil/sass/tvil/theme */
+/* line 66, /www/tvil/sass/tvil/theme */
 .nav-sidebar {
   margin-right: -21px;
   /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px; }
-  /* line 66, /www/tvil/sass/tvil/theme */
+  /* line 70, /www/tvil/sass/tvil/theme */
   .nav-sidebar > li > a {
     padding-right: 20px;
     padding-left: 20px; }
-  /* line 72, /www/tvil/sass/tvil/theme */
+  /* line 76, /www/tvil/sass/tvil/theme */
   .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
     color: #fff;
     background-color: #428bca; }
@@ -6601,27 +6607,53 @@ button.close {
 /*
  * Main content
  */
-/* line 83, /www/tvil/sass/tvil/theme */
+/* line 87, /www/tvil/sass/tvil/theme */
 .main {
   padding: 20px 40px;
   width: 100%;
   min-width: 474px; }
-  /* line 87, /www/tvil/sass/tvil/theme */
+  /* line 91, /www/tvil/sass/tvil/theme */
   .main.affix {
     position: static;
     padding-top: 130px; }
-  /* line 91, /www/tvil/sass/tvil/theme */
+  /* line 95, /www/tvil/sass/tvil/theme */
   .main .page-header {
     margin-top: 0; }
 
-/* line 96, /www/tvil/sass/tvil/theme */
+/* line 100, /www/tvil/sass/tvil/theme */
 .container-wrapper {
   min-width: 1024px;
   padding-left: 260px;
   padding-right: 290px; }
+  /* line 104, /www/tvil/sass/tvil/theme */
+  .container-wrapper.container-search {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0; }
+    /* line 109, /www/tvil/sass/tvil/theme */
+    .container-wrapper.container-search .search-result {
+      float: left;
+      width: 768px;
+      height: 100%; }
+    /* line 114, /www/tvil/sass/tvil/theme */
+    .container-wrapper.container-search .container-map {
+      margin-left: 768px;
+      height: 100%; }
+      /* line 117, /www/tvil/sass/tvil/theme */
+      .container-wrapper.container-search .container-map.affix {
+        top: 0; }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .navbar {
     border-radius: 0; } }
+
+/* line 128, /www/tvil/sass/tvil/theme */
+#gag {
+  background-image: url(../img/ya_map.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%;
+  min-width: 1px; }
 
 /*# sourceMappingURL=bootstrap.css.map */

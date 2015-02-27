@@ -3,39 +3,10 @@ html
   head
     == Slim::Template.new("head.slim").render
   body
-    == Slim::Template.new("nav.slim").render
-    .container-wrapper
-      .sidebar-left data-spy="affix" data-offset-top="60"
-        ul.nav.nav-sidebar
-          li.active
-            a href="#" 
-              | Overview
-              span.sr-only (current)
-          li
-            a href="#"  Reports
-          li
-            a href="#"  Analytics
-          li
-            a href="#"  Export
-        ul.nav.nav-sidebar
-          li
-            a href=""  Nav item
-          li
-            a href=""  Nav item again
-          li
-            a href=""  One more nav
-          li
-            a href=""  Another nav item
-          li
-            a href=""  More navigation
-        ul.nav.nav-sidebar
-          li
-            a href=""  Nav item again
-          li
-            a href=""  One more nav
-          li
-            a href=""  Another nav item
-      .main data-spy="affix" data-offset-top="60"
+    nav.navbar.navbar-inverse#js-nav
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper.container-search
+      .search-result
         .container-fluid
           h1.page-header Dashboard
           .row.placeholders
@@ -56,7 +27,6 @@ html
               h4 Label
               span.text-muted Something else
           h2.sub-header Section title
-          .table-responsive
           table.table.table-striped
             thead
               tr
@@ -195,18 +165,16 @@ html
                 td sodales
                 td ligula
                 td in
-      .sidebar-right data-spy="affix" data-offset-top="60"
-        ul.nav.nav-sidebar
-          li.active
-            a href="#" 
-              | Overview
-              span.sr-only (current)
-          li
-            a href="#"  Reports
-          li
-            a href="#"  Analytics
-          li
-            a href="#"  Export
-
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, laudantium.
+      .container-map data-spy="affix" data-offset-top="60"
+        #js-map.map
+          #gag
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"
+    script src="js/main.js"
+    javascript:
+      //ymaps.ready(init);
+      //var TvilMap;
+      //function init(){
+      //TvilMap = new ymaps.Map("js-map",{center:[55.76,37.64],zoom:12});
+      //}
