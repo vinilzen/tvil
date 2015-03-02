@@ -6,67 +6,68 @@ html
     == Slim::Template.new("nav.slim").render
     .container-wrapper
       .sidebar-left data-spy="affix" data-offset-top="60"
-        ul.nav.nav-sidebar
-          li
-            a href="#"
-              span.glyphicon.glyphicon-map-marker
-              | Расположение
-              span.label
-                span.glyphicon.glyphicon-ok.glyphicon-green
-          li
-            a href="#"
-              span.glyphicon.glyphicon-comment
-              | Описание
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li.active
-            a href="#"
-              span.glyphicon.glyphicon-wrench
-              | Характеристики
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#"
-              span.glyphicon.glyphicon-list-alt
-              | Условия
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#"
-              span.glyphicon.glyphicon-wrench
-              | Услуги
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#"
-              span.glyphicon.glyphicon-th-list
-              | Категории номеров
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#"
-              span.glyphicon.glyphicon-calendar
-              | Календарь
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#"
-              span.glyphicon.glyphicon-usd
-              | Цены
-              span.label
-                span.glyphicon.glyphicon-question-sign tabindex="0" role="button" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?" data-placement="right" data-container="body"
-          li
-            a href="#" 
-              span.glyphicon.glyphicon-log-in
-              | Бронирование
-              span.label
-                span.glyphicon.glyphicon-question-sign
-          li
-            a href="#" 
-              span.glyphicon.glyphicon-camera
-              | Фотографии
-              span.label
-                span.glyphicon.glyphicon-question-sign
+        .sidebar-scroll#js-sidebar-scroll
+          ul.nav.nav-sidebar
+            li
+              a href="#"
+                span.glyphicon.glyphicon-map-marker
+                | Расположение
+                span.label
+                  span.glyphicon.glyphicon-ok.glyphicon-green
+            li
+              a href="#"
+                span.glyphicon.glyphicon-comment
+                | Описание
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li.active
+              a href="#"
+                span.glyphicon.glyphicon-wrench
+                | Характеристики
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#"
+                span.glyphicon.glyphicon-list-alt
+                | Условия
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#"
+                span.glyphicon.glyphicon-wrench
+                | Услуги
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#"
+                span.glyphicon.glyphicon-th-list
+                | Категории номеров
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#"
+                span.glyphicon.glyphicon-calendar
+                | Календарь
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#"
+                span.glyphicon.glyphicon-usd
+                | Цены
+                span.label
+                  span.glyphicon.glyphicon-question-sign tabindex="0" role="button" data-toggle="popover" data-content="<p><strong>Можно курить</strong> - radio button.</p><p>Владелец отмечает можно курить в доме или нет. Если галочка не стоит, то в правилах дома ничего не будет.</p><p>Если владелец отмечает да или нет, то в правилах дома будет соответственно “В доме можно курить” и “В доме нельзя курить”.</p>" data-placement="right" data-container="body" data-html="true"
+            li
+              a href="#" 
+                span.glyphicon.glyphicon-log-in
+                | Бронирование
+                span.label
+                  span.glyphicon.glyphicon-question-sign
+            li
+              a href="#" 
+                span.glyphicon.glyphicon-camera
+                | Фотографии
+                span.label
+                  span.glyphicon.glyphicon-question-sign
       .main data-spy="affix" data-offset-top="60"
         .container-fluid
           h1.page-header Эконом

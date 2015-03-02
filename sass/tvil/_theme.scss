@@ -192,7 +192,6 @@ abbr[title]{
 .sidebar-left, .sidebar-right {
   position: absolute;
   top: 111px;
-  bottom: 0;
   left: 0;
   z-index: 999;
   display: block;
@@ -207,6 +206,8 @@ abbr[title]{
 }
 .sidebar-left {
   background-color: #282c37;
+  overflow: hidden;
+  padding: 0;
   .nav-sidebar {
     a {
       padding-left: 60px;
@@ -214,6 +215,10 @@ abbr[title]{
       padding-top: 25px;
       padding-bottom: 25px;
       line-height: 20px;
+      &:hover, &:focus {
+        background-color: #313541;
+        color:#8e9aa9;
+      }
     }
   }
   .glyphicon {
@@ -226,7 +231,7 @@ abbr[title]{
   }
   .label {
     position: absolute;
-    right:0;
+    left:220px;
     top: 0;
     padding-right: 22px;
     margin-top: -7px;
@@ -239,6 +244,9 @@ abbr[title]{
       margin-right: 0;
       color:#8e9aa9;
       opacity: .2;
+      &:focus {
+        outline: 0;
+      }
       &.glyphicon-green {
         color:#28bd8b;
         opacity: 1;
@@ -249,21 +257,30 @@ abbr[title]{
 .sidebar-right {
   left:inherit;
   right:0;
-  width: 290px;
+  bottom: 0;
+  width: 300px;
   background-color: #fff;
   @media (max-width: 1023px) {
     left: 734px;
     right: inherit;
   }
 }
+.sidebar-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 281px;
+  padding: 0 25px 0 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 .map {
   height: 100%;
-  min-height:300px; 
+  min-height:300px;
 }
 /* Sidebar navigation */
 .nav-sidebar {
   margin-right: -21px; /* 20px padding + 1px border */
-  margin-bottom: 20px;
   margin-left: -20px;
   & > li > a {
     padding-right: 20px;
@@ -369,4 +386,18 @@ abbr[title]{
       }
     }
   }
+}
+
+/*
+ * Popover
+ */
+
+.popover {
+  border:none;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+.popover-content {
+  color: #566777;
+  font-size: 13px;
 }
