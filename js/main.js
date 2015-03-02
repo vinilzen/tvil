@@ -27,21 +27,20 @@ $(function(){
 		}
 
 	}
-
-	window.addEventListener(orientationEvent, setMapHeight);
+	if (window.addEventListener){
+		window.addEventListener(orientationEvent, setMapHeight);
+	} else {
+		window.attachEvent('resize', setMapHeight);
+	}
 
 	setMapHeight();
 
 	$('.sidebar-left .label .glyphicon').popover();
-
-
 	
 	if (js_sidebar_scroll.length > 0) {
 		$(document).scroll(function(){
 			var top_offset = $(this).scrollTop();
 				wh = $(window).height();
-
-			console.log(wh, top_offset);
 
 			if (top_offset > 60){
 				js_sidebar_scroll.height(wh - 51);
