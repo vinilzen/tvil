@@ -19,4 +19,6 @@ $(function(){
 	window.addEventListener(orientationEvent, setMapHeight);
 
 	setMapHeight();
+
+	$('.sidebar-left .label .glyphicon').popover();
 });

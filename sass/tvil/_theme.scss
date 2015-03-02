@@ -156,11 +156,14 @@ abbr[title]{
   border-color: rgba(0,0,0,0);
   opacity:1;
 }
-.glyphicon {
+.btn .glyphicon {
   margin-right: 7px;
 }
 .glyphicon-red {
   color:#ff5d61;
+}
+.glyphicon-green {
+  color:#28bd8b;
 }
 .dropdown-menu {
   border:none;
@@ -193,21 +196,61 @@ abbr[title]{
   left: 0;
   z-index: 999;
   display: block;
-  padding: 20px;
+  padding: 0 20px;
   overflow-x: hidden;
   overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  background-color: #f5f5f5;
-  border-right: 1px solid #eee;
   width: 260px;
   &.affix {
     position: fixed;
     top:51px;
   }
 }
+.sidebar-left {
+  background-color: #282c37;
+  .nav-sidebar {
+    a {
+      padding-left: 60px;
+      font-size: 15px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      line-height: 20px;
+    }
+  }
+  .glyphicon {
+    margin-right: 15px;
+    position: absolute;
+    font-size: 1.5em;
+    line-height: 70px;
+    height: 70px;
+    left:20px;
+  }
+  .label {
+    position: absolute;
+    right:0;
+    top: 0;
+    padding-right: 22px;
+    margin-top: -7px;
+    top:50%;
+    .glyphicon {
+      height: 14px;
+      line-height: 14px;
+      font-size: 1.1em;
+      position: static;
+      margin-right: 0;
+      color:#8e9aa9;
+      opacity: .2;
+      &.glyphicon-green {
+        color:#28bd8b;
+        opacity: 1;
+      }
+    }
+  }
+}
 .sidebar-right {
   left:inherit;
   right:0;
   width: 290px;
+  background-color: #fff;
   @media (max-width: 1023px) {
     left: 734px;
     right: inherit;
@@ -229,8 +272,8 @@ abbr[title]{
   & > .active > a,
   & > .active > a:hover,
   & > .active > a:focus {
-    color: #fff;
-    background-color: #428bca;
+    color: #152438;
+    background-color: #f4f7fa;
   }
 }
 
@@ -243,6 +286,8 @@ abbr[title]{
   padding: 20px 25px;
   width: 100%;
   min-width: 474px;
+  background-color: #f4f7fa;
+  border-right: 1px solid #e2e7ec;
   &.affix {
     position:static;
     padding-top: 130px;
@@ -306,9 +351,11 @@ abbr[title]{
       padding-bottom: 20px;
       padding-left: 22px;
       padding-right: 13px;
-      max-width: 150px;
       overflow: hidden;
       text-overflow:ellipsis;
+      @media (max-width: 1100px) {
+        max-width: 150px;
+      }
       &:hover, &:focus {
         background-color: transparent;
       }
