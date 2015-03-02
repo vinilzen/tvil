@@ -119,12 +119,107 @@
 							<div class="check-custom"></div>
 						</label>
 					</h1>
+					<div class="row row-main">
+						<form>
+							<div class="col-sm-12">
+								<div class="form-group row">
+									<div class="col-sm-6">
+										<label>Название категории номера</label><input class="form-control" placeholder="Например: для пары с ребенком" type="text" />
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-6">
+										<label for="exampleInputPassword1">Категория номера</label><select class="form-control">
+											<option>
+												Выберите
+											</option>
+											<option>
+												1
+											</option>
+											<option>
+												2
+											</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-6">
+										<label>Количество номеров данной категории</label><input class="form-control" min="1" placeholder="3" type="number" />
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-6">
+										<label>Площадь номеров категории</label><input class="form-control" min="1" placeholder="3" type="number" />
+									</div>
+									<div class="col-sm-6">
+										<div class="checkbox">
+											<label><input type="checkbox" />Применить для всех номеров</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-12">
+										<label>Описание</label><textarea class="form-control" placeholder="Опишите подробнее эту категорию номеров" rows="5"></textarea>
+									</div>
+								</div>
+								<div class="form-group row">
+									<div class="col-sm-6">
+										<label>Количество комнат в номере</label><input class="form-control" min="1" placeholder="Выберите" type="number" />
+									</div>
+								</div>
+								<hr>
+									<div class="row">
+										<div class="col-sm-4">
+											<h3>
+												Спальные места:
+											</h3>
+										</div>
+										<div class="col-sm-4">
+											<div class="form-group">
+												<label>Основное количество спальных мест</label><input class="form-control" placeholder="Выберите" type="number" />
+											</div>
+											<div class="form-group">
+												<label>Max количество спальных мест</label><input class="form-control" placeholder="Выберите" type="number" />
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="form-group">
+												<label>Основное количество спальных мест</label><input class="form-control" placeholder="Выберите" type="number" />
+											</div>
+											<div class="form-group">
+												<label>Max количество спальных мест</label><input class="form-control" placeholder="Выберите" type="number" />
+											</div>
+										</div>
+									</div>
+								</hr>
+							</div>
+							<button class="btn btn-default" type="submit"> Submit</button>
+						</form>
+					</div>
 				</div>
 			</div>
 			<div class="sidebar-right" data-offset-top="60" data-spy="affix">
 				<h2 class="page-header">
 					Мои
 				</h2>
+				<div class="row">
+					<div class="col-sm-12">
+						<a class="thumbnail" href=""><img src="http://lorempixel.com/210/158/city" />
+							<div class="caption">
+								<h4>
+									Эконом<small></small>
+								</h4>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-12">
+						<a class="thumbnail thumbnail-empty" href=""><span class="glyphicon glyphicon-plus"></span>
+							<p>
+								Добавить категорию
+							</p>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

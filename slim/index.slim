@@ -76,9 +76,78 @@ html
               | Активно
               input.flat type="checkbox" name="choice"
               .check-custom
+          .row.row-main
+            form
+              .col-sm-12
+                .form-group.row
+                  .col-sm-6
+                    label Название категории номера
+                    input.form-control placeholder="Например: для пары с ребенком" type="text"
+                .form-group.row
+                  .col-sm-6
+                    label for="exampleInputPassword1" Категория номера
+                    select.form-control
+                      option Выберите
+                      option 1
+                      option 2
+                .form-group.row
+                  .col-sm-6
+                    label Количество номеров данной категории
+                    input.form-control placeholder="3" min="1" type="number"
+                .form-group.row
+                  .col-sm-6
+                    label Площадь номеров категории
+                    input.form-control placeholder="3" min="1" type="number"
+                  .col-sm-6
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Применить для всех номеров
+                .form-group.row
+                  .col-sm-12
+                    label Описание
+                    textarea.form-control placeholder="Опишите подробнее эту категорию номеров" rows="5"
+                .form-group.row
+                  .col-sm-6
+                    label Количество комнат в номере
+                    input.form-control placeholder="Выберите" min="1" type="number"
+                hr
+                  .row
+                    .col-sm-4
+                      h3 Спальные места:
+                    .col-sm-4
+                      .form-group
+                        label Основное количество спальных мест
+                        input.form-control placeholder="Выберите" type="number"
+                      .form-group
+                        label Max количество спальных мест
+                        input.form-control placeholder="Выберите" type="number"
+                    .col-sm-4
+                      .form-group
+                        label Основное количество спальных мест
+                        input.form-control placeholder="Выберите" type="number"
+                      .form-group
+                        label Max количество спальных мест
+                        input.form-control placeholder="Выберите" type="number"
+              
+              button.btn.btn-default type="submit"  Submit
+
 
       .sidebar-right data-spy="affix" data-offset-top="60"
         h2.page-header Мои
+        .row
+          .col-sm-12
+            a.thumbnail href=""
+              img src="http://lorempixel.com/210/158/city"
+              .caption
+                h4
+                  | Эконом
+                  small
+          .col-sm-12
+            a.thumbnail.thumbnail-empty href=""
+              span.glyphicon.glyphicon-plus
+              p Добавить категорию
+
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"
