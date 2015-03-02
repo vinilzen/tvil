@@ -9,6 +9,9 @@
   min-width: 1024px;
   border:none;
   width: 100%;
+  @media (min-width: $grid-float-breakpoint) {
+    border-radius: 0;
+  }
 }
 .navbar-toggle.navbar-hamburger {
   display: block;
@@ -29,16 +32,12 @@
     }
   }
 }
-.second-line .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
 
 .navbar-inverse.navbar-tvil-fixed-top {
   &.affix {
     overflow:hidden;
-    height: 50px;
-    min-height: 50px;
+    height: 51px;
+    min-height: 51px;
     .top-line {
       display: none;
     }
@@ -46,9 +45,6 @@
   .top-line {
     height: 60px;
     padding-right: 0;
-  }
-  .second-line {
-    background-color: #fff;
   }
   .navbar-brand {
     font-size: 20px;
@@ -83,6 +79,89 @@
     }
   }
 }
+
+.second-line {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  position: relative;
+  .btn-link {
+    padding-left: 0;
+    padding-right: 0;
+    color:$brand-primary;
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  .navbar-btn {
+    margin-top: 7px;
+    margin-bottom: 8px;
+    &.btn-success {
+      margin-top: 6px;
+      margin-bottom: 7px;
+    }
+  }
+  .navbar-left {
+    width: 245px;
+  }
+  .navbar-right {
+    position: absolute;
+    top:0;
+    right:21px;
+    text-align: right;
+    width: 268px;
+    background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 13%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(13%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 13%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 13%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 13%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 13%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+
+  }
+}
+.navbar-center {
+  white-space: nowrap;
+  float: left;
+  padding-left: 40px;
+  p {
+    padding-left: 22px;
+    color:$brand-primary;
+    display: inline-block;
+    text-overflow: ellipsis;
+  }
+}
+
+abbr[title]{
+  color:$brand-primary;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: inline-block;
+  margin-left: 12px;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .btn-default.dropdown-toggle {
+  background-color: #f9fbfd;
+}
+.btn-success {
+  padding:7px 20px;
+  background-color: #28bd8b;
+}
+.btn-success.disabled {
+  background-color: rgba(40, 189, 139, 0.2);
+  border-color: rgba(0,0,0,0);
+  opacity:1;
+}
+.glyphicon {
+  margin-right: 7px;
+}
+.glyphicon-red {
+  color:#ff5d61;
+}
 .dropdown-menu {
   border:none;
   border-radius: 1px;
@@ -109,7 +188,7 @@
  */
 .sidebar-left, .sidebar-right {
   position: absolute;
-  top: 110px;
+  top: 111px;
   bottom: 0;
   left: 0;
   z-index: 999;
@@ -122,7 +201,7 @@
   width: 260px;
   &.affix {
     position: fixed;
-    top:50px;
+    top:51px;
   }
 }
 .sidebar-right {
@@ -161,7 +240,7 @@
  */
 
 .main {
-  padding: 20px 40px;
+  padding: 20px 25px;
   width: 100%;
   min-width: 474px;
   &.affix {
@@ -172,7 +251,6 @@
     margin-top: 0;
   }
 }
-
 .container-wrapper {
   min-width: 1024px;
   padding-left: 260px;
@@ -196,11 +274,6 @@
     }
   }
 }
-.navbar {
-  @media (min-width: $grid-float-breakpoint) {
-    border-radius: 0;
-  }
-}
 #gag {
   background-image: url(../img/ya_map.png);
   background-repeat: repeat;
@@ -212,7 +285,7 @@
   padding-left: 10px;
   float: left;
   & > li  {
-    color:#8e9aa9;
+    color:$brand-primary;
     white-space: nowrap;
     &+li:before {
       color:#56677a;
@@ -233,9 +306,15 @@
       padding-bottom: 20px;
       padding-left: 22px;
       padding-right: 13px;
+      max-width: 150px;
+      overflow: hidden;
+      text-overflow:ellipsis;
       &:hover, &:focus {
         background-color: transparent;
       }
+    }
+    & > span {
+      padding-right: 0;
     }
     &.active {
       span {

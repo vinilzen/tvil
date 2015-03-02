@@ -1,9 +1,11 @@
   .container-fluid.second-line
     .navbar-left
-      a.btn.btn-link.navbar-btn.disabled href="#" Статус:
-      a.btn.btn-link.navbar-btn href="#" Неактивно
-      button.btn.btn-default.btn-success.navbar-btn Активировать
+      span.btn.btn-link.navbar-btn Статус:
+      abbr title="Неактивно" Неактивно
+    .navbar-center
+    	button.btn.btn-default.btn-success.navbar-btn.disabled Активировать
+    	p Осталось заполнить 2 из 8 разделов для отправки на модерацию
     .navbar-right
       a.btn.btn-default.navbar-btn href="#"
-        span.glyphicon.glyphicon-eye-open aria-hidden="true"
-        |  Предпросмотр страницы
+        span.glyphicon.glyphicon-eye-open.glyphicon-red aria-hidden="true"
+        | Предпросмотр страницы

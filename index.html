@@ -17,9 +17,6 @@
 		<nav class="navbar navbar-inverse navbar-tvil-fixed-top" data-offset-top="60" data-spy="affix">
 			<div class="container-fluid top-line">
 				<div class="navbar-header">
-					<div class="navbar-toggle navbar-hamburger">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</div>
 					<a class="navbar-brand" href="#">TVIL</a>
 				</div>
 				<div id="navbar">
@@ -65,10 +62,16 @@
 				</div>
 			</div><div class="container-fluid second-line">
 				<div class="navbar-left">
-					<a class="btn btn-link navbar-btn disabled" href="#">Статус:</a><a class="btn btn-link navbar-btn" href="#">Неактивно</a><button class="btn btn-default btn-success navbar-btn">Активировать</button>
+					<span class="btn btn-link navbar-btn">Статус:</span><abbr title="Неактивно">Неактивно</abbr>
+				</div>
+				<div class="navbar-center">
+					<button class="btn btn-default btn-success navbar-btn disabled">Активировать</button>
+					<p>
+						Осталось заполнить 2 из 8 разделов для отправки на модерацию
+					</p>
 				</div>
 				<div class="navbar-right">
-					<a class="btn btn-default navbar-btn" href="#"><span aria-hidden="true" class="glyphicon glyphicon-eye-open"></span> Предпросмотр страницы</a>
+					<a class="btn btn-default navbar-btn" href="#"><span aria-hidden="true" class="glyphicon glyphicon-eye-open glyphicon-red"></span>Предпросмотр страницы</a>
 				</div>
 			</div>
 		</nav>
@@ -122,36 +125,6 @@
 					<h1 class="page-header">
 						Dashboard
 					</h1>
-					<div class="row placeholders">
-						<div class="col-xs-6 col-sm-3 placeholder">
-							<img alt="" class="img-responsive" src="" />
-							<h4>
-								Label
-							</h4>
-							<span class="text-muted">Something else</span>
-						</div>
-						<div class="col-xs-6 col-sm-3 placeholder">
-							<img alt="" class="img-responsive" src="" />
-							<h4>
-								Label
-							</h4>
-							<span class="text-muted">Something else</span>
-						</div>
-						<div class="col-xs-6 col-sm-3 placeholder">
-							<img alt="" class="img-responsive" src="" />
-							<h4>
-								Label
-							</h4>
-							<span class="text-muted">Something else</span>
-						</div>
-						<div class="col-xs-6 col-sm-3 placeholder">
-							<img alt="" class="img-responsive" src="" />
-							<h4>
-								Label
-							</h4>
-							<span class="text-muted">Something else</span>
-						</div>
-					</div>
 					<h2 class="sub-header">
 						Section title
 					</h2>
@@ -545,16 +518,7 @@
 			<div class="sidebar-right" data-offset-top="60" data-spy="affix">
 				<ul class="nav nav-sidebar">
 					<li class="active">
-						<a href="#">Overview<span class="sr-only" current=""></span></a>
-					</li>
-					<li>
-						<a href="#"> Reports</a>
-					</li>
-					<li>
-						<a href="#"> Analytics</a>
-					</li>
-					<li>
-						<a href="#"> Export</a>
+						<a href="#">Overview</a>
 					</li>
 				</ul>
 			</div>
