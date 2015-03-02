@@ -4492,7 +4492,7 @@ tbody.collapse.in {
     /* line 420, /www/tvil/sass/bootstrap/navbar */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #333;
-      background-color: transparent; }
+      background-color: #282c37; }
   /* line 428, /www/tvil/sass/bootstrap/navbar */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
@@ -4524,7 +4524,7 @@ tbody.collapse.in {
       /* line 477, /www/tvil/sass/bootstrap/navbar */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
-        background-color: transparent; }
+        background-color: #282c37; }
     /* line 485, /www/tvil/sass/bootstrap/navbar */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
@@ -4569,8 +4569,8 @@ tbody.collapse.in {
     color: #8e9aa9; }
     /* line 554, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-      color: #fff;
-      background-color: transparent; }
+      color: #8e9aa9;
+      background-color: #282c37; }
   /* line 562, /www/tvil/sass/bootstrap/navbar */
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #505d6c;
@@ -4607,8 +4607,8 @@ tbody.collapse.in {
       color: #8e9aa9; }
       /* line 617, /www/tvil/sass/bootstrap/navbar */
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #fff;
-        background-color: transparent; }
+        color: #8e9aa9;
+        background-color: #282c37; }
     /* line 625, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #505d6c;
@@ -4623,13 +4623,13 @@ tbody.collapse.in {
     color: #8e9aa9; }
     /* line 644, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .navbar-link:hover {
-      color: #fff; }
+      color: #8e9aa9; }
   /* line 649, /www/tvil/sass/bootstrap/navbar */
   .navbar-inverse .btn-link {
     color: #8e9aa9; }
     /* line 652, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-      color: #fff; }
+      color: #8e9aa9; }
     /* line 658, /www/tvil/sass/bootstrap/navbar */
     .navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
       color: #444; }
@@ -4846,7 +4846,7 @@ a.label:hover, a.label:focus {
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #777777;
+  background-color: #ff5d61;
   border-radius: 10px; }
   /* line 22, /www/tvil/sass/bootstrap/badges */
   .badge:empty {
@@ -6565,6 +6565,13 @@ button.close {
   .navbar-inverse.navbar-tvil-fixed-top.affix .top-line {
     display: none; }
 /* line 46, /www/tvil/sass/tvil/theme */
+.navbar-inverse.navbar-tvil-fixed-top .top-line {
+  height: 60px;
+  padding-right: 0; }
+/* line 50, /www/tvil/sass/tvil/theme */
+.navbar-inverse.navbar-tvil-fixed-top .second-line {
+  background-color: #fff; }
+/* line 53, /www/tvil/sass/tvil/theme */
 .navbar-inverse.navbar-tvil-fixed-top .navbar-brand {
   font-size: 20px;
   top: 1px;
@@ -6572,23 +6579,57 @@ button.close {
   position: relative;
   font-weight: bold;
   font-family: Helvetica, Arial, sans-serif; }
-
-/* line 55, /www/tvil/sass/tvil/theme */
-.top-line {
-  height: 60px; }
-
-/* line 58, /www/tvil/sass/tvil/theme */
-.second-line {
-  background-color: #fff; }
-
 /* line 61, /www/tvil/sass/tvil/theme */
-.navbar-right {
+.navbar-inverse.navbar-tvil-fixed-top .navbar-right {
   margin-right: 0; }
+  /* line 63, /www/tvil/sass/tvil/theme */
+  .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a {
+    padding-left: 22px;
+    padding-right: 22px;
+    cursor: pointer;
+    position: relative; }
+    /* line 68, /www/tvil/sass/tvil/theme */
+    .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a .badge {
+      position: absolute; }
+    /* line 71, /www/tvil/sass/tvil/theme */
+    .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a.dropdown-toggle {
+      position: relative;
+      padding-left: 60px; }
+      /* line 74, /www/tvil/sass/tvil/theme */
+      .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a.dropdown-toggle img {
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        position: absolute;
+        top: 10px;
+        left: 10px; }
+
+/* line 86, /www/tvil/sass/tvil/theme */
+.dropdown-menu {
+  border: none;
+  border-radius: 1px;
+  padding: 0; }
+  /* line 90, /www/tvil/sass/tvil/theme */
+  .dropdown-menu > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px; }
+    /* line 93, /www/tvil/sass/tvil/theme */
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+      background-color: #f4f7f9;
+      color: #566777; }
+
+/* line 99, /www/tvil/sass/tvil/theme */
+.badge {
+  font-size: 9px;
+  padding-left: 5px;
+  padding-right: 5px;
+  top: 14px;
+  right: 11px; }
 
 /*
  * Sidebar
  */
-/* line 68, /www/tvil/sass/tvil/theme */
+/* line 110, /www/tvil/sass/tvil/theme */
 .sidebar-left, .sidebar-right {
   position: absolute;
   top: 110px;
@@ -6603,12 +6644,12 @@ button.close {
   background-color: #f5f5f5;
   border-right: 1px solid #eee;
   width: 260px; }
-  /* line 81, /www/tvil/sass/tvil/theme */
+  /* line 123, /www/tvil/sass/tvil/theme */
   .sidebar-left.affix, .sidebar-right.affix {
     position: fixed;
     top: 50px; }
 
-/* line 86, /www/tvil/sass/tvil/theme */
+/* line 128, /www/tvil/sass/tvil/theme */
 .sidebar-right {
   left: inherit;
   right: 0;
@@ -6618,23 +6659,23 @@ button.close {
       left: 734px;
       right: inherit; } }
 
-/* line 95, /www/tvil/sass/tvil/theme */
+/* line 137, /www/tvil/sass/tvil/theme */
 .map {
   height: 100%;
   min-height: 300px; }
 
 /* Sidebar navigation */
-/* line 100, /www/tvil/sass/tvil/theme */
+/* line 142, /www/tvil/sass/tvil/theme */
 .nav-sidebar {
   margin-right: -21px;
   /* 20px padding + 1px border */
   margin-bottom: 20px;
   margin-left: -20px; }
-  /* line 104, /www/tvil/sass/tvil/theme */
+  /* line 146, /www/tvil/sass/tvil/theme */
   .nav-sidebar > li > a {
     padding-right: 20px;
     padding-left: 20px; }
-  /* line 110, /www/tvil/sass/tvil/theme */
+  /* line 152, /www/tvil/sass/tvil/theme */
   .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
     color: #fff;
     background-color: #428bca; }
@@ -6642,40 +6683,40 @@ button.close {
 /*
  * Main content
  */
-/* line 121, /www/tvil/sass/tvil/theme */
+/* line 163, /www/tvil/sass/tvil/theme */
 .main {
   padding: 20px 40px;
   width: 100%;
   min-width: 474px; }
-  /* line 125, /www/tvil/sass/tvil/theme */
+  /* line 167, /www/tvil/sass/tvil/theme */
   .main.affix {
     position: static;
     padding-top: 130px; }
-  /* line 129, /www/tvil/sass/tvil/theme */
+  /* line 171, /www/tvil/sass/tvil/theme */
   .main .page-header {
     margin-top: 0; }
 
-/* line 134, /www/tvil/sass/tvil/theme */
+/* line 176, /www/tvil/sass/tvil/theme */
 .container-wrapper {
   min-width: 1024px;
   padding-left: 260px;
   padding-right: 290px; }
-  /* line 138, /www/tvil/sass/tvil/theme */
+  /* line 180, /www/tvil/sass/tvil/theme */
   .container-wrapper.container-search {
     float: left;
     width: 100%;
     padding-left: 0;
     padding-right: 0; }
-    /* line 143, /www/tvil/sass/tvil/theme */
+    /* line 185, /www/tvil/sass/tvil/theme */
     .container-wrapper.container-search .search-result {
       float: left;
       width: 768px;
       height: 100%; }
-    /* line 148, /www/tvil/sass/tvil/theme */
+    /* line 190, /www/tvil/sass/tvil/theme */
     .container-wrapper.container-search .container-map {
       margin-left: 768px;
       height: 100%; }
-      /* line 151, /www/tvil/sass/tvil/theme */
+      /* line 193, /www/tvil/sass/tvil/theme */
       .container-wrapper.container-search .container-map.affix {
         top: 0; }
 
@@ -6683,7 +6724,7 @@ button.close {
   .navbar {
     border-radius: 0; } }
 
-/* line 162, /www/tvil/sass/tvil/theme */
+/* line 204, /www/tvil/sass/tvil/theme */
 #gag {
   background-image: url(../img/ya_map.png);
   background-repeat: repeat;
@@ -6691,15 +6732,15 @@ button.close {
   height: 100%;
   min-width: 1px; }
 
-/* line 169, /www/tvil/sass/tvil/theme */
+/* line 211, /www/tvil/sass/tvil/theme */
 .navbar-inverse .navbar-nav.breadcrumb-tvil {
   padding-left: 10px;
   float: left; }
-  /* line 172, /www/tvil/sass/tvil/theme */
+  /* line 214, /www/tvil/sass/tvil/theme */
   .navbar-inverse .navbar-nav.breadcrumb-tvil > li {
     color: #8e9aa9;
     white-space: nowrap; }
-    /* line 175, /www/tvil/sass/tvil/theme */
+    /* line 217, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li + li:before {
       color: #56677a;
       width: 6px;
@@ -6712,14 +6753,17 @@ button.close {
       padding-right: 5px;
       margin-left: -2px;
       float: left; }
-    /* line 188, /www/tvil/sass/tvil/theme */
+    /* line 230, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
       display: block;
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 22px;
       padding-right: 13px; }
-    /* line 196, /www/tvil/sass/tvil/theme */
+      /* line 236, /www/tvil/sass/tvil/theme */
+      .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:focus, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:focus {
+        background-color: transparent; }
+    /* line 241, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li.active span {
       color: #505d6c; }
 
