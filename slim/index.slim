@@ -3,71 +3,9 @@ html
   head
     == Slim::Template.new("head.slim").render
   body
-    == Slim::Template.new("nav.slim").render
     .container-wrapper
       .sidebar-left data-spy="affix" data-offset-top="60"
-        .sidebar-scroll#js-sidebar-scroll
-          ul.nav.nav-sidebar
-            li
-              a href="#"
-                span.glyphicon.glyphicon-map-marker
-                | Расположение
-                span.label
-                  span.glyphicon.glyphicon-ok.glyphicon-green
-            li
-              a href="#"
-                span.glyphicon.glyphicon-comment
-                | Описание
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li.active
-              a href="#"
-                span.glyphicon.glyphicon-wrench
-                | Характеристики
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#"
-                span.glyphicon.glyphicon-list-alt
-                | Условия
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#"
-                span.glyphicon.glyphicon-wrench
-                | Услуги
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#"
-                span.glyphicon.glyphicon-th-list
-                | Категории номеров
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#"
-                span.glyphicon.glyphicon-calendar
-                | Календарь
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#"
-                span.glyphicon.glyphicon-usd
-                | Цены
-                span.label
-                  span.glyphicon.glyphicon-question-sign tabindex="0" role="button" data-toggle="popover" data-content="<p><strong>Можно курить</strong> - radio button.</p><p>Владелец отмечает можно курить в доме или нет. Если галочка не стоит, то в правилах дома ничего не будет.</p><p>Если владелец отмечает да или нет, то в правилах дома будет соответственно “В доме можно курить” и “В доме нельзя курить”.</p>" data-placement="right" data-container="body" data-html="true"
-            li
-              a href="#" 
-                span.glyphicon.glyphicon-log-in
-                | Бронирование
-                span.label
-                  span.glyphicon.glyphicon-question-sign
-            li
-              a href="#" 
-                span.glyphicon.glyphicon-camera
-                | Фотографии
-                span.label
-                  span.glyphicon.glyphicon-question-sign
+        == Slim::Template.new("sidebar-left.slim").render
       .main data-spy="affix" data-offset-top="60"
         .container-fluid
           h1.page-header
@@ -81,10 +19,12 @@ html
               .col-sm-12
                 .form-group.row
                   .col-sm-6
+                    span.required *
                     label Название категории номера
                     input.form-control placeholder="Например: для пары с ребенком" type="text"
                 .form-group.row
                   .col-sm-6
+                    span.required *
                     label for="exampleInputPassword1" Категория номера
                     select.form-control
                       option Выберите
@@ -92,12 +32,14 @@ html
                       option 2
                 .form-group.row
                   .col-sm-6
+                    span.required *
                     label Количество номеров данной категории
-                    input.form-control placeholder="3" min="1" type="number"
+                    input.form-control placeholder="3" min="1" type="text"
                 .form-group.row
                   .col-sm-6
+                    span.required *
                     label Площадь номеров категории
-                    input.form-control placeholder="3" min="1" type="number"
+                    input.form-control placeholder="3" min="1" type="text"
                   .col-sm-6
                     .checkbox
                       label
@@ -109,30 +51,141 @@ html
                     textarea.form-control placeholder="Опишите подробнее эту категорию номеров" rows="5"
                 .form-group.row
                   .col-sm-6
+                    span.required *
                     label Количество комнат в номере
-                    input.form-control placeholder="Выберите" min="1" type="number"
+                    input.form-control placeholder="Выберите" min="1" type="text"
+                hr
+                .row
+                  .col-sm-4
+                    h3 Спальные места:
+                  .col-sm-4
+                    .form-group
+                      label Основное количество спальных мест
+                      input.form-control placeholder="Выберите" type="text"
+                    .form-group
+                      label Max количество спальных мест
+                      input.form-control placeholder="Выберите" type="text"
+                  .col-sm-4
+                    .form-group
+                      label Основное количество спальных мест
+                      input.form-control placeholder="Выберите" type="text"
+                    .form-group
+                      label Max количество спальных мест
+                      input.form-control placeholder="Выберите" type="text"
+              
+                hr
+                .row
+                  .col-sm-4
+                    h3 Удобства в номере:
+                  .col-sm-4
+                    .form-group
+                      label Ванна
+                      input.form-control placeholder="Выберите" type="text"
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Гидромассажная ванна 
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Фен
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Кондиционер
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Москитные сетки на окнах
+                  .col-sm-4
+                    .form-group
+                      label Туалет
+                      input.form-control placeholder="Выберите" type="text"
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | ЖК- телевизор
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Сейф
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Холодильник
+                    .checkbox
+                      label
+                        input type="checkbox"
+                        | Балкон
+  
+                hr
+                .row
+                  .col-sm-12
+                    h3 Фото номера:
+                    .btn.btn-default
+                      i.icontvil.icontvil-Download.icon-red
+                      | Загрузить фотографии
+                    abbr.btn.btn-link.pull-right title="attribute" Поменять очередность фотографий
+                  .col-sm-4
+                    a.thumbnail.thumbnail-photo href="#"
+                      img.img-responsive src="http://lorempixel.com/420/316/city"
+                      i.icontvil.icon-lt.icontvil-Star_Empty
+                      i.icontvil.icon-rt.icontvil-Delet_Photo
+                      i.icontvil.icon-lb.icontvil-Rotate_Right
+                      i.icontvil.icon-rb.icontvil-Rotate_Left
+                  .col-sm-4
+                    a.thumbnail.thumbnail-photo href="#"
+                      img.img-responsive src="http://lorempixel.com/420/316/city"
+                      i.icontvil.icon-lt.icontvil-Star_Empty
+                      i.icontvil.icon-rt.icontvil-Delet_Photo
+                      i.icontvil.icon-lb.icontvil-Rotate_Right
+                      i.icontvil.icon-rb.icontvil-Rotate_Left
+                  .col-sm-4
+                    a.thumbnail.thumbnail-photo href="#"
+                      img.img-responsive src="http://lorempixel.com/420/316/city"
+                      i.icontvil.icon-lt.icontvil-Star_Empty
+                      i.icontvil.icon-rt.icontvil-Delet_Photo
+                      i.icontvil.icon-lb.icontvil-Rotate_Right
+                      i.icontvil.icon-rb.icontvil-Rotate_Left
                 hr
                   .row
-                    .col-sm-4
-                      h3 Спальные места:
-                    .col-sm-4
-                      .form-group
-                        label Основное количество спальных мест
-                        input.form-control placeholder="Выберите" type="number"
-                      .form-group
-                        label Max количество спальных мест
-                        input.form-control placeholder="Выберите" type="number"
-                    .col-sm-4
-                      .form-group
-                        label Основное количество спальных мест
-                        input.form-control placeholder="Выберите" type="number"
-                      .form-group
-                        label Max количество спальных мест
-                        input.form-control placeholder="Выберите" type="number"
-              
-              button.btn.btn-default type="submit"  Submit
-
-
+                    .col-sm-12
+                      h3 Список номеров:
+                      .table-responsive
+                        table.table.table-bordered.table-editable
+                          thead
+                            tr
+                              th №
+                              td Название номера
+                              td Этаж
+                              td S m2
+                              td Вид из окна
+                          tbody
+                            tr
+                              th 1
+                              td contentEditable="true" Вилла на ул. Краснодарская
+                              td 1
+                              td 10
+                              td На море
+                            tr
+                              th 1
+                              td Мини-отель на ул. Краснодарская
+                              td 3
+                              td 35
+                              td Во двор
+                            tr
+                              th 1
+                              td Мини-отель на ул. Красная
+                              td 2
+                              td 22
+                              td.empty Выберите
+                            tr
+                              th 1
+                              td Дом на ул. Краснодарская
+                              td 19
+                              td 19
+                              td.empty Выберите
+                      button.btn.btn-default.btn-success type="submit" Разместить
       .sidebar-right data-spy="affix" data-offset-top="60"
         h2.page-header Мои
         .row
@@ -147,7 +200,7 @@ html
             a.thumbnail.thumbnail-empty href=""
               span.glyphicon.glyphicon-plus
               p Добавить категорию
-
+    == Slim::Template.new("nav.slim").render
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"

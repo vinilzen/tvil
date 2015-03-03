@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,cyrillic-ext,latin);
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
  */
-
 .navbar {
   margin-bottom: 0;
   min-width: 1024px;
@@ -34,7 +34,10 @@
 }
 
 .navbar-inverse.navbar-tvil-fixed-top {
+  position: absolute;
+  top:0;
   &.affix {
+    position: fixed;
     overflow:hidden;
     height: 51px;
     min-height: 51px;
@@ -76,6 +79,41 @@
           left: 10px;
         }
       }
+    }
+  }
+}
+.top-line .icontvil {
+  margin-right: 0;
+}
+.table-editable {
+  margin-top: 17px;
+  &.table-bordered > thead > tr {
+    & > td, th {
+      border-bottom-width: 1px;
+    }
+  }
+  &.table > thead > tr {
+    & > th, td {
+      padding:15px 12px 14px 20px;
+    }
+  }
+  &.table > tbody > tr {
+    & > th, td {
+      padding:15px 12px 14px 20px;
+    }
+  }
+  thead {
+    th, td {
+      background-color: #f4f7fa;
+    }
+  }
+  tbody {
+    th, td {
+      background-color: #fff;
+      color:#566777;
+    }
+    td.empty {
+      color:#b0b8c3;
     }
   }
 }
@@ -159,7 +197,7 @@ abbr[title]{
 .btn .glyphicon {
   margin-right: 7px;
 }
-.glyphicon-red {
+.icon-red {
   color:#ff5d61;
 }
 .glyphicon-green {
@@ -221,7 +259,7 @@ abbr[title]{
       }
     }
   }
-  .glyphicon {
+  .icontvil,.glyphicon {
     margin-right: 15px;
     position: absolute;
     font-size: 1.5em;
@@ -231,28 +269,31 @@ abbr[title]{
   }
   .label {
     position: absolute;
-    left:220px;
+    left:215px;
     top: 0;
     padding-right: 22px;
     margin-top: -7px;
     top:50%;
-    .glyphicon {
-      height: 14px;
-      line-height: 14px;
-      font-size: 1.1em;
+    .icontvil, .glyphicon {
+      height: 15px;
+      line-height: 15px;
+      font-size: 15px;
       position: static;
       margin-right: 0;
       color:#8e9aa9;
       opacity: .2;
+      &.icontvil-green {
+        opacity:1;
+        color:#28bd8b;
+      }
       &:focus {
         outline: 0;
       }
-      &.glyphicon-green {
-        color:#28bd8b;
-        opacity: 1;
-      }
     }
   }
+}
+.icontvil-green {
+  color:#28bd8b;
 }
 .sidebar-right {
   padding: 0;
@@ -344,7 +385,7 @@ abbr[title]{
  */
 
 .main {
-  padding: 0;
+  padding: 111px 0 0 0;
   width: 100%;
   min-width: 474px;
   min-height: 950px;
@@ -366,13 +407,37 @@ abbr[title]{
   }
 }
 .row.row-main {
-  padding: 16px 40px 0;
+  padding: 16px 40px 40px;
+  .btn-success {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  .checkbox {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    &:nth-child(2) {
+      margin-top: 35px;
+    }
+  }
 }
-.form-group.row{
+.form-group {
   margin-bottom: 24px;
   .col-sm-6:last-child {
     .checkbox {
-      margin-top: 31px;
+      margin-top: 33px;
+    }
+  }
+  &.row {
+    .col-sm-6 {
+      padding-right: 17px;
+    }
+    .required {
+      position: absolute;
+      bottom: 4px;
+      right: 0;
+      font-size: 14px;
+      color:#a1abb2;
+      font-weight: bold;
     }
   }
 }
@@ -527,11 +592,63 @@ input.flat[type='checkbox'] {
     }
   }
 }
+.icon-lt {
+  top:10px !important;
+  left:10px;
+}
+.icon-rt {
+  top:10px !important;
+  right:10px;
+}
+.icon-lb {
+  bottom:10px;
+  left:10px;
+  top:inherit !important;
+}
+.icon-rb {
+  bottom:10px;
+  right:10px;
+  top:inherit !important;
+}
+.thumbnail.thumbnail-photo {
+  padding: 0;
+  position: relative;
+  &:after {
+    content:' ';
+    position:absolute;
+    width:100%;
+    cursor: default;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.3);
+    opacity:0;
+    transition: all 1s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+  }
+  .icontvil {
+    cursor:pointer;
+    position: absolute;
+    display: none;
+    color:#fff;
+    height: 16px;
+    z-index: 1011;
+  }
+  &:hover, &:focus {
+    &:after {
+      opacity:1;
+    }
+    .icontvil {
+      display: block;
+    }
+  }
+}
 
 /*
  * Popover
  */
-
 .popover {
   border:none;
   -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
@@ -540,4 +657,18 @@ input.flat[type='checkbox'] {
 .popover-content {
   color: #566777;
   font-size: 13px;
+}
+
+abbr.btn-link[title] {
+  text-decoration: none;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 13px;
+}
+.form-control {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border-color:#d9e2e8;
 }

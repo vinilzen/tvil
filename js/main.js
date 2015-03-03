@@ -35,7 +35,7 @@ $(function(){
 
 	setMapHeight();
 
-	$('.sidebar-left .label .glyphicon').popover();
+	$('.sidebar-left .label .icontvil').popover();
 	
 	if (js_sidebar_scroll.length > 0) {
 		$(document).scroll(function(){
