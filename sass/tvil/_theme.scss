@@ -118,6 +118,12 @@
     td.empty {
       color:#b0b8c3;
     }
+    tr:hover {
+      th, td {
+        background-color: #fbfdff;
+        cursor: pointer;
+      }
+    }
   }
 }
 
@@ -144,6 +150,12 @@
   }
   .navbar-left {
     width: 245px;
+    &.navbar-left2 {
+      width: auto;
+    }
+    .descr {
+      display: inline-block;
+    }
   }
   .navbar-right {
     position: absolute;
@@ -191,6 +203,10 @@ abbr[title]{
 .btn-success {
   padding:7px 20px;
   background-color: #28bd8b;
+  &:hover {
+    background-color: #1da779;
+    border-color:#1da779;
+  }
 }
 .btn-success.disabled {
   background-color: rgba(40, 189, 139, 0.2);
@@ -283,17 +299,29 @@ abbr[title]{
       font-size: 15px;
       position: static;
       margin-right: 0;
-      color:#8e9aa9;
-      opacity: .2;
-      &.icontvil-green {
-        opacity:1;
-        color:#28bd8b;
-      }
       &:focus {
         outline: 0;
       }
     }
   }
+}
+.label {
+  .icontvil, .glyphicon {
+    color:#8e9aa9;
+    opacity: .2;
+    &.icontvil-green {
+      color:#28bd8b;
+    }
+    &.icontvil-red {
+      color:#ff5d61;
+    }
+    &:hover {
+      opacity:1;
+    }
+  }
+}
+.icontvil-red {
+  color:#ff5d61;
 }
 .icontvil-green {
   color:#28bd8b;
