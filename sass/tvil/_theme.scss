@@ -100,6 +100,9 @@
   &.table > tbody > tr {
     & > th, td {
       padding:15px 12px 14px 20px;
+      &:focus {
+        outline:none;
+      }
     }
   }
   thead {
@@ -419,26 +422,31 @@ abbr[title]{
       margin-top: 35px;
     }
   }
+  form .col-sm-4 {
+    .form-group {
+      padding-right: 17px;
+      position: relative;
+    }
+  }
+  .checkbox.mt33 {
+    margin-top: 33px;
+  }
 }
 .form-group {
   margin-bottom: 24px;
-  .col-sm-6:last-child {
-    .checkbox {
-      margin-top: 33px;
-    }
+  .col-sm-6, .col-sm-4 {
+    padding-right: 17px;
   }
-  &.row {
-    .col-sm-6 {
-      padding-right: 17px;
-    }
-    .required {
-      position: absolute;
-      bottom: 4px;
-      right: 0;
-      font-size: 14px;
-      color:#a1abb2;
-      font-weight: bold;
-    }
+  .required {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    font-size: 14px;
+    color:#a1abb2;
+    font-weight: bold;
+  }
+  label {
+    white-space: nowrap;
   }
 }
 .page-header {
