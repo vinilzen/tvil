@@ -12,7 +12,7 @@ $(function(){
 		if ($('#js-map').length > 0){
 			if (ww>768){
 				$('#js-map').show().css({
-					height:wh,
+					height:wh-60,
 					width:(ww-768)
 				});
 			} else {

@@ -21,10 +21,20 @@ i.icontvil {
 	display:inline-block;
 	top: 2px;
 	position: relative;
+	&.form-control-feedback { 
+		position: absolute;
+		top: -1px;
+		display: block;
+		line-height: 33px;
+	}
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+.icontvil-margin-right {
+  margin-right: 10px;
 }
 
 .icontvil-Star_Full:before {
