@@ -35,7 +35,8 @@ $(function(){
 
 	setMapHeight();
 
-	$('.sidebar-left .label .icontvil').popover();
+	// $('.sidebar-left .label .icontvil').popover();
+	$('[data-toggle="popover"]').popover();
 	
 	if (js_sidebar_scroll.length > 0) {
 		$(document).scroll(function(){

@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,cyrillic-ext,latin);
 
-a:focus {outline:none;}
+a:focus,
+button:focus,
+.btn:focus,
+.btn:active {outline:none;}
 ::-moz-focus-inner {border:0;}
 
 /*
@@ -206,6 +209,16 @@ abbr[title]{
 }
 .btn {
   padding: 7px 20px;
+  transition: background-color 0.5s ease;
+}
+.btn-default {
+  background-color: #fff;
+  border-color: #d3dee5;
+  &:hover, &:focus {
+    color:#566777;
+    background-color: #fff;
+    border-color:#e5ecf3;
+  }
 }
 .btn-success {
   background-color: #28bd8b;
@@ -330,6 +343,7 @@ abbr[title]{
       padding-top: 25px;
       padding-bottom: 25px;
       line-height: 20px;
+      transition: background-color 0.5s ease;
       &:hover, &:focus {
         background-color: #313541;
         color:#8e9aa9;
@@ -352,6 +366,7 @@ abbr[title]{
     margin-top: -7px;
     top:50%;
     .icontvil, .glyphicon {
+
       height: 15px;
       line-height: 15px;
       font-size: 15px;
@@ -368,6 +383,10 @@ abbr[title]{
 }
 .label {
   .icontvil, .glyphicon {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
     color:#8e9aa9;
     opacity: .2;
     &.icontvil-green {
