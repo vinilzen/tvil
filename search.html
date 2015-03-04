@@ -17,42 +17,63 @@
     <div class="container-wrapper container-search">
       <div class="search-result">
         <div class="container-fluid">
-          <div class="row form">
+          <div class="row form search-params">
             <div class="col-sm-2">
-              <p>
+              <p class="search-label">
                 Даты
               </p>
             </div>
             <div class="col-sm-2">
-              <div class="form-group has-feedback">
+              <div class="form-group has-feedback search-calendar-input">
                 <input class="form-control" placeholder="Заезд" type="text" /><i class="icontvil icontvil-Date_Out form-control-feedback"></i>
               </div>
             </div>
             <div class="col-sm-2">
-              <div class="form-group has-feedback">
-                <input class="form-control" placeholder="Заезд" type="text" /><i class="icontvil icontvil-Date_Inn form-control-feedback"></i>
+              <div class="form-group has-feedback search-calendar-input">
+                <input class="form-control" placeholder="Отъезд" type="text" /><i class="icontvil icontvil-Date_Inn form-control-feedback"></i>
               </div>
             </div>
             <div class="col-sm-2">
               <div class="form-group has-feedback">
-                <input class="form-control" placeholder="1" type="text" /><i class="icontvil icontvil-Male form-control-feedback"></i>
+                <select class="form-control">
+                  <option>
+                    0
+                  </option>
+                  <option>
+                    1
+                  </option>
+                </select><i class="icontvil icontvil-Male form-control-feedback"></i>
               </div>
             </div>
             <div class="col-sm-2">
               <div class="form-group has-feedback">
-                <input class="form-control" placeholder="0" type="text" /><i class="icontvil icontvil-Female form-control-feedback"></i>
+                <select class="form-control">
+                  <option>
+                    0
+                  </option>
+                  <option>
+                    1
+                  </option>
+                </select><i class="icontvil icontvil-Female form-control-feedback"></i>
               </div>
             </div>
             <div class="col-sm-2">
               <div class="form-group has-feedback">
-                <input class="form-control" placeholder="0" type="text" /><i class="icontvil icontvil-Children form-control-feedback"></i>
+                <select class="form-control">
+                  <option>
+                    0
+                  </option>
+                  <option>
+                    1
+                  </option>
+                </select><i class="icontvil icontvil-Children form-control-feedback"></i>
               </div>
             </div>
           </div>
           <hr class="search-hr" />
           <div class="row search-kind-room">
             <div class="col-sm-2">
-              <p>
+              <p class="search-label">
                 Тип жилья:
               </p>
             </div>
@@ -78,7 +99,7 @@
             <div class="col-sm-offset-2 col-sm-10 col-mt">
               <div class="row">
                 <div class="col-sm-4">
-                  <div class="btn btn-block btn-default">
+                  <div class="btn btn-block btn-default selected">
                     <i class="icontvil icontvil-Flat icontvil-margin-right"></i>Квартира
                   </div>
                 </div>
@@ -95,22 +116,21 @@
               </div>
             </div>
           </div>
-          <hr class="search-hr" />
-          <div class="row">
+          <div class="row search-filter" data-offset-top="225" data-spy="affix">
             <div class="col-sm-12">
-              <div class="btn btn-default">
-                от 1000 и до 3000
+              <div class="btn btn-default selected">
+                от 1000 и до 3000<i class="icontvil icontvil-x"></i>
               </div>
-              <div class="btn btn-default">
-                Сауна
+              <div class="btn btn-default selected">
+                Сауна<i class="icontvil icontvil-x"></i>
               </div>
-              <div class="btn btn-default">
-                Удобства в номере
+              <div class="btn btn-default selected">
+                Удобства в номере<i class="icontvil icontvil-x"></i>
               </div>
               <div class="btn btn-link">
                 + еще 2 фильтра
               </div>
-              <div class="btn btn-default pull-right">
+              <div class="btn btn-default search-all-filter">
                 Все фильтры
               </div>
             </div>

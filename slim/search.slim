@@ -6,34 +6,39 @@ html
     .container-wrapper.container-search
       .search-result
         .container-fluid
-          .row.form
+          .row.form.search-params
             .col-sm-2
-              p Даты
+              p.search-label Даты
             .col-sm-2
-              .form-group.has-feedback
-                / label.control-label Input with success
+              .form-group.has-feedback.search-calendar-input
                 input.form-control type="text" placeholder="Заезд"
                 i.icontvil.icontvil-Date_Out.form-control-feedback
             .col-sm-2
-              .form-group.has-feedback
-                input.form-control type="text" placeholder="Заезд"
+              .form-group.has-feedback.search-calendar-input
+                input.form-control type="text" placeholder="Отъезд"
                 i.icontvil.icontvil-Date_Inn.form-control-feedback
             .col-sm-2
               .form-group.has-feedback
-                input.form-control type="text" placeholder="1"
+                select.form-control
+                  option 0
+                  option 1
                 i.icontvil.icontvil-Male.form-control-feedback
             .col-sm-2
               .form-group.has-feedback
-                input.form-control type="text" placeholder="0"
+                select.form-control
+                  option 0
+                  option 1
                 i.icontvil.icontvil-Female.form-control-feedback
             .col-sm-2
               .form-group.has-feedback
-                input.form-control type="text" placeholder="0"
+                select.form-control
+                  option 0
+                  option 1
                 i.icontvil.icontvil-Children.form-control-feedback
           hr.search-hr
           .row.search-kind-room
             .col-sm-2
-              p Тип жилья:
+              p.search-label Тип жилья:
             .col-sm-10
               .row
                 .col-sm-4
@@ -51,7 +56,7 @@ html
             .col-sm-offset-2.col-sm-10.col-mt
               .row
                 .col-sm-4
-                  .btn.btn-block.btn-default
+                  .btn.btn-block.btn-default.selected
                     i.icontvil.icontvil-Flat.icontvil-margin-right
                     | Квартира
                 .col-sm-4
@@ -62,14 +67,19 @@ html
                   .btn.btn-block.btn-default
                     i.icontvil.icontvil-Bad.icontvil-margin-right
                     | Койка-место
-          hr.search-hr 
-          .row
+          .row.search-filter data-spy="affix" data-offset-top="225"
             .col-sm-12
-              .btn.btn-default от 1000 и до 3000
-              .btn.btn-default Сауна
-              .btn.btn-default Удобства в номере
+              .btn.btn-default.selected
+                | от 1000 и до 3000
+                i.icontvil.icontvil-x
+              .btn.btn-default.selected
+                | Сауна
+                i.icontvil.icontvil-x
+              .btn.btn-default.selected
+                | Удобства в номере
+                i.icontvil.icontvil-x
               .btn.btn-link + еще 2 фильтра
-              .btn.btn-default.pull-right Все фильтры
+              .btn.btn-default.search-all-filter Все фильтры
           .row.search-results
             .col-sm-12
               .row
