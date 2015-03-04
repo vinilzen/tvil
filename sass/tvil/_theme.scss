@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic,cyrillic-ext,latin);
 
+a:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 /*
  * Top navigation
  * Hide default border to remove 1px line.
@@ -82,9 +85,6 @@
     }
   }
 }
-.top-line .icontvil {
-  margin-right: 0;
-}
 .table-editable {
   margin-top: 17px;
   &.table-bordered > thead > tr {
@@ -142,7 +142,7 @@
   }
   .navbar-btn {
     margin-top: 7px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     &.btn-success {
       margin-top: 6px;
       margin-bottom: 7px;
@@ -155,6 +155,10 @@
     }
     .descr {
       display: inline-block;
+      color:#566777;
+      span {
+        color:#b0b8c3;
+      }
     }
   }
   .navbar-right {
@@ -200,12 +204,47 @@ abbr[title]{
 .open > .btn-default.dropdown-toggle {
   background-color: #f9fbfd;
 }
+.btn {
+  padding: 7px 20px;
+}
 .btn-success {
-  padding:7px 20px;
   background-color: #28bd8b;
-  &:hover {
+  border-color: #28bd8b;
+  &:hover, &:focus {
     background-color: #1da779;
     border-color:#1da779;
+  }
+}
+.btn-gray {
+  background-color: #464a54;
+  border-color: #464a54;
+  color:#fff;
+  .icontvil {
+    color:#a3a5aa;
+  }
+  &:hover, &:focus {
+    background-color: #3f424b;
+    border-color: #3f424b;
+    color:#fff;
+    .icontvil {
+      color:#a3a5aa;
+    }
+  }
+}
+.btn-danger {
+  background-color: #ff5d61;
+  border-color: #ff5d61;
+  &:hover, &:focus { 
+    background-color: #e54f53;
+    border-color: #e54f53;
+  }
+}
+.btn-darkgray {
+  background-color: #ced8e2;
+  border-color: #ced8e2;
+  color:#fff;
+  &:hover, &:focus {
+    color:#fff;
   }
 }
 .btn-success.disabled {
@@ -241,6 +280,25 @@ abbr[title]{
   padding-right: 5px;
   top:14px;
   right: 11px;
+}
+.navbar-left2 {
+  .btn {
+    margin-right: 10px;
+  }
+  .btn-darkgray {
+    padding-left: 13px;
+    padding-right: 13px;
+    .icontvil {
+      font-size: 10px;
+      top: 0px;
+    }
+  }
+}
+.navbar-login {
+  .btn {
+    margin-right: 10px;
+    padding-left: 13px;
+  }
 }
 
 /*
@@ -304,6 +362,9 @@ abbr[title]{
       }
     }
   }
+}
+.icontvil-margin-right {
+  margin-right: 10px;
 }
 .label {
   .icontvil, .glyphicon {

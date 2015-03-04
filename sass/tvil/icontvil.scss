@@ -21,7 +21,6 @@ i.icontvil {
 	display:inline-block;
 	top: 2px;
 	position: relative;
-	margin-right: 10px;
 
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
@@ -208,3 +207,6 @@ i.icontvil {
 	content: "\e62c";
 }
 
+.icontvil-Qw:before {
+	content: "\e62d";
+}
