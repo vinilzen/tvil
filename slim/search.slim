@@ -67,7 +67,7 @@ html
                   .btn.btn-block.btn-default
                     i.icontvil.icontvil-Bad.icontvil-margin-right
                     | Койка-место
-          .collapse.in#js-collapseExample
+          .collapse#js-collapseExample
             hr.search-hr
             .row.search-kind-flat
               .col-sm-2
@@ -476,7 +476,7 @@ html
               p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.
       .container-map data-spy="affix" data-offset-top="60"
         #js-map.map
-          #gag
+          / #gag
 
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
@@ -486,8 +486,8 @@ html
     script src="js/bootstrap-slider.js"
     script src="js/main.js"
     javascript:
-      //ymaps.ready(init);
-      //var TvilMap;
-      //function init(){
-      //TvilMap = new ymaps.Map("js-map",{center:[55.76,37.64],zoom:12});
-      //}
+      ymaps.ready(init);
+      var TvilMap;
+      function init(){
+        TvilMap = new ymaps.Map("js-map",{center:[55.76,37.64],zoom:12});
+      }

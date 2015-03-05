@@ -8070,6 +8070,7 @@ select + .form-control-feedback {
       display: none; }
     /* line 1244, /www/tvil/sass/tvil/theme */
     .search-price .slider .popover .popover-content {
+      white-space: nowrap;
       padding-top: 0;
       padding-bottom: 5px;
       position: relative;

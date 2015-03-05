@@ -1242,6 +1242,7 @@ select + .form-control-feedback {
         display: none;
       }
       .popover-content {
+        white-space: nowrap;
         padding-top: 0;
         padding-bottom: 5px;
         position: relative;
