@@ -35,7 +35,7 @@ html
                   option 0
                   option 1
                 i.icontvil.icontvil-Children.form-control-feedback
-          hr.search-hr
+          hr.search-hr-slim
           .row.search-kind-room
             .col-sm-2
               p.search-label Тип жилья:
@@ -67,6 +67,65 @@ html
                   .btn.btn-block.btn-default
                     i.icontvil.icontvil-Bad.icontvil-margin-right
                     | Койка-место
+          .collapse.in#js-collapseExample
+            hr.search-hr
+            .row.search-kind-flat
+              .col-sm-2
+                p.search-label Тип жилья:
+              .col-sm-10
+                .btn.btn-default.selected Все
+                .btn-group
+                  .btn.btn-default Квартира жилом доме 
+                  .btn.btn-default Квартира в отеле
+            hr.search-hr
+            .row.search-amount-rooms
+              .col-sm-2
+                p.search-label Количество комнат:
+              .col-sm-10
+                .btn-group
+                  .btn.btn-default 1
+                  .btn.btn-default.selected 2
+                  .btn.btn-default 3
+                  .btn.btn-default 4
+            hr.search-hr
+            .row.search-price
+              .col-sm-2
+                p.search-label Цена:
+              .col-sm-10
+                .row
+                  .col-sm-12
+                    input.slider.slider-horizontal data-slider-min="0" data-slider-max="10000" data-slider-step="100" data-slider-value="[1000,3000]" type="text" data-slider-tooltip="hide"
+                .row
+                  .col-sm-12
+                    .btn.btn-default data-toogle="slider" data-value="[0,2000]" до 2000
+                    .btn.btn-default.selected data-toogle="slider" data-value="[1000,3000]" от 1000 и до 3000
+                    .btn.btn-default data-toogle="slider" data-value="[3000,5000]" от 3000 и до 5000
+            hr.search-hr
+            .row.search-comfort
+              .col-sm-2
+                p.search-label Комфорт:
+              .col-sm-10
+                .btn.btn-default Все
+                .btn.btn-default Номер с кухней
+                .btn.btn-default.selected Удобства в номере
+                .btn.btn-default.selected Стиральная машинка
+                .btn.btn-default Кабельное ТВ
+                .btn.btn-default Кондиционер
+                .btn.btn-default Горячая вода
+                .btn.btn-default Парковка
+            hr.search-hr
+            .row.search-comfort
+              .col-sm-2
+                p.search-label Отдых:
+              .col-sm-10
+                .btn.btn-default Номер с кухней
+                .btn.btn-default.selected Сауна
+                .btn.btn-default Интернет
+                .btn.btn-default Стиральная машинка
+            .row.search-show-all
+              .col-sm-12.col-w100
+                .btn.btn-block.btn-danger Показать объявления (119)
+
           .row.search-filter data-spy="affix" data-offset-top="225"
             .col-sm-12
               .btn.btn-default.selected
@@ -79,7 +138,7 @@ html
                 | Удобства в номере
                 i.icontvil.icontvil-x
               .btn.btn-link + еще 2 фильтра
-              .btn.btn-default.search-all-filter Все фильтры
+              .btn.btn-default.search-all-filter data-toggle="collapse" href="#js-collapseExample" aria-expanded="false" aria-controls="js-collapseExample" Все фильтры
           .row.search-results
             .col-sm-12
               .row
@@ -399,13 +458,19 @@ html
                       a.text-uppercase href="#" ВКОНТАКТЕ
                     li
                       a.text-uppercase href="#" ОДНОКЛАССНИКИ
-              .row
+              .row.prize
                 .col-sm-4
-                  p Член Российского союза индустрии
+                  p
+                    i.icontvil.icontvil-Bubl
+                    | Член Российского союза индустрии
                 .col-sm-4
-                  p TVIL вошел в 10 Forbes
+                  p 
+                    i.icontvil.icontvil-Bubl
+                    | TVIL вошел в 10 Forbes
                 .col-sm-4
-                  p Читать о сайте
+                  p
+                    i.icontvil.icontvil-Bubl
+                    | Читать о сайте
           .row.copyright
             .col-sm-12
               p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.
@@ -418,6 +483,7 @@ html
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"
+    script src="js/bootstrap-slider.js"
     script src="js/main.js"
     javascript:
       //ymaps.ready(init);

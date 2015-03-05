@@ -839,6 +839,10 @@ abbr.btn-link[title] {
   }
 }
 .search-hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.search-hr-slim {
   margin-top: 12px;
   margin-bottom: 12px;
 }
@@ -1050,6 +1054,12 @@ select + .form-control-feedback {
     font-size: 18px;
     font-weight: 600;
   }
+  .btn {
+    margin-right: 8px;
+  }
+  .btn-group .btn {
+    margin-right: 0;
+  }
 }
 .search-similar {
   .btn-block {
@@ -1142,6 +1152,7 @@ select + .form-control-feedback {
   }
   li {
     line-height: 27px;
+    margin-bottom: 3px;
     a {
       text-decoration: underline;
       color:#a1b1c5;
@@ -1153,7 +1164,29 @@ select + .form-control-feedback {
   .glyphicon, .icontvil {
     margin-right: 7px;
   }
+  ul {
+    margin-top: 7px;
+  }
 }
+.prize {
+  margin-top: 40px;
+  margin-bottom: 28px;
+  p {
+    color:#56677a;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    padding-left: 48px;
+    position: relative;
+  }
+  .icontvil {
+    font-size: 30px;
+    position: absolute;
+    top:0;
+    left:0px;
+    color:#a1b1c5;
+  }
+} 
 .copyright {
   height: 67px;
   background-color: #424f5e;
@@ -1165,5 +1198,56 @@ select + .form-control-feedback {
     line-height: 67px;
     height: 67px;
     margin-bottom: 0;
+    color:#a1b1c5;
+  }
+}
+.search-amount-rooms {
+  .search-label {
+    line-height: 20px;
+  }
+}
+.search-comfort {
+  margin-bottom: -15px;
+  .btn{
+    margin-bottom: 15px;
+    &:nth-child(4n+4){
+      margin-right: 0;
+    }
+  }
+}
+.search-show-all {
+  margin-top: 49px;
+  .col-w100 {
+    margin-left: -19px;
+    margin-right: -19px;
+  }
+  .btn {
+    width: 768px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border-radius: 0;
+  }
+}
+.search-price {
+  .slider {
+    width: 600px;
+    margin-bottom: 18px;
+    margin-top: 15px;
+    .popover {
+      border:none;
+      box-shadow: none;
+      margin-top: 0;
+      background-color:rgba(0,0,0,0);
+      .arrow {
+        display: none;
+      }
+      .popover-content {
+        padding-top: 0;
+        padding-bottom: 5px;
+        position: relative;
+        font-size: 14px;
+        color:#566777;
+      }
+    }
   }
 }

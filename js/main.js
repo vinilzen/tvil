@@ -62,4 +62,35 @@ $(function(){
 		});
 	}
 
+
+	// set price range for popover and show it
+	window.setSliderValue = function(){
+		var values = $('input.slider').val();
+		if (!values)
+			values = $('input.slider').data('slider-value');
+		else
+			values = values.split(',');
+
+		$('.js-slider-handle-left').attr('data-content',values[0]+' Р');
+		$('.js-slider-handle-right').attr('data-content',values[1]+' Р');
+		$('.slider-handle').popover('show');
+	}
+
+	var slider = $('.slider').slider()
+		.on('slideStart', function(){
+			$('.slider-handle').popover('destroy');
+		})
+		.on('slideStop', function(){
+			setTimeout('window.setSliderValue()', 100);
+		});
+
+	window.setSliderValue();
+	$('[data-toogle="slider"]').click(function(){
+		var values = $(this).data('value');
+		slider.slider('setValue',values);
+		$('input.slider').val(values[0]+','+values[1]);
+		window.setSliderValue();
+		$('[data-toogle="slider"]').removeClass('selected');
+		$(this).addClass('selected')
+	})
 });
