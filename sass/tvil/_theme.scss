@@ -1355,3 +1355,96 @@ select + .form-control-feedback {
     margin-bottom: 8px;
   }
 }
+.search-mapmodal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(66, 79, 94, 0.9);
+}
+.arr-top,
+.arr-down,
+.txt-top,
+.txt-down {
+  position: absolute;
+  left: 43px;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.arr-top,
+.arr-down {
+  display: block;
+  width: 87px;
+  height: 69px;
+  background-image: url(../img/arrow-quatr.png);
+  // &:hover {
+  -webkit-animation-duration: 1s; 
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-duration: 1s; 
+  -moz-animation-delay: 2s;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: linear;
+  // }
+}
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes rotate_back {
+  0%{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.arr-top {
+  top:60px;
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+}
+.arr-down {
+  background-position: bottom left;
+  bottom:60px;
+  -webkit-animation-name: rotate_back;
+  -moz-animation-name: rotate_back;
+}
+.txt-top,
+.txt-down {
+  width: 260px;
+  height: 37px;
+  background-image: url(../img/wt.png);
+}
+.txt-top {
+  top:130px;
+  background-position: bottom left;
+}
+.txt-down {
+  bottom: 130px;
+  background-position: top left;
+}

@@ -113,4 +113,8 @@ $(function(){
 		$('.search-pins .popover').css('top',pin_position.top-220); // height modified popover
 	});
 
+	$('.search-mapmodal').click(function(){
+		$(this).fadeOut();
+	})
+
 });
