@@ -57,8 +57,8 @@ $(function(){
 					$('#js-map').height(wh);
 					$('.ymaps-map').height(wh);
 				} else {
-					$('#js-map').height(wh-60);
-					$('.ymaps-map').height(wh-60);
+					$('#js-map').height(wh-60+top_offset);
+					$('.ymaps-map').height(wh-60+top_offset);
 				}
 			}
 		});
@@ -103,4 +103,12 @@ $(function(){
 	$('#js-collapseExample').on('show.bs.collapse', function () {
 		setTimeout('window.setSliderValue()', 200);
 	});
+
+	$('.search-pin').on('show.bs.popover', function () {
+		$('.search-pin').removeClass('selected').popover('hide');
+	}).on('shown.bs.popover', function () {
+		var pin_position = $(this).addClass('selected').position();
+		$('.search-pins .popover').css('top',pin_position.top-220); // height modified popover
+	});
+
 });

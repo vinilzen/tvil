@@ -7469,27 +7469,29 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       height: 100%; }
     /* line 650, /www/tvil/sass/tvil/theme */
     .container-wrapper.container-search .container-map {
+      position: relative;
       margin-left: 768px;
       height: 100%; }
-      /* line 653, /www/tvil/sass/tvil/theme */
+      /* line 654, /www/tvil/sass/tvil/theme */
       .container-wrapper.container-search .container-map.affix {
+        position: fixed;
         top: 0; }
 
-/* line 661, /www/tvil/sass/tvil/theme */
+/* line 663, /www/tvil/sass/tvil/theme */
 .search-result .icontvil {
   color: #7f94ac; }
-/* line 664, /www/tvil/sass/tvil/theme */
+/* line 666, /www/tvil/sass/tvil/theme */
 .search-result .btn {
   border-radius: 3px; }
-/* line 668, /www/tvil/sass/tvil/theme */
+/* line 670, /www/tvil/sass/tvil/theme */
 .search-result .btn-default.selected {
   background-color: #eaeff4;
   border-color: #eaeff4; }
-/* line 672, /www/tvil/sass/tvil/theme */
+/* line 674, /www/tvil/sass/tvil/theme */
 .search-result .btn-default:hover, .search-result .btn-default:focus {
   background-color: #f4f7f9; }
 
-/* line 677, /www/tvil/sass/tvil/theme */
+/* line 679, /www/tvil/sass/tvil/theme */
 #gag {
   background-image: url(../img/ya_map.png);
   background-repeat: repeat;
@@ -7497,15 +7499,15 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
   height: 100%;
   min-width: 1px; }
 
-/* line 684, /www/tvil/sass/tvil/theme */
+/* line 686, /www/tvil/sass/tvil/theme */
 .navbar-inverse .navbar-nav.breadcrumb-tvil {
   padding-left: 10px;
   float: left; }
-  /* line 687, /www/tvil/sass/tvil/theme */
+  /* line 689, /www/tvil/sass/tvil/theme */
   .navbar-inverse .navbar-nav.breadcrumb-tvil > li {
     color: #8e9aa9;
     white-space: nowrap; }
-    /* line 690, /www/tvil/sass/tvil/theme */
+    /* line 692, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li + li:before {
       color: #56677a;
       width: 6px;
@@ -7518,7 +7520,7 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       padding-right: 5px;
       margin-left: -2px;
       float: left; }
-    /* line 703, /www/tvil/sass/tvil/theme */
+    /* line 705, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
       display: block;
       padding-top: 20px;
@@ -7530,43 +7532,43 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       @media (max-width: 1100px) {
         .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
           max-width: 150px; } }
-      /* line 714, /www/tvil/sass/tvil/theme */
+      /* line 716, /www/tvil/sass/tvil/theme */
       .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:focus, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:focus {
         background-color: transparent; }
-    /* line 718, /www/tvil/sass/tvil/theme */
+    /* line 720, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > span {
       padding-right: 0; }
-    /* line 722, /www/tvil/sass/tvil/theme */
+    /* line 724, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li.active span {
       color: #505d6c; }
 
-/* line 728, /www/tvil/sass/tvil/theme */
+/* line 730, /www/tvil/sass/tvil/theme */
 .icon-lt {
   top: 10px !important;
   left: 10px; }
 
-/* line 732, /www/tvil/sass/tvil/theme */
+/* line 734, /www/tvil/sass/tvil/theme */
 .icon-rt {
   top: 10px !important;
   right: 10px; }
 
-/* line 736, /www/tvil/sass/tvil/theme */
+/* line 738, /www/tvil/sass/tvil/theme */
 .icon-lb {
   bottom: 10px;
   left: 10px;
   top: inherit !important; }
 
-/* line 741, /www/tvil/sass/tvil/theme */
+/* line 743, /www/tvil/sass/tvil/theme */
 .icon-rb {
   bottom: 10px;
   right: 10px;
   top: inherit !important; }
 
-/* line 746, /www/tvil/sass/tvil/theme */
+/* line 748, /www/tvil/sass/tvil/theme */
 .thumbnail.thumbnail-photo {
   padding: 0;
   position: relative; }
-  /* line 749, /www/tvil/sass/tvil/theme */
+  /* line 751, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:after {
     content: ' ';
     position: absolute;
@@ -7581,7 +7583,7 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s; }
-  /* line 764, /www/tvil/sass/tvil/theme */
+  /* line 766, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo .icontvil {
     cursor: pointer;
     position: absolute;
@@ -7589,28 +7591,28 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
     color: #fff;
     height: 16px;
     z-index: 1011; }
-  /* line 773, /www/tvil/sass/tvil/theme */
+  /* line 775, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:hover:after, .thumbnail.thumbnail-photo:focus:after {
     opacity: 1; }
-  /* line 776, /www/tvil/sass/tvil/theme */
+  /* line 778, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:hover .icontvil, .thumbnail.thumbnail-photo:focus .icontvil {
     display: block; }
 
 /*
  * Popover
  */
-/* line 785, /www/tvil/sass/tvil/theme */
+/* line 787, /www/tvil/sass/tvil/theme */
 .popover {
   border: none;
   -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); }
 
-/* line 790, /www/tvil/sass/tvil/theme */
+/* line 792, /www/tvil/sass/tvil/theme */
 .popover-content {
   color: #566777;
   font-size: 13px; }
 
-/* line 795, /www/tvil/sass/tvil/theme */
+/* line 797, /www/tvil/sass/tvil/theme */
 abbr.btn-link[title] {
   text-decoration: none;
   padding-bottom: 0;
@@ -7618,54 +7620,54 @@ abbr.btn-link[title] {
   padding-right: 0;
   margin-bottom: 13px; }
 
-/* line 803, /www/tvil/sass/tvil/theme */
+/* line 805, /www/tvil/sass/tvil/theme */
 .container-search .container-fluid {
   padding-left: 19px;
   padding-right: 19px; }
-/* line 807, /www/tvil/sass/tvil/theme */
+/* line 809, /www/tvil/sass/tvil/theme */
 .container-search .form {
   padding-top: 13px; }
-  /* line 809, /www/tvil/sass/tvil/theme */
+  /* line 811, /www/tvil/sass/tvil/theme */
   .container-search .form .form-group {
     margin-bottom: 0; }
 
-/* line 814, /www/tvil/sass/tvil/theme */
+/* line 816, /www/tvil/sass/tvil/theme */
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   border-color: #e5ecf3; }
-  /* line 819, /www/tvil/sass/tvil/theme */
+  /* line 821, /www/tvil/sass/tvil/theme */
   .form-control::-webkit-input-placeholder {
     color: #56677a; }
-  /* line 822, /www/tvil/sass/tvil/theme */
+  /* line 824, /www/tvil/sass/tvil/theme */
   .form-control:-moz-input-placeholder {
     color: #56677a; }
-  /* line 825, /www/tvil/sass/tvil/theme */
+  /* line 827, /www/tvil/sass/tvil/theme */
   .form-control::-moz-input-placeholder {
     color: #56677a; }
-  /* line 828, /www/tvil/sass/tvil/theme */
+  /* line 830, /www/tvil/sass/tvil/theme */
   .form-control:-ms-input-placeholder {
     color: #56677a; }
 
-/* line 834, /www/tvil/sass/tvil/theme */
+/* line 836, /www/tvil/sass/tvil/theme */
 .search-kind-room .btn {
   text-align: left; }
-/* line 837, /www/tvil/sass/tvil/theme */
+/* line 839, /www/tvil/sass/tvil/theme */
 .search-kind-room .col-mt {
   margin-top: 10px; }
 
-/* line 841, /www/tvil/sass/tvil/theme */
+/* line 843, /www/tvil/sass/tvil/theme */
 .search-hr {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-/* line 845, /www/tvil/sass/tvil/theme */
+/* line 847, /www/tvil/sass/tvil/theme */
 .search-hr-slim {
   margin-top: 12px;
   margin-bottom: 12px; }
 
-/* line 849, /www/tvil/sass/tvil/theme */
+/* line 851, /www/tvil/sass/tvil/theme */
 .search-results {
   padding-top: 20px;
   margin-top: 0;
@@ -7673,59 +7675,59 @@ abbr.btn-link[title] {
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 856, /www/tvil/sass/tvil/theme */
+  /* line 858, /www/tvil/sass/tvil/theme */
   .search-results hr {
     margin-left: -15px;
     margin-right: -15px; }
 
-/* line 861, /www/tvil/sass/tvil/theme */
+/* line 863, /www/tvil/sass/tvil/theme */
 .search-thumbs {
   margin-left: -18px;
   height: 229px;
   overflow: hidden; }
-  /* line 865, /www/tvil/sass/tvil/theme */
+  /* line 867, /www/tvil/sass/tvil/theme */
   .search-thumbs a {
     margin-bottom: 5px;
     display: block; }
-  /* line 870, /www/tvil/sass/tvil/theme */
+  /* line 872, /www/tvil/sass/tvil/theme */
   .search-thumbs.search-thumbs-sm {
     margin-left: -11px;
     height: 172px; }
 
-/* line 878, /www/tvil/sass/tvil/theme */
+/* line 880, /www/tvil/sass/tvil/theme */
 .search-offer strong {
   font-size: 22px;
   font-weight: bold;
   color: #152438;
   margin-left: 5px;
   margin-right: 3px; }
-  /* line 884, /www/tvil/sass/tvil/theme */
+  /* line 886, /www/tvil/sass/tvil/theme */
   .search-offer strong .glyphicon {
     font-size: 17px; }
-/* line 888, /www/tvil/sass/tvil/theme */
+/* line 890, /www/tvil/sass/tvil/theme */
 .search-offer p {
   margin: 12px 0 16px -16px;
   font-size: 16px;
   color: #566777;
   line-height: 25px; }
-/* line 894, /www/tvil/sass/tvil/theme */
+/* line 896, /www/tvil/sass/tvil/theme */
 .search-offer .btn {
   margin: 23px 0 0 -11px;
   padding: 9px 33px;
   font-size: 14px; }
 
-/* line 900, /www/tvil/sass/tvil/theme */
+/* line 902, /www/tvil/sass/tvil/theme */
 select + .form-control-feedback {
   left: 0; }
 
-/* line 903, /www/tvil/sass/tvil/theme */
+/* line 905, /www/tvil/sass/tvil/theme */
 .has-feedback select.form-control {
   padding-left: 0;
   padding-right: 0;
   margin-left: 30px;
   width: 67px; }
 
-/* line 909, /www/tvil/sass/tvil/theme */
+/* line 911, /www/tvil/sass/tvil/theme */
 .search-filter {
   width: 763px;
   height: 61px;
@@ -7739,27 +7741,27 @@ select + .form-control-feedback {
   -moz-box-shadow: 0px 6px 6px -3px #f4f4f4;
   box-shadow: 0px 6px 6px -3px #f4f4f4;
   position: relative; }
-  /* line 922, /www/tvil/sass/tvil/theme */
+  /* line 924, /www/tvil/sass/tvil/theme */
   .search-filter.affix {
     z-index: 1010;
     top: -12px;
     background-color: #fff;
     position: fixed; }
-  /* line 928, /www/tvil/sass/tvil/theme */
+  /* line 930, /www/tvil/sass/tvil/theme */
   .search-filter .btn {
     padding-right: 16px;
     padding-left: 13px;
     margin-right: 8px;
     position: relative; }
-    /* line 933, /www/tvil/sass/tvil/theme */
+    /* line 935, /www/tvil/sass/tvil/theme */
     .search-filter .btn i.icontvil {
       right: -7px;
       color: #ced8e2; }
-    /* line 937, /www/tvil/sass/tvil/theme */
+    /* line 939, /www/tvil/sass/tvil/theme */
     .search-filter .btn.btn-link {
       padding-left: 0;
       margin-left: 0; }
-  /* line 942, /www/tvil/sass/tvil/theme */
+  /* line 944, /www/tvil/sass/tvil/theme */
   .search-filter .search-all-filter {
     position: absolute;
     top: 0;
@@ -7768,34 +7770,34 @@ select + .form-control-feedback {
     -moz-box-shadow: -6px 0px 12px 6px #fff;
     box-shadow: -6px 0px 12px 6px #fff; }
 
-/* line 951, /www/tvil/sass/tvil/theme */
+/* line 953, /www/tvil/sass/tvil/theme */
 .search-filter.affix + .search-results {
   padding-top: 88px; }
 
-/* line 954, /www/tvil/sass/tvil/theme */
+/* line 956, /www/tvil/sass/tvil/theme */
 .search-label {
   line-height: 36px;
   margin-bottom: 0; }
 
-/* line 958, /www/tvil/sass/tvil/theme */
+/* line 960, /www/tvil/sass/tvil/theme */
 .search-calendar-input {
   width: 112px; }
-  /* line 960, /www/tvil/sass/tvil/theme */
+  /* line 962, /www/tvil/sass/tvil/theme */
   .search-calendar-input input {
     margin-top: 1px; }
 
-/* line 964, /www/tvil/sass/tvil/theme */
+/* line 966, /www/tvil/sass/tvil/theme */
 .search-photo {
   display: inline-block;
   overflow: hidden;
   width: 357px;
   height: 229px;
   text-overflow: ellipsis; }
-  /* line 970, /www/tvil/sass/tvil/theme */
+  /* line 972, /www/tvil/sass/tvil/theme */
   .search-photo img {
     width: 100%;
     height: 100%; }
-  /* line 974, /www/tvil/sass/tvil/theme */
+  /* line 976, /www/tvil/sass/tvil/theme */
   .search-photo h3 {
     display: inline-block;
     white-space: nowrap;
@@ -7810,7 +7812,7 @@ select + .form-control-feedback {
     font-size: 18px;
     font-weight: 600;
     z-index: 1010; }
-  /* line 989, /www/tvil/sass/tvil/theme */
+  /* line 991, /www/tvil/sass/tvil/theme */
   .search-photo p {
     display: inline-block;
     white-space: nowrap;
@@ -7825,16 +7827,16 @@ select + .form-control-feedback {
     font-size: 14px;
     color: #fff;
     z-index: 1010; }
-  /* line 1004, /www/tvil/sass/tvil/theme */
+  /* line 1006, /www/tvil/sass/tvil/theme */
   .search-photo .icontvil {
     color: #fff;
     z-index: 1010; }
-  /* line 1008, /www/tvil/sass/tvil/theme */
+  /* line 1010, /www/tvil/sass/tvil/theme */
   .search-photo .favorite {
     position: absolute;
     left: 30px;
     bottom: 15px; }
-  /* line 1013, /www/tvil/sass/tvil/theme */
+  /* line 1015, /www/tvil/sass/tvil/theme */
   .search-photo:after {
     content: ' ';
     position: absolute;
@@ -7851,43 +7853,43 @@ select + .form-control-feedback {
     -webkit-box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4);
     box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4); }
-  /* line 1031, /www/tvil/sass/tvil/theme */
+  /* line 1033, /www/tvil/sass/tvil/theme */
   .search-photo:hover:after, .search-photo:focus:after {
     background-color: rgba(81, 110, 142, 0.7); }
-  /* line 1035, /www/tvil/sass/tvil/theme */
+  /* line 1037, /www/tvil/sass/tvil/theme */
   .search-photo.search-photo-sm {
     width: 268px;
     height: 172px; }
-    /* line 1038, /www/tvil/sass/tvil/theme */
+    /* line 1040, /www/tvil/sass/tvil/theme */
     .search-photo.search-photo-sm h3 {
       width: 260px; }
-    /* line 1041, /www/tvil/sass/tvil/theme */
+    /* line 1043, /www/tvil/sass/tvil/theme */
     .search-photo.search-photo-sm:after {
       height: 172px;
       width: 268px; }
 
-/* line 1047, /www/tvil/sass/tvil/theme */
+/* line 1049, /www/tvil/sass/tvil/theme */
 .col-offset-fix {
   margin-left: -5px; }
 
-/* line 1051, /www/tvil/sass/tvil/theme */
+/* line 1053, /www/tvil/sass/tvil/theme */
 .search-result h2 {
   margin-top: 34px;
   margin-bottom: 17px;
   font-size: 18px;
   font-weight: 600; }
-/* line 1057, /www/tvil/sass/tvil/theme */
+/* line 1059, /www/tvil/sass/tvil/theme */
 .search-result .btn {
   margin-right: 8px; }
-/* line 1060, /www/tvil/sass/tvil/theme */
+/* line 1062, /www/tvil/sass/tvil/theme */
 .search-result .btn-group .btn {
   margin-right: 0; }
 
-/* line 1065, /www/tvil/sass/tvil/theme */
+/* line 1067, /www/tvil/sass/tvil/theme */
 .search-similar .btn-block {
   margin-top: 15px; }
 
-/* line 1069, /www/tvil/sass/tvil/theme */
+/* line 1071, /www/tvil/sass/tvil/theme */
 .nav-pagination {
   margin-top: 16px;
   margin-left: -19px;
@@ -7897,7 +7899,7 @@ select + .form-control-feedback {
   border-top: 1px solid #e9eef2;
   border-bottom: 1px solid #e9eef2;
   height: 72px; }
-  /* line 1079, /www/tvil/sass/tvil/theme */
+  /* line 1081, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li > a, .nav-pagination .pagination > li > span {
     padding: 5px 11px;
     font-size: 13px;
@@ -7908,94 +7910,94 @@ select + .form-control-feedback {
     -moz-transition: background-color, border-color 0.5s ease;
     -o-transition: background-color, border-color 0.5s ease;
     transition: background-color, border-color 0.5s ease; }
-  /* line 1091, /www/tvil/sass/tvil/theme */
+  /* line 1093, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li > a.selected, .nav-pagination .pagination > li > a:hover, .nav-pagination .pagination > li > a:focus {
     background-color: #8e9aa9;
     border-color: #8e9aa9;
     color: #fff; }
-  /* line 1097, /www/tvil/sass/tvil/theme */
+  /* line 1099, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon {
     top: 2px; }
-  /* line 1100, /www/tvil/sass/tvil/theme */
+  /* line 1102, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon-menu-right {
     padding-left: 7px; }
-  /* line 1103, /www/tvil/sass/tvil/theme */
+  /* line 1105, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon-menu-left {
     padding-right: 7px; }
 
-/* line 1108, /www/tvil/sass/tvil/theme */
+/* line 1110, /www/tvil/sass/tvil/theme */
 .popular {
   margin-top: 28px; }
-  /* line 1110, /www/tvil/sass/tvil/theme */
+  /* line 1112, /www/tvil/sass/tvil/theme */
   .popular h2 {
     width: 100%;
     margin-bottom: 8px; }
-  /* line 1114, /www/tvil/sass/tvil/theme */
+  /* line 1116, /www/tvil/sass/tvil/theme */
   .popular ul {
     -webkit-column-count: 3;
     /* Chrome, Safari, Opera */
     -moz-column-count: 3;
     /* Firefox */
     column-count: 3; }
-  /* line 1119, /www/tvil/sass/tvil/theme */
+  /* line 1121, /www/tvil/sass/tvil/theme */
   .popular li {
     line-height: 27px; }
-  /* line 1122, /www/tvil/sass/tvil/theme */
+  /* line 1124, /www/tvil/sass/tvil/theme */
   .popular a {
     text-decoration: underline; }
-    /* line 1124, /www/tvil/sass/tvil/theme */
+    /* line 1126, /www/tvil/sass/tvil/theme */
     .popular a:hover {
       text-decoration: none; }
 
-/* line 1129, /www/tvil/sass/tvil/theme */
+/* line 1131, /www/tvil/sass/tvil/theme */
 .widget {
   margin-bottom: 15px; }
 
-/* line 1132, /www/tvil/sass/tvil/theme */
+/* line 1134, /www/tvil/sass/tvil/theme */
 .footer {
   background-color: #ecf1f4;
   margin-left: -19px;
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 1138, /www/tvil/sass/tvil/theme */
+  /* line 1140, /www/tvil/sass/tvil/theme */
   .footer h2 {
     color: #3b4754;
     margin-top: 40px;
     margin-bottom: 0; }
-  /* line 1143, /www/tvil/sass/tvil/theme */
+  /* line 1145, /www/tvil/sass/tvil/theme */
   .footer p {
     color: #6f8297;
     margin-top: 11px;
     margin-bottom: 25px; }
-    /* line 1147, /www/tvil/sass/tvil/theme */
+    /* line 1149, /www/tvil/sass/tvil/theme */
     .footer p a {
       padding-top: 6px;
       padding-bottom: 14px;
       display: inline-block; }
-  /* line 1153, /www/tvil/sass/tvil/theme */
+  /* line 1155, /www/tvil/sass/tvil/theme */
   .footer li {
     line-height: 27px;
     margin-bottom: 3px; }
-    /* line 1156, /www/tvil/sass/tvil/theme */
+    /* line 1158, /www/tvil/sass/tvil/theme */
     .footer li a {
       text-decoration: underline;
       color: #a1b1c5; }
-      /* line 1159, /www/tvil/sass/tvil/theme */
+      /* line 1161, /www/tvil/sass/tvil/theme */
       .footer li a:hover {
         text-decoration: none; }
-  /* line 1164, /www/tvil/sass/tvil/theme */
+  /* line 1166, /www/tvil/sass/tvil/theme */
   .footer .glyphicon, .footer .icontvil {
     margin-right: 7px; }
-  /* line 1167, /www/tvil/sass/tvil/theme */
+  /* line 1169, /www/tvil/sass/tvil/theme */
   .footer ul {
     margin-top: 7px; }
 
-/* line 1171, /www/tvil/sass/tvil/theme */
+/* line 1173, /www/tvil/sass/tvil/theme */
 .prize {
   margin-top: 40px;
   margin-bottom: 28px; }
-  /* line 1174, /www/tvil/sass/tvil/theme */
+  /* line 1176, /www/tvil/sass/tvil/theme */
   .prize p {
     color: #56677a;
     margin: 0;
@@ -8003,7 +8005,7 @@ select + .form-control-feedback {
     display: inline-block;
     padding-left: 48px;
     position: relative; }
-  /* line 1182, /www/tvil/sass/tvil/theme */
+  /* line 1184, /www/tvil/sass/tvil/theme */
   .prize .icontvil {
     font-size: 30px;
     position: absolute;
@@ -8011,7 +8013,7 @@ select + .form-control-feedback {
     left: 0px;
     color: #a1b1c5; }
 
-/* line 1190, /www/tvil/sass/tvil/theme */
+/* line 1192, /www/tvil/sass/tvil/theme */
 .copyright {
   height: 67px;
   background-color: #424f5e;
@@ -8019,56 +8021,56 @@ select + .form-control-feedback {
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 1197, /www/tvil/sass/tvil/theme */
+  /* line 1199, /www/tvil/sass/tvil/theme */
   .copyright p {
     line-height: 67px;
     height: 67px;
     margin-bottom: 0;
     color: #a1b1c5; }
 
-/* line 1205, /www/tvil/sass/tvil/theme */
+/* line 1207, /www/tvil/sass/tvil/theme */
 .search-amount-rooms .search-label {
   line-height: 20px; }
 
-/* line 1209, /www/tvil/sass/tvil/theme */
+/* line 1211, /www/tvil/sass/tvil/theme */
 .search-comfort {
   margin-bottom: -15px; }
-  /* line 1211, /www/tvil/sass/tvil/theme */
+  /* line 1213, /www/tvil/sass/tvil/theme */
   .search-comfort .btn {
     margin-bottom: 15px; }
-    /* line 1213, /www/tvil/sass/tvil/theme */
+    /* line 1215, /www/tvil/sass/tvil/theme */
     .search-comfort .btn:nth-child(4n+4) {
       margin-right: 0; }
 
-/* line 1218, /www/tvil/sass/tvil/theme */
+/* line 1220, /www/tvil/sass/tvil/theme */
 .search-show-all {
   margin-top: 49px; }
-  /* line 1220, /www/tvil/sass/tvil/theme */
+  /* line 1222, /www/tvil/sass/tvil/theme */
   .search-show-all .col-w100 {
     margin-left: -19px;
     margin-right: -19px; }
-  /* line 1224, /www/tvil/sass/tvil/theme */
+  /* line 1226, /www/tvil/sass/tvil/theme */
   .search-show-all .btn {
     width: 768px;
     padding: 15px 20px;
     text-transform: uppercase;
     border-radius: 0; }
 
-/* line 1232, /www/tvil/sass/tvil/theme */
+/* line 1234, /www/tvil/sass/tvil/theme */
 .search-price .slider {
   width: 600px;
   margin-bottom: 18px;
   margin-top: 15px; }
-  /* line 1236, /www/tvil/sass/tvil/theme */
+  /* line 1238, /www/tvil/sass/tvil/theme */
   .search-price .slider .popover {
     border: none;
     box-shadow: none;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0); }
-    /* line 1241, /www/tvil/sass/tvil/theme */
+    /* line 1243, /www/tvil/sass/tvil/theme */
     .search-price .slider .popover .arrow {
       display: none; }
-    /* line 1244, /www/tvil/sass/tvil/theme */
+    /* line 1246, /www/tvil/sass/tvil/theme */
     .search-price .slider .popover .popover-content {
       white-space: nowrap;
       padding-top: 0;
@@ -8076,5 +8078,105 @@ select + .form-control-feedback {
       position: relative;
       font-size: 14px;
       color: #566777; }
+
+/* line 1257, /www/tvil/sass/tvil/theme */
+.search-line {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  right: 20px; }
+  /* line 1262, /www/tvil/sass/tvil/theme */
+  .search-line .form-control {
+    color: #56677a;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); }
+  /* line 1268, /www/tvil/sass/tvil/theme */
+  .search-line .glyphicon {
+    color: #353c44;
+    opacity: 0.5; }
+  @media (max-width: 1024px) {
+    .search-line {
+      display: none; } }
+
+/* line 1277, /www/tvil/sass/tvil/theme */
+.search-maptab {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+  /* line 1283, /www/tvil/sass/tvil/theme */
+  .search-maptab .btn-group-justified {
+    border-collapse: collapse; }
+  @media (max-width: 1100px) {
+    .search-maptab {
+      display: none; } }
+
+/* line 1290, /www/tvil/sass/tvil/theme */
+.btn-darkgray {
+  background-color: rgba(86, 103, 122, 0.6);
+  color: #fff;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5d6f88; }
+  /* line 1298, /www/tvil/sass/tvil/theme */
+  .btn-darkgray:focus, .btn-darkgray:hover, .btn-darkgray.selected {
+    background-color: #56677a; }
+
+/* line 1302, /www/tvil/sass/tvil/theme */
+.search-pin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  cursor: pointer; }
+  /* line 1307, /www/tvil/sass/tvil/theme */
+  .search-pin#two-example {
+    left: 30%;
+    top: 70%; }
+  /* line 1311, /www/tvil/sass/tvil/theme */
+  .search-pin .icontvil {
+    color: #7f94ac;
+    font-size: 45px; }
+  /* line 1316, /www/tvil/sass/tvil/theme */
+  .search-pin.selected .icontvil {
+    color: #ff5d61; }
+
+/* line 1322, /www/tvil/sass/tvil/theme */
+.search-pins .popover {
+  padding: 0; }
+/* line 1325, /www/tvil/sass/tvil/theme */
+.search-pins .arrow {
+  display: none; }
+/* line 1328, /www/tvil/sass/tvil/theme */
+.search-pins .popover-content {
+  padding: 0; }
+  /* line 1330, /www/tvil/sass/tvil/theme */
+  .search-pins .popover-content .thumbnail {
+    border: none;
+    width: 250px;
+    padding: 0;
+    margin: 0; }
+/* line 1337, /www/tvil/sass/tvil/theme */
+.search-pins .caption {
+  padding-top: 0;
+  padding-bottom: 0; }
+/* line 1341, /www/tvil/sass/tvil/theme */
+.search-pins h3, .search-pins .h3 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  color: #152438;
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: normal;
+  width: 239px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+/* line 1352, /www/tvil/sass/tvil/theme */
+.search-pins p {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px; }
 
 /*# sourceMappingURL=bootstrap.css.map */
