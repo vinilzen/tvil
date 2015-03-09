@@ -1537,7 +1537,14 @@ select + .form-control-feedback {
     .carousel {
       margin: 0 -15px 11px;
       .item.active {
+        // overflow-y:auto;
         max-height: 500px;
+        @media (min-width: 1440px){
+          max-height: 600px;
+        } 
+        @media (min-width: 1600px){
+          max-height: 700px;
+        } 
       }
     }
   }
