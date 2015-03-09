@@ -1,0 +1,54 @@
+//
+// Carousel
+// --------------------------------------------------
+
+
+// Left/right controls for nav
+// ---------------------------
+
+.carousel-control {
+  &.left, &.right {
+    background: none; 
+    background-image:none;
+  }
+
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right {
+    position: absolute;
+    font-style: 32px;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    color:rgba(255, 255, 255, 0.5);
+  }
+  .glyphicon-chevron-left {
+    left: 50%;
+    margin-left: -10px;
+  }
+  .glyphicon-chevron-right {
+    right: 50%;
+    margin-right: -10px;
+  }
+}
+
+
+// Scale up controls for tablets and up
+@media screen and (min-width: $screen-sm-min) {
+
+  // Scale up the controls a smidge
+  .carousel-control {
+    .glyphicon-chevron-left,
+    .glyphicon-chevron-right {
+      width: 30px;
+      height: 30px;
+      margin-top: -15px;
+      font-size: 30px;
+    }
+    .glyphicon-chevron-left {
+      margin-left: -15px;
+    }
+    .glyphicon-chevron-right {
+      margin-right: -15px;
+    }
+  }
+}

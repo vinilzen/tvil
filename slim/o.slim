@@ -21,17 +21,32 @@ html
           hr.hr-obj
           .row.row-main
             .col-sm-12
-              .carousel.slide
+              .carousel.slide data-ride="carousel"
                 .carousel-inner
                   .item.active
-                    img.img-responsive width="1444" src="../img/home.jpg" alt=""/
+                    img.img-responsive width="1400" src="../img/home.jpg" alt=""
                   .item
-                    img.img-responsive src="../img/home.jpg" alt=""/
+                    img.img-responsive width="1400" src="../img/home1.jpg" alt=""
                 
                 a.left.carousel-control href="#carousel-example-generic" role="button" data-slide="prev"
-                  span.glyphicon.glyphicon-chevron-left aria-hidden="true"
+                  span.glyphicon.glyphicon-menu-left aria-hidden="true"
                 a.right.carousel-control href="#carousel-example-generic" role="button" data-slide="next"
-                  span.glyphicon.glyphicon-chevron-right aria-hidden="true"
+                  span.glyphicon.glyphicon-menu-right aria-hidden="true"
+                
+                .carousel-preview
+                  ul
+                    li
+                      a.active
+                        img src="../img/home_prev1.jpg"
+                    li
+                      a
+                        img src="../img/home_prev2.jpg"
+                    li
+                      a
+                        img src="../img/home_prev3.jpg"
+                    li
+                      a
+                        img src="../img/home_prev4.jpg"
               .row
                 dl.dl-horizontal
                   dt
@@ -42,7 +57,7 @@ html
                     a href="#" Подробнее
                 dl.dl-horizontal
                   dt 
-                    h2 Характеристики:
+                    h3 Характеристики:
                   dd 
                     ul.list-unstyled.column-2
                       li 
@@ -60,10 +75,9 @@ html
                       li 
                         span.glyphicon.glyphicon-knight
                         span.txt Бильярд
-
                 dl.dl-horizontal
                   dt 
-                    h2 Питание:
+                    h3 Питание:
                   dd
                     ul.list-unstyled
                       li
@@ -78,9 +92,9 @@ html
                         p Ужин — нет
                 dl.dl-horizontal
                   dt 
-                    h2 Услуги и удобства:
+                    h3 Услуги и удобства:
                   dd
-                    ul.column-2.list-unstyled
+                    ul.column-2.list-dotted
                       li
                         p Постельное белье для всех гостей
                       li
@@ -91,8 +105,215 @@ html
                         p Трансфер до ж/д вокзала
                       li
                         p Уборка в номере
-
-
+                dl.dl-horizontal
+                  dt 
+                    h3 Особенности:
+                  dd
+                    ul.column-2.list-dotted
+                      li
+                        p На территории отеля проживают животные
+                      li
+                        p.text-danger В отеле только холодная вода
+                dl.dl-horizontal
+                  dt 
+                    h3 Ограничения:
+                  dd
+                    ul.column-2.list-dotted
+                      li
+                        p В номерах курить запрещено
+                      li
+                        p Можно с домашними животными
+                      li
+                        p Не принимаем с детьми до 2 лет
+                      li
+                        p Разрешено для шумных компаний
+                      li
+                        p Разрешено проведение мероприятий
+              .row.row-gray
+                .col-sm-12
+                  h2.h2-obj Календарь занятости
+                  .calendar
+                    .row
+                      .col-sm-4.text-left
+                        a.btn.btn-default
+                          span.glyphicon.glyphicon-menu-left
+                        a.btn.btn-link Январь 2015
+                      .col-sm-4
+                        select.form-control
+                          option Февраль 2015
+                          option Март 2015
+                          option Апрель 2015
+                      .col-sm-4.text-right
+                        a.btn.btn-link Март 2015
+                        a.btn.btn-default
+                          span.glyphicon.glyphicon-menu-right
+                    .row.row-tbl
+                      table.table.table-bordered
+                        thead
+                          tr
+                            th ПН
+                            th ВТ
+                            th СР
+                            th ЧТ
+                            th ПТ
+                            th СБ
+                            th ВС
+                        tbody
+                          tr
+                            td.selected
+                              span.month
+                              span.date 31
+                              span.price
+                            td.selected
+                              span.month Фев
+                              span.date 1
+                              span.price
+                            td.selected
+                              span.month
+                              span.date 2
+                              span.price
+                            td.selected
+                              span.month
+                              span.date 3
+                              span.price
+                            td.selected
+                              span.month
+                              span.date 4
+                              span.price
+                            td.selected
+                              span.month
+                              span.date 5
+                              span.price
+                            td.selected
+                              span.month
+                              span.date 6
+                              span.price
+                          tr
+                            td.selected
+                              span.month
+                              span.date 7
+                              span.price
+                            td.selected-half-end
+                              span.month
+                              span.date 8
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 9
+                              span.price 1200 р.
+                            td.selected-half-start
+                              span.month
+                              span.date 10
+                              span.price 1200 р.
+                            td.selected
+                              span.month
+                              span.date 11
+                              span.price 1200 р.
+                            td.selected-half-end
+                              span.month
+                              span.date 12
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 13
+                              span.price 1200 р.
+                          tr
+                            td
+                              span.month
+                              span.date 14
+                              span.price
+                            td
+                              span.month
+                              span.date 15
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 16
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 17
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 18
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 19
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 20
+                              span.price 1200 р.
+                          tr
+                            td
+                              span.month
+                              span.date 21
+                              span.price
+                            td.selected-half
+                              span.month
+                              span.date 22
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 23
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 24
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 25
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 26
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 27
+                              span.price 1200 р.
+                          tr
+                            td
+                              span.month
+                              span.date 28
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 29
+                              span.price 1200 р.
+                            td.book
+                              span.month
+                              span.date 30
+                              span.price 1200 р.
+                            td
+                              span.month Мар
+                              span.date 31
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 1
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 2
+                              span.price 1200 р.
+                            td
+                              span.month
+                              span.date 3
+                              span.price 1200 р.
+                    .row.calendar-info
+                      .col-sm-12
+                        p
+                          span.select Занято
+                          span.free Свободно
+                          span.booked Забронировано
+              .row.row-white
+                .col-sm-12
+                  h2.h2-obj Отзывы (2)
+                  
       .sidebar-right.sidebar-right-obj
         .row
           .col-sm-12.text-center.price-start
