@@ -59,7 +59,7 @@ html
                   .col-sm-4
                     h3 Спальные места:
                   .col-sm-4
-                    .form-group
+                    .form-group.mt20
                       span.required *
                       label Основное количество спальных мест
                       input.form-control placeholder="Выберите" type="text"
@@ -128,7 +128,7 @@ html
                   .col-sm-4
                     h3 Удобства в номере:
                   .col-sm-4
-                    .form-group
+                    .form-group.mt20
                       label Ванна
                       input.form-control placeholder="Выберите" type="text"
                     .checkbox
@@ -148,7 +148,7 @@ html
                         input type="checkbox"
                         | Москитные сетки на окнах
                   .col-sm-4
-                    .form-group
+                    .form-group.mt20
                       label Туалет
                       input.form-control placeholder="Выберите" type="text"
                     .checkbox
@@ -252,7 +252,7 @@ html
               p Добавить категорию
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top data-spy="affix" data-offset-top="60"
       == Slim::Template.new("nav_top.slim").render
-      == Slim::Template.new("nav_bottom.slim").render
+      == Slim::Template.new("nav_bottom2.slim").render
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"

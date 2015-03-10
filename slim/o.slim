@@ -6,7 +6,7 @@ html
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
     .container-wrapper.container-wrapper-obj
-      .sidebar-left.sidebar-light
+      .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
         == Slim::Template.new("sidebar-left-light.slim").render
       .main.obj
         .container-fluid
@@ -50,7 +50,7 @@ html
               .row
                 dl.dl-horizontal
                   dt
-                    h2 Описание:
+                    h3 Описание:
                   dd 
                     p Мини-отель уютно расположился в восточном пригороде г.Ялтa, п.г.т.Массандре, на окраине крупнейшего в Крыму Массандровского парка. Массандровский парк заложен в
                     p Подро первой половине ХIХ в. и занимает 42 га. Пансионат 
@@ -463,37 +463,121 @@ html
                 .col-sm-12
                   h2.h2-obj Владелец
                   h3.h3-obj Сергей и Татьяна
-      .sidebar-right.sidebar-right-obj
-        .row
-          .col-sm-12.text-center.price-start
-            h2 от 2000 рублей
-            span
-              i.icontvil.icontvil-Exclamation
-              | Даты и гости не выбраны
+                  .owner
+                    .media
+                      .media-left
+                        a
+                          img src="../img/ava200.png" width="200" height="200" alt=""/
+                      .media-body
+                        dl.dl-horizontal
+                          dt На сайте: 
+                          dd с 25 мая 2013
+                          dt Последний раз:
+                          dd 24 июля 2014, 17:47
+                          dt Отзывы:
+                          dd 86% положительных
+                          dt Рейтинг:
+                          dd 4,3 из 5
+                          dt Статус:
+                          dd Проверенный владелец
+                          dt Телефон:
+                          dd
+                            strong + 7 952
+                            .btn.btn-default Показать телефон
+                    p Мы живем в Ялте и содержим небольшой отель. Работаем неподалеку и с радостью принимаем гостей круглый год. Приезжайте и наслаждайтесь природой, и морем.
+                    .btn.btn-default Написать владельцу
+              .row.row-gray
+                .col-sm-12
+                  h2.h2-obj.h2-obj-margintop Расположение отеля
+                  .ya_map_sm
+                    p
+                      i.icontvil.icontvil-Mini_Pin
+                      | Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
+                    img src="../img/ymap.png"
+              .row
+                dl.dl-horizontal
+                  dt 
+                    h3 Места рядом с гостиницей:
+                  dd
+                    ul.list-unstyled.column-2.places
+                      li
+                        p
+                          span Кинотеатр 
+                          span.light
+                            | (500 м)
+                      li
+                        p
+                          span Театр 
+                          span.light
+                            | (1.5 км)
+                      li
+                        p
+                          span Казино 
+                          span.light
+                            | (900 м)
+                      li
+                        p
+                          span Охота 
+                          span.light
+                            | (2.5 км)
+                      li
+                        p
+                          span Продуктовый магазин 
+                          span.light
+                            | (2.5 км)
+                      li
+                        p
+                          span Центр города 
+                          span.light
+                            | (2.1 км)
+
+                dl.dl-horizontal
+                  dt 
+                    h3 Досуг рядом:
+                  dd
+                    p Шезлонги, Терраса, Барбекю, Мангал, Парковка для автомобилей, Ресторан, Бассейн
+
+                dl.dl-horizontal
+                  dt 
+                    h3 Обратите внимание:
+                  dd
+                    p Охраняемая территория
+              .row.affixtop
+                h1.h1-fixtop Люкс квартира в 100 метрах от моря
+                button.btn.btn-darkgray
+                  i.icontvil.icontvil-Arrow_Up
+      .sidebar-right.sidebar-right-obj data-spy="affix" data-offset-top="60"
         form.form
-          .row
-            .col-sm-6.col-left
-              .form-group.has-feedback.pull-right
-                input.form-control type="text" placeholder="Заезд"
-                i.icontvil.icontvil-Date_Inn.form-control-feedback
-            .col-sm-6.col-right
-              .form-group.has-feedback
-                input.form-control type="text" placeholder="Отъезд"
-                i.icontvil.icontvil-Date_Out.form-control-feedback
-            .col-sm-6.col-left
-              .form-group.has-feedback.pull-right
-                select.form-control
-                  option 0
-                  option 1
-                i.icontvil.icontvil-Male.form-control-feedback
-            .col-sm-6.col-right
-              .form-group.has-feedback
-                select.form-control
-                  option 0
-                  option 1
-                i.icontvil.icontvil-Children.form-control-feedback
-            .col-sm-12.text-center.calculate
-              .btn.btn-danger.btn-block Рассчитать стоимость
+          .fix-top
+            .row
+              .col-sm-12.text-center.price-start
+                h2 от 2000 рублей
+                span
+                  i.icontvil.icontvil-Exclamation
+                  | Даты и гости не выбраны
+            .row
+              .col-sm-6.col-left
+                .form-group.has-feedback.pull-right
+                  input.form-control type="text" placeholder="Заезд"
+                  i.icontvil.icontvil-Date_Inn.form-control-feedback
+              .col-sm-6.col-right
+                .form-group.has-feedback
+                  input.form-control type="text" placeholder="Отъезд"
+                  i.icontvil.icontvil-Date_Out.form-control-feedback
+              .col-sm-6.col-left
+                .form-group.has-feedback.pull-right
+                  select.form-control
+                    option 0
+                    option 1
+                  i.icontvil.icontvil-Male.form-control-feedback
+              .col-sm-6.col-right
+                .form-group.has-feedback
+                  select.form-control
+                    option 0
+                    option 1
+                  i.icontvil.icontvil-Children.form-control-feedback
+              .col-sm-12.text-center.calculate
+                .btn.btn-danger.btn-block Рассчитать стоимость
           .row.sidebar-info
             .col-sm-6.text-center
               p

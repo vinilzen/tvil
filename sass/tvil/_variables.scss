@@ -1,4 +1,7 @@
 $bootstrap-sass-asset-helper: false !default;
+
+$border-color:#e2e7ec;
+
 //
 // Variables
 // --------------------------------------------------
@@ -140,7 +143,7 @@ $table-bg-hover:                #f5f5f5 !default;
 $table-bg-active:               $table-bg-hover !default;
 
 //** Border color for table and cell borders.
-$table-border-color:            #ddd !default;
+$table-border-color:            $border-color !default;
 
 
 //== Buttons
@@ -866,4 +869,4 @@ $page-header-border-color:    $gray-lighter !default;
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Horizontal line color.
-$hr-border:                   $gray-lighter !default;
+$hr-border:                   $border-color !default;

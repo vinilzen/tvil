@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icotvil';
-	src:url('../fonts/icotvil.eot?-wtk7bp');
-	src:url('../fonts/icotvil.eot?#iefix-wtk7bp') format('embedded-opentype'),
-		url('../fonts/icotvil.woff?-wtk7bp') format('woff'),
-		url('../fonts/icotvil.ttf?-wtk7bp') format('truetype'),
-		url('../fonts/icotvil.svg?-wtk7bp#icotvil') format('svg');
+	src:url('../fonts/icontvil.eot?-wtk7bp');
+	src:url('../fonts/icontvil.eot?#iefix-wtk7bp') format('embedded-opentype'),
+		url('../fonts/icontvil.woff?-wtk7bp') format('woff'),
+		url('../fonts/icontvil.ttf?-wtk7bp') format('truetype'),
+		url('../fonts/icontvil.svg?-wtk7bp#icotvil') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -37,6 +37,10 @@ i.icontvil {
   margin-right: 10px;
 }
 
+.icontvil-Qw:before {
+	content: "\e62d";
+}
+
 .icontvil-Star_Full:before {
 	content: "\e600";
 }
@@ -59,6 +63,11 @@ i.icontvil {
 
 .icontvil-Date_Out:before {
 	content: "\e605";
+}
+
+
+.icontvil-Date_Inn:before {
+	content: "\e62e";
 }
 
 .icontvil-Empty_Hurt:before {
@@ -169,10 +178,6 @@ i.icontvil {
 	content: "\e620";
 }
 
-.icontvil-Date_Inn:before {
-	content: "\e621";
-}
-
 .icontvil-Children:before {
 	content: "\e622";
 }
@@ -198,6 +203,10 @@ i.icontvil {
 }
 
 .icontvil-Arrow_Down:before {
+	content: "\e621";
+}
+
+.icontvil-Arrow_Up:before {
 	content: "\e628";
 }
 
@@ -215,8 +224,4 @@ i.icontvil {
 
 .icontvil-Exclamation:before {
 	content: "\e62c";
-}
-
-.icontvil-Qw:before {
-	content: "\e62d";
 }

@@ -64,7 +64,19 @@ $(function(){
 		});
 	}
 
-
+	$(document).scroll(function(){
+		var top_offset = $(this).scrollTop();
+		if (top_offset > 550){
+			if ($('.affixtop').height() == 0){
+				$('.affixtop')
+					.width($('.row-main').width())
+					.show()
+					.animate({'height':50}, 200)
+			}
+		} else {
+			$('.affixtop').hide().css('height',0);
+		}
+	});
 
 	if ($('.slider').length) {
 		// set price range for popover and show it
