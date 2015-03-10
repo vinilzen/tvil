@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"a",
+				"absolute"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"top",
+				"top_offset"
+			],
+			[
 				"white",
 				"white-space"
 			],
@@ -34,10 +50,6 @@
 			[
 				"tt",
 				"tt-u	text-transform: uppercase;"
-			],
-			[
-				"max",
-				"max-height"
 			],
 			[
 				"style",
@@ -122,10 +134,6 @@
 			[
 				"cu",
 				"cursor"
-			],
-			[
-				"a",
-				"auto"
 			],
 			[
 				"of",
@@ -507,7 +515,7 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 37370,
+				"buffer_size": 38657,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,15 +523,15 @@
 			"file": "slim/o.slim",
 			"settings":
 			{
-				"buffer_size": 24331,
+				"buffer_size": 25864,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "slim/index.slim",
+			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 10461,
+				"buffer_size": 4277,
 				"line_ending": "Unix"
 			}
 		}
@@ -559,7 +567,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 429.0
 	},
 	"console":
 	{
@@ -590,25 +598,29 @@
 	],
 	"file_history":
 	[
+		"/www/tvil/sass/tvil/icontvil.scss",
+		"/www/tvil/slim/nav_bottom2.slim",
+		"/www/tvil/slim/index.slim",
+		"/www/tvil/slim/head.slim",
+		"/www/tvil/js/main.js",
+		"/Users/vin/Downloads/icontvil/icontvil/style.css",
+		"/Users/vin/Downloads/icontvil/style.css",
+		"/www/tvil/slim/nav_bottom.slim",
 		"/www/tvil/sass/tvil/_variables.scss",
 		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/slim/search.slim",
 		"/www/tvil/search.html",
-		"/www/tvil/slim/index.slim",
 		"/www/tvil/sass/tvil/_calendar.scss",
 		"/www/tvil/sass/bootstrap/_carousel.scss",
 		"/www/tvil/sass/_bootstrap.scss",
 		"/www/tvil/sass/tvil/_carousel.scss",
 		"/www/tvil/sass/bootstrap/_component-animations.scss",
 		"/www/tvil/slim/login.slim",
-		"/www/tvil/slim/head.slim",
 		"/www/tvil/sass/tvil/slider.scss",
 		"/www/tvil/index.html",
-		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/slim/sidebar-left-light.slim",
 		"/www/tvil/slim/sidebar-left.slim",
-		"/www/tvil/js/main.js",
 		"/www/tvil/js/bootstrap.min.js",
 		"/www/tvil/prepros.cfg",
 		"/www/tvil/sass/bootstrap/_popovers.scss",
@@ -616,8 +628,6 @@
 		"/www/tvil/sass/bootstrap/_jumbotron.scss",
 		"/www/tvil/css/bootstrap.css.map",
 		"/www/tvil/css/bootstrap.css",
-		"/www/tvil/slim/nav_bottom.slim",
-		"/www/tvil/slim/nav_bottom2.slim",
 		"/www/tvil/sass/bootstrap/_glyphicons.scss",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff2",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff",
@@ -715,9 +725,7 @@
 		"/www/cityquest/protected/runtime/profile.log",
 		"/www/cityquest/sass/admin_bootstrap/_variables.scss",
 		"/www/cityquest/sass/admin_bootstrap/dashboard.scss",
-		"/www/cityquest/protected/views/quest/admin.php",
-		"/www/cityquest/sass/admin_bootstrap/_type.scss",
-		"/www/cityquest/dump.rdb"
+		"/www/cityquest/protected/views/quest/admin.php"
 	],
 	"find":
 	{
@@ -776,6 +784,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"77",
+			"77px",
+			"77",
+			"dl-ho",
+			".column-2",
+			"select.",
+			"form-control-feedback",
+			"ащкь-сщтекщд-ауувифсл\nform-control-feedback",
+			"c6ccd4",
+			"=>",
+			"'affix",
+			"affix",
+			".sidebar-light",
+			".sidebar-left.sidebar-light",
+			"left",
+			"ww",
+			".sidebar-info",
+			"date",
+			"btn-de",
+			"background-color",
+			"icot",
 			"span\n                            |",
 			"dl-ho",
 			".pull-left",
@@ -882,28 +911,7 @@
 			"0,0,0,0",
 			".selected",
 			".search-result",
-			"search-result",
-			"form-cont",
-			".form",
-			"-3",
-			"f4f4f4",
-			"inset",
-			"0px #",
-			".search-results",
-			".form-control-feedback",
-			"rgba(194,194,194,1)",
-			"100%",
-			"30%",
-			"15%",
-			".img-responsive",
-			"img.",
-			"img src",
-			"357/229",
-			"icontvil",
-			"default",
-			".btn-default",
-			".i.",
-			"Hotel"
+			"search-result"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -930,15 +938,19 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37370,
+						"buffer_size": 38657,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32347,
-								32347
+								32423,
+								32423
+							],
+							[
+								32708,
+								32708
 							]
 						],
 						"settings":
@@ -1007,8 +1019,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 23654.0,
+						"translation.x": 3.0,
+						"translation.y": 9368.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1026,15 +1038,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 24331,
+						"buffer_size": 25864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21805,
-								21805
+								975,
+								975
 							]
 						],
 						"settings":
@@ -1104,7 +1116,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7511.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1112,19 +1124,19 @@
 				},
 				{
 					"buffer": 2,
-					"file": "slim/index.slim",
+					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10461,
+						"buffer_size": 4277,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2337,
-								2337
+								1803,
+								1803
 							]
 						],
 						"settings":
@@ -1132,56 +1144,56 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1189,12 +1201,11 @@
 								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 869.0,
+						"translation.y": 503.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1257,6 +1268,22 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"head",
+				"slim/head.slim"
+			],
+			[
+				"ico",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"na",
+				"slim/nav_bottom2.slim"
+			],
+			[
 				"var",
 				"sass/tvil/_variables.scss"
 			],
@@ -1297,10 +1324,6 @@
 				"slim/index.slim"
 			],
 			[
-				"main",
-				"js/main.js"
-			],
-			[
 				"slider",
 				"js/bootstrap-slider.js"
 			],
@@ -1318,10 +1341,6 @@
 			],
 			[
 				"icon",
-				"sass/tvil/icontvil.scss"
-			],
-			[
-				"ico",
 				"sass/tvil/icontvil.scss"
 			],
 			[
@@ -1347,10 +1366,6 @@
 			[
 				"nav",
 				"slim/nav_bottom.slim"
-			],
-			[
-				"na",
-				"slim/nav.slim"
 			],
 			[
 				"si",
@@ -1402,10 +1417,6 @@
 			],
 			[
 				"hed",
-				"slim/head.slim"
-			],
-			[
-				"head",
 				"slim/head.slim"
 			],
 			[

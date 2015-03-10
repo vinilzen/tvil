@@ -76,6 +76,15 @@ $(function(){
 		} else {
 			$('.affixtop').hide().css('height',0);
 		}
+
+		wh = $(window).height();
+
+		if (top_offset<60){
+			$('.sidebar-right.sidebar-right-obj')
+				.height(wh-60 + top_offset)
+		} else {
+			$('.sidebar-right.sidebar-right-obj').height(wh)
+		}
 	});
 
 	if ($('.slider').length) {
@@ -127,6 +136,40 @@ $(function(){
 
 	$('.search-mapmodal').click(function(){
 		$(this).fadeOut();
-	})
+	});
+
+	$('.sidebar-left.sidebar-light')
+		.on('affixed.bs.affix affixed-top.bs.affix',function(a,b,c){
+			var st = $(document).scrollTop();
+			console.log(st,a,b,c);
+			ww = $(window).width();
+
+
+
+			if ($(document).scrollTop()>=60){
+				if (ww>1440){
+					var left = (ww - 1440)/2;
+					$(this).css('left',left);
+				}
+			} else {
+				$(this).css('left',0);
+			}
+		});
+
+	$('.sidebar-right.sidebar-right-obj')
+		.height($(window).height()-60)
+		.on('affixed.bs.affix affixed-top.bs.affix',function(a,b,c){
+			var st = $(document).scrollTop();
+			console.log(st, a,b,c);
+			ww = $(window).width();
+			if ($(document).scrollTop()>=60){
+				if (ww>1440){
+					var right = (ww - 1440)/2;
+					$(this).css('right',right);
+				}
+			} else {
+				$(this).css('right',0);
+			}
+		});
 
 });

@@ -5,595 +5,598 @@ html
   body
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
-    .container-wrapper.container-wrapper-obj
-      .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
-        == Slim::Template.new("sidebar-left-light.slim").render
-      .main.obj
-        .container-fluid
-          .media.media-head
-            .media-left
-              a href="#"
-                img.img-circle src="../img/ava.jpg" width="56" height="56" alt=""
-              span Сергей
-            .media-body
-              h1 Люкс квартира в 100 метрах от моря
-              p Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
-          hr.hr-obj
-          .row.row-main
-            .col-sm-12
-              .carousel.slide data-ride="carousel"
-                .carousel-inner
-                  .item.active
-                    img.img-responsive width="1400" src="../img/home.jpg" alt=""
-                  .item
-                    img.img-responsive width="1400" src="../img/home1.jpg" alt=""
-                
-                a.left.carousel-control href="#carousel-example-generic" role="button" data-slide="prev"
-                  span.glyphicon.glyphicon-menu-left aria-hidden="true"
-                a.right.carousel-control href="#carousel-example-generic" role="button" data-slide="next"
-                  span.glyphicon.glyphicon-menu-right aria-hidden="true"
-                
-                .carousel-preview
-                  ul
-                    li
-                      a.active
-                        img src="../img/home_prev1.jpg"
-                    li
-                      a
-                        img src="../img/home_prev2.jpg"
-                    li
-                      a
-                        img src="../img/home_prev3.jpg"
-                    li
-                      a
-                        img src="../img/home_prev4.jpg"
-              .row
-                dl.dl-horizontal
-                  dt
-                    h3 Описание:
-                  dd 
-                    p Мини-отель уютно расположился в восточном пригороде г.Ялтa, п.г.т.Массандре, на окраине крупнейшего в Крыму Массандровского парка. Массандровский парк заложен в
-                    p Подро первой половине ХIХ в. и занимает 42 га. Пансионат 
-                    a href="#" Подробнее
-                dl.dl-horizontal
-                  dt 
-                    h3 Характеристики:
-                  dd 
-                    ul.list-unstyled.column-2
-                      li 
-                        span.glyphicon.glyphicon-signal
-                        span.txt Wi-Fi в номере
-                      li 
-                        span.glyphicon.glyphicon-glass
-                        span.txt Ресторан
-                      li 
-                        span.glyphicon.glyphicon-film
-                        span.txt Общая кухня
-                      li 
-                        span.glyphicon.glyphicon-globe
-                        span.txt Терраса
-                      li 
-                        span.glyphicon.glyphicon-knight
-                        span.txt Бильярд
-                dl.dl-horizontal
-                  dt 
-                    h3 Питание:
-                  dd
-                    ul.list-unstyled
+    .container-wrapper-center
+      .container-wrapper.container-wrapper-obj
+        .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
+          == Slim::Template.new("sidebar-left-light.slim").render
+        .main.obj
+          .container-fluid
+            .media.media-head
+              .media-left
+                a href="#"
+                  img.img-circle src="../img/ava.jpg" width="56" height="56" alt=""
+                span Сергей
+              .media-body
+                h1 Люкс квартира в 100 метрах от моря
+                p Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
+            hr.hr-obj
+            .row.row-main
+              .col-sm-12
+                .carousel.slide data-ride="carousel"
+                  .carousel-inner
+                    .item.active
+                      img.img-responsive width="1400" src="../img/home.jpg" alt=""
+                    .item
+                      img.img-responsive width="1400" src="../img/rock.jpg" alt=""
+                    .item
+                      img.img-responsive width="1400" src="../img/home1.jpg" alt=""
+                  
+                  a.left.carousel-control href="#carousel-example-generic" role="button" data-slide="prev"
+                    span.glyphicon.glyphicon-menu-left aria-hidden="true"
+                  a.right.carousel-control href="#carousel-example-generic" role="button" data-slide="next"
+                    span.glyphicon.glyphicon-menu-right aria-hidden="true"
+                  
+                  .carousel-preview
+                    ul
                       li
-                        p 
-                          | Завтрак — Шведский стол
-                          em (оплачивается отдельно)
+                        a.active
+                          img src="../img/home_prev1.jpg"
                       li
-                        p 
-                          | Обед — по меню
-                          em (включено в стоимость)
-                      li
-                        p Ужин — нет
-                dl.dl-horizontal
-                  dt 
-                    h3 Услуги и удобства:
-                  dd
-                    ul.column-2.list-dotted
-                      li
-                        p Постельное белье для всех гостей
-                      li
-                        p Смена постельного белья
-                      li
-                        p Отрансфер от ж/д вокзала
-                      li
-                        p Трансфер до ж/д вокзала
-                      li
-                        p Уборка в номере
-                dl.dl-horizontal
-                  dt 
-                    h3 Особенности:
-                  dd
-                    ul.column-2.list-dotted
-                      li
-                        p На территории отеля проживают животные
-                      li
-                        p.text-danger В отеле только холодная вода
-                dl.dl-horizontal
-                  dt 
-                    h3 Ограничения:
-                  dd
-                    ul.column-2.list-dotted
-                      li
-                        p В номерах курить запрещено
-                      li
-                        p Можно с домашними животными
-                      li
-                        p Не принимаем с детьми до 2 лет
-                      li
-                        p Разрешено для шумных компаний
-                      li
-                        p Разрешено проведение мероприятий
-              .row.row-gray
-                .col-sm-12
-                  h2.h2-obj Календарь занятости
-                  .calendar
-                    .row
-                      .col-sm-4.text-left
-                        a.btn.btn-default
-                          span.glyphicon.glyphicon-menu-left
-                        a.btn.btn-link Январь 2015
-                      .col-sm-4
-                        select.form-control
-                          option Февраль 2015
-                          option Март 2015
-                          option Апрель 2015
-                      .col-sm-4.text-right
-                        a.btn.btn-link Март 2015
-                        a.btn.btn-default
-                          span.glyphicon.glyphicon-menu-right
-                    .row.row-tbl
-                      table.table.table-bordered
-                        thead
-                          tr
-                            th ПН
-                            th ВТ
-                            th СР
-                            th ЧТ
-                            th ПТ
-                            th СБ
-                            th ВС
-                        tbody
-                          tr
-                            td.selected
-                              .box
-                                span.month
-                                span.date 31
-                                span.price
-                            td.selected
-                              .box
-                                span.month Фев
-                                span.date 1
-                                span.price
-                            td.selected
-                              .box
-                                span.month
-                                span.date 2
-                                span.price
-                            td.selected
-                              .box
-                                span.month
-                                span.date 3
-                                span.price
-                            td.selected
-                              .box
-                                span.month
-                                span.date 4
-                                span.price
-                            td.selected
-                              .box
-                                span.month
-                                span.date 5
-                                span.price
-                            td.selected
-                              .box
-                                span.month
-                                span.date 6
-                                span.price
-                          tr
-                            td.selected
-                              .box
-                                span.month
-                                span.date 7
-                                span.price
-                            td.selected-half-end
-                              .box
-                                span.month
-                                span.date 8
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 9
-                                span.price 1200 р.
-                            td.selected-half-start
-                              .box
-                                span.month
-                                span.date 10
-                                span.price 1200 р.
-                            td.selected
-                              .box
-                                span.month
-                                span.date 11
-                                span.price 1200 р.
-                            td.selected-half-end
-                              .box
-                                span.month
-                                span.date 12
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 13
-                                span.price 1200 р.
-                          tr
-                            td
-                              .box
-                                span.month
-                                span.date 14
-                                span.price
-                            td
-                              .box
-                                span.month
-                                span.date 15
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 16
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 17
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 18
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 19
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 20
-                                span.price 1200 р.
-                          tr
-                            td
-                              .box
-                                span.month
-                                span.date 21
-                                span.price
-                            td
-                              .box.selected-half
-                                span.month
-                                span.date 22
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 23
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 24
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 25
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 26
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 27
-                                span.price 1200 р.
-                          tr
-                            td
-                              .box
-                                span.month
-                                span.date 28
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 29
-                                span.price 1200 р.
-                            td
-                              .box.book
-                                span.month
-                                span.date 30
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month Мар
-                                span.date 31
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 1
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 2
-                                span.price 1200 р.
-                            td
-                              .box
-                                span.month
-                                span.date 3
-                                span.price 1200 р.
-                    .row.calendar-info
-                      .col-sm-12
-                        p
-                          span.select Занято
-                          span.free Свободно
-                          span.booked Забронировано
-              .row.row-white
-                .col-sm-12
-                  h2.h2-obj Отзывы (2)
-                  .media-rate
-                    .media
-                      .media-left
-                        a href="#"
-                          img.img-circle src="../img/ava.jpg" width="56" height="56"
-                      .media-body
-                        p 
-                          | Время поездки: 
-                          span с 24.05.14 по 10.06.2014 
-                          | из Новороссийска
-                        .row
-                          .col-sm-6
-                            .row
-                              .col-sm-7.rate-label
-                                label Соответствие фото
-                                label Комфорт
-                                label Чистота
-                                label Хозяин/персонал
-                                label Расположение
-                              .col-sm-5
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                          .col-sm-6
-                            p.rate-text
-                              | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
-                              br
-                              a href="#" подробнее
-
-                    .media
-                      .media-left
-                        a href="#"
-                          img.img-circle src="../img/ava.jpg" width="56" height="56"
-                      .media-body
-                        p 
-                          | Время поездки: 
-                          span с 24.05.14 по 10.06.2014 
-                          | из Новороссийска
-                        .row
-                          .col-sm-6
-                            .row
-                              .col-sm-7.rate-label
-                                label Соответствие фото
-                                label Комфорт
-                                label Чистота
-                                label Хозяин/персонал
-                                label Расположение
-                              .col-sm-5
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point
-                                  .point
-                                  .point
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                .rate
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point.point-checked
-                                  .point
-                                  .point
-                          .col-sm-6
-                            p.rate-text
-                              | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
-                              br
-                              a href="#" подробнее
-                    == Slim::Template.new("pagination.slim").render
-              .row.row-gray
-                .col-sm-12
-                  h2.h2-obj Владелец
-                  h3.h3-obj Сергей и Татьяна
-                  .owner
-                    .media
-                      .media-left
                         a
-                          img src="../img/ava200.png" width="200" height="200" alt=""/
-                      .media-body
-                        dl.dl-horizontal
-                          dt На сайте: 
-                          dd с 25 мая 2013
-                          dt Последний раз:
-                          dd 24 июля 2014, 17:47
-                          dt Отзывы:
-                          dd 86% положительных
-                          dt Рейтинг:
-                          dd 4,3 из 5
-                          dt Статус:
-                          dd Проверенный владелец
-                          dt Телефон:
-                          dd
-                            strong + 7 952
-                            .btn.btn-default Показать телефон
-                    p Мы живем в Ялте и содержим небольшой отель. Работаем неподалеку и с радостью принимаем гостей круглый год. Приезжайте и наслаждайтесь природой, и морем.
-                    .btn.btn-default Написать владельцу
-              .row.row-gray
-                .col-sm-12
-                  h2.h2-obj.h2-obj-margintop Расположение отеля
-                  .ya_map_sm
-                    p
-                      i.icontvil.icontvil-Mini_Pin
-                      | Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
-                    img src="../img/ymap.png"
+                          img src="../img/home_prev2.jpg"
+                      li
+                        a
+                          img src="../img/home_prev3.jpg"
+                      li
+                        a
+                          img src="../img/home_prev4.jpg"
+                .row
+                  dl.dl-horizontal
+                    dt
+                      h3 Описание:
+                    dd 
+                      p Мини-отель уютно расположился в восточном пригороде г.Ялтa, п.г.т.Массандре, на окраине крупнейшего в Крыму Массандровского парка. Массандровский парк заложен в
+                      p Подро первой половине ХIХ в. и занимает 42 га. Пансионат 
+                      a href="#" Подробнее
+                  dl.dl-horizontal
+                    dt 
+                      h3 Характеристики:
+                    dd 
+                      ul.list-unstyled.column-2
+                        li 
+                          span.glyphicon.glyphicon-signal
+                          span.txt Wi-Fi в номере
+                        li 
+                          span.glyphicon.glyphicon-glass
+                          span.txt Ресторан
+                        li 
+                          span.glyphicon.glyphicon-film
+                          span.txt Общая кухня
+                        li 
+                          span.glyphicon.glyphicon-globe
+                          span.txt Терраса
+                        li 
+                          span.glyphicon.glyphicon-knight
+                          span.txt Бильярд
+                  dl.dl-horizontal
+                    dt 
+                      h3 Питание:
+                    dd
+                      ul.list-unstyled
+                        li
+                          p 
+                            | Завтрак — Шведский стол
+                            em (оплачивается отдельно)
+                        li
+                          p 
+                            | Обед — по меню
+                            em (включено в стоимость)
+                        li
+                          p Ужин — нет
+                  dl.dl-horizontal
+                    dt 
+                      h3 Услуги и удобства:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p Постельное белье для всех гостей
+                        li
+                          p Смена постельного белья
+                        li
+                          p Отрансфер от ж/д вокзала
+                        li
+                          p Трансфер до ж/д вокзала
+                        li
+                          p Уборка в номере
+                  dl.dl-horizontal
+                    dt 
+                      h3 Особенности:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p На территории отеля проживают животные
+                        li
+                          p.text-danger В отеле только холодная вода
+                  dl.dl-horizontal
+                    dt 
+                      h3 Ограничения:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p В номерах курить запрещено
+                        li
+                          p Можно с домашними животными
+                        li
+                          p Не принимаем с детьми до 2 лет
+                        li
+                          p Разрешено для шумных компаний
+                        li
+                          p Разрешено проведение мероприятий
+                .row.row-gray
+                  .col-sm-12
+                    h2.h2-obj Календарь занятости
+                    .calendar
+                      .row
+                        .col-sm-4.text-left
+                          a.btn.btn-default
+                            span.glyphicon.glyphicon-menu-left
+                          a.btn.btn-link Январь 2015
+                        .col-sm-4
+                          select.form-control
+                            option Февраль 2015
+                            option Март 2015
+                            option Апрель 2015
+                        .col-sm-4.text-right
+                          a.btn.btn-link Март 2015
+                          a.btn.btn-default
+                            span.glyphicon.glyphicon-menu-right
+                      .row.row-tbl
+                        table.table.table-bordered
+                          thead
+                            tr
+                              th ПН
+                              th ВТ
+                              th СР
+                              th ЧТ
+                              th ПТ
+                              th СБ
+                              th ВС
+                          tbody
+                            tr
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 31
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month Фев
+                                  span.date 1
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 2
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 3
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 4
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 5
+                                  span.price
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 6
+                                  span.price
+                            tr
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 7
+                                  span.price
+                              td.selected-half-end
+                                .box
+                                  span.month
+                                  span.date 8
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 9
+                                  span.price 1200 р.
+                              td.selected-half-start
+                                .box
+                                  span.month
+                                  span.date 10
+                                  span.price 1200 р.
+                              td.selected
+                                .box
+                                  span.month
+                                  span.date 11
+                                  span.price 1200 р.
+                              td.selected-half-end
+                                .box
+                                  span.month
+                                  span.date 12
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 13
+                                  span.price 1200 р.
+                            tr
+                              td
+                                .box
+                                  span.month
+                                  span.date 14
+                                  span.price
+                              td
+                                .box
+                                  span.month
+                                  span.date 15
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 16
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 17
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 18
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 19
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 20
+                                  span.price 1200 р.
+                            tr
+                              td
+                                .box
+                                  span.month
+                                  span.date 21
+                                  span.price
+                              td
+                                .box.selected-half
+                                  span.month
+                                  span.date 22
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 23
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 24
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 25
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 26
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 27
+                                  span.price 1200 р.
+                            tr
+                              td
+                                .box
+                                  span.month
+                                  span.date 28
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 29
+                                  span.price 1200 р.
+                              td
+                                .box.book
+                                  span.month
+                                  span.date 30
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month Мар
+                                  span.date 31
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 1
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 2
+                                  span.price 1200 р.
+                              td
+                                .box
+                                  span.month
+                                  span.date 3
+                                  span.price 1200 р.
+                      .row.calendar-info
+                        .col-sm-12
+                          p
+                            span.select Занято
+                            span.free Свободно
+                            span.booked Забронировано
+                .row.row-white
+                  .col-sm-12
+                    h2.h2-obj Отзывы (2)
+                    .media-rate
+                      .media
+                        .media-left
+                          a href="#"
+                            img.img-circle src="../img/ava.jpg" width="56" height="56"
+                        .media-body
+                          p 
+                            | Время поездки: 
+                            span с 24.05.14 по 10.06.2014 
+                            | из Новороссийска
+                          .row
+                            .col-sm-6
+                              .row
+                                .col-sm-7.rate-label
+                                  label Соответствие фото
+                                  label Комфорт
+                                  label Чистота
+                                  label Хозяин/персонал
+                                  label Расположение
+                                .col-sm-5
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                            .col-sm-6
+                              p.rate-text
+                                | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                br
+                                a href="#" подробнее
+
+                      .media
+                        .media-left
+                          a href="#"
+                            img.img-circle src="../img/ava.jpg" width="56" height="56"
+                        .media-body
+                          p 
+                            | Время поездки: 
+                            span с 24.05.14 по 10.06.2014 
+                            | из Новороссийска
+                          .row
+                            .col-sm-6
+                              .row
+                                .col-sm-7.rate-label
+                                  label Соответствие фото
+                                  label Комфорт
+                                  label Чистота
+                                  label Хозяин/персонал
+                                  label Расположение
+                                .col-sm-5
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                            .col-sm-6
+                              p.rate-text
+                                | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                br
+                                a href="#" подробнее
+                      == Slim::Template.new("pagination.slim").render
+                .row.row-gray
+                  .col-sm-12
+                    h2.h2-obj Владелец
+                    h3.h3-obj Сергей и Татьяна
+                    .owner
+                      .media
+                        .media-left
+                          a
+                            img src="../img/ava200.png" width="200" height="200" alt=""/
+                        .media-body
+                          dl.dl-horizontal
+                            dt На сайте: 
+                            dd с 25 мая 2013
+                            dt Последний раз:
+                            dd 24 июля 2014, 17:47
+                            dt Отзывы:
+                            dd 86% положительных
+                            dt Рейтинг:
+                            dd 4,3 из 5
+                            dt Статус:
+                            dd Проверенный владелец
+                            dt Телефон:
+                            dd
+                              strong + 7 952
+                              .btn.btn-default Показать телефон
+                      p Мы живем в Ялте и содержим небольшой отель. Работаем неподалеку и с радостью принимаем гостей круглый год. Приезжайте и наслаждайтесь природой, и морем.
+                      .btn.btn-default Написать владельцу
+                .row.row-gray
+                  .col-sm-12
+                    h2.h2-obj.h2-obj-margintop Расположение отеля
+                    .ya_map_sm
+                      p
+                        i.icontvil.icontvil-Mini_Pin
+                        | Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
+                      img src="../img/ymap.png"
+                .row
+                  dl.dl-horizontal
+                    dt 
+                      h3 Места рядом с гостиницей:
+                    dd
+                      ul.list-unstyled.column-2.places
+                        li
+                          p
+                            span Кинотеатр 
+                            span.light
+                              | (500 м)
+                        li
+                          p
+                            span Театр 
+                            span.light
+                              | (1.5 км)
+                        li
+                          p
+                            span Казино 
+                            span.light
+                              | (900 м)
+                        li
+                          p
+                            span Охота 
+                            span.light
+                              | (2.5 км)
+                        li
+                          p
+                            span Продуктовый магазин 
+                            span.light
+                              | (2.5 км)
+                        li
+                          p
+                            span Центр города 
+                            span.light
+                              | (2.1 км)
+
+                  dl.dl-horizontal
+                    dt 
+                      h3 Досуг рядом:
+                    dd
+                      p Шезлонги, Терраса, Барбекю, Мангал, Парковка для автомобилей, Ресторан, Бассейн
+
+                  dl.dl-horizontal
+                    dt 
+                      h3 Обратите внимание:
+                    dd
+                      p Охраняемая территория
+                .row.affixtop
+                  h1.h1-fixtop Люкс квартира в 100 метрах от моря
+                  button.btn.btn-darkgray
+                    i.icontvil.icontvil-Arrow_Up
+        .sidebar-right.sidebar-right-obj data-spy="affix" data-offset-top="60"
+          form.form
+            .fix-top
               .row
-                dl.dl-horizontal
-                  dt 
-                    h3 Места рядом с гостиницей:
-                  dd
-                    ul.list-unstyled.column-2.places
-                      li
-                        p
-                          span Кинотеатр 
-                          span.light
-                            | (500 м)
-                      li
-                        p
-                          span Театр 
-                          span.light
-                            | (1.5 км)
-                      li
-                        p
-                          span Казино 
-                          span.light
-                            | (900 м)
-                      li
-                        p
-                          span Охота 
-                          span.light
-                            | (2.5 км)
-                      li
-                        p
-                          span Продуктовый магазин 
-                          span.light
-                            | (2.5 км)
-                      li
-                        p
-                          span Центр города 
-                          span.light
-                            | (2.1 км)
-
-                dl.dl-horizontal
-                  dt 
-                    h3 Досуг рядом:
-                  dd
-                    p Шезлонги, Терраса, Барбекю, Мангал, Парковка для автомобилей, Ресторан, Бассейн
-
-                dl.dl-horizontal
-                  dt 
-                    h3 Обратите внимание:
-                  dd
-                    p Охраняемая территория
-              .row.affixtop
-                h1.h1-fixtop Люкс квартира в 100 метрах от моря
-                button.btn.btn-darkgray
-                  i.icontvil.icontvil-Arrow_Up
-      .sidebar-right.sidebar-right-obj data-spy="affix" data-offset-top="60"
-        form.form
-          .fix-top
-            .row
-              .col-sm-12.text-center.price-start
-                h2 от 2000 рублей
-                span
-                  i.icontvil.icontvil-Exclamation
-                  | Даты и гости не выбраны
-            .row
-              .col-sm-6.col-left
-                .form-group.has-feedback.pull-right
-                  input.form-control type="text" placeholder="Заезд"
-                  i.icontvil.icontvil-Date_Inn.form-control-feedback
-              .col-sm-6.col-right
-                .form-group.has-feedback
-                  input.form-control type="text" placeholder="Отъезд"
-                  i.icontvil.icontvil-Date_Out.form-control-feedback
-              .col-sm-6.col-left
-                .form-group.has-feedback.pull-right
-                  select.form-control
-                    option 0
-                    option 1
-                  i.icontvil.icontvil-Male.form-control-feedback
-              .col-sm-6.col-right
-                .form-group.has-feedback
-                  select.form-control
-                    option 0
-                    option 1
-                  i.icontvil.icontvil-Children.form-control-feedback
-              .col-sm-12.text-center.calculate
-                .btn.btn-danger.btn-block Рассчитать стоимость
-          .row.sidebar-info
-            .col-sm-6.text-center
-              p
-                strong 86%
-              p положительных отзывов
-            .col-sm-6.text-center
-              p
-                strong 13
-              p бронирований проведено
-            .col-sm-12.text-center.col-share
-              .btn.btn-default
-                i.icontvil.icontvil-Empty_Hurt
-                | В избранное
-              .btn.btn-default
-                i.icontvil.icontvil-Go_Out
-                | Рассказать друзьям
+                .col-sm-12.text-center.price-start
+                  h2 2000 рублей за сутки
+              .row
+                .col-sm-6.col-left
+                  .form-group.has-feedback.pull-right
+                    input.form-control type="text" placeholder="Заезд"
+                    i.icontvil.icontvil-Date_Inn.form-control-feedback
+                .col-sm-6.col-right
+                  .form-group.has-feedback
+                    input.form-control type="text" placeholder="Отъезд"
+                    i.icontvil.icontvil-Date_Out.form-control-feedback
+                .col-sm-6.col-left
+                  .form-group.has-feedback
+                    select.form-control
+                      option 0
+                      option 1
+                    i.icontvil.icontvil-Male.form-control-feedback
+                .col-sm-6.col-right
+                  .form-group.has-feedback
+                    select.form-control
+                      option 0
+                      option 1
+                    i.icontvil.icontvil-Children.form-control-feedback
+                .col-sm-12.text-center.calculate
+                  span.msg-info
+                    i.icontvil.icontvil-Exclamation
+                    | Даты и гости не выбраны
+                  .btn.btn-danger.btn-block Рассчитать стоимость
+            .row.sidebar-info data-spy="affix" data-offset-bottom="0"
+              .col-sm-6.text-center
+                p
+                  strong 86%
+                p положительных отзывов
+              .col-sm-6.text-center
+                p
+                  strong 13
+                p бронирований проведено
+              .col-sm-12.text-center.col-share
+                .btn.btn-default
+                  i.icontvil.icontvil-Empty_Hurt
+                  | В избранное
+                .btn.btn-default
+                  i.icontvil.icontvil-Go_Out
+                  | Рассказать друзьям
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"
