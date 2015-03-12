@@ -1,0 +1,303 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper.container-wrapper-cabinet
+      .sidebar-left.sidebar-cabinet data-spy="affix" data-offset-top="60"
+        .sidebar-scroll#js-sidebar-scroll
+          ul.nav.nav-sidebar
+            li.active
+              a href="#"
+                i.icontvil.icontvil-Bubl
+                | Мой кабинет
+            li
+              a href="#"
+                i.icontvil.icontvil-Pointer
+                | Заявки на бронь
+            li
+              a href="#"
+                i.icontvil.icontvil-List
+                | Мои брони
+            li
+              a href="#"
+                i.icontvil.icontvil-Table
+                | Мои объявления
+            li
+              a href="#"
+                i.icontvil.icontvil-Table
+                | Сообщения
+            li
+              a href="#"
+                i.icontvil.icontvil-Wallet
+                | Кошелек
+            li
+              a href="#"
+                i.icontvil.icontvil-Settings
+                | Настройки
+            li
+              a href="#"
+                i.icontvil.icontvil-Star_Empty
+                | Избранное
+      .main.main-cabinet
+      	h1.page-header Мой кабинет
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet.h3-cabinet-first Неподтвержденные запросы:
+            .media-request
+              .media
+                .media-left
+                  a
+                    img src="../img/m.jpg" alt="" width="190" height="140"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p 2-х местный номер, Улучшеный
+                  dl.dl-horizontal
+                    dt Даты поездки:
+                    dd 21.01.14 - 31.01.14
+                    dt Запрос №:
+                    dd 452367
+                  .btn.btn-default.pull-right Рассмотреть запрос
+                  span.label.label-success.pull-right Оплачено
+              .media
+                .media-left
+                  a
+                    img src="../img/m1.jpg" alt="" width="190" height="140"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p 2-х местный номер, Улучшеный
+                  dl.dl-horizontal
+                    dt Даты поездки:
+                    dd 21.01.14 - 31.01.14
+                    dt Запрос №:
+                    dd 123456
+                  .btn.btn-default.pull-right Рассмотреть запрос
+                  span.label.label-danger.pull-right Оплачено, Ожидает подтверждения
+            p
+              a.a-request href="#" Перейти ко всем запросам
+
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet Подтвердите E-mail:
+            form.form-inline
+              .form-group
+                input.form-control type="email" placeholder="jane.doe@example.com"
+                a.dotted href="#" Изменить
+            .two-btn
+              p На указанный адрес отправлено письмо. Для подтверждения перейдите по ссылке из письма, либо введите код вручную, нажав на кнопку "Проверить E-mail"
+              .btn.btn-default
+                i.icontvil.icontvil-Download.icontvil-margin-right.icon-red
+                | Отправить письмо повторно
+              .btn.btn-default 
+                i.icontvil.icontvil-Download.icontvil-margin-right.icon-red
+                | Проверить e-mail
+
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet Подзаголовки:
+            form.row
+              .form-group.col-sm-4
+                label Общее количество номеров
+                select.form-control
+                  option 1
+                  option 2
+      
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet Номер телефона:
+            p На указанный номер телефона Вам будут приходить уведомления о состоянии заявки и новых сообщениях.
+            form.row
+              .form-group.col-sm-4
+                label Укажите страну
+                select.form-control
+                  option Россия
+                  option Беларусь
+              .form-group.col-sm-4
+                label Укажите номер телефона
+                .input-group
+                  span.input-group-addon +7
+                  input.form-control placeholder="952-377-__-__" value="952-377"
+            .btn.btn-default 
+              i.icontvil.icontvil-Download.icontvil-margin-right.icon-red
+              | Отправить SMS с кодом
+
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet Объекты требующие вашего внимания:
+            .media-request
+              .media
+                .media-left
+                  a
+                    img src="../img/m.jpg" alt="" width="190" height="140"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p Адлер, Сочи
+                  
+
+
+                  label.activity
+                    | Активно
+                    input.flat type="checkbox" name="choice"
+                    .check-custom
+                  .btn.btn-default.text-center.pull-right.btn-edit Редактировать
+                  .btn.btn-default.text-center.pull-right Календарь
+              .media
+                .media-left
+                  a
+                    img src="../img/m1.jpg" alt="" width="190" height="140"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p Адлер, Сочи
+                  p.text-danger Заполните обязательные поля в следующих разделах:
+                  ul.list-unstyled.column-2
+                    li 
+                      a href="#" Описание
+                    li 
+                      a href="#" Характеристики
+                    li 
+                      a href="#" Календарь
+                    li 
+                      a href="#" Цены
+                    li 
+                      a href="#" Описание
+                    li 
+                      a href="#" Характеристики
+                    li 
+                      a href="#" Календарь
+                    li 
+                      a href="#" Цены
+
+                  label.activity
+                    | Неактивно
+                    input.flat type="checkbox" name="choice" checked="checked"
+                    .check-custom
+                  .btn.btn-default.text-center.pull-right.btn-edit Редактировать
+                  .btn.btn-default.text-center.pull-right Календарь
+
+
+        .row.row-cab
+          .col-sm-12
+            h3.h3-cabinet Отзывы о ваших объектах:
+            .media-rate.media-rate-cabinet
+              .media
+                .media-left
+                  a href="#"
+                    img.img-circle src="../img/ava.jpg" width="56" height="56"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p 
+                    | Время поездки: 
+                    span с 24.05.14 по 10.06.2014 
+                    | из Новороссийска 
+                    i.icontvil.icontvil-Male
+                    i.icontvil.icontvil-Male
+                    i.icontvil.icontvil-Children
+                  .row
+                    .col-sm-6
+                      .row
+                        .col-sm-7.rate-label
+                          label Соответствие фото
+                          label Комфорт
+                          label Чистота
+                          label Хозяин/персонал
+                          label Расположение
+                        .col-sm-5
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point
+                            .point
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                    .col-sm-6
+                      p.rate-text
+                        | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                        br
+                        a href="#" подробнее
+
+              .media
+                .media-left
+                  a href="#"
+                    img.img-circle src="../img/ava.jpg" width="56" height="56"
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5
+                  p 
+                    | Время поездки: 
+                    span с 24.05.14 по 10.06.2014 
+                    | из Новороссийска
+                  .row
+                    .col-sm-6
+                      .row
+                        .col-sm-7.rate-label
+                          label Соответствие фото
+                          label Комфорт
+                          label Чистота
+                          label Хозяин/персонал
+                          label Расположение
+                        .col-sm-5
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point
+                            .point
+                            .point
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                          .rate
+                            .point.point-checked
+                            .point.point-checked
+                            .point.point-checked
+                            .point
+                            .point
+                    .col-sm-6
+                      p.rate-text
+                        | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                        br
+                        a href="#" подробнее
+
+
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

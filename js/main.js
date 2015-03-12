@@ -81,9 +81,12 @@ $(function(){
 
 		if (top_offset<60){
 			$('.sidebar-right.sidebar-right-obj')
-				.height(wh-60 + top_offset)
+				.height(wh-60 + top_offset);
+			$('.sidebar-left.sidebar-cabinet')
+				.height(wh-60 + top_offset);
 		} else {
 			$('.sidebar-right.sidebar-right-obj').height(wh)
+			$('.sidebar-left.sidebar-cabinet').height(wh);
 		}
 	});
 
