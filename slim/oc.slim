@@ -1,0 +1,340 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper-center
+      .container-wrapper.container-wrapper-obj
+        .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
+          == Slim::Template.new("sidebar-left-light.slim").render
+        .main.obj
+          .container-fluid
+            .media.media-head
+              .media-left
+                a href="#"
+                  img.img-circle src="../img/ava.jpg" width="56" height="56" alt=""
+                span Сергей
+              .media-body
+                h1 Люкс квартира в 100 метрах от моря
+                p Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
+            hr.hr-obj
+            .row.row-main
+              .col-sm-12
+                .carousel.slide data-ride="carousel"
+                  .carousel-inner
+                    .item.active
+                      img.img-responsive src="../img/371352.jpeg" alt=""
+                    .item
+                      img.img-responsive src="../img/371354.jpeg" alt=""
+                    .item
+                      img.img-responsive src="../img/371355.jpeg" alt=""
+                    .item
+                      img.img-responsive src="../img/371356.jpeg" alt=""
+                    .item
+                      img.img-responsive src="../img/371359.jpeg" alt=""
+                    .item
+                      img.img-responsive src="../img/371360.jpeg" alt=""
+                  
+                  a.left.carousel-control href="#carousel-example-generic" role="button" data-slide="prev"
+                    i.icontvil.icontvil-Arrow_Big_Slider_Left aria-hidden="true"
+                  a.right.carousel-control href="#carousel-example-generic" role="button" data-slide="next"
+                    i.icontvil.icontvil-Arrow_Big_Slider_Right aria-hidden="true"
+                  
+                  .carousel-preview
+                    ul
+                      li
+                        a.active
+                          img src="../img/home_prev1.jpg"
+                      li
+                        a
+                          img src="../img/home_prev2.jpg"
+                      li
+                        a
+                          img src="../img/home_prev3.jpg"
+                      li
+                        a
+                          img src="../img/home_prev4.jpg"
+                .row
+                  dl.dl-horizontal
+                    dt
+                      h3 Описание:
+                    dd 
+                      p Мини-отель уютно расположился в восточном пригороде г.Ялтa, п.г.т.Массандре, на окраине крупнейшего в Крыму Массандровского парка. Массандровский парк заложен в
+                      p Подро первой половине ХIХ в. и занимает 42 га. Пансионат 
+                      a href="#" Подробнее
+                  dl.dl-horizontal
+                    dt 
+                      h3 Характеристики:
+                    dd
+                      ul.list-unstyled.column-2
+                        li 
+                          span.glyphicon.glyphicon-signal
+                          span.txt Wi-Fi в номере
+                        li 
+                          span.glyphicon.glyphicon-glass
+                          span.txt Ресторан
+                        li 
+                          span.glyphicon.glyphicon-film
+                          span.txt Общая кухня
+                        li 
+                          span.glyphicon.glyphicon-globe
+                          span.txt Терраса
+                        li 
+                          span.glyphicon.glyphicon-knight
+                          span.txt Бильярд
+                  dl.dl-horizontal
+                    dt 
+                      h3 Питание:
+                    dd
+                      ul.list-unstyled
+                        li
+                          p 
+                            | Завтрак — Шведский стол
+                            em (оплачивается отдельно)
+                        li
+                          p 
+                            | Обед — по меню
+                            em (включено в стоимость)
+                        li
+                          p Ужин — нет
+                  dl.dl-horizontal
+                    dt 
+                      h3 Услуги и удобства:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p Постельное белье для всех гостей
+                        li
+                          p Смена постельного белья
+                        li
+                          p Отрансфер от ж/д вокзала
+                        li
+                          p Трансфер до ж/д вокзала
+                        li
+                          p Уборка в номере
+                  dl.dl-horizontal
+                    dt 
+                      h3 Особенности:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p На территории отеля проживают животные
+                        li
+                          p.text-danger В отеле только холодная вода
+                  dl.dl-horizontal
+                    dt 
+                      h3 Ограничения:
+                    dd
+                      ul.column-2.list-dotted
+                        li
+                          p В номерах курить запрещено
+                        li
+                          p Можно с домашними животными
+                        li
+                          p Не принимаем с детьми до 2 лет
+                        li
+                          p Разрешено для шумных компаний
+                        li
+                          p Разрешено проведение мероприятий
+                .row.row-gray
+                  .col-sm-12.col-categories
+                    h2.h2-obj Категории номеров
+
+                    .category
+                      .col-sm-12.col-category
+                        .row
+                          .col-sm-12
+                            h3 2-х комнатный люкс с террассой № 223
+                          .col-sm-6
+                            .row.category-photo
+                              .col-sm-9
+                                a.search-photo href="#"
+                                  img src="img/img-example2.jpg"
+                              .col-sm-3.search-thumbs
+                                a href="#"
+                                  img src="../img/img-sme2.jpg"
+                                a href="#"
+                                  img src="../img/img-sme1.jpg"
+                                a href="#"
+                                  img src="../img/img-sme3.jpg"
+                                a href="#"
+                                  img src="../img/img-sme1.jpg"
+                          .col-sm-6.text-center.search-offer
+                            h4
+                              | от
+                              strong
+                                | 1500
+                                i.icontvil.icontvil-Rubl
+                              | за сутки
+                            p
+                              | Завтрак включен
+                              br
+                              | Wi-Fi интернет
+                              br
+                              | 2 кровати
+                            .btn.btn-danger.btn-lg.btn-danger-empty Уточнить даты
+                          .col-sm-12.collapse.in.collapse-descr
+                            p Просторный и уютный семейный номер отлично подходит для путешественников с детьми или просто компании близких друзей. Номер рассчитан на 2/4 человека. Семейный номер с большой двухъярусной кроватью (двуспальная и односпальная).
+                            dl.dl-horizontal
+                              dt Виды из окна:
+                              dd на море, на реку, на горы, на внутренний двор
+                            dl.dl-horizontal.dl-last
+                              dt Удобства:
+                              dd
+                                ul.list-unstyled.column-2
+                                  li 
+                                    span.glyphicon.glyphicon-signal
+                                    span.txt Wi-Fi в номере
+                                  li 
+                                    span.glyphicon.glyphicon-glass
+                                    span.txt Ресторан
+                                  li 
+                                    span.glyphicon.glyphicon-film
+                                    span.txt Общая кухня
+                                  li 
+                                    span.glyphicon.glyphicon-globe
+                                    span.txt Терраса
+                                  li 
+                                    span.glyphicon.glyphicon-knight
+                                    span.txt Бильярд
+                            a.btn.btn-block.btn-lightgray КАЛендарь занятости
+                          .row.row-more
+                            .col-sm-12.text-center
+                              a.btn-block.btn-more href="#"
+                                | Подробнее
+                                i.icontvil.icontvil-Arrow_Up
+                      .col-sm-12.col-category
+                        .row
+                          .col-sm-12
+                            h3 Стандарт, 3 - местный, 1 - комнатный
+                          .col-sm-6
+                            .row.category-photo
+                              .col-sm-9
+                                a.search-photo href="#"
+                                  img src="img/img-example2.jpg"
+                              .col-sm-3.search-thumbs
+                                a href="#"
+                                  img src="../img/img-sme2.jpg"
+                                a href="#"
+                                  img src="../img/img-sme1.jpg"
+                                a href="#"
+                                  img src="../img/img-sme3.jpg"
+                                a href="#"
+                                  img src="../img/img-sme2.jpg"
+                          .col-sm-6.text-center.search-offer
+                            h4
+                              | от
+                              strong
+                                | 1500
+                                i.icontvil.icontvil-Rubl
+                              | за сутки
+                            p
+                              | Отдельная комната 
+                              br
+                              | 3 спальных места
+                              br
+                              | 4 отзыва
+                            .btn.btn-danger.btn-lg Забронировать
+                          
+                          .row.row-more
+                            .col-sm-12.text-center
+                              a.btn-block.btn-more href="#"
+                                | Подробнее
+                                i.icontvil.icontvil-Arrow_Down
+
+                      .col-sm-12.col-category
+                        .row
+                          .col-sm-12
+                            h3 Стандарт, 3 - местный, 1 - комнатный
+                          .col-sm-6
+                            .row.category-photo
+                              .col-sm-9
+                                a.search-photo href="#"
+                                  img src="img/img-example2.jpg"
+                              .col-sm-3.search-thumbs
+                                a href="#"
+                                  img src="../img/img-sme2.jpg"
+                                a href="#"
+                                  img src="../img/img-sme1.jpg"
+                                a href="#"
+                                  img src="../img/img-sme3.jpg"
+                                a href="#"
+                                  img src="../img/img-sme2.jpg"
+                          .col-sm-6.text-center.search-offer
+                            h4
+                              strong
+                                | 280000
+                                i.icontvil.icontvil-Rubl
+                              span.text-red за все дни
+                            p
+                              | Отдельная комната 
+                              br
+                              | 3 спальных места
+                              br
+                              | 4 отзыва
+                            .btn.btn-danger.btn-lg Забронировать
+                          .row.row-more
+                            .col-sm-12.text-center
+                              a.btn-block.btn-more href="#"
+                                | Подробнее
+                                i.icontvil.icontvil-Arrow_Up
+
+
+                .row.affixtop
+                  h1.h1-fixtop Люкс квартира в 100 метрах от моря
+                  button.btn.btn-darkgray
+                    i.icontvil.icontvil-Arrow_Up
+        .sidebar-right.sidebar-right-obj data-spy="affix" data-offset-top="60"
+          form.form
+            .fix-top
+              .row
+                .col-sm-12.text-center.price-start
+                  h2 2000 рублей за сутки
+              .row
+                .col-sm-6.col-left
+                  .form-group.has-feedback.pull-right
+                    input.form-control type="text" placeholder="Заезд"
+                    i.icontvil.icontvil-Date_Inn.form-control-feedback
+                .col-sm-6.col-right
+                  .form-group.has-feedback
+                    input.form-control type="text" placeholder="Отъезд"
+                    i.icontvil.icontvil-Date_Out.form-control-feedback
+                .col-sm-6.col-left
+                  .form-group.has-feedback
+                    select.form-control
+                      option 0
+                      option 1
+                    i.icontvil.icontvil-Male.form-control-feedback
+                .col-sm-6.col-right
+                  .form-group.has-feedback
+                    select.form-control
+                      option 0
+                      option 1
+                    i.icontvil.icontvil-Children.form-control-feedback
+                .col-sm-12.text-center.calculate
+                  span.msg-info
+                    i.icontvil.icontvil-Exclamation
+                    | Даты и гости не выбраны
+                  .btn.btn-danger.btn-block Рассчитать стоимость
+            .row.sidebar-info data-spy="affix" data-offset-bottom="0"
+              .col-sm-6.text-center
+                p
+                  strong 86%
+                p положительных отзывов
+              .col-sm-6.text-center
+                p
+                  strong 13
+                p бронирований проведено
+              .col-sm-12.text-center.col-share
+                .btn.btn-default
+                  i.icontvil.icontvil-Empty_Hurt
+                  | В избранное
+                .btn.btn-default
+                  i.icontvil.icontvil-Go_Out
+                  | Рассказать друзьям
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

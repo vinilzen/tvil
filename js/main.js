@@ -176,4 +176,9 @@ $(function(){
 			}
 		});
 
+	$('#js_tomap').click(function(){
+		$('.search-line').removeClass('ready');
+		$('.search-list').fadeOut();
+	})
+
 });

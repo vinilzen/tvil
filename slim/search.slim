@@ -464,12 +464,35 @@ html
             i.icontvil.icontvil-Pin_Map
           a.search-pin href="#" tabindex="0" data-animation="false" data-toggle="popover" data-content='<div class="thumbnail"><img class="img-responsive" src="img/img-example1.jpg"><div class="caption"><h3>Классная двухкомнатная кварт...</h3><p>3900 Р / сутки</p></div></div>' data-placement="top" data-html="true"
             i.icontvil.icontvil-Pin_Map
-        .search-line
+        .search-line.ready
           .form-group.has-feedback
             input.form-control type="text" placeholder="Поиск"
             span.glyphicon.glyphicon-search.form-control-feedback aria-hidden="true"
+          .btn.btn-default#js_tomap Вернуться на карту
           / #gag
-        .search-mapmodal
+        .search-list
+          ul.list-unstyled
+            li
+              a href="#" Девяткино (2)
+            li
+              a href="#" Гражданский проспект (3)
+            li
+              a href="#" Академическая (0)
+            li
+              a href="#" Политехническая (9)
+            li
+              a href="#" Площадь Мужества (0)
+            li.selected
+              a href="#" Чернышевская (0)
+            li
+              a href="#" Площадь Восстания (0)
+            li
+              a href="#" Владимирская (0)
+            li
+              a href="#" Пушкинская (0)
+            li
+              a href="#" Технологический институт (0)
+        .search-mapmodal.hide
           .arr-top
           .arr-down
           .txt-top
