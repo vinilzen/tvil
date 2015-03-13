@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"border-left",
+				"border-bottom-left-radius"
+			],
+			[
 				"a",
 				"absolute"
 			],
@@ -515,15 +519,15 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 38657,
+				"buffer_size": 42975,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "slim/o.slim",
+			"file": "slim/cabinet.slim",
 			"settings":
 			{
-				"buffer_size": 25864,
+				"buffer_size": 11421,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +535,15 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 4277,
+				"buffer_size": 4399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slim/index.slim",
+			"settings":
+			{
+				"buffer_size": 10461,
 				"line_ending": "Unix"
 			}
 		}
@@ -599,17 +611,20 @@
 	"file_history":
 	[
 		"/www/tvil/sass/tvil/icontvil.scss",
-		"/www/tvil/slim/nav_bottom2.slim",
 		"/www/tvil/slim/index.slim",
-		"/www/tvil/slim/head.slim",
+		"/www/tvil/slim/o.slim",
+		"/www/tvil/slim/sidebar-left.slim",
+		"/www/tvil/slim/sidebar-left-light.slim",
+		"/www/tvil/slim/search.slim",
 		"/www/tvil/js/main.js",
+		"/www/tvil/slim/nav_bottom2.slim",
+		"/www/tvil/slim/head.slim",
 		"/Users/vin/Downloads/icontvil/icontvil/style.css",
 		"/Users/vin/Downloads/icontvil/style.css",
 		"/www/tvil/slim/nav_bottom.slim",
 		"/www/tvil/sass/tvil/_variables.scss",
 		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/slim/pagination.slim",
-		"/www/tvil/slim/search.slim",
 		"/www/tvil/search.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
 		"/www/tvil/sass/bootstrap/_carousel.scss",
@@ -619,8 +634,6 @@
 		"/www/tvil/slim/login.slim",
 		"/www/tvil/sass/tvil/slider.scss",
 		"/www/tvil/index.html",
-		"/www/tvil/slim/sidebar-left-light.slim",
-		"/www/tvil/slim/sidebar-left.slim",
 		"/www/tvil/js/bootstrap.min.js",
 		"/www/tvil/prepros.cfg",
 		"/www/tvil/sass/bootstrap/_popovers.scss",
@@ -724,8 +737,7 @@
 		"/www/cityquest/protected/extensions/ExtendedLogger/ExtendedLogger.php",
 		"/www/cityquest/protected/runtime/profile.log",
 		"/www/cityquest/sass/admin_bootstrap/_variables.scss",
-		"/www/cityquest/sass/admin_bootstrap/dashboard.scss",
-		"/www/cityquest/protected/views/quest/admin.php"
+		"/www/cityquest/sass/admin_bootstrap/dashboard.scss"
 	],
 	"find":
 	{
@@ -784,6 +796,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"		",
+			"	",
+			".h3-cabinet",
+			".btn.btn-default",
+			" width=\"190\"",
+			"ad.icontvil",
+			".btn-default",
+			"39",
+			"0",
+			"39",
+			"padding",
+			"отз",
+			"icontvil-",
+			"| ",
+			"\n		        span.label\n		          i.icontvil.icontvil-Check.icontvil-green",
+			"\n		        span.label\n		          i.icontvil.icontvil-Exclamation",
 			"77",
 			"77px",
 			"77",
@@ -895,23 +923,7 @@
 			"handle",
 			".slider-selection",
 			".search-price",
-			"collapseExample",
-			".search-result",
-			"12",
-			".btn-block",
-			"result",
-			"h2",
-			"85px",
-			"Гостиницы",
-			".search-result",
-			"111",
-			"background-color",
-			"background",
-			"175",
-			"0,0,0,0",
-			".selected",
-			".search-result",
-			"search-result"
+			"collapseExample"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -938,19 +950,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38657,
+						"buffer_size": 42975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32423,
-								32423
-							],
-							[
-								32708,
-								32708
+								42649,
+								42649
 							]
 						],
 						"settings":
@@ -958,11 +966,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -973,54 +976,59 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_unmatched_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 3.0,
-						"translation.y": 9368.0,
+						"translation.x": 0.0,
+						"translation.y": 6806.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1029,24 +1037,24 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "slim/o.slim",
+					"file": "slim/cabinet.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25864,
+						"buffer_size": 11421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								975,
-								975
+								11273,
+								11273
 							]
 						],
 						"settings":
@@ -1119,7 +1127,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1128,15 +1136,104 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4277,
+						"buffer_size": 4399,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1803,
-								1803
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 437.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "slim/index.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10461,
+								10313
 							]
 						],
 						"settings":
@@ -1201,14 +1298,15 @@
 								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 503.0,
+						"translation.y": 3611.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1272,6 +1370,18 @@
 				"js/main.js"
 			],
 			[
+				"inde",
+				"slim/index.slim"
+			],
+			[
+				"ic",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"side",
+				"slim/sidebar-left.slim"
+			],
+			[
 				"head",
 				"slim/head.slim"
 			],
@@ -1286,10 +1396,6 @@
 			[
 				"var",
 				"sass/tvil/_variables.scss"
-			],
-			[
-				"inde",
-				"slim/index.slim"
 			],
 			[
 				"sear",
@@ -1314,10 +1420,6 @@
 			[
 				"",
 				"index.html"
-			],
-			[
-				"side",
-				"slim/sidebar-left-light.slim"
 			],
 			[
 				"in",
@@ -1358,10 +1460,6 @@
 			[
 				"index",
 				"slim/index.slim"
-			],
-			[
-				"ic",
-				"sass/tvil/icontvil.scss"
 			],
 			[
 				"nav",
@@ -1618,7 +1716,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

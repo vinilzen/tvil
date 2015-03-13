@@ -3,7 +3,7 @@ $(function(){
 		ww,
 		supportsOrientationChange = "onorientationchange" in window,
 		orientationEvent = supportsOrientationChange ? "orientationchange" : "resize",
-		js_sidebar_scroll = $('#js-sidebar-scroll');
+		js_sidebar_scroll = $('.js-sidebar-scroll');
 
 	function setMapHeight(){
 		wh = $(window).height();

@@ -237,19 +237,34 @@ html
                               td.empty Выберите
                       button.btn.btn-success type="submit" Разместить
       .sidebar-right data-spy="affix" data-offset-top="60"
-        h2.page-header Мои
-        .row
-          .col-sm-12
-            a.thumbnail href=""
-              img src="http://lorempixel.com/210/158/city"
-              .caption
-                h4
-                  | Эконом
-                  small
-          .col-sm-12
-            a.thumbnail.thumbnail-empty href=""
-              span.glyphicon.glyphicon-plus
-              p Добавить категорию
+        .sidebar-right-scroll.js-sidebar-scroll
+          h2.page-header Мои
+          .row.row-xlg
+            .col-sm-12.col-xlg-6
+              a.thumbnail href=""
+                img src="http://lorempixel.com/210/158/city"
+                .caption
+                  h4
+                    | Эконом
+                    small
+            .col-sm-12.col-xlg-6
+              a.thumbnail href=""
+                img src="http://lorempixel.com/210/158/city"
+                .caption
+                  h4
+                    | Эконом
+                    small
+            .col-sm-12.col-xlg-6
+              a.thumbnail href=""
+                img src="http://lorempixel.com/210/158/city"
+                .caption
+                  h4
+                    | Эконом
+                    small
+            .col-sm-12.col-xlg-6
+              a.thumbnail.thumbnail-empty href=""
+                span.glyphicon.glyphicon-plus
+                p Добавить категорию
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top data-spy="affix" data-offset-top="60"
       == Slim::Template.new("nav_top.slim").render
       == Slim::Template.new("nav_bottom2.slim").render

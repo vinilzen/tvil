@@ -500,9 +500,14 @@ abbr[title]{
   bottom: 0;
   width: 290px;
   background-color: #fff;
+  overflow: hidden;
+  position: absolute;
   @media (max-width: 1023px) {
     left: 734px;
     right: inherit;
+  }
+  @media (min-width: 1600px) {
+    width: 530px;
   }
   .thumbnail {
     width: 214px;
@@ -558,7 +563,7 @@ abbr[title]{
     }
   }
 }
-.sidebar-scroll {
+.sidebar-scroll,.sidebar-right-scroll {
   overflow-y: auto;
   overflow-x: hidden;
   width: 281px;
@@ -566,6 +571,20 @@ abbr[title]{
   position: relative;
   top: 0;
   left: 0;
+
+  -webkit-transition: height 0.2s ease;
+  -moz-transition: height 0.2s ease;
+  -o-transition: height 0.2s ease;
+  transition: height 0.2s ease;
+}
+.sidebar-right-scroll {
+  width: 311px;
+  padding: 0;
+  position: absolute;
+
+  @media (min-width: 1600px){
+    width: 541px;
+  }
 }
 .map {
   height: 100%;
@@ -744,6 +763,9 @@ input.flat[type='checkbox'] {
   min-width: 1024px;
   padding-left: 260px;
   padding-right: 290px;
+  @media (min-width: 1600px) {
+    padding-right: 530px;
+  }
   &.container-search {
     float: left;
     width: 100%;
@@ -1834,11 +1856,6 @@ span.msg-info {
     margin-left: -3px;
   }
 }
-/* .sidebar-right.sidebar-right-obj.affix {
-  .sidebar-info {
-    padding-bottom: 60px;
-  }
-} */
 .col-share {
   padding-top: 51px;
   @media (max-width: 1199px) {
@@ -2134,6 +2151,7 @@ i.icontvil.form-control-feedback {
     padding-right: 24px;
     padding-bottom: 25px;
     padding-top: 9px;
+    max-width: 1160px;
     border-bottom:1px solid $border-color;
   }
   .form-inline {
@@ -2351,4 +2369,19 @@ i.icontvil.form-control-feedback {
 }
 .text-danger {
   color:#ff5d61;
+}
+
+.col-xlg-6 {
+  @media (min-width: 1600px){
+    width: 50%;
+    padding: 0;
+  }
+}
+.row-xlg {
+  margin-left: 0;
+  margin-right: 0;
+  @media (min-width: 1600px){
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
