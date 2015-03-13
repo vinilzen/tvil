@@ -4,6 +4,12 @@ a:focus,
 button:focus,
 .btn:focus,
 .btn:active {outline:none;}
+.btn:active {
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+}
 ::-moz-focus-inner {border:0;}
 label {
   color:#152438;
@@ -19,7 +25,7 @@ label {
   text-transform: uppercase;
   padding-left: 28px;
   padding-right: 30px;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 .affixtop {
@@ -34,8 +40,8 @@ label {
   overflow: hidden;
   .btn {
     position: absolute;
-    right:10px;
-    top:6px;
+    right:14px;
+    top:10px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -382,8 +388,8 @@ abbr[title]{
     margin-right: 15px;
     position: absolute;
     font-size: 1.5em;
-    line-height: 70px;
-    height: 70px;
+    line-height: 60px;
+    height: 60px;
     left:20px;
     top: 0;
     color:#8e9aa9;
@@ -394,8 +400,8 @@ abbr[title]{
     a {
       padding-left: 60px;
       font-size: 15px;
-      padding-top: 25px;
-      padding-bottom: 25px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       line-height: 20px;
       transition: background-color 0.5s ease;
       color:#8e9aa9;
@@ -435,7 +441,6 @@ abbr[title]{
     width: 230px;
     top: 60px;
     background-color: #fff;
-    padding-top: 19px;
 
     @media (max-width: 1279px) {
       display: none;
@@ -510,10 +515,10 @@ abbr[title]{
     width: 530px;
   }
   .thumbnail {
-    width: 214px;
+    width: 212px;
     margin: 12px auto 15px;
     padding: 0;
-    border:2px solid #8e9aa9;
+    border: 1px solid rgba(142, 154, 169, 0.4);
     border-radius: 3px;
     &:hover {
       text-decoration: none;
@@ -535,10 +540,14 @@ abbr[title]{
       padding-left: 20px;
       padding-right: 16px;
     }
+    &.selected {
+      border:2px solid #8e9aa9;
+      width: 214px;
+    }
     &.thumbnail-empty {
-      border-style: dashed;
-      border-color:#e9eef2;
+      border:2px dashed #e9eef2;
       border-radius: 4px;
+      width: 214px;
       .glyphicon {
         font-size: 22px;
         width: 20px;
@@ -849,11 +858,16 @@ input.flat[type='checkbox'] {
       padding-right: 13px;
       overflow: hidden;
       text-overflow:ellipsis;
+      -webkit-transition: color .3s;
+      -moz-transition: color .3s;
+      -o-transition: color .3s;
+      transition: color .3s;
       @media (max-width: 1100px) {
         max-width: 150px;
       }
       &:hover, &:focus {
         background-color: transparent;
+        color: rgba(142, 154, 169, 0.7);
       }
     }
     & > span {
@@ -897,9 +911,9 @@ input.flat[type='checkbox'] {
     left:0;
     background:rgba(0,0,0,0.3);
     opacity:0;
-    transition: all 1s;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
+    -o-transition: all .3s;
     transition: all .3s;
   }
   .icontvil {
@@ -1025,8 +1039,11 @@ abbr.btn-link[title] {
     color:#152438;
     margin-left: 5px;
     margin-right: 3px;
-    .glyphicon {
-      font-size: 17px;
+    .icontvil, .glyphicon {
+      font-size: 16px;
+      color:#152438;
+      top: -1px;
+      position: relative;
     }
   }
   p {
@@ -1233,18 +1250,29 @@ select + .form-control-feedback {
       font-weight: bold;
       border-radius: 2px;
       margin-right: 8px;
-      -webkit-transition: background-color, border-color 0.5s ease;
-      -moz-transition: background-color, border-color 0.5s ease;
-      -o-transition: background-color, border-color 0.5s ease;
-      transition: background-color, border-color 0.5s ease;
+      -webkit-transition: background-color 0.5s ease;
+      -moz-transition: background-color 0.5s ease;
+      -o-transition: background-color 0.5s ease;
+      transition: background-color 0.5s ease;
     }
     & > a {
       &.selected, &:hover, &:focus {
         background-color: #8e9aa9;
-        border-color:#8e9aa9;
         color:#fff;
+        border-width: 0;
+        padding: 6px 12px;
       }
     }
+   &:first-child > a,
+   &:last-child > a {
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    &.selected, &:hover, &:focus {
+      padding-top: 5px;
+      padding-bottom: 7px;
+    }
+   }
     .glyphicon {
       top: 2px;
     }
@@ -1528,15 +1556,15 @@ select + .form-control-feedback {
   width: 87px;
   height: 69px;
   background-image: url(../img/arrow-quatr.png);
-  -webkit-animation-duration: 1s; 
+/*   -webkit-animation-duration: 1s; 
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
   -moz-animation-duration: 1s; 
   -moz-animation-delay: 2s;
   -moz-animation-iteration-count: 1;
-  -moz-animation-timing-function: linear;
-}
+  -moz-animation-timing-function: linear; */
+}/* 
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1570,17 +1598,17 @@ select + .form-control-feedback {
     -moz-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-}
+} */
 .arr-top {
   top:60px;
-  -webkit-animation-name: rotate;
-  -moz-animation-name: rotate;
+  /* -webkit-animation-name: rotate;
+  -moz-animation-name: rotate; */
 }
 .arr-down {
   background-position: bottom left;
   bottom:60px;
-  -webkit-animation-name: rotate_back;
-  -moz-animation-name: rotate_back;
+  /* -webkit-animation-name: rotate_back;
+  -moz-animation-name: rotate_back; */
 }
 .txt-top,
 .txt-down {
@@ -1690,7 +1718,7 @@ select + .form-control-feedback {
   .column-2 {
     li {
       line-height: 24px;
-      margin-bottom: 8px;
+      // margin-bottom: 8px;
     }
     .glyphicon {
       margin-top: 0;
@@ -2199,9 +2227,13 @@ i.icontvil.form-control-feedback {
   .media-body {
     position: relative;
     padding-right: 30px;
+    p {
+      color:#566777;
+    }
     h4 {
       margin-top: 22px;
       margin-bottom: 12px;
+      color:#152438;
     }
   }
   .label {
@@ -2257,10 +2289,12 @@ i.icontvil.form-control-feedback {
     text-align: left;
     font-weight: normal;
     width: 100px;
+    color:#566777;
   }
   dd {
     font-weight: bold;
     margin-left: 115px;
+    color:#152438;
   }
   ul.column-2 {
     width: 290px;

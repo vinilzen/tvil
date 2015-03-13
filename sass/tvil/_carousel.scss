@@ -7,13 +7,14 @@
 // ---------------------------
 
 .carousel-control {
+  text-shadow: none;
   &.left, &.right {
     background: none; 
     background-image:none;
   }
 
-  .glyphicon-chevron-left,
-  .glyphicon-chevron-right {
+  .glyphicon-chevron-left, .icontvil-Arrow_Big_Slider_Left,
+  .glyphicon-chevron-right, .icontvil-Arrow_Big_Slider_Right {
     position: absolute;
     font-style: 32px;
     top: 50%;
@@ -21,11 +22,11 @@
     display: inline-block;
     color:rgba(255, 255, 255, 0.5);
   }
-  .glyphicon-chevron-left {
+  .glyphicon-chevron-left, .icontvil-Arrow_Big_Slider_Left {
     left: 50%;
     margin-left: -10px;
   }
-  .glyphicon-chevron-right {
+  .glyphicon-chevron-right, .icontvil-Arrow_Big_Slider_Right {
     right: 50%;
     margin-right: -10px;
   }
@@ -37,18 +38,22 @@
 
   // Scale up the controls a smidge
   .carousel-control {
-    .glyphicon-chevron-left,
-    .glyphicon-chevron-right {
+    .glyphicon-chevron-left, .icontvil-Arrow_Big_Slider_Left,
+    .glyphicon-chevron-right, .icontvil-Arrow_Big_Slider_Right {
       width: 30px;
       height: 30px;
       margin-top: -15px;
       font-size: 30px;
     }
-    .glyphicon-chevron-left {
+    .glyphicon-chevron-left, .icontvil-Arrow_Big_Slider_Left {
       margin-left: -15px;
     }
-    .glyphicon-chevron-right {
+    .glyphicon-chevron-right, .icontvil-Arrow_Big_Slider_Right {
       margin-right: -15px;
     }
   }
+}
+
+.carousel-inner > .item > img {
+  margin: 0 auto;
 }

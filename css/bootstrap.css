@@ -6554,191 +6554,207 @@ i.icontvil {
 .icontvil-margin-right {
   margin-right: 10px; }
 
-/* line 40, /www/tvil/sass/tvil/icontvil */
+/* line 41, /www/tvil/sass/tvil/icontvil */
+.icontvil-Rubl:before {
+  content: "\e62f"; }
+
+/* line 45, /www/tvil/sass/tvil/icontvil */
+.icontvil-Arrow_Big_Slider_Right:before {
+  content: "\e630"; }
+
+/* line 49, /www/tvil/sass/tvil/icontvil */
+.icontvil-Arrow_Big_Slider_Left:before {
+  content: "\e631"; }
+
+/* line 53, /www/tvil/sass/tvil/icontvil */
+.icontvil-Pin_Map:before {
+  content: "\e632"; }
+
+/* line 57, /www/tvil/sass/tvil/icontvil */
 .icontvil-Qw:before {
   content: "\e62d"; }
 
-/* line 44, /www/tvil/sass/tvil/icontvil */
+/* line 61, /www/tvil/sass/tvil/icontvil */
 .icontvil-Star_Full:before {
   content: "\e600"; }
 
-/* line 48, /www/tvil/sass/tvil/icontvil */
+/* line 65, /www/tvil/sass/tvil/icontvil */
 .icontvil-Star_Empty:before {
   content: "\e601"; }
 
-/* line 52, /www/tvil/sass/tvil/icontvil */
+/* line 69, /www/tvil/sass/tvil/icontvil */
 .icontvil-Delet_Photo:before {
   content: "\e602"; }
 
-/* line 56, /www/tvil/sass/tvil/icontvil */
+/* line 73, /www/tvil/sass/tvil/icontvil */
 .icontvil-Rotate_Right:before {
   content: "\e603"; }
 
-/* line 60, /www/tvil/sass/tvil/icontvil */
+/* line 77, /www/tvil/sass/tvil/icontvil */
 .icontvil-Rotate_Left:before {
   content: "\e604"; }
 
-/* line 64, /www/tvil/sass/tvil/icontvil */
+/* line 81, /www/tvil/sass/tvil/icontvil */
 .icontvil-Date_Out:before {
   content: "\e605"; }
 
-/* line 69, /www/tvil/sass/tvil/icontvil */
+/* line 86, /www/tvil/sass/tvil/icontvil */
 .icontvil-Date_Inn:before {
   content: "\e62e"; }
 
-/* line 73, /www/tvil/sass/tvil/icontvil */
+/* line 90, /www/tvil/sass/tvil/icontvil */
 .icontvil-Empty_Hurt:before {
   content: "\e606"; }
 
-/* line 77, /www/tvil/sass/tvil/icontvil */
+/* line 94, /www/tvil/sass/tvil/icontvil */
 .icontvil-X:before {
   content: "\e607"; }
 
-/* line 81, /www/tvil/sass/tvil/icontvil */
+/* line 98, /www/tvil/sass/tvil/icontvil */
 .icontvil-x:before {
   content: "\e608"; }
 
-/* line 85, /www/tvil/sass/tvil/icontvil */
+/* line 102, /www/tvil/sass/tvil/icontvil */
 .icontvil-Wallet:before {
   content: "\e609"; }
 
-/* line 89, /www/tvil/sass/tvil/icontvil */
+/* line 106, /www/tvil/sass/tvil/icontvil */
 .icontvil-User:before {
   content: "\e60a"; }
 
-/* line 93, /www/tvil/sass/tvil/icontvil */
+/* line 110, /www/tvil/sass/tvil/icontvil */
 .icontvil-Table:before {
   content: "\e60b"; }
 
-/* line 97, /www/tvil/sass/tvil/icontvil */
+/* line 114, /www/tvil/sass/tvil/icontvil */
 .icontvil-Settings:before {
   content: "\e60c"; }
 
-/* line 101, /www/tvil/sass/tvil/icontvil */
+/* line 118, /www/tvil/sass/tvil/icontvil */
 .icontvil-Pointer:before {
   content: "\e60d"; }
 
-/* line 105, /www/tvil/sass/tvil/icontvil */
+/* line 122, /www/tvil/sass/tvil/icontvil */
 .icontvil-Pin:before {
   content: "\e60e"; }
 
-/* line 109, /www/tvil/sass/tvil/icontvil */
+/* line 126, /www/tvil/sass/tvil/icontvil */
 .icontvil-Photo:before {
   content: "\e60f"; }
 
-/* line 113, /www/tvil/sass/tvil/icontvil */
+/* line 130, /www/tvil/sass/tvil/icontvil */
 .icontvil-Mini_Pin:before {
   content: "\e610"; }
 
-/* line 117, /www/tvil/sass/tvil/icontvil */
+/* line 134, /www/tvil/sass/tvil/icontvil */
 .icontvil-Message:before {
   content: "\e611"; }
 
-/* line 121, /www/tvil/sass/tvil/icontvil */
+/* line 138, /www/tvil/sass/tvil/icontvil */
 .icontvil-Message_Menu:before {
   content: "\e612"; }
 
-/* line 125, /www/tvil/sass/tvil/icontvil */
+/* line 142, /www/tvil/sass/tvil/icontvil */
 .icontvil-Male:before {
   content: "\e613"; }
 
-/* line 129, /www/tvil/sass/tvil/icontvil */
+/* line 146, /www/tvil/sass/tvil/icontvil */
 .icontvil-Login:before {
   content: "\e614"; }
 
-/* line 133, /www/tvil/sass/tvil/icontvil */
+/* line 150, /www/tvil/sass/tvil/icontvil */
 .icontvil-List:before {
   content: "\e615"; }
 
-/* line 137, /www/tvil/sass/tvil/icontvil */
+/* line 154, /www/tvil/sass/tvil/icontvil */
 .icontvil-Hurt:before {
   content: "\e616"; }
 
-/* line 141, /www/tvil/sass/tvil/icontvil */
+/* line 158, /www/tvil/sass/tvil/icontvil */
 .icontvil-House:before {
   content: "\e617"; }
 
-/* line 145, /www/tvil/sass/tvil/icontvil */
+/* line 162, /www/tvil/sass/tvil/icontvil */
 .icontvil-Hotel:before {
   content: "\e618"; }
 
-/* line 149, /www/tvil/sass/tvil/icontvil */
+/* line 166, /www/tvil/sass/tvil/icontvil */
 .icontvil-Home:before {
   content: "\e619"; }
 
-/* line 153, /www/tvil/sass/tvil/icontvil */
+/* line 170, /www/tvil/sass/tvil/icontvil */
 .icontvil-Go_Out:before {
   content: "\e61a"; }
 
-/* line 157, /www/tvil/sass/tvil/icontvil */
+/* line 174, /www/tvil/sass/tvil/icontvil */
 .icontvil-Gift:before {
   content: "\e61b"; }
 
-/* line 161, /www/tvil/sass/tvil/icontvil */
+/* line 178, /www/tvil/sass/tvil/icontvil */
 .icontvil-Flat:before {
   content: "\e61c"; }
 
-/* line 165, /www/tvil/sass/tvil/icontvil */
+/* line 182, /www/tvil/sass/tvil/icontvil */
 .icontvil-Female:before {
   content: "\e61d"; }
 
-/* line 169, /www/tvil/sass/tvil/icontvil */
+/* line 186, /www/tvil/sass/tvil/icontvil */
 .icontvil-Eye:before {
   content: "\e61e"; }
 
-/* line 173, /www/tvil/sass/tvil/icontvil */
+/* line 190, /www/tvil/sass/tvil/icontvil */
 .icontvil-Download:before {
   content: "\e61f"; }
 
-/* line 177, /www/tvil/sass/tvil/icontvil */
+/* line 194, /www/tvil/sass/tvil/icontvil */
 .icontvil-Dinner:before {
   content: "\e620"; }
 
-/* line 181, /www/tvil/sass/tvil/icontvil */
+/* line 198, /www/tvil/sass/tvil/icontvil */
 .icontvil-Children:before {
   content: "\e622"; }
 
-/* line 185, /www/tvil/sass/tvil/icontvil */
+/* line 202, /www/tvil/sass/tvil/icontvil */
 .icontvil-Check:before {
   content: "\e623"; }
 
-/* line 189, /www/tvil/sass/tvil/icontvil */
+/* line 206, /www/tvil/sass/tvil/icontvil */
 .icontvil-Camping:before {
   content: "\e624"; }
 
-/* line 193, /www/tvil/sass/tvil/icontvil */
+/* line 210, /www/tvil/sass/tvil/icontvil */
 .icontvil-Calendar:before {
   content: "\e625"; }
 
-/* line 197, /www/tvil/sass/tvil/icontvil */
+/* line 214, /www/tvil/sass/tvil/icontvil */
 .icontvil-Bubl:before {
   content: "\e626"; }
 
-/* line 201, /www/tvil/sass/tvil/icontvil */
+/* line 218, /www/tvil/sass/tvil/icontvil */
 .icontvil-Arrow_Long:before {
   content: "\e627"; }
 
-/* line 205, /www/tvil/sass/tvil/icontvil */
+/* line 222, /www/tvil/sass/tvil/icontvil */
 .icontvil-Arrow_Down:before {
   content: "\e621"; }
 
-/* line 209, /www/tvil/sass/tvil/icontvil */
+/* line 226, /www/tvil/sass/tvil/icontvil */
 .icontvil-Arrow_Up:before {
   content: "\e628"; }
 
-/* line 213, /www/tvil/sass/tvil/icontvil */
+/* line 230, /www/tvil/sass/tvil/icontvil */
 .icontvil-Arrow_circle:before {
   content: "\e629"; }
 
-/* line 217, /www/tvil/sass/tvil/icontvil */
+/* line 234, /www/tvil/sass/tvil/icontvil */
 .icontvil-Options:before {
   content: "\e62a"; }
 
-/* line 221, /www/tvil/sass/tvil/icontvil */
+/* line 238, /www/tvil/sass/tvil/icontvil */
 .icontvil-Bad:before {
   content: "\e62b"; }
 
-/* line 225, /www/tvil/sass/tvil/icontvil */
+/* line 242, /www/tvil/sass/tvil/icontvil */
 .icontvil-Exclamation:before {
   content: "\e62c"; }
 
@@ -6824,41 +6840,48 @@ i.icontvil {
     -moz-border-radius: 15px;
     border-radius: 15px; }
 
-/* line 10, /www/tvil/sass/tvil/carousel */
-.carousel-control.left, .carousel-control.right {
-  background: none;
-  background-image: none; }
-/* line 16, /www/tvil/sass/tvil/carousel */
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
-  position: absolute;
-  font-style: 32px;
-  top: 50%;
-  z-index: 5;
-  display: inline-block;
-  color: rgba(255, 255, 255, 0.5); }
-/* line 24, /www/tvil/sass/tvil/carousel */
-.carousel-control .glyphicon-chevron-left {
-  left: 50%;
-  margin-left: -10px; }
-/* line 28, /www/tvil/sass/tvil/carousel */
-.carousel-control .glyphicon-chevron-right {
-  right: 50%;
-  margin-right: -10px; }
+/* line 9, /www/tvil/sass/tvil/carousel */
+.carousel-control {
+  text-shadow: none; }
+  /* line 11, /www/tvil/sass/tvil/carousel */
+  .carousel-control.left, .carousel-control.right {
+    background: none;
+    background-image: none; }
+  /* line 17, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icontvil-Arrow_Big_Slider_Left, .carousel-control .glyphicon-chevron-right, .carousel-control .icontvil-Arrow_Big_Slider_Right {
+    position: absolute;
+    font-style: 32px;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5); }
+  /* line 25, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icontvil-Arrow_Big_Slider_Left {
+    left: 50%;
+    margin-left: -10px; }
+  /* line 29, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icontvil-Arrow_Big_Slider_Right {
+    right: 50%;
+    margin-right: -10px; }
 
 @media screen and (min-width: 768px) {
-  /* line 41, /www/tvil/sass/tvil/carousel */
-  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+  /* line 42, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icontvil-Arrow_Big_Slider_Left, .carousel-control .glyphicon-chevron-right, .carousel-control .icontvil-Arrow_Big_Slider_Right {
     width: 30px;
     height: 30px;
     margin-top: -15px;
     font-size: 30px; }
-  /* line 47, /www/tvil/sass/tvil/carousel */
-  .carousel-control .glyphicon-chevron-left {
+  /* line 48, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-left, .carousel-control .icontvil-Arrow_Big_Slider_Left {
     margin-left: -15px; }
-  /* line 50, /www/tvil/sass/tvil/carousel */
-  .carousel-control .glyphicon-chevron-right {
+  /* line 51, /www/tvil/sass/tvil/carousel */
+  .carousel-control .glyphicon-chevron-right, .carousel-control .icontvil-Arrow_Big_Slider_Right {
     margin-right: -15px; }
  }
+
+/* line 57, /www/tvil/sass/tvil/carousel */
+.carousel-inner > .item > img {
+  margin: 0 auto; }
 
 /* line 1, /www/tvil/sass/tvil/calendar */
 .calendar {
@@ -6978,29 +7001,36 @@ a:focus, button:focus, .btn:focus, .btn:active {
   outline: none; }
 
 /* line 7, /www/tvil/sass/tvil/theme */
+.btn:active {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.05); }
+
+/* line 13, /www/tvil/sass/tvil/theme */
 ::-moz-focus-inner {
   border: 0; }
 
-/* line 8, /www/tvil/sass/tvil/theme */
+/* line 14, /www/tvil/sass/tvil/theme */
 label {
   color: #152438;
   font-weight: 500; }
 
-/* line 12, /www/tvil/sass/tvil/theme */
+/* line 18, /www/tvil/sass/tvil/theme */
 .checkbox label {
   color: #566777; }
 
-/* line 16, /www/tvil/sass/tvil/theme */
+/* line 22, /www/tvil/sass/tvil/theme */
 .main.obj .h1-fixtop {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
   padding-left: 28px;
   padding-right: 30px;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 15px; }
 
-/* line 25, /www/tvil/sass/tvil/theme */
+/* line 31, /www/tvil/sass/tvil/theme */
 .affixtop {
   background-color: #fff;
   position: fixed;
@@ -7011,11 +7041,11 @@ label {
   height: 0;
   display: none;
   overflow: hidden; }
-  /* line 35, /www/tvil/sass/tvil/theme */
+  /* line 41, /www/tvil/sass/tvil/theme */
   .affixtop .btn {
     position: absolute;
-    right: 10px;
-    top: 6px;
+    right: 14px;
+    top: 10px;
     padding-left: 10px;
     padding-right: 10px; }
 
@@ -7023,7 +7053,7 @@ label {
  * Top navigation
  * Hide default border to remove 1px line.
  */
-/* line 52, /www/tvil/sass/tvil/theme */
+/* line 58, /www/tvil/sass/tvil/theme */
 .navbar {
   margin-bottom: 0;
   min-width: 1024px;
@@ -7033,7 +7063,7 @@ label {
     .navbar {
       border-radius: 0; } }
 
-/* line 61, /www/tvil/sass/tvil/theme */
+/* line 67, /www/tvil/sass/tvil/theme */
 .navbar-toggle.navbar-hamburger {
   display: block;
   float: left;
@@ -7041,36 +7071,36 @@ label {
   margin-top: 15px;
   padding-left: 5px;
   padding-right: 4px; }
-  /* line 68, /www/tvil/sass/tvil/theme */
+  /* line 74, /www/tvil/sass/tvil/theme */
   .navbar-toggle.navbar-hamburger:hover, .navbar-toggle.navbar-hamburger:focus {
     background-color: rgba(0, 0, 0, 0); }
-  /* line 71, /www/tvil/sass/tvil/theme */
+  /* line 77, /www/tvil/sass/tvil/theme */
   .navbar-toggle.navbar-hamburger .icon-bar {
     background-color: #ff5d61;
     width: 20px;
     margin-top: -2px; }
-    /* line 75, /www/tvil/sass/tvil/theme */
+    /* line 81, /www/tvil/sass/tvil/theme */
     .navbar-toggle.navbar-hamburger .icon-bar + .icon-bar {
       margin-top: 5px; }
 
-/* line 81, /www/tvil/sass/tvil/theme */
+/* line 87, /www/tvil/sass/tvil/theme */
 .navbar-inverse.navbar-tvil-fixed-top {
   position: absolute;
   top: 0; }
-  /* line 84, /www/tvil/sass/tvil/theme */
+  /* line 90, /www/tvil/sass/tvil/theme */
   .navbar-inverse.navbar-tvil-fixed-top.affix {
     position: fixed;
     overflow: hidden;
     height: 51px;
     min-height: 51px; }
-    /* line 89, /www/tvil/sass/tvil/theme */
+    /* line 95, /www/tvil/sass/tvil/theme */
     .navbar-inverse.navbar-tvil-fixed-top.affix .top-line {
       display: none; }
-  /* line 93, /www/tvil/sass/tvil/theme */
+  /* line 99, /www/tvil/sass/tvil/theme */
   .navbar-inverse.navbar-tvil-fixed-top .top-line {
     height: 60px;
     padding-right: 0; }
-  /* line 97, /www/tvil/sass/tvil/theme */
+  /* line 103, /www/tvil/sass/tvil/theme */
   .navbar-inverse.navbar-tvil-fixed-top .navbar-brand {
     font-size: 20px;
     top: 1px;
@@ -7078,23 +7108,23 @@ label {
     position: relative;
     font-weight: bold;
     font-family: Helvetica, Arial, sans-serif; }
-  /* line 105, /www/tvil/sass/tvil/theme */
+  /* line 111, /www/tvil/sass/tvil/theme */
   .navbar-inverse.navbar-tvil-fixed-top .navbar-right {
     margin-right: 0; }
-    /* line 107, /www/tvil/sass/tvil/theme */
+    /* line 113, /www/tvil/sass/tvil/theme */
     .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a {
       padding-left: 22px;
       padding-right: 22px;
       cursor: pointer;
       position: relative; }
-      /* line 112, /www/tvil/sass/tvil/theme */
+      /* line 118, /www/tvil/sass/tvil/theme */
       .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a .badge {
         position: absolute; }
-      /* line 115, /www/tvil/sass/tvil/theme */
+      /* line 121, /www/tvil/sass/tvil/theme */
       .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a.dropdown-toggle {
         position: relative;
         padding-left: 60px; }
-        /* line 118, /www/tvil/sass/tvil/theme */
+        /* line 124, /www/tvil/sass/tvil/theme */
         .navbar-inverse.navbar-tvil-fixed-top .navbar-right.nav > li > a.dropdown-toggle img {
           width: 40px;
           height: 40px;
@@ -7103,72 +7133,72 @@ label {
           top: 10px;
           left: 10px; }
 
-/* line 130, /www/tvil/sass/tvil/theme */
+/* line 136, /www/tvil/sass/tvil/theme */
 .table-editable {
   margin-top: 17px; }
-  /* line 133, /www/tvil/sass/tvil/theme */
+  /* line 139, /www/tvil/sass/tvil/theme */
   .table-editable.table-bordered > thead > tr > td, .table-editable.table-bordered > thead > tr th {
     border-bottom-width: 1px; }
-  /* line 138, /www/tvil/sass/tvil/theme */
+  /* line 144, /www/tvil/sass/tvil/theme */
   .table-editable.table > thead > tr > th, .table-editable.table > thead > tr td {
     padding: 15px 12px 14px 20px; }
-  /* line 143, /www/tvil/sass/tvil/theme */
+  /* line 149, /www/tvil/sass/tvil/theme */
   .table-editable.table > tbody > tr > th, .table-editable.table > tbody > tr td {
     padding: 15px 12px 14px 20px; }
-    /* line 145, /www/tvil/sass/tvil/theme */
+    /* line 151, /www/tvil/sass/tvil/theme */
     .table-editable.table > tbody > tr > th:focus, .table-editable.table > tbody > tr td:focus {
       outline: none; }
-  /* line 151, /www/tvil/sass/tvil/theme */
+  /* line 157, /www/tvil/sass/tvil/theme */
   .table-editable thead th, .table-editable thead td {
     background-color: #f4f7fa; }
-  /* line 156, /www/tvil/sass/tvil/theme */
+  /* line 162, /www/tvil/sass/tvil/theme */
   .table-editable tbody th, .table-editable tbody td {
     background-color: #fff;
     color: #566777; }
-  /* line 160, /www/tvil/sass/tvil/theme */
+  /* line 166, /www/tvil/sass/tvil/theme */
   .table-editable tbody td.empty {
     color: #b0b8c3; }
-  /* line 164, /www/tvil/sass/tvil/theme */
+  /* line 170, /www/tvil/sass/tvil/theme */
   .table-editable tbody tr:hover th, .table-editable tbody tr:hover td {
     background-color: #fbfdff;
     cursor: pointer; }
 
-/* line 172, /www/tvil/sass/tvil/theme */
+/* line 178, /www/tvil/sass/tvil/theme */
 .second-line {
   background-color: #fff;
   border-bottom: 1px solid #e2e7ec;
   border-top: 1px solid #e2e7ec;
   position: relative; }
-  /* line 177, /www/tvil/sass/tvil/theme */
+  /* line 183, /www/tvil/sass/tvil/theme */
   .second-line .btn-link {
     padding-left: 0;
     padding-right: 0;
     color: #8e9aa9; }
-    /* line 181, /www/tvil/sass/tvil/theme */
+    /* line 187, /www/tvil/sass/tvil/theme */
     .second-line .btn-link:hover, .second-line .btn-link:focus {
       text-decoration: none; }
-  /* line 185, /www/tvil/sass/tvil/theme */
+  /* line 191, /www/tvil/sass/tvil/theme */
   .second-line .navbar-btn {
     margin-top: 7px;
     margin-bottom: 6px; }
-    /* line 188, /www/tvil/sass/tvil/theme */
+    /* line 194, /www/tvil/sass/tvil/theme */
     .second-line .navbar-btn.btn-success {
       margin-top: 6px;
       margin-bottom: 7px; }
-  /* line 193, /www/tvil/sass/tvil/theme */
+  /* line 199, /www/tvil/sass/tvil/theme */
   .second-line .navbar-left {
     width: 245px; }
-    /* line 195, /www/tvil/sass/tvil/theme */
+    /* line 201, /www/tvil/sass/tvil/theme */
     .second-line .navbar-left.navbar-left2 {
       width: auto; }
-    /* line 198, /www/tvil/sass/tvil/theme */
+    /* line 204, /www/tvil/sass/tvil/theme */
     .second-line .navbar-left .descr {
       display: inline-block;
       color: #566777; }
-      /* line 201, /www/tvil/sass/tvil/theme */
+      /* line 207, /www/tvil/sass/tvil/theme */
       .second-line .navbar-left .descr span {
         color: #b0b8c3; }
-  /* line 206, /www/tvil/sass/tvil/theme */
+  /* line 212, /www/tvil/sass/tvil/theme */
   .second-line .navbar-right {
     position: absolute;
     top: 0;
@@ -7183,19 +7213,19 @@ label {
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 13%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); }
 
-/* line 222, /www/tvil/sass/tvil/theme */
+/* line 228, /www/tvil/sass/tvil/theme */
 .navbar-center {
   white-space: nowrap;
   float: left;
   padding-left: 40px; }
-  /* line 226, /www/tvil/sass/tvil/theme */
+  /* line 232, /www/tvil/sass/tvil/theme */
   .navbar-center p {
     padding-left: 22px;
     color: #8e9aa9;
     display: inline-block;
     text-overflow: ellipsis; }
 
-/* line 234, /www/tvil/sass/tvil/theme */
+/* line 240, /www/tvil/sass/tvil/theme */
 abbr[title] {
   color: #8e9aa9;
   margin-top: 7px;
@@ -7203,23 +7233,23 @@ abbr[title] {
   display: inline-block;
   margin-left: 12px; }
 
-/* line 241, /www/tvil/sass/tvil/theme */
+/* line 247, /www/tvil/sass/tvil/theme */
 .btn-default {
   background-color: #fff;
   border-color: #e5ecf3;
   color: #566777; }
-  /* line 245, /www/tvil/sass/tvil/theme */
+  /* line 251, /www/tvil/sass/tvil/theme */
   .btn-default:hover, .btn-default:focus {
     color: #152438;
     background-color: #fff;
     border-color: #d3dee5; }
 
-/* line 254, /www/tvil/sass/tvil/theme */
+/* line 260, /www/tvil/sass/tvil/theme */
 .btn-default.focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-color: #f9fbfd;
   color: #152438; }
 
-/* line 258, /www/tvil/sass/tvil/theme */
+/* line 264, /www/tvil/sass/tvil/theme */
 .btn {
   padding: 7px 20px;
   -webkit-transition: background-color 0.5s ease;
@@ -7227,83 +7257,83 @@ abbr[title] {
   -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease; }
 
-/* line 265, /www/tvil/sass/tvil/theme */
+/* line 271, /www/tvil/sass/tvil/theme */
 .btn-success {
   background-color: #28bd8b;
   border-color: #28bd8b; }
-  /* line 268, /www/tvil/sass/tvil/theme */
+  /* line 274, /www/tvil/sass/tvil/theme */
   .btn-success:hover, .btn-success:focus {
     background-color: #1da779;
     border-color: #1da779; }
 
-/* line 273, /www/tvil/sass/tvil/theme */
+/* line 279, /www/tvil/sass/tvil/theme */
 .btn-gray {
   background-color: #464a54;
   border-color: #464a54;
   color: #fff; }
-  /* line 277, /www/tvil/sass/tvil/theme */
+  /* line 283, /www/tvil/sass/tvil/theme */
   .btn-gray .icontvil {
     color: #a3a5aa; }
-  /* line 280, /www/tvil/sass/tvil/theme */
+  /* line 286, /www/tvil/sass/tvil/theme */
   .btn-gray:hover, .btn-gray:focus {
     background-color: #3f424b;
     border-color: #3f424b;
     color: #fff; }
-    /* line 284, /www/tvil/sass/tvil/theme */
+    /* line 290, /www/tvil/sass/tvil/theme */
     .btn-gray:hover .icontvil, .btn-gray:focus .icontvil {
       color: #a3a5aa; }
 
-/* line 289, /www/tvil/sass/tvil/theme */
+/* line 295, /www/tvil/sass/tvil/theme */
 .btn-danger {
   background-color: #ff5d61;
   border-color: #ff5d61; }
-  /* line 292, /www/tvil/sass/tvil/theme */
+  /* line 298, /www/tvil/sass/tvil/theme */
   .btn-danger:hover, .btn-danger:focus {
     background-color: #e54f53;
     border-color: #e54f53; }
 
-/* line 297, /www/tvil/sass/tvil/theme */
+/* line 303, /www/tvil/sass/tvil/theme */
 .btn-darkgray {
   background-color: #ced8e2;
   border-color: #ced8e2;
   color: #fff; }
-  /* line 301, /www/tvil/sass/tvil/theme */
+  /* line 307, /www/tvil/sass/tvil/theme */
   .btn-darkgray:hover, .btn-darkgray:focus {
     color: #fff; }
 
-/* line 305, /www/tvil/sass/tvil/theme */
+/* line 311, /www/tvil/sass/tvil/theme */
 .btn-success.disabled {
   background-color: rgba(40, 189, 139, 0.2);
   border-color: rgba(0, 0, 0, 0);
   opacity: 1; }
 
-/* line 310, /www/tvil/sass/tvil/theme */
+/* line 316, /www/tvil/sass/tvil/theme */
 .btn .glyphicon {
   margin-right: 7px; }
 
-/* line 313, /www/tvil/sass/tvil/theme */
+/* line 319, /www/tvil/sass/tvil/theme */
 .icon-red {
   color: #ff5d61; }
 
-/* line 316, /www/tvil/sass/tvil/theme */
+/* line 322, /www/tvil/sass/tvil/theme */
 .glyphicon-green {
   color: #28bd8b; }
 
-/* line 319, /www/tvil/sass/tvil/theme */
+/* line 325, /www/tvil/sass/tvil/theme */
 .dropdown-menu {
   border: none;
   border-radius: 1px;
   padding: 0; }
-  /* line 323, /www/tvil/sass/tvil/theme */
+  /* line 329, /www/tvil/sass/tvil/theme */
   .dropdown-menu > li > a {
     padding-top: 8px;
     padding-bottom: 8px; }
-    /* line 326, /www/tvil/sass/tvil/theme */
+    /* line 332, /www/tvil/sass/tvil/theme */
     .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
       background-color: #f4f7f9;
       color: #566777; }
 
-/* line 332, /www/tvil/sass/tvil/theme */
+/* line 338, /www/tvil/sass/tvil/theme */
 .badge {
   font-size: 9px;
   padding-left: 5px;
@@ -7311,19 +7341,19 @@ abbr[title] {
   top: 14px;
   right: 11px; }
 
-/* line 340, /www/tvil/sass/tvil/theme */
+/* line 346, /www/tvil/sass/tvil/theme */
 .navbar-left2 .btn {
   margin-right: 10px; }
-/* line 343, /www/tvil/sass/tvil/theme */
+/* line 349, /www/tvil/sass/tvil/theme */
 .navbar-left2 .btn-darkgray {
   padding-left: 13px;
   padding-right: 13px; }
-  /* line 346, /www/tvil/sass/tvil/theme */
+  /* line 352, /www/tvil/sass/tvil/theme */
   .navbar-left2 .btn-darkgray .icontvil {
     font-size: 10px;
     top: 0px; }
 
-/* line 353, /www/tvil/sass/tvil/theme */
+/* line 359, /www/tvil/sass/tvil/theme */
 .navbar-login .btn {
   margin-right: 10px;
   padding-left: 13px; }
@@ -7331,7 +7361,7 @@ abbr[title] {
 /*
  * Sidebar
  */
-/* line 362, /www/tvil/sass/tvil/theme */
+/* line 368, /www/tvil/sass/tvil/theme */
 .sidebar-left, .sidebar-right {
   position: absolute;
   top: 111px;
@@ -7343,48 +7373,48 @@ abbr[title] {
   overflow-y: auto;
   /* Scrollable contents if viewport is shorter than content. */
   width: 260px; }
-  /* line 372, /www/tvil/sass/tvil/theme */
+  /* line 378, /www/tvil/sass/tvil/theme */
   .sidebar-left.affix, .sidebar-right.affix {
     position: fixed;
     top: 51px; }
 
-/* line 377, /www/tvil/sass/tvil/theme */
+/* line 383, /www/tvil/sass/tvil/theme */
 .sidebar-left {
   background-color: #282c37;
   overflow: hidden;
   padding: 0; }
-  /* line 381, /www/tvil/sass/tvil/theme */
+  /* line 387, /www/tvil/sass/tvil/theme */
   .sidebar-left .icontvil, .sidebar-left .glyphicon {
     margin-right: 15px;
     position: absolute;
     font-size: 1.5em;
-    line-height: 70px;
-    height: 70px;
+    line-height: 60px;
+    height: 60px;
     left: 20px;
     top: 0;
     color: #8e9aa9;
     opacity: 0.2;
     transition: opacity 0.5s ease; }
-  /* line 394, /www/tvil/sass/tvil/theme */
+  /* line 400, /www/tvil/sass/tvil/theme */
   .sidebar-left .nav-sidebar a {
     padding-left: 60px;
     font-size: 15px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     line-height: 20px;
     transition: background-color 0.5s ease;
     color: #8e9aa9; }
-    /* line 402, /www/tvil/sass/tvil/theme */
+    /* line 408, /www/tvil/sass/tvil/theme */
     .sidebar-left .nav-sidebar a:hover, .sidebar-left .nav-sidebar a:focus {
       background-color: #313541;
       color: #8e9aa9; }
-      /* line 405, /www/tvil/sass/tvil/theme */
+      /* line 411, /www/tvil/sass/tvil/theme */
       .sidebar-left .nav-sidebar a:hover .icontvil, .sidebar-left .nav-sidebar a:hover .glyphicon, .sidebar-left .nav-sidebar a:focus .icontvil, .sidebar-left .nav-sidebar a:focus .glyphicon {
         opacity: 1; }
-  /* line 411, /www/tvil/sass/tvil/theme */
+  /* line 417, /www/tvil/sass/tvil/theme */
   .sidebar-left .nav-sidebar li.active a .icontvil, .sidebar-left .nav-sidebar li.active a .glyphicon {
     opacity: 1; }
-  /* line 416, /www/tvil/sass/tvil/theme */
+  /* line 422, /www/tvil/sass/tvil/theme */
   .sidebar-left .label {
     position: absolute;
     left: 215px;
@@ -7392,47 +7422,46 @@ abbr[title] {
     padding-right: 22px;
     margin-top: -7px;
     top: 50%; }
-    /* line 423, /www/tvil/sass/tvil/theme */
+    /* line 429, /www/tvil/sass/tvil/theme */
     .sidebar-left .label .icontvil, .sidebar-left .label .glyphicon {
       height: 15px;
       line-height: 15px;
       font-size: 15px;
       position: static;
       margin-right: 0; }
-      /* line 429, /www/tvil/sass/tvil/theme */
+      /* line 435, /www/tvil/sass/tvil/theme */
       .sidebar-left .label .icontvil:focus, .sidebar-left .label .glyphicon:focus {
         outline: 0; }
-  /* line 434, /www/tvil/sass/tvil/theme */
+  /* line 440, /www/tvil/sass/tvil/theme */
   .sidebar-left.sidebar-light {
     width: 230px;
     top: 60px;
-    background-color: #fff;
-    padding-top: 19px; }
+    background-color: #fff; }
     @media (max-width: 1279px) {
       .sidebar-left.sidebar-light {
         display: none; } }
-    /* line 443, /www/tvil/sass/tvil/theme */
+    /* line 448, /www/tvil/sass/tvil/theme */
     .sidebar-left.sidebar-light.affix {
       top: 0px; }
-    /* line 448, /www/tvil/sass/tvil/theme */
+    /* line 453, /www/tvil/sass/tvil/theme */
     .sidebar-left.sidebar-light .nav-sidebar a:hover, .sidebar-left.sidebar-light .nav-sidebar a:focus {
       background-color: #fff;
       color: #152438;
       border-left: 2px solid #fff;
       padding-left: 58px; }
-      /* line 453, /www/tvil/sass/tvil/theme */
+      /* line 458, /www/tvil/sass/tvil/theme */
       .sidebar-left.sidebar-light .nav-sidebar a:hover .icontvil, .sidebar-left.sidebar-light .nav-sidebar a:hover .glyphicon, .sidebar-left.sidebar-light .nav-sidebar a:focus .icontvil, .sidebar-left.sidebar-light .nav-sidebar a:focus .glyphicon {
         left: 18px; }
-    /* line 459, /www/tvil/sass/tvil/theme */
+    /* line 464, /www/tvil/sass/tvil/theme */
     .sidebar-left.sidebar-light .nav-sidebar li.active a {
       border-left: 2px solid #fff;
       background-color: #fff;
       padding-left: 58px; }
-      /* line 463, /www/tvil/sass/tvil/theme */
+      /* line 468, /www/tvil/sass/tvil/theme */
       .sidebar-left.sidebar-light .nav-sidebar li.active a .icontvil, .sidebar-left.sidebar-light .nav-sidebar li.active a .glyphicon {
         left: 18px; }
 
-/* line 472, /www/tvil/sass/tvil/theme */
+/* line 477, /www/tvil/sass/tvil/theme */
 .label .icontvil, .label .glyphicon {
   -webkit-transition: opacity 0.5s ease;
   -moz-transition: opacity 0.5s ease;
@@ -7440,25 +7469,25 @@ abbr[title] {
   transition: opacity 0.5s ease;
   color: #8e9aa9;
   opacity: 0.2; }
-  /* line 479, /www/tvil/sass/tvil/theme */
+  /* line 484, /www/tvil/sass/tvil/theme */
   .label .icontvil.icontvil-green, .label .glyphicon.icontvil-green {
     color: #28bd8b; }
-  /* line 482, /www/tvil/sass/tvil/theme */
+  /* line 487, /www/tvil/sass/tvil/theme */
   .label .icontvil.icontvil-red, .label .glyphicon.icontvil-red {
     color: #ff5d61; }
-  /* line 485, /www/tvil/sass/tvil/theme */
+  /* line 490, /www/tvil/sass/tvil/theme */
   .label .icontvil:hover, .label .glyphicon:hover {
     opacity: 1; }
 
-/* line 490, /www/tvil/sass/tvil/theme */
+/* line 495, /www/tvil/sass/tvil/theme */
 .icontvil-red {
   color: #ff5d61; }
 
-/* line 493, /www/tvil/sass/tvil/theme */
+/* line 498, /www/tvil/sass/tvil/theme */
 .icontvil-green {
   color: #28bd8b; }
 
-/* line 496, /www/tvil/sass/tvil/theme */
+/* line 501, /www/tvil/sass/tvil/theme */
 .sidebar-right {
   padding: 0;
   left: inherit;
@@ -7475,21 +7504,21 @@ abbr[title] {
   @media (min-width: 1600px) {
     .sidebar-right {
       width: 530px; } }
-  /* line 512, /www/tvil/sass/tvil/theme */
+  /* line 517, /www/tvil/sass/tvil/theme */
   .sidebar-right .thumbnail {
-    width: 214px;
+    width: 212px;
     margin: 12px auto 15px;
     padding: 0;
-    border: 2px solid #8e9aa9;
+    border: 1px solid rgba(142, 154, 169, 0.4);
     border-radius: 3px; }
-    /* line 518, /www/tvil/sass/tvil/theme */
+    /* line 523, /www/tvil/sass/tvil/theme */
     .sidebar-right .thumbnail:hover {
       text-decoration: none; }
-    /* line 521, /www/tvil/sass/tvil/theme */
+    /* line 526, /www/tvil/sass/tvil/theme */
     .sidebar-right .thumbnail h4 {
       font-size: 14px;
       margin-top: 9px; }
-    /* line 525, /www/tvil/sass/tvil/theme */
+    /* line 530, /www/tvil/sass/tvil/theme */
     .sidebar-right .thumbnail small {
       display: block;
       width: 10px;
@@ -7498,38 +7527,42 @@ abbr[title] {
       float: right;
       margin-top: 3px;
       border-radius: 50%; }
-    /* line 534, /www/tvil/sass/tvil/theme */
+    /* line 539, /www/tvil/sass/tvil/theme */
     .sidebar-right .thumbnail .caption {
       padding-left: 20px;
       padding-right: 16px; }
-    /* line 538, /www/tvil/sass/tvil/theme */
+    /* line 543, /www/tvil/sass/tvil/theme */
+    .sidebar-right .thumbnail.selected {
+      border: 2px solid #8e9aa9;
+      width: 214px; }
+    /* line 547, /www/tvil/sass/tvil/theme */
     .sidebar-right .thumbnail.thumbnail-empty {
-      border-style: dashed;
-      border-color: #e9eef2;
-      border-radius: 4px; }
-      /* line 542, /www/tvil/sass/tvil/theme */
+      border: 2px dashed #e9eef2;
+      border-radius: 4px;
+      width: 214px; }
+      /* line 551, /www/tvil/sass/tvil/theme */
       .sidebar-right .thumbnail.thumbnail-empty .glyphicon {
         font-size: 22px;
         width: 20px;
         display: block;
         margin: 73px auto 0; }
-      /* line 548, /www/tvil/sass/tvil/theme */
+      /* line 557, /www/tvil/sass/tvil/theme */
       .sidebar-right .thumbnail.thumbnail-empty p {
         text-align: center;
         padding-top: 19px;
         padding-bottom: 62px; }
-  /* line 555, /www/tvil/sass/tvil/theme */
+  /* line 564, /www/tvil/sass/tvil/theme */
   .sidebar-right.sidebar-right-obj {
     width: 400px;
     top: 60px; }
-    /* line 558, /www/tvil/sass/tvil/theme */
+    /* line 567, /www/tvil/sass/tvil/theme */
     .sidebar-right.sidebar-right-obj.affix {
       top: 0; }
     @media (max-width: 1199px) {
       .sidebar-right.sidebar-right-obj {
         width: 340px; } }
 
-/* line 566, /www/tvil/sass/tvil/theme */
+/* line 575, /www/tvil/sass/tvil/theme */
 .sidebar-scroll, .sidebar-right-scroll {
   overflow-y: auto;
   overflow-x: hidden;
@@ -7543,7 +7576,7 @@ abbr[title] {
   -o-transition: height 0.2s ease;
   transition: height 0.2s ease; }
 
-/* line 580, /www/tvil/sass/tvil/theme */
+/* line 589, /www/tvil/sass/tvil/theme */
 .sidebar-right-scroll {
   width: 311px;
   padding: 0;
@@ -7552,22 +7585,22 @@ abbr[title] {
     .sidebar-right-scroll {
       width: 541px; } }
 
-/* line 589, /www/tvil/sass/tvil/theme */
+/* line 598, /www/tvil/sass/tvil/theme */
 .map {
   height: 100%;
   min-height: 300px; }
 
 /* Sidebar navigation */
-/* line 594, /www/tvil/sass/tvil/theme */
+/* line 603, /www/tvil/sass/tvil/theme */
 .nav-sidebar {
   margin-right: -21px;
   /* 20px padding + 1px border */
   margin-left: -20px; }
-  /* line 597, /www/tvil/sass/tvil/theme */
+  /* line 606, /www/tvil/sass/tvil/theme */
   .nav-sidebar > li > a {
     padding-right: 20px;
     padding-left: 20px; }
-  /* line 603, /www/tvil/sass/tvil/theme */
+  /* line 612, /www/tvil/sass/tvil/theme */
   .nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus {
     color: #152438;
     background-color: #f4f7fa; }
@@ -7575,7 +7608,7 @@ abbr[title] {
 /*
  * Main content
  */
-/* line 614, /www/tvil/sass/tvil/theme */
+/* line 623, /www/tvil/sass/tvil/theme */
 .main {
   padding: 111px 0 0 0;
   width: 100%;
@@ -7583,58 +7616,58 @@ abbr[title] {
   min-height: 950px;
   background-color: #f4f7fa;
   border-right: 1px solid #e2e7ec; }
-  /* line 621, /www/tvil/sass/tvil/theme */
+  /* line 630, /www/tvil/sass/tvil/theme */
   .main.affix {
     position: static;
     padding-top: 110px; }
-  /* line 625, /www/tvil/sass/tvil/theme */
+  /* line 634, /www/tvil/sass/tvil/theme */
   .main .container-fluid {
     padding-left: 0;
     padding-right: 0; }
-  /* line 629, /www/tvil/sass/tvil/theme */
+  /* line 638, /www/tvil/sass/tvil/theme */
   .main hr {
     margin-left: -40px;
     margin-right: -40px;
     border-top-color: #e2e7ec;
     margin-top: 40px; }
-  /* line 635, /www/tvil/sass/tvil/theme */
+  /* line 644, /www/tvil/sass/tvil/theme */
   .main.obj {
     padding-top: 60px;
     min-width: 394px;
     border-left: 1px solid #dbdee0; }
 
-/* line 641, /www/tvil/sass/tvil/theme */
+/* line 650, /www/tvil/sass/tvil/theme */
 .row.row-main {
   padding: 16px 40px 40px; }
-  /* line 643, /www/tvil/sass/tvil/theme */
+  /* line 652, /www/tvil/sass/tvil/theme */
   .row.row-main .btn-success {
     padding-left: 28px;
     padding-right: 28px; }
-  /* line 647, /www/tvil/sass/tvil/theme */
+  /* line 656, /www/tvil/sass/tvil/theme */
   .row.row-main .checkbox {
     margin-top: 12px;
     margin-bottom: 0px; }
-    /* line 650, /www/tvil/sass/tvil/theme */
+    /* line 659, /www/tvil/sass/tvil/theme */
     .row.row-main .checkbox:nth-child(2) {
       margin-top: 35px; }
-  /* line 655, /www/tvil/sass/tvil/theme */
+  /* line 664, /www/tvil/sass/tvil/theme */
   .row.row-main form .col-sm-4 .form-group {
     padding-right: 17px;
     position: relative; }
-    /* line 658, /www/tvil/sass/tvil/theme */
+    /* line 667, /www/tvil/sass/tvil/theme */
     .row.row-main form .col-sm-4 .form-group.mt20 {
       margin-top: 20px; }
-  /* line 663, /www/tvil/sass/tvil/theme */
+  /* line 672, /www/tvil/sass/tvil/theme */
   .row.row-main .checkbox.mt33 {
     margin-top: 33px; }
 
-/* line 667, /www/tvil/sass/tvil/theme */
+/* line 676, /www/tvil/sass/tvil/theme */
 .form-group {
   margin-bottom: 24px; }
-  /* line 669, /www/tvil/sass/tvil/theme */
+  /* line 678, /www/tvil/sass/tvil/theme */
   .form-group .col-sm-6, .form-group .col-sm-4 {
     padding-right: 17px; }
-  /* line 672, /www/tvil/sass/tvil/theme */
+  /* line 681, /www/tvil/sass/tvil/theme */
   .form-group .required {
     position: absolute;
     bottom: 4px;
@@ -7642,18 +7675,18 @@ abbr[title] {
     font-size: 14px;
     color: #a1abb2;
     font-weight: bold; }
-  /* line 680, /www/tvil/sass/tvil/theme */
+  /* line 689, /www/tvil/sass/tvil/theme */
   .form-group label {
     white-space: nowrap; }
 
-/* line 684, /www/tvil/sass/tvil/theme */
+/* line 693, /www/tvil/sass/tvil/theme */
 .page-header {
   margin-top: 0;
   padding: 19px 39px;
   font-size: 26px;
   border-color: #e2e7ec; }
 
-/* line 691, /www/tvil/sass/tvil/theme */
+/* line 700, /www/tvil/sass/tvil/theme */
 .flat, .activity .check-custom {
   float: right;
   margin: -2px 0 0 10px;
@@ -7666,7 +7699,7 @@ abbr[title] {
   cursor: pointer;
   position: relative;
   transition: background-color 1s; }
-  /* line 703, /www/tvil/sass/tvil/theme */
+  /* line 712, /www/tvil/sass/tvil/theme */
   .flat:after, .activity .check-custom:after {
     content: "";
     display: block;
@@ -7688,14 +7721,14 @@ abbr[title] {
     background: linear-gradient(to bottom, #ffffff 0%, #f3f3f3 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 );
     transition: 0.5s all; }
-  /* line 727, /www/tvil/sass/tvil/theme */
+  /* line 736, /www/tvil/sass/tvil/theme */
   .flat:focus, .activity .check-custom:focus {
     outline: none; }
-  /* line 730, /www/tvil/sass/tvil/theme */
+  /* line 739, /www/tvil/sass/tvil/theme */
   .flat:checked, .activity .check-custom:checked {
     background-color: #28bd8b; }
 
-/* line 734, /www/tvil/sass/tvil/theme */
+/* line 743, /www/tvil/sass/tvil/theme */
 .activity {
   cursor: pointer;
   float: right;
@@ -7705,14 +7738,14 @@ abbr[title] {
   padding-top: 6px;
   width: 150px;
   text-align: right; }
-  /* line 746, /www/tvil/sass/tvil/theme */
+  /* line 755, /www/tvil/sass/tvil/theme */
   .activity input[type='checkbox']:checked + .check-custom {
     background-color: #28bd8b; }
-    /* line 748, /www/tvil/sass/tvil/theme */
+    /* line 757, /www/tvil/sass/tvil/theme */
     .activity input[type='checkbox']:checked + .check-custom:after {
       left: 24px; }
 
-/* line 753, /www/tvil/sass/tvil/theme */
+/* line 762, /www/tvil/sass/tvil/theme */
 input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
   /* @extend .flat;
   display:block;
@@ -7722,7 +7755,7 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
   } */
   display: none; }
 
-/* line 762, /www/tvil/sass/tvil/theme */
+/* line 771, /www/tvil/sass/tvil/theme */
 .container-wrapper {
   min-width: 1024px;
   padding-left: 260px;
@@ -7730,26 +7763,26 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
   @media (min-width: 1600px) {
     .container-wrapper {
       padding-right: 530px; } }
-  /* line 769, /www/tvil/sass/tvil/theme */
+  /* line 778, /www/tvil/sass/tvil/theme */
   .container-wrapper.container-search {
     float: left;
     width: 100%;
     padding: 60px 0 0 0; }
-    /* line 773, /www/tvil/sass/tvil/theme */
+    /* line 782, /www/tvil/sass/tvil/theme */
     .container-wrapper.container-search .search-result {
       float: left;
       width: 768px;
       height: 100%; }
-    /* line 778, /www/tvil/sass/tvil/theme */
+    /* line 787, /www/tvil/sass/tvil/theme */
     .container-wrapper.container-search .container-map {
       position: relative;
       margin-left: 768px;
       height: 100%; }
-      /* line 782, /www/tvil/sass/tvil/theme */
+      /* line 791, /www/tvil/sass/tvil/theme */
       .container-wrapper.container-search .container-map.affix {
         position: fixed;
         top: 0; }
-  /* line 788, /www/tvil/sass/tvil/theme */
+  /* line 797, /www/tvil/sass/tvil/theme */
   .container-wrapper.container-wrapper-obj {
     padding-left: 230px;
     padding-right: 400px; }
@@ -7758,24 +7791,24 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
         padding-left: 0;
         padding-right: 340px; } }
 
-/* line 799, /www/tvil/sass/tvil/theme */
+/* line 808, /www/tvil/sass/tvil/theme */
 .search-result .icontvil {
   color: #7f94ac; }
-/* line 802, /www/tvil/sass/tvil/theme */
+/* line 811, /www/tvil/sass/tvil/theme */
 .search-result select + i.icontvil.form-control-feedback {
   top: 1px; }
-/* line 805, /www/tvil/sass/tvil/theme */
+/* line 814, /www/tvil/sass/tvil/theme */
 .search-result .btn {
   border-radius: 3px; }
-/* line 809, /www/tvil/sass/tvil/theme */
+/* line 818, /www/tvil/sass/tvil/theme */
 .search-result .btn-default.selected {
   background-color: #eaeff4;
   border-color: #eaeff4; }
-/* line 813, /www/tvil/sass/tvil/theme */
+/* line 822, /www/tvil/sass/tvil/theme */
 .search-result .btn-default:hover, .search-result .btn-default:focus {
   background-color: #f4f7f9; }
 
-/* line 818, /www/tvil/sass/tvil/theme */
+/* line 827, /www/tvil/sass/tvil/theme */
 #gag {
   background-image: url(../img/ya_map.png);
   background-repeat: repeat;
@@ -7783,15 +7816,15 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
   height: 100%;
   min-width: 1px; }
 
-/* line 825, /www/tvil/sass/tvil/theme */
+/* line 834, /www/tvil/sass/tvil/theme */
 .navbar-inverse .navbar-nav.breadcrumb-tvil {
   padding-left: 10px;
   float: left; }
-  /* line 828, /www/tvil/sass/tvil/theme */
+  /* line 837, /www/tvil/sass/tvil/theme */
   .navbar-inverse .navbar-nav.breadcrumb-tvil > li {
     color: #8e9aa9;
     white-space: nowrap; }
-    /* line 831, /www/tvil/sass/tvil/theme */
+    /* line 840, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li + li:before {
       color: #56677a;
       width: 6px;
@@ -7804,7 +7837,7 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       padding-right: 5px;
       margin-left: -2px;
       float: left; }
-    /* line 844, /www/tvil/sass/tvil/theme */
+    /* line 853, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
       display: block;
       padding-top: 20px;
@@ -7812,47 +7845,52 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       padding-left: 22px;
       padding-right: 13px;
       overflow: hidden;
-      text-overflow: ellipsis; }
+      text-overflow: ellipsis;
+      -webkit-transition: color 0.3s;
+      -moz-transition: color 0.3s;
+      -o-transition: color 0.3s;
+      transition: color 0.3s; }
       @media (max-width: 1100px) {
         .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
           max-width: 150px; } }
-      /* line 855, /www/tvil/sass/tvil/theme */
+      /* line 868, /www/tvil/sass/tvil/theme */
       .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a:focus, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:hover, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span:focus {
-        background-color: transparent; }
-    /* line 859, /www/tvil/sass/tvil/theme */
+        background-color: transparent;
+        color: rgba(142, 154, 169, 0.7); }
+    /* line 873, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > span {
       padding-right: 0; }
-    /* line 863, /www/tvil/sass/tvil/theme */
+    /* line 877, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li.active span {
       color: #505d6c; }
 
-/* line 869, /www/tvil/sass/tvil/theme */
+/* line 883, /www/tvil/sass/tvil/theme */
 .icon-lt {
   top: 10px !important;
   left: 10px; }
 
-/* line 873, /www/tvil/sass/tvil/theme */
+/* line 887, /www/tvil/sass/tvil/theme */
 .icon-rt {
   top: 10px !important;
   right: 10px; }
 
-/* line 877, /www/tvil/sass/tvil/theme */
+/* line 891, /www/tvil/sass/tvil/theme */
 .icon-lb {
   bottom: 10px;
   left: 10px;
   top: inherit !important; }
 
-/* line 882, /www/tvil/sass/tvil/theme */
+/* line 896, /www/tvil/sass/tvil/theme */
 .icon-rb {
   bottom: 10px;
   right: 10px;
   top: inherit !important; }
 
-/* line 887, /www/tvil/sass/tvil/theme */
+/* line 901, /www/tvil/sass/tvil/theme */
 .thumbnail.thumbnail-photo {
   padding: 0;
   position: relative; }
-  /* line 890, /www/tvil/sass/tvil/theme */
+  /* line 904, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:after {
     content: ' ';
     position: absolute;
@@ -7863,11 +7901,11 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
     left: 0;
     background: rgba(0, 0, 0, 0.3);
     opacity: 0;
-    transition: all 1s;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s; }
-  /* line 905, /www/tvil/sass/tvil/theme */
+  /* line 919, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo .icontvil {
     cursor: pointer;
     position: absolute;
@@ -7875,28 +7913,28 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
     color: #fff;
     height: 16px;
     z-index: 1011; }
-  /* line 914, /www/tvil/sass/tvil/theme */
+  /* line 928, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:hover:after, .thumbnail.thumbnail-photo:focus:after {
     opacity: 1; }
-  /* line 917, /www/tvil/sass/tvil/theme */
+  /* line 931, /www/tvil/sass/tvil/theme */
   .thumbnail.thumbnail-photo:hover .icontvil, .thumbnail.thumbnail-photo:focus .icontvil {
     display: block; }
 
 /*
  * Popover
  */
-/* line 926, /www/tvil/sass/tvil/theme */
+/* line 940, /www/tvil/sass/tvil/theme */
 .popover {
   border: none;
   -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); }
 
-/* line 931, /www/tvil/sass/tvil/theme */
+/* line 945, /www/tvil/sass/tvil/theme */
 .popover-content {
   color: #566777;
   font-size: 13px; }
 
-/* line 936, /www/tvil/sass/tvil/theme */
+/* line 950, /www/tvil/sass/tvil/theme */
 abbr.btn-link[title] {
   text-decoration: none;
   padding-bottom: 0;
@@ -7904,58 +7942,58 @@ abbr.btn-link[title] {
   padding-right: 0;
   margin-bottom: 13px; }
 
-/* line 944, /www/tvil/sass/tvil/theme */
+/* line 958, /www/tvil/sass/tvil/theme */
 .container-search .container-fluid {
   padding-left: 19px;
   padding-right: 19px; }
-/* line 948, /www/tvil/sass/tvil/theme */
+/* line 962, /www/tvil/sass/tvil/theme */
 .container-search .form {
   padding-top: 13px; }
-  /* line 950, /www/tvil/sass/tvil/theme */
+  /* line 964, /www/tvil/sass/tvil/theme */
   .container-search .form .form-group {
     margin-bottom: 0; }
 
-/* line 955, /www/tvil/sass/tvil/theme */
+/* line 969, /www/tvil/sass/tvil/theme */
 .form-control {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   border-color: #e5ecf3;
   color: #b0b9c3; }
-  /* line 961, /www/tvil/sass/tvil/theme */
+  /* line 975, /www/tvil/sass/tvil/theme */
   .form-control::-webkit-input-placeholder {
     color: #b0b9c3; }
-  /* line 964, /www/tvil/sass/tvil/theme */
+  /* line 978, /www/tvil/sass/tvil/theme */
   .form-control:-moz-input-placeholder {
     color: #b0b9c3; }
-  /* line 967, /www/tvil/sass/tvil/theme */
+  /* line 981, /www/tvil/sass/tvil/theme */
   .form-control::-moz-input-placeholder {
     color: #b0b9c3; }
-  /* line 970, /www/tvil/sass/tvil/theme */
+  /* line 984, /www/tvil/sass/tvil/theme */
   .form-control:-ms-input-placeholder {
     color: #b0b9c3; }
-  /* line 973, /www/tvil/sass/tvil/theme */
+  /* line 987, /www/tvil/sass/tvil/theme */
   .form-control option {
     color: #b0b9c3; }
 
-/* line 978, /www/tvil/sass/tvil/theme */
+/* line 992, /www/tvil/sass/tvil/theme */
 .search-kind-room .btn {
   text-align: left; }
-/* line 981, /www/tvil/sass/tvil/theme */
+/* line 995, /www/tvil/sass/tvil/theme */
 .search-kind-room .col-mt {
   margin-top: 10px; }
 
-/* line 985, /www/tvil/sass/tvil/theme */
+/* line 999, /www/tvil/sass/tvil/theme */
 .search-hr {
   margin-top: 25px;
   margin-bottom: 25px; }
 
-/* line 989, /www/tvil/sass/tvil/theme */
+/* line 1003, /www/tvil/sass/tvil/theme */
 .search-hr-slim {
   margin-top: 12px;
   margin-bottom: 12px; }
 
-/* line 993, /www/tvil/sass/tvil/theme */
+/* line 1007, /www/tvil/sass/tvil/theme */
 .search-results {
   padding-top: 20px;
   margin-top: 0;
@@ -7963,52 +8001,55 @@ abbr.btn-link[title] {
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 1000, /www/tvil/sass/tvil/theme */
+  /* line 1014, /www/tvil/sass/tvil/theme */
   .search-results hr {
     margin-left: -15px;
     margin-right: -15px; }
 
-/* line 1005, /www/tvil/sass/tvil/theme */
+/* line 1019, /www/tvil/sass/tvil/theme */
 .search-thumbs {
   margin-left: -18px;
   height: 229px;
   overflow: hidden; }
-  /* line 1009, /www/tvil/sass/tvil/theme */
+  /* line 1023, /www/tvil/sass/tvil/theme */
   .search-thumbs a {
     margin-bottom: 5px;
     display: block; }
-  /* line 1014, /www/tvil/sass/tvil/theme */
+  /* line 1028, /www/tvil/sass/tvil/theme */
   .search-thumbs.search-thumbs-sm {
     margin-left: -11px;
     height: 172px; }
 
-/* line 1022, /www/tvil/sass/tvil/theme */
+/* line 1036, /www/tvil/sass/tvil/theme */
 .search-offer strong {
   font-size: 22px;
   font-weight: bold;
   color: #152438;
   margin-left: 5px;
   margin-right: 3px; }
-  /* line 1028, /www/tvil/sass/tvil/theme */
-  .search-offer strong .glyphicon {
-    font-size: 17px; }
-/* line 1032, /www/tvil/sass/tvil/theme */
+  /* line 1042, /www/tvil/sass/tvil/theme */
+  .search-offer strong .icontvil, .search-offer strong .glyphicon {
+    font-size: 16px;
+    color: #152438;
+    top: -1px;
+    position: relative; }
+/* line 1049, /www/tvil/sass/tvil/theme */
 .search-offer p {
   margin: 12px 0 16px -16px;
   font-size: 16px;
   color: #566777;
   line-height: 25px; }
-/* line 1038, /www/tvil/sass/tvil/theme */
+/* line 1055, /www/tvil/sass/tvil/theme */
 .search-offer .btn {
   margin: 23px 0 0 -11px;
   padding: 8px 34px 10px;
   font-size: 14px; }
 
-/* line 1044, /www/tvil/sass/tvil/theme */
+/* line 1061, /www/tvil/sass/tvil/theme */
 select + .form-control-feedback {
   left: 0; }
 
-/* line 1047, /www/tvil/sass/tvil/theme */
+/* line 1064, /www/tvil/sass/tvil/theme */
 .has-feedback select.form-control {
   padding-left: 0;
   padding-right: 0;
@@ -8016,7 +8057,7 @@ select + .form-control-feedback {
   width: 67px;
   height: 35px; }
 
-/* line 1054, /www/tvil/sass/tvil/theme */
+/* line 1071, /www/tvil/sass/tvil/theme */
 .search-filter {
   width: 763px;
   height: 61px;
@@ -8030,28 +8071,28 @@ select + .form-control-feedback {
   -moz-box-shadow: 0px 6px 6px -3px #f4f4f4;
   box-shadow: 0px 6px 6px -3px #f4f4f4;
   position: relative; }
-  /* line 1067, /www/tvil/sass/tvil/theme */
+  /* line 1084, /www/tvil/sass/tvil/theme */
   .search-filter.affix {
     z-index: 1011;
     top: -12px;
     background-color: #fff;
     position: fixed; }
-  /* line 1073, /www/tvil/sass/tvil/theme */
+  /* line 1090, /www/tvil/sass/tvil/theme */
   .search-filter .btn {
     padding-right: 16px;
     padding-left: 13px;
     margin-right: 8px;
     position: relative; }
-    /* line 1078, /www/tvil/sass/tvil/theme */
+    /* line 1095, /www/tvil/sass/tvil/theme */
     .search-filter .btn i.icontvil {
       right: -7px;
       color: #ced8e2; }
-    /* line 1082, /www/tvil/sass/tvil/theme */
+    /* line 1099, /www/tvil/sass/tvil/theme */
     .search-filter .btn.btn-link {
       padding-left: 0;
       margin-left: 0;
       color: #566777; }
-  /* line 1088, /www/tvil/sass/tvil/theme */
+  /* line 1105, /www/tvil/sass/tvil/theme */
   .search-filter .search-all-filter {
     position: absolute;
     top: 0;
@@ -8060,34 +8101,34 @@ select + .form-control-feedback {
     -moz-box-shadow: -6px 0px 12px 6px #fff;
     box-shadow: -6px 0px 12px 6px #fff; }
 
-/* line 1097, /www/tvil/sass/tvil/theme */
+/* line 1114, /www/tvil/sass/tvil/theme */
 .search-filter.affix + .search-results {
   padding-top: 88px; }
 
-/* line 1100, /www/tvil/sass/tvil/theme */
+/* line 1117, /www/tvil/sass/tvil/theme */
 .search-label {
   line-height: 36px;
   margin-bottom: 0; }
 
-/* line 1104, /www/tvil/sass/tvil/theme */
+/* line 1121, /www/tvil/sass/tvil/theme */
 .search-calendar-input {
   width: 112px; }
-  /* line 1106, /www/tvil/sass/tvil/theme */
+  /* line 1123, /www/tvil/sass/tvil/theme */
   .search-calendar-input input {
     margin-top: 1px; }
 
-/* line 1110, /www/tvil/sass/tvil/theme */
+/* line 1127, /www/tvil/sass/tvil/theme */
 .search-photo {
   display: inline-block;
   overflow: hidden;
   width: 357px;
   height: 229px;
   text-overflow: ellipsis; }
-  /* line 1116, /www/tvil/sass/tvil/theme */
+  /* line 1133, /www/tvil/sass/tvil/theme */
   .search-photo img {
     width: 100%;
     height: 100%; }
-  /* line 1120, /www/tvil/sass/tvil/theme */
+  /* line 1137, /www/tvil/sass/tvil/theme */
   .search-photo h3 {
     display: inline-block;
     white-space: nowrap;
@@ -8102,7 +8143,7 @@ select + .form-control-feedback {
     font-size: 18px;
     font-weight: 600;
     z-index: 1010; }
-  /* line 1135, /www/tvil/sass/tvil/theme */
+  /* line 1152, /www/tvil/sass/tvil/theme */
   .search-photo p {
     display: inline-block;
     white-space: nowrap;
@@ -8117,16 +8158,16 @@ select + .form-control-feedback {
     font-size: 14px;
     color: #fff;
     z-index: 1010; }
-  /* line 1150, /www/tvil/sass/tvil/theme */
+  /* line 1167, /www/tvil/sass/tvil/theme */
   .search-photo .icontvil {
     color: #fff;
     z-index: 1010; }
-  /* line 1154, /www/tvil/sass/tvil/theme */
+  /* line 1171, /www/tvil/sass/tvil/theme */
   .search-photo .favorite {
     position: absolute;
     left: 30px;
     bottom: 15px; }
-  /* line 1159, /www/tvil/sass/tvil/theme */
+  /* line 1176, /www/tvil/sass/tvil/theme */
   .search-photo:after {
     content: ' ';
     position: absolute;
@@ -8142,49 +8183,49 @@ select + .form-control-feedback {
     -webkit-box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4);
     box-shadow: inset 0px 130px 130px -65px rgba(0, 0, 0, 0.4); }
-  /* line 1176, /www/tvil/sass/tvil/theme */
+  /* line 1193, /www/tvil/sass/tvil/theme */
   .search-photo:hover:after, .search-photo:focus:after {
     background-color: rgba(81, 110, 142, 0.7); }
-  /* line 1180, /www/tvil/sass/tvil/theme */
+  /* line 1197, /www/tvil/sass/tvil/theme */
   .search-photo.search-photo-sm {
     width: 268px;
     height: 172px; }
-    /* line 1183, /www/tvil/sass/tvil/theme */
+    /* line 1200, /www/tvil/sass/tvil/theme */
     .search-photo.search-photo-sm h3 {
       width: 260px; }
-    /* line 1186, /www/tvil/sass/tvil/theme */
+    /* line 1203, /www/tvil/sass/tvil/theme */
     .search-photo.search-photo-sm:after {
       height: 172px;
       width: 268px; }
 
-/* line 1192, /www/tvil/sass/tvil/theme */
+/* line 1209, /www/tvil/sass/tvil/theme */
 .col-offset-fix {
   margin-left: -5px; }
 
-/* line 1196, /www/tvil/sass/tvil/theme */
+/* line 1213, /www/tvil/sass/tvil/theme */
 .search-result h2 {
   margin-top: 34px;
   margin-bottom: 17px;
   font-size: 18px;
   font-weight: 600; }
-/* line 1202, /www/tvil/sass/tvil/theme */
+/* line 1219, /www/tvil/sass/tvil/theme */
 .search-result .btn {
   margin-right: 8px; }
-/* line 1205, /www/tvil/sass/tvil/theme */
+/* line 1222, /www/tvil/sass/tvil/theme */
 .search-result .btn-group .btn {
   margin-right: 0; }
-/* line 1208, /www/tvil/sass/tvil/theme */
+/* line 1225, /www/tvil/sass/tvil/theme */
 .search-result .btn-default {
   color: #566777; }
-  /* line 1210, /www/tvil/sass/tvil/theme */
+  /* line 1227, /www/tvil/sass/tvil/theme */
   .search-result .btn-default.selected {
     color: #152438; }
 
-/* line 1216, /www/tvil/sass/tvil/theme */
+/* line 1233, /www/tvil/sass/tvil/theme */
 .search-similar .btn-block {
   margin-top: 15px; }
 
-/* line 1220, /www/tvil/sass/tvil/theme */
+/* line 1237, /www/tvil/sass/tvil/theme */
 .nav-pagination {
   margin-top: 16px;
   margin-left: -19px;
@@ -8194,105 +8235,115 @@ select + .form-control-feedback {
   border-top: 1px solid #e9eef2;
   border-bottom: 1px solid #e9eef2;
   height: 72px; }
-  /* line 1230, /www/tvil/sass/tvil/theme */
+  /* line 1247, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li > a, .nav-pagination .pagination > li > span {
     padding: 5px 11px;
     font-size: 13px;
     font-weight: bold;
     border-radius: 2px;
     margin-right: 8px;
-    -webkit-transition: background-color, border-color 0.5s ease;
-    -moz-transition: background-color, border-color 0.5s ease;
-    -o-transition: background-color, border-color 0.5s ease;
-    transition: background-color, border-color 0.5s ease; }
-  /* line 1242, /www/tvil/sass/tvil/theme */
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease; }
+  /* line 1259, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li > a.selected, .nav-pagination .pagination > li > a:hover, .nav-pagination .pagination > li > a:focus {
     background-color: #8e9aa9;
-    border-color: #8e9aa9;
-    color: #fff; }
-  /* line 1248, /www/tvil/sass/tvil/theme */
+    color: #fff;
+    border-width: 0;
+    padding: 6px 12px; }
+  /* line 1267, /www/tvil/sass/tvil/theme */
+  .nav-pagination .pagination > li:first-child > a, .nav-pagination .pagination > li:last-child > a {
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 6px; }
+    /* line 1271, /www/tvil/sass/tvil/theme */
+    .nav-pagination .pagination > li:first-child > a.selected, .nav-pagination .pagination > li:first-child > a:hover, .nav-pagination .pagination > li:first-child > a:focus, .nav-pagination .pagination > li:last-child > a.selected, .nav-pagination .pagination > li:last-child > a:hover, .nav-pagination .pagination > li:last-child > a:focus {
+      padding-top: 5px;
+      padding-bottom: 7px; }
+  /* line 1276, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon {
     top: 2px; }
-  /* line 1251, /www/tvil/sass/tvil/theme */
+  /* line 1279, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon-menu-right {
     padding-left: 7px; }
-  /* line 1254, /www/tvil/sass/tvil/theme */
+  /* line 1282, /www/tvil/sass/tvil/theme */
   .nav-pagination .pagination > li .glyphicon-menu-left {
     padding-right: 7px; }
 
-/* line 1259, /www/tvil/sass/tvil/theme */
+/* line 1287, /www/tvil/sass/tvil/theme */
 .popular {
   margin-top: 28px; }
-  /* line 1261, /www/tvil/sass/tvil/theme */
+  /* line 1289, /www/tvil/sass/tvil/theme */
   .popular h2 {
     width: 100%;
     margin-bottom: 8px; }
-  /* line 1265, /www/tvil/sass/tvil/theme */
+  /* line 1293, /www/tvil/sass/tvil/theme */
   .popular ul {
     -webkit-column-count: 3;
     /* Chrome, Safari, Opera */
     -moz-column-count: 3;
     /* Firefox */
     column-count: 3; }
-  /* line 1270, /www/tvil/sass/tvil/theme */
+  /* line 1298, /www/tvil/sass/tvil/theme */
   .popular li {
     line-height: 27px; }
-  /* line 1273, /www/tvil/sass/tvil/theme */
+  /* line 1301, /www/tvil/sass/tvil/theme */
   .popular a {
     text-decoration: underline; }
-    /* line 1275, /www/tvil/sass/tvil/theme */
+    /* line 1303, /www/tvil/sass/tvil/theme */
     .popular a:hover {
       text-decoration: none; }
 
-/* line 1280, /www/tvil/sass/tvil/theme */
+/* line 1308, /www/tvil/sass/tvil/theme */
 .widget {
   margin-bottom: 15px; }
 
-/* line 1283, /www/tvil/sass/tvil/theme */
+/* line 1311, /www/tvil/sass/tvil/theme */
 .footer {
   background-color: #ecf1f4;
   margin-left: -19px;
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 1289, /www/tvil/sass/tvil/theme */
+  /* line 1317, /www/tvil/sass/tvil/theme */
   .footer h2 {
     color: #3b4754;
     margin-top: 40px;
     margin-bottom: 0; }
-  /* line 1294, /www/tvil/sass/tvil/theme */
+  /* line 1322, /www/tvil/sass/tvil/theme */
   .footer p {
     color: #6f8297;
     margin-top: 11px;
     margin-bottom: 25px; }
-    /* line 1298, /www/tvil/sass/tvil/theme */
+    /* line 1326, /www/tvil/sass/tvil/theme */
     .footer p a {
       padding-top: 6px;
       padding-bottom: 14px;
       display: inline-block; }
-  /* line 1304, /www/tvil/sass/tvil/theme */
+  /* line 1332, /www/tvil/sass/tvil/theme */
   .footer li {
     line-height: 27px;
     margin-bottom: 3px; }
-    /* line 1307, /www/tvil/sass/tvil/theme */
+    /* line 1335, /www/tvil/sass/tvil/theme */
     .footer li a {
       text-decoration: underline;
       color: #a1b1c5; }
-      /* line 1310, /www/tvil/sass/tvil/theme */
+      /* line 1338, /www/tvil/sass/tvil/theme */
       .footer li a:hover {
         text-decoration: none; }
-  /* line 1315, /www/tvil/sass/tvil/theme */
+  /* line 1343, /www/tvil/sass/tvil/theme */
   .footer .glyphicon, .footer .icontvil {
     margin-right: 7px; }
-  /* line 1318, /www/tvil/sass/tvil/theme */
+  /* line 1346, /www/tvil/sass/tvil/theme */
   .footer ul {
     margin-top: 7px; }
 
-/* line 1322, /www/tvil/sass/tvil/theme */
+/* line 1350, /www/tvil/sass/tvil/theme */
 .prize {
   margin-top: 40px;
   margin-bottom: 28px; }
-  /* line 1325, /www/tvil/sass/tvil/theme */
+  /* line 1353, /www/tvil/sass/tvil/theme */
   .prize p {
     color: #56677a;
     margin: 0;
@@ -8300,7 +8351,7 @@ select + .form-control-feedback {
     display: inline-block;
     padding-left: 48px;
     position: relative; }
-  /* line 1333, /www/tvil/sass/tvil/theme */
+  /* line 1361, /www/tvil/sass/tvil/theme */
   .prize .icontvil {
     font-size: 30px;
     position: absolute;
@@ -8308,7 +8359,7 @@ select + .form-control-feedback {
     left: 0px;
     color: #a1b1c5; }
 
-/* line 1341, /www/tvil/sass/tvil/theme */
+/* line 1369, /www/tvil/sass/tvil/theme */
 .copyright {
   height: 67px;
   background-color: #424f5e;
@@ -8316,56 +8367,56 @@ select + .form-control-feedback {
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px; }
-  /* line 1348, /www/tvil/sass/tvil/theme */
+  /* line 1376, /www/tvil/sass/tvil/theme */
   .copyright p {
     line-height: 67px;
     height: 67px;
     margin-bottom: 0;
     color: #a1b1c5; }
 
-/* line 1356, /www/tvil/sass/tvil/theme */
+/* line 1384, /www/tvil/sass/tvil/theme */
 .search-amount-rooms .search-label {
   line-height: 20px; }
 
-/* line 1360, /www/tvil/sass/tvil/theme */
+/* line 1388, /www/tvil/sass/tvil/theme */
 .search-comfort {
   margin-bottom: -15px; }
-  /* line 1362, /www/tvil/sass/tvil/theme */
+  /* line 1390, /www/tvil/sass/tvil/theme */
   .search-comfort .btn {
     margin-bottom: 15px; }
-    /* line 1364, /www/tvil/sass/tvil/theme */
+    /* line 1392, /www/tvil/sass/tvil/theme */
     .search-comfort .btn:nth-child(4n+4) {
       margin-right: 0; }
 
-/* line 1369, /www/tvil/sass/tvil/theme */
+/* line 1397, /www/tvil/sass/tvil/theme */
 .search-show-all {
   margin-top: 49px; }
-  /* line 1371, /www/tvil/sass/tvil/theme */
+  /* line 1399, /www/tvil/sass/tvil/theme */
   .search-show-all .col-w100 {
     margin-left: -19px;
     margin-right: -19px; }
-  /* line 1375, /www/tvil/sass/tvil/theme */
+  /* line 1403, /www/tvil/sass/tvil/theme */
   .search-show-all .btn {
     width: 768px;
     padding: 15px 20px;
     text-transform: uppercase;
     border-radius: 0; }
 
-/* line 1383, /www/tvil/sass/tvil/theme */
+/* line 1411, /www/tvil/sass/tvil/theme */
 .search-price .slider {
   width: 600px;
   margin-bottom: 18px;
   margin-top: 15px; }
-  /* line 1387, /www/tvil/sass/tvil/theme */
+  /* line 1415, /www/tvil/sass/tvil/theme */
   .search-price .slider .popover {
     border: none;
     box-shadow: none;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0); }
-    /* line 1392, /www/tvil/sass/tvil/theme */
+    /* line 1420, /www/tvil/sass/tvil/theme */
     .search-price .slider .popover .arrow {
       display: none; }
-    /* line 1395, /www/tvil/sass/tvil/theme */
+    /* line 1423, /www/tvil/sass/tvil/theme */
     .search-price .slider .popover .popover-content {
       white-space: nowrap;
       padding-top: 0;
@@ -8374,20 +8425,20 @@ select + .form-control-feedback {
       font-size: 14px;
       color: #566777; }
 
-/* line 1406, /www/tvil/sass/tvil/theme */
+/* line 1434, /www/tvil/sass/tvil/theme */
 .search-line {
   position: absolute;
   top: 14px;
   left: 20px;
   right: 20px; }
-  /* line 1411, /www/tvil/sass/tvil/theme */
+  /* line 1439, /www/tvil/sass/tvil/theme */
   .search-line .form-control {
     border: none;
     color: #56677a;
     -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); }
-  /* line 1418, /www/tvil/sass/tvil/theme */
+  /* line 1446, /www/tvil/sass/tvil/theme */
   .search-line .glyphicon {
     color: #353c44;
     opacity: 0.5; }
@@ -8395,19 +8446,19 @@ select + .form-control-feedback {
     .search-line {
       display: none; } }
 
-/* line 1427, /www/tvil/sass/tvil/theme */
+/* line 1455, /www/tvil/sass/tvil/theme */
 .search-maptab {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0; }
-  /* line 1433, /www/tvil/sass/tvil/theme */
+  /* line 1461, /www/tvil/sass/tvil/theme */
   .search-maptab .btn-group-justified {
     border-collapse: collapse; }
   @media (max-width: 1100px) {
     .search-maptab {
       display: none; } }
-  /* line 1439, /www/tvil/sass/tvil/theme */
+  /* line 1467, /www/tvil/sass/tvil/theme */
   .search-maptab .btn-darkgray {
     background-color: rgba(86, 103, 122, 0.6);
     color: #fff;
@@ -8416,48 +8467,48 @@ select + .form-control-feedback {
     border-top: none;
     border-bottom: none;
     border-color: #5d6f88; }
-    /* line 1447, /www/tvil/sass/tvil/theme */
+    /* line 1475, /www/tvil/sass/tvil/theme */
     .search-maptab .btn-darkgray:focus, .search-maptab .btn-darkgray:hover, .search-maptab .btn-darkgray.selected {
       background-color: #56677a; }
 
-/* line 1452, /www/tvil/sass/tvil/theme */
+/* line 1480, /www/tvil/sass/tvil/theme */
 .search-pin {
   position: absolute;
   top: 50%;
   left: 50%;
   cursor: pointer; }
-  /* line 1457, /www/tvil/sass/tvil/theme */
+  /* line 1485, /www/tvil/sass/tvil/theme */
   .search-pin#two-example {
     left: 30%;
     top: 70%; }
-  /* line 1461, /www/tvil/sass/tvil/theme */
+  /* line 1489, /www/tvil/sass/tvil/theme */
   .search-pin .icontvil {
     color: #7f94ac;
     font-size: 45px; }
-  /* line 1466, /www/tvil/sass/tvil/theme */
+  /* line 1494, /www/tvil/sass/tvil/theme */
   .search-pin.selected .icontvil {
     color: #ff5d61; }
 
-/* line 1472, /www/tvil/sass/tvil/theme */
+/* line 1500, /www/tvil/sass/tvil/theme */
 .search-pins .popover {
   padding: 0; }
-/* line 1475, /www/tvil/sass/tvil/theme */
+/* line 1503, /www/tvil/sass/tvil/theme */
 .search-pins .arrow {
   display: none; }
-/* line 1478, /www/tvil/sass/tvil/theme */
+/* line 1506, /www/tvil/sass/tvil/theme */
 .search-pins .popover-content {
   padding: 0; }
-  /* line 1480, /www/tvil/sass/tvil/theme */
+  /* line 1508, /www/tvil/sass/tvil/theme */
   .search-pins .popover-content .thumbnail {
     border: none;
     width: 250px;
     padding: 0;
     margin: 0; }
-/* line 1487, /www/tvil/sass/tvil/theme */
+/* line 1515, /www/tvil/sass/tvil/theme */
 .search-pins .caption {
   padding-top: 0;
   padding-bottom: 0; }
-/* line 1491, /www/tvil/sass/tvil/theme */
+/* line 1519, /www/tvil/sass/tvil/theme */
 .search-pins h3, .search-pins .h3 {
   margin-top: 10px;
   margin-bottom: 2px;
@@ -8468,13 +8519,13 @@ select + .form-control-feedback {
   width: 239px;
   overflow: hidden;
   text-overflow: ellipsis; }
-/* line 1502, /www/tvil/sass/tvil/theme */
+/* line 1530, /www/tvil/sass/tvil/theme */
 .search-pins p {
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 8px; }
 
-/* line 1508, /www/tvil/sass/tvil/theme */
+/* line 1536, /www/tvil/sass/tvil/theme */
 .search-mapmodal {
   position: absolute;
   top: 0;
@@ -8483,121 +8534,118 @@ select + .form-control-feedback {
   right: 0;
   background-color: rgba(66, 79, 94, 0.9); }
 
-/* line 1519, /www/tvil/sass/tvil/theme */
+/* line 1547, /www/tvil/sass/tvil/theme */
 .arr-top, .arr-down, .txt-top, .txt-down {
   position: absolute;
   left: 43px;
   background-repeat: no-repeat;
   background-position: top left; }
 
-/* line 1526, /www/tvil/sass/tvil/theme */
+/* line 1554, /www/tvil/sass/tvil/theme */
 .arr-top, .arr-down {
   display: block;
   width: 87px;
   height: 69px;
   background-image: url(../img/arrow-quatr.png);
-  -webkit-animation-duration: 1s;
+  /*   -webkit-animation-duration: 1s; 
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: 1;
   -webkit-animation-timing-function: linear;
-  -moz-animation-duration: 1s;
+  -moz-animation-duration: 1s; 
   -moz-animation-delay: 2s;
   -moz-animation-iteration-count: 1;
-  -moz-animation-timing-function: linear; }
+  -moz-animation-timing-function: linear; */ }
 
+/* 
 @-webkit-keyframes rotate {
-  /* line 1541, /www/tvil/sass/tvil/theme */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    transform: rotate(0deg); }
-
-  /* line 1546, /www/tvil/sass/tvil/theme */
+    transform: rotate(0deg);
+  }
   50% {
     -webkit-transform: rotate(-15deg);
     -moz-transform: rotate(-15deg);
-    transform: rotate(-15deg); }
-
-  /* line 1551, /www/tvil/sass/tvil/theme */
+    transform: rotate(-15deg);
+  }
   100% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    transform: rotate(0deg); } }
-
+    transform: rotate(0deg);
+  }
+}
 @-webkit-keyframes rotate_back {
-  /* line 1558, /www/tvil/sass/tvil/theme */
-  0% {
+  0%{
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    transform: rotate(0deg); }
-
-  /* line 1563, /www/tvil/sass/tvil/theme */
+    transform: rotate(0deg);
+  }
   50% {
     -webkit-transform: rotate(15deg);
     -moz-transform: rotate(15deg);
-    transform: rotate(15deg); }
-
-  /* line 1568, /www/tvil/sass/tvil/theme */
+    transform: rotate(15deg);
+  }
   100% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
-    transform: rotate(0deg); } }
-
-/* line 1574, /www/tvil/sass/tvil/theme */
+    transform: rotate(0deg);
+  }
+} */
+/* line 1602, /www/tvil/sass/tvil/theme */
 .arr-top {
   top: 60px;
-  -webkit-animation-name: rotate;
-  -moz-animation-name: rotate; }
+  /* -webkit-animation-name: rotate;
+  -moz-animation-name: rotate; */ }
 
-/* line 1579, /www/tvil/sass/tvil/theme */
+/* line 1607, /www/tvil/sass/tvil/theme */
 .arr-down {
   background-position: bottom left;
   bottom: 60px;
-  -webkit-animation-name: rotate_back;
-  -moz-animation-name: rotate_back; }
+  /* -webkit-animation-name: rotate_back;
+  -moz-animation-name: rotate_back; */ }
 
-/* line 1586, /www/tvil/sass/tvil/theme */
+/* line 1614, /www/tvil/sass/tvil/theme */
 .txt-top, .txt-down {
   width: 260px;
   height: 37px;
   background-image: url(../img/wt.png); }
 
-/* line 1591, /www/tvil/sass/tvil/theme */
+/* line 1619, /www/tvil/sass/tvil/theme */
 .txt-top {
   top: 130px;
   background-position: bottom left; }
 
-/* line 1595, /www/tvil/sass/tvil/theme */
+/* line 1623, /www/tvil/sass/tvil/theme */
 .txt-down {
   bottom: 130px;
   background-position: top left; }
 
-/* line 1601, /www/tvil/sass/tvil/theme */
+/* line 1629, /www/tvil/sass/tvil/theme */
 .main.obj .container-fluid {
   border-top: 1px solid #e2e7ec; }
-/* line 1604, /www/tvil/sass/tvil/theme */
+/* line 1632, /www/tvil/sass/tvil/theme */
 .main.obj h1 {
   font-size: 26px;
   margin-top: 34px; }
-/* line 1608, /www/tvil/sass/tvil/theme */
+/* line 1636, /www/tvil/sass/tvil/theme */
 .main.obj h2 {
   font-size: 26px;
   font-weight: normal; }
-/* line 1612, /www/tvil/sass/tvil/theme */
+/* line 1640, /www/tvil/sass/tvil/theme */
 .main.obj h3 {
   font-size: 18px;
   font-weight: 500;
   margin-top: 0; }
-/* line 1617, /www/tvil/sass/tvil/theme */
+/* line 1645, /www/tvil/sass/tvil/theme */
 .main.obj p {
   color: #566777;
   font-size: 14px; }
-/* line 1621, /www/tvil/sass/tvil/theme */
+/* line 1649, /www/tvil/sass/tvil/theme */
 .main.obj .row-main {
   margin-left: 0;
   margin-right: 0;
   padding: 0; }
-  /* line 1625, /www/tvil/sass/tvil/theme */
+  /* line 1653, /www/tvil/sass/tvil/theme */
   .main.obj .row-main .carousel {
     margin: 0 -15px 11px;
     /*       @media (min-width: 1441px){
@@ -8605,7 +8653,7 @@ select + .form-control-feedback {
         margin-right: auto;
         max-width: 720px;
       } */ }
-    /* line 1633, /www/tvil/sass/tvil/theme */
+    /* line 1661, /www/tvil/sass/tvil/theme */
     .main.obj .row-main .carousel .item {
       max-height: 500px; }
       @media (max-width: 1199px) {
@@ -8620,56 +8668,55 @@ select + .form-control-feedback {
       @media (min-width: 1441px) {
         .main.obj .row-main .carousel .item {
           max-height: 480px; } }
-/* line 1652, /www/tvil/sass/tvil/theme */
+/* line 1680, /www/tvil/sass/tvil/theme */
 .main.obj .dl-horizontal {
   margin-top: 28px;
   border-bottom: 1px solid #e2e7ec;
   margin-bottom: 0;
   padding-bottom: 21px; }
-  /* line 1657, /www/tvil/sass/tvil/theme */
+  /* line 1685, /www/tvil/sass/tvil/theme */
   .main.obj .dl-horizontal dt {
     text-align: left;
     padding-left: 28px;
     width: 245px; }
-    /* line 1661, /www/tvil/sass/tvil/theme */
+    /* line 1689, /www/tvil/sass/tvil/theme */
     .main.obj .dl-horizontal dt h2, .main.obj .dl-horizontal dt h3 {
       margin-top: 0;
       color: #152438;
       white-space: normal; }
-  /* line 1667, /www/tvil/sass/tvil/theme */
+  /* line 1695, /www/tvil/sass/tvil/theme */
   .main.obj .dl-horizontal dd {
     margin-left: 245px;
     padding-right: 45px; }
-    /* line 1670, /www/tvil/sass/tvil/theme */
+    /* line 1698, /www/tvil/sass/tvil/theme */
     .main.obj .dl-horizontal dd p {
       line-height: 21px;
       color: #152438; }
-      /* line 1673, /www/tvil/sass/tvil/theme */
+      /* line 1701, /www/tvil/sass/tvil/theme */
       .main.obj .dl-horizontal dd p span {
         color: #152438; }
-        /* line 1675, /www/tvil/sass/tvil/theme */
+        /* line 1703, /www/tvil/sass/tvil/theme */
         .main.obj .dl-horizontal dd p span.light {
           color: #566777; }
-    /* line 1680, /www/tvil/sass/tvil/theme */
+    /* line 1708, /www/tvil/sass/tvil/theme */
     .main.obj .dl-horizontal dd a {
       color: #152438;
       text-decoration: none;
       border-bottom: 1px dashed #152438; }
-      /* line 1684, /www/tvil/sass/tvil/theme */
+      /* line 1712, /www/tvil/sass/tvil/theme */
       .main.obj .dl-horizontal dd a:hover {
         border-bottom-color: rgba(0, 0, 0, 0); }
-/* line 1691, /www/tvil/sass/tvil/theme */
+/* line 1719, /www/tvil/sass/tvil/theme */
 .main.obj .column-2 li {
-  line-height: 24px;
-  margin-bottom: 8px; }
-/* line 1695, /www/tvil/sass/tvil/theme */
+  line-height: 24px; }
+/* line 1723, /www/tvil/sass/tvil/theme */
 .main.obj .column-2 .glyphicon {
   margin-top: 0;
   padding-top: 0;
   margin-right: 22px;
   font-size: 24px;
   color: #8e9aa9; }
-/* line 1702, /www/tvil/sass/tvil/theme */
+/* line 1730, /www/tvil/sass/tvil/theme */
 .main.obj .column-2 .txt {
   line-height: 24px;
   padding: 0;
@@ -8678,26 +8725,26 @@ select + .form-control-feedback {
   display: inline-block;
   position: relative; }
 
-/* line 1713, /www/tvil/sass/tvil/theme */
+/* line 1741, /www/tvil/sass/tvil/theme */
 .places span.pull-right {
   padding-right: 15px; }
 
-/* line 1718, /www/tvil/sass/tvil/theme */
+/* line 1746, /www/tvil/sass/tvil/theme */
 .media-head .media-left {
   text-align: center;
   padding-top: 25px;
   padding-left: 40px;
   padding-right: 62px; }
-  /* line 1723, /www/tvil/sass/tvil/theme */
+  /* line 1751, /www/tvil/sass/tvil/theme */
   .media-head .media-left a {
     display: inline-block; }
-  /* line 1726, /www/tvil/sass/tvil/theme */
+  /* line 1754, /www/tvil/sass/tvil/theme */
   .media-head .media-left span {
     padding-top: 10px;
     display: inline-block;
     color: #8e9aa9; }
 
-/* line 1732, /www/tvil/sass/tvil/theme */
+/* line 1760, /www/tvil/sass/tvil/theme */
 .main .hr-obj {
   margin-top: 22px;
   padding-top: 0;
@@ -8710,82 +8757,82 @@ select + .form-control-feedback {
       margin-left: 0;
       margin-right: 0; } }
 
-/* line 1744, /www/tvil/sass/tvil/theme */
+/* line 1772, /www/tvil/sass/tvil/theme */
 .column-2 {
   -webkit-column: 2;
   -moz-column: 2;
   column: 2; }
-  /* line 1748, /www/tvil/sass/tvil/theme */
+  /* line 1776, /www/tvil/sass/tvil/theme */
   .column-2 li {
     width: 50%;
     display: inline-block;
     vertical-align: text-top; }
 
-/* line 1755, /www/tvil/sass/tvil/theme */
+/* line 1783, /www/tvil/sass/tvil/theme */
 .col-left {
   padding-left: 74px; }
-  /* line 1757, /www/tvil/sass/tvil/theme */
+  /* line 1785, /www/tvil/sass/tvil/theme */
   .col-left .has-feedback select.form-control {
     width: 90px;
     margin-left: 0; }
     @media (max-width: 1199px) {
       .col-left .has-feedback select.form-control {
         width: 65px; } }
-  /* line 1764, /www/tvil/sass/tvil/theme */
+  /* line 1792, /www/tvil/sass/tvil/theme */
   .col-left i.icontvil.form-control-feedback {
     right: 0;
     left: auto; }
 
-/* line 1769, /www/tvil/sass/tvil/theme */
+/* line 1797, /www/tvil/sass/tvil/theme */
 .col-right {
   padding-right: 74px; }
-  /* line 1773, /www/tvil/sass/tvil/theme */
+  /* line 1801, /www/tvil/sass/tvil/theme */
   .col-right .has-feedback select.form-control {
     width: 90px;
     margin-left: 0; }
     @media (max-width: 1199px) {
       .col-right .has-feedback select.form-control {
         width: 65px; } }
-  /* line 1782, /www/tvil/sass/tvil/theme */
+  /* line 1810, /www/tvil/sass/tvil/theme */
   .col-right i.icontvil.form-control-feedback.icontvil-Children {
     left: auto;
     right: 0; }
 
-/* line 1788, /www/tvil/sass/tvil/theme */
+/* line 1816, /www/tvil/sass/tvil/theme */
 .price-start {
   padding-top: 18px;
   padding-bottom: 0; }
-  /* line 1791, /www/tvil/sass/tvil/theme */
+  /* line 1819, /www/tvil/sass/tvil/theme */
   .price-start h2 {
     font-size: 22px;
     font-weight: bold;
     color: #8e9aa9;
     margin-bottom: 31px; }
 
-/* line 1798, /www/tvil/sass/tvil/theme */
+/* line 1826, /www/tvil/sass/tvil/theme */
 span.msg-info {
   color: #8e9aa9;
   opacity: 0.5;
   margin-bottom: 10px;
   display: inline-block; }
-  /* line 1803, /www/tvil/sass/tvil/theme */
+  /* line 1831, /www/tvil/sass/tvil/theme */
   span.msg-info .icontvil {
     color: #8e9aa9;
     opacity: 0.5;
     margin-right: 7px; }
 
-/* line 1809, /www/tvil/sass/tvil/theme */
+/* line 1837, /www/tvil/sass/tvil/theme */
 .calculate {
   margin-top: 0;
   padding-left: 74px;
   padding-right: 74px; }
-  /* line 1813, /www/tvil/sass/tvil/theme */
+  /* line 1841, /www/tvil/sass/tvil/theme */
   .calculate .btn {
     text-transform: uppercase;
     padding: 10px 20px;
     border-radius: 3px; }
 
-/* line 1819, /www/tvil/sass/tvil/theme */
+/* line 1847, /www/tvil/sass/tvil/theme */
 .sidebar-info {
   padding: 20px 30px 0;
   position: absolute;
@@ -8798,83 +8845,83 @@ span.msg-info {
       width: 400px;
       position: fixed;
       padding: 20px 0 0 20px; } }
-  /* line 1832, /www/tvil/sass/tvil/theme */
+  /* line 1860, /www/tvil/sass/tvil/theme */
   .sidebar-info p {
     padding: 0 20px;
     color: #8e9aa9;
     margin-bottom: 0; }
-  /* line 1837, /www/tvil/sass/tvil/theme */
+  /* line 1865, /www/tvil/sass/tvil/theme */
   .sidebar-info strong {
     font-size: 26px;
     font-weight: normal; }
-  /* line 1841, /www/tvil/sass/tvil/theme */
+  /* line 1869, /www/tvil/sass/tvil/theme */
   .sidebar-info .btn {
     font-size: 14px;
     font-weight: 500;
     padding-left: 16px;
     padding-right: 12px; }
-    /* line 1846, /www/tvil/sass/tvil/theme */
+    /* line 1874, /www/tvil/sass/tvil/theme */
     .sidebar-info .btn:first-child {
       margin-right: 5px; }
-    /* line 1849, /www/tvil/sass/tvil/theme */
+    /* line 1877, /www/tvil/sass/tvil/theme */
     .sidebar-info .btn:last-child {
       margin-left: 5px; }
-  /* line 1853, /www/tvil/sass/tvil/theme */
+  /* line 1881, /www/tvil/sass/tvil/theme */
   .sidebar-info .icontvil {
     margin-right: 7px;
     color: #8e9aa9;
     margin-left: -3px; }
 
-/* line 1859, /www/tvil/sass/tvil/theme */
+/* line 1887, /www/tvil/sass/tvil/theme */
 .col-share {
   padding-top: 51px; }
   @media (max-width: 1199px) {
     .col-share {
       padding-left: 0;
       padding-right: 0; } }
-  /* line 1865, /www/tvil/sass/tvil/theme */
+  /* line 1893, /www/tvil/sass/tvil/theme */
   .col-share .btn {
     padding-left: 10px;
     padding-right: 8px; }
 
-/* line 1870, /www/tvil/sass/tvil/theme */
+/* line 1898, /www/tvil/sass/tvil/theme */
 .carousel-preview {
   position: absolute;
   bottom: 20px;
   width: 100%; }
-  /* line 1874, /www/tvil/sass/tvil/theme */
+  /* line 1902, /www/tvil/sass/tvil/theme */
   .carousel-preview ul {
     padding-left: 20px; }
-  /* line 1877, /www/tvil/sass/tvil/theme */
+  /* line 1905, /www/tvil/sass/tvil/theme */
   .carousel-preview img {
     width: 63px;
     height: 40px; }
-  /* line 1881, /www/tvil/sass/tvil/theme */
+  /* line 1909, /www/tvil/sass/tvil/theme */
   .carousel-preview a {
     border: 1px solid #c5c7c6;
     display: inline-block;
     margin-right: 10px;
     cursor: pointer; }
-    /* line 1886, /www/tvil/sass/tvil/theme */
+    /* line 1914, /www/tvil/sass/tvil/theme */
     .carousel-preview a:hover, .carousel-preview a.active {
       border: 2px solid #fff; }
-      /* line 1888, /www/tvil/sass/tvil/theme */
+      /* line 1916, /www/tvil/sass/tvil/theme */
       .carousel-preview a:hover img, .carousel-preview a.active img {
         width: 61px;
         height: 38px; }
-  /* line 1894, /www/tvil/sass/tvil/theme */
+  /* line 1922, /www/tvil/sass/tvil/theme */
   .carousel-preview li {
     display: inline-block; }
 
-/* line 1898, /www/tvil/sass/tvil/theme */
+/* line 1926, /www/tvil/sass/tvil/theme */
 .list-dotted {
   list-style: none;
   padding-left: 0; }
-  /* line 1901, /www/tvil/sass/tvil/theme */
+  /* line 1929, /www/tvil/sass/tvil/theme */
   .list-dotted li {
     padding-left: 10px;
     position: relative; }
-    /* line 1904, /www/tvil/sass/tvil/theme */
+    /* line 1932, /www/tvil/sass/tvil/theme */
     .list-dotted li:before {
       display: block;
       content: ' ';
@@ -8886,35 +8933,35 @@ span.msg-info {
       top: 10px;
       left: 0; }
 
-/* line 1917, /www/tvil/sass/tvil/theme */
+/* line 1945, /www/tvil/sass/tvil/theme */
 .h2-obj {
   padding-left: 13px; }
 
-/* line 1920, /www/tvil/sass/tvil/theme */
+/* line 1948, /www/tvil/sass/tvil/theme */
 .h3-obj {
   padding-left: 13px; }
 
-/* line 1923, /www/tvil/sass/tvil/theme */
+/* line 1951, /www/tvil/sass/tvil/theme */
 .h3-cabinet {
   color: #152438;
   font-weight: 500;
   font-size: 18px;
   margin-top: 35px; }
-  /* line 1928, /www/tvil/sass/tvil/theme */
+  /* line 1956, /www/tvil/sass/tvil/theme */
   .h3-cabinet.h3-cabinet-first {
     margin-top: 20px; }
 
-/* line 1932, /www/tvil/sass/tvil/theme */
+/* line 1960, /www/tvil/sass/tvil/theme */
 .row-gray {
   background-color: #f4f7f9;
   border-bottom: 1px solid #e2e7ec; }
 
-/* line 1936, /www/tvil/sass/tvil/theme */
+/* line 1964, /www/tvil/sass/tvil/theme */
 .row-white {
   background-color: #fff; }
 
 /* Отзывы */
-/* line 1940, /www/tvil/sass/tvil/theme */
+/* line 1968, /www/tvil/sass/tvil/theme */
 .rate {
   width: 80px;
   height: 24px;
@@ -8922,7 +8969,7 @@ span.msg-info {
   white-space: nowrap;
   padding: 4px 0;
   margin: 0; }
-  /* line 1947, /www/tvil/sass/tvil/theme */
+  /* line 1975, /www/tvil/sass/tvil/theme */
   .rate .point {
     display: inline-block;
     width: 12px;
@@ -8932,7 +8979,7 @@ span.msg-info {
     position: relative;
     margin-right: 5px;
     cursor: pointer; }
-    /* line 1956, /www/tvil/sass/tvil/theme */
+    /* line 1984, /www/tvil/sass/tvil/theme */
     .rate .point:after {
       display: none;
       content: ' ';
@@ -8943,11 +8990,11 @@ span.msg-info {
       left: 2px;
       border-radius: 8px;
       background-color: #56677a; }
-    /* line 1968, /www/tvil/sass/tvil/theme */
+    /* line 1996, /www/tvil/sass/tvil/theme */
     .rate .point.point-checked:after {
       display: block; }
 
-/* line 1974, /www/tvil/sass/tvil/theme */
+/* line 2002, /www/tvil/sass/tvil/theme */
 .rate-label label {
   display: block;
   color: #566777;
@@ -8959,26 +9006,26 @@ span.msg-info {
   white-space: nowrap;
   margin-bottom: 0; }
 
-/* line 1985, /www/tvil/sass/tvil/theme */
+/* line 2013, /www/tvil/sass/tvil/theme */
 .media-rate {
   margin-right: 14px;
   margin-left: 14px;
   margin-top: 20px;
   border-top: 1px solid #edeeef; }
-  /* line 1990, /www/tvil/sass/tvil/theme */
+  /* line 2018, /www/tvil/sass/tvil/theme */
   .media-rate .media-body {
     border-top: 1px solid #edeeef;
     padding-top: 27px; }
-    /* line 1993, /www/tvil/sass/tvil/theme */
+    /* line 2021, /www/tvil/sass/tvil/theme */
     .media-rate .media-body p span {
       color: #152438; }
-  /* line 1998, /www/tvil/sass/tvil/theme */
+  /* line 2026, /www/tvil/sass/tvil/theme */
   .media-rate .media:first-child .media-body {
     border-top: none; }
-  /* line 2002, /www/tvil/sass/tvil/theme */
+  /* line 2030, /www/tvil/sass/tvil/theme */
   .media-rate .media-left {
     padding: 20px 37px 20px 17px; }
-  /* line 2005, /www/tvil/sass/tvil/theme */
+  /* line 2033, /www/tvil/sass/tvil/theme */
   .media-rate .nav-pagination {
     background-color: rgba(0, 0, 0, 0);
     border-bottom-color: rgba(0, 0, 0, 0);
@@ -8987,94 +9034,94 @@ span.msg-info {
     margin-right: 10px;
     margin-left: 10px; }
 
-/* line 2014, /www/tvil/sass/tvil/theme */
+/* line 2042, /www/tvil/sass/tvil/theme */
 .rate-text {
   color: #152438;
   margin-left: -20px;
   padding-top: 2px; }
-  /* line 2018, /www/tvil/sass/tvil/theme */
+  /* line 2046, /www/tvil/sass/tvil/theme */
   .rate-text a {
     text-decoration: none;
     display: inline-block;
     border-bottom: 1px dashed #152438;
     color: #152438;
     line-height: 14px; }
-    /* line 2024, /www/tvil/sass/tvil/theme */
+    /* line 2052, /www/tvil/sass/tvil/theme */
     .rate-text a:hover {
       text-decoration: none;
       border-bottom-color: rgba(0, 0, 0, 0); }
 
-/* line 2032, /www/tvil/sass/tvil/theme */
+/* line 2060, /www/tvil/sass/tvil/theme */
 .main.obj h2.h2-obj-margintop {
   margin-top: 39px;
   margin-bottom: 21px; }
-/* line 2036, /www/tvil/sass/tvil/theme */
+/* line 2064, /www/tvil/sass/tvil/theme */
 .main.obj h3.h3-obj {
   margin-top: 24px;
   margin-bottom: 17px; }
-/* line 2040, /www/tvil/sass/tvil/theme */
+/* line 2068, /www/tvil/sass/tvil/theme */
 .main.obj .owner {
   padding-left: 14px;
   padding-right: 14px;
   padding-bottom: 31px; }
-  /* line 2044, /www/tvil/sass/tvil/theme */
+  /* line 2072, /www/tvil/sass/tvil/theme */
   .main.obj .owner p {
     color: #152438;
     margin-bottom: 15px;
     line-height: 19px; }
-  /* line 2049, /www/tvil/sass/tvil/theme */
+  /* line 2077, /www/tvil/sass/tvil/theme */
   .main.obj .owner .dl-horizontal {
     padding-top: 0;
     margin-top: -4px;
     padding-bottom: 26px;
     border-bottom: none; }
-  /* line 2055, /www/tvil/sass/tvil/theme */
+  /* line 2083, /www/tvil/sass/tvil/theme */
   .main.obj .owner dt, .main.obj .owner dd {
     padding-bottom: 6px; }
-  /* line 2058, /www/tvil/sass/tvil/theme */
+  /* line 2086, /www/tvil/sass/tvil/theme */
   .main.obj .owner dt {
     width: 144px;
     padding-left: 14px;
     font-size: 14px;
     font-weight: normal;
     color: #8e9aa9; }
-  /* line 2065, /www/tvil/sass/tvil/theme */
+  /* line 2093, /www/tvil/sass/tvil/theme */
   .main.obj .owner dd {
     margin-left: 144px;
     white-space: nowrap; }
-    /* line 2068, /www/tvil/sass/tvil/theme */
+    /* line 2096, /www/tvil/sass/tvil/theme */
     .main.obj .owner dd strong {
       font-size: 16px;
       font-weight: bold;
       color: #152438;
       margin-right: 12px; }
-    /* line 2074, /www/tvil/sass/tvil/theme */
+    /* line 2102, /www/tvil/sass/tvil/theme */
     .main.obj .owner dd .btn {
       padding-left: 15px;
       padding-right: 14px; }
 
-/* line 2081, /www/tvil/sass/tvil/theme */
+/* line 2109, /www/tvil/sass/tvil/theme */
 .ya_map_sm {
   margin-left: -15px;
   margin-right: -15px; }
-  /* line 2084, /www/tvil/sass/tvil/theme */
+  /* line 2112, /www/tvil/sass/tvil/theme */
   .ya_map_sm p {
     padding-left: 28px;
     padding-bottom: 5px; }
-    /* line 2087, /www/tvil/sass/tvil/theme */
+    /* line 2115, /www/tvil/sass/tvil/theme */
     .ya_map_sm p .icontvil {
       margin-right: 7px; }
-  /* line 2091, /www/tvil/sass/tvil/theme */
+  /* line 2119, /www/tvil/sass/tvil/theme */
   .ya_map_sm img {
     width: 100%; }
 
-/* line 2095, /www/tvil/sass/tvil/theme */
+/* line 2123, /www/tvil/sass/tvil/theme */
 .container-wrapper-center {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px; }
-  /* line 2101, /www/tvil/sass/tvil/theme */
+  /* line 2129, /www/tvil/sass/tvil/theme */
   .container-wrapper-center .sidebar-right.sidebar-right-obj, .container-wrapper-center .sidebar-left.sidebar-light {
     top: 0;
     position: absolute; }
@@ -9084,44 +9131,44 @@ span.msg-info {
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out; } }
-    /* line 2110, /www/tvil/sass/tvil/theme */
+    /* line 2138, /www/tvil/sass/tvil/theme */
     .container-wrapper-center .sidebar-right.sidebar-right-obj.affix, .container-wrapper-center .sidebar-left.sidebar-light.affix {
       position: fixed;
       top: 0; }
-  /* line 2115, /www/tvil/sass/tvil/theme */
+  /* line 2143, /www/tvil/sass/tvil/theme */
   .container-wrapper-center .main.obj {
     padding-top: 0; }
-  /* line 2118, /www/tvil/sass/tvil/theme */
+  /* line 2146, /www/tvil/sass/tvil/theme */
   .container-wrapper-center .container-wrapper.container-wrapper-obj {
     position: relative; }
 
-/* line 2122, /www/tvil/sass/tvil/theme */
+/* line 2150, /www/tvil/sass/tvil/theme */
 i.icontvil.form-control-feedback {
   color: #7f94ac; }
 
 /* 
  * Cabinet
  */
-/* line 2129, /www/tvil/sass/tvil/theme */
+/* line 2157, /www/tvil/sass/tvil/theme */
 .container-wrapper-cabinet {
   padding-right: 0; }
 
-/* line 2133, /www/tvil/sass/tvil/theme */
+/* line 2161, /www/tvil/sass/tvil/theme */
 .sidebar-cabinet {
   bottom: 0;
   top: 60px; }
-  /* line 2136, /www/tvil/sass/tvil/theme */
+  /* line 2164, /www/tvil/sass/tvil/theme */
   .sidebar-cabinet.affix {
     top: 0; }
 
-/* line 2141, /www/tvil/sass/tvil/theme */
+/* line 2169, /www/tvil/sass/tvil/theme */
 .main-cabinet {
   padding-top: 60px; }
-  /* line 2143, /www/tvil/sass/tvil/theme */
+  /* line 2171, /www/tvil/sass/tvil/theme */
   .main-cabinet h1.page-header {
     padding-top: 21px;
     margin-bottom: 0; }
-  /* line 2147, /www/tvil/sass/tvil/theme */
+  /* line 2175, /www/tvil/sass/tvil/theme */
   .main-cabinet .row-cab {
     margin-left: 0px;
     margin-right: 0px;
@@ -9131,58 +9178,62 @@ i.icontvil.form-control-feedback {
     padding-top: 9px;
     max-width: 1160px;
     border-bottom: 1px solid #e2e7ec; }
-  /* line 2157, /www/tvil/sass/tvil/theme */
+  /* line 2185, /www/tvil/sass/tvil/theme */
   .main-cabinet .form-inline {
     margin-top: 17px; }
-    /* line 2159, /www/tvil/sass/tvil/theme */
+    /* line 2187, /www/tvil/sass/tvil/theme */
     .main-cabinet .form-inline .form-control {
       width: 312px;
       margin-right: 20px;
       margin-bottom: 1px; }
-  /* line 2166, /www/tvil/sass/tvil/theme */
+  /* line 2194, /www/tvil/sass/tvil/theme */
   .main-cabinet label {
     margin-bottom: 0; }
-  /* line 2169, /www/tvil/sass/tvil/theme */
+  /* line 2197, /www/tvil/sass/tvil/theme */
   .main-cabinet .form-control {
     margin-top: 10px; }
-  /* line 2172, /www/tvil/sass/tvil/theme */
+  /* line 2200, /www/tvil/sass/tvil/theme */
   .main-cabinet select.form-control {
     margin-top: 5px; }
 
-/* line 2176, /www/tvil/sass/tvil/theme */
+/* line 2204, /www/tvil/sass/tvil/theme */
 .a-request {
   margin-top: 13px;
   margin-left: 0px;
   color: #8ca3b4;
   text-decoration: underline;
   display: inline-block; }
-  /* line 2182, /www/tvil/sass/tvil/theme */
+  /* line 2210, /www/tvil/sass/tvil/theme */
   .a-request:hover {
     text-decoration: none; }
 
-/* line 2186, /www/tvil/sass/tvil/theme */
+/* line 2214, /www/tvil/sass/tvil/theme */
 .media-request {
   margin-left: 0;
   margin-right: 0;
   background-color: #fff;
   border: 1px solid #edeeef;
   margin-top: 16px; }
-  /* line 2192, /www/tvil/sass/tvil/theme */
+  /* line 2220, /www/tvil/sass/tvil/theme */
   .media-request .media {
     border-top: 1px solid #edeeef;
     margin-top: 0; }
-  /* line 2196, /www/tvil/sass/tvil/theme */
+  /* line 2224, /www/tvil/sass/tvil/theme */
   .media-request .media-left {
     padding: 15px 18px 15px 15px; }
-  /* line 2199, /www/tvil/sass/tvil/theme */
+  /* line 2227, /www/tvil/sass/tvil/theme */
   .media-request .media-body {
     position: relative;
     padding-right: 30px; }
-    /* line 2202, /www/tvil/sass/tvil/theme */
+    /* line 2230, /www/tvil/sass/tvil/theme */
+    .media-request .media-body p {
+      color: #566777; }
+    /* line 2233, /www/tvil/sass/tvil/theme */
     .media-request .media-body h4 {
       margin-top: 22px;
-      margin-bottom: 12px; }
-  /* line 2207, /www/tvil/sass/tvil/theme */
+      margin-bottom: 12px;
+      color: #152438; }
+  /* line 2239, /www/tvil/sass/tvil/theme */
   .media-request .label {
     position: absolute;
     right: 30px;
@@ -9196,13 +9247,13 @@ i.icontvil.form-control-feedback {
     font-size: 11px;
     font-weight: normal;
     color: #fff; }
-    /* line 2220, /www/tvil/sass/tvil/theme */
+    /* line 2252, /www/tvil/sass/tvil/theme */
     .media-request .label.label-danger {
       background-color: #ff9fa1; }
-    /* line 2223, /www/tvil/sass/tvil/theme */
+    /* line 2255, /www/tvil/sass/tvil/theme */
     .media-request .label.label-success {
       background-color: #88d9be; }
-    /* line 2226, /www/tvil/sass/tvil/theme */
+    /* line 2258, /www/tvil/sass/tvil/theme */
     .media-request .label:before {
       content: ' ';
       display: block;
@@ -9213,117 +9264,119 @@ i.icontvil.form-control-feedback {
       background-color: #fff;
       top: 11px;
       left: 10px; }
-  /* line 2238, /www/tvil/sass/tvil/theme */
+  /* line 2270, /www/tvil/sass/tvil/theme */
   .media-request .btn {
     position: absolute;
     bottom: 30px;
     right: 30px; }
-    /* line 2242, /www/tvil/sass/tvil/theme */
+    /* line 2274, /www/tvil/sass/tvil/theme */
     .media-request .btn.btn-edit {
       bottom: 74px; }
-    /* line 2245, /www/tvil/sass/tvil/theme */
+    /* line 2277, /www/tvil/sass/tvil/theme */
     .media-request .btn.text-center {
       width: 136px; }
-  /* line 2249, /www/tvil/sass/tvil/theme */
+  /* line 2281, /www/tvil/sass/tvil/theme */
   .media-request dl.dl-horizontal {
     margin-top: 16px;
     margin-bottom: 0; }
-  /* line 2253, /www/tvil/sass/tvil/theme */
+  /* line 2285, /www/tvil/sass/tvil/theme */
   .media-request dt, .media-request dd {
     line-height: 2.2; }
-  /* line 2256, /www/tvil/sass/tvil/theme */
+  /* line 2288, /www/tvil/sass/tvil/theme */
   .media-request dt {
     text-align: left;
     font-weight: normal;
-    width: 100px; }
-  /* line 2261, /www/tvil/sass/tvil/theme */
+    width: 100px;
+    color: #566777; }
+  /* line 2294, /www/tvil/sass/tvil/theme */
   .media-request dd {
     font-weight: bold;
-    margin-left: 115px; }
-  /* line 2265, /www/tvil/sass/tvil/theme */
+    margin-left: 115px;
+    color: #152438; }
+  /* line 2299, /www/tvil/sass/tvil/theme */
   .media-request ul.column-2 {
     width: 290px; }
-    /* line 2267, /www/tvil/sass/tvil/theme */
+    /* line 2301, /www/tvil/sass/tvil/theme */
     .media-request ul.column-2 li {
       margin-bottom: 3px; }
-    /* line 2270, /www/tvil/sass/tvil/theme */
+    /* line 2304, /www/tvil/sass/tvil/theme */
     .media-request ul.column-2 a {
       color: #b0b8c3;
       text-decoration: underline; }
-      /* line 2273, /www/tvil/sass/tvil/theme */
+      /* line 2307, /www/tvil/sass/tvil/theme */
       .media-request ul.column-2 a:hover, .media-request ul.column-2 a:focus {
         color: #b0b8c3;
         text-decoration: none; }
-  /* line 2279, /www/tvil/sass/tvil/theme */
+  /* line 2313, /www/tvil/sass/tvil/theme */
   .media-request label.activity {
     position: absolute;
     top: 15px;
     right: 30px;
     line-height: 15px;
     padding-top: 0; }
-    /* line 2285, /www/tvil/sass/tvil/theme */
+    /* line 2319, /www/tvil/sass/tvil/theme */
     .media-request label.activity input[type='checkbox'] + .check-custom {
       background-color: #28bd8b; }
-    /* line 2288, /www/tvil/sass/tvil/theme */
+    /* line 2322, /www/tvil/sass/tvil/theme */
     .media-request label.activity input[type='checkbox']:checked + .check-custom {
       background-color: #f48184; }
 
-/* line 2293, /www/tvil/sass/tvil/theme */
+/* line 2327, /www/tvil/sass/tvil/theme */
 .media-rate-cabinet {
   margin-left: 0;
   margin-right: 0;
   background-color: #fff;
   border: 1px solid #edeeef; }
-  /* line 2298, /www/tvil/sass/tvil/theme */
+  /* line 2332, /www/tvil/sass/tvil/theme */
   .media-rate-cabinet h4 {
     font-size: 18px;
     margin-top: 0;
     margin-bottom: 17px; }
-  /* line 2303, /www/tvil/sass/tvil/theme */
+  /* line 2337, /www/tvil/sass/tvil/theme */
   .media-rate-cabinet .media {
     border-top: 1px solid #edeeef;
     margin-top: 0;
     padding-bottom: 20px; }
-    /* line 2307, /www/tvil/sass/tvil/theme */
+    /* line 2341, /www/tvil/sass/tvil/theme */
     .media-rate-cabinet .media:first-child {
       border-top: none; }
-  /* line 2311, /www/tvil/sass/tvil/theme */
+  /* line 2345, /www/tvil/sass/tvil/theme */
   .media-rate-cabinet .media-body {
     padding-top: 25px;
     border-top: none; }
-    /* line 2314, /www/tvil/sass/tvil/theme */
+    /* line 2348, /www/tvil/sass/tvil/theme */
     .media-rate-cabinet .media-body p {
       color: #8e9aa9; }
-    /* line 2317, /www/tvil/sass/tvil/theme */
+    /* line 2351, /www/tvil/sass/tvil/theme */
     .media-rate-cabinet .media-body span {
       color: #152438; }
-    /* line 2320, /www/tvil/sass/tvil/theme */
+    /* line 2354, /www/tvil/sass/tvil/theme */
     .media-rate-cabinet .media-body .icontvil {
       width: 12px; }
-  /* line 2324, /www/tvil/sass/tvil/theme */
+  /* line 2358, /www/tvil/sass/tvil/theme */
   .media-rate-cabinet .media-left {
     padding-top: 43px;
     padding-left: 37px; }
 
-/* line 2329, /www/tvil/sass/tvil/theme */
+/* line 2363, /www/tvil/sass/tvil/theme */
 .input-group-addon {
   color: #b0b8c3;
   background-color: #fff;
   border: 1px solid #e2e7ec; }
 
-/* line 2334, /www/tvil/sass/tvil/theme */
+/* line 2368, /www/tvil/sass/tvil/theme */
 .input-group {
   margin-top: 5px; }
-  /* line 2336, /www/tvil/sass/tvil/theme */
+  /* line 2370, /www/tvil/sass/tvil/theme */
   .input-group .input-group-addon {
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px; }
-  /* line 2340, /www/tvil/sass/tvil/theme */
+  /* line 2374, /www/tvil/sass/tvil/theme */
   .input-group .form-control {
     margin-top: 0;
     color: #061d2c; }
 
-/* line 2345, /www/tvil/sass/tvil/theme */
+/* line 2379, /www/tvil/sass/tvil/theme */
 .dotted {
   text-decoration: none;
   display: inline-block;
@@ -9332,25 +9385,25 @@ i.icontvil.form-control-feedback {
   top: 6px;
   line-height: 1;
   position: relative; }
-  /* line 2353, /www/tvil/sass/tvil/theme */
+  /* line 2387, /www/tvil/sass/tvil/theme */
   .dotted:hover, .dotted:focus {
     color: #b0b8c3;
     text-decoration: none;
     border-bottom: none; }
 
-/* line 2359, /www/tvil/sass/tvil/theme */
+/* line 2393, /www/tvil/sass/tvil/theme */
 .two-btn {
   margin-top: 10px;
   margin-bottom: 17px; }
-  /* line 2362, /www/tvil/sass/tvil/theme */
+  /* line 2396, /www/tvil/sass/tvil/theme */
   .two-btn p {
     line-height: 1.8;
     margin-bottom: 20px; }
-  /* line 2366, /www/tvil/sass/tvil/theme */
+  /* line 2400, /www/tvil/sass/tvil/theme */
   .two-btn .btn {
     margin-right: 20px; }
 
-/* line 2370, /www/tvil/sass/tvil/theme */
+/* line 2404, /www/tvil/sass/tvil/theme */
 .text-danger {
   color: #ff5d61; }
 
@@ -9359,7 +9412,7 @@ i.icontvil.form-control-feedback {
     width: 50%;
     padding: 0; } }
 
-/* line 2380, /www/tvil/sass/tvil/theme */
+/* line 2414, /www/tvil/sass/tvil/theme */
 .row-xlg {
   margin-left: 0;
   margin-right: 0; }
