@@ -6,7 +6,7 @@ html
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
     .container-wrapper-center
-      .container-wrapper.container-wrapper-obj
+      .container-object
         .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
           == Slim::Template.new("sidebar-left-light.slim").render
         .main.obj
@@ -598,7 +598,7 @@ html
                 p бронирований проведено
               .col-sm-12.text-center.col-share
                 .btn.btn-default
-                  i.icontvil.icontvil-Empty_Hurt
+                  i.icontvil.icontvil-Empty_Heart
                   | В избранное
                 .btn.btn-default
                   i.icontvil.icontvil-Go_Out

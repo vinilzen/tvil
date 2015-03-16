@@ -796,32 +796,34 @@ input.flat[type='checkbox'] {
   @media (min-width: 1600px) {
     padding-right: 530px;
   }
-  &.container-search {
+}
+.container-search {
+  @extend .container-wrapper;
+  float: left;
+  width: 100%;
+  padding: 60px 0 0 0;
+  .search-result {
     float: left;
-    width: 100%;
-    padding: 60px 0 0 0;
-    .search-result {
-      float: left;
-      width: 768px;
-      height: 100%;
-    }
-    .container-map {
-      position: relative;
-      margin-left: 768px;
-      height: 100%;
-      &.affix {
-        position: fixed;
-        top: 0;
-      }
+    width: 768px;
+    height: 100%;
+  }
+  .container-map {
+    position: relative;
+    margin-left: 768px;
+    height: 100%;
+    &.affix {
+      position: fixed;
+      top: 0;
     }
   }
-  &.container-wrapper-obj {
-    padding-left: 230px;
-    padding-right: 400px;
-    @media (max-width: 1279px) {
-      padding-left:0;
-      padding-right: 340px;
-    }
+}
+.container-object {
+  @extend .container-wrapper;
+  padding-left: 230px;
+  padding-right: 400px;
+  @media (max-width: 1279px) {
+    padding-left:0;
+    padding-right: 340px;
   }
 }
 
@@ -1512,7 +1514,7 @@ select + .form-control-feedback {
   &.ready {
     z-index: 1017;
     .form-group {
-      width: 60%;
+      width: 65%;
       float: left;
       @media (max-width: 1360px) {
         width: 45%;
@@ -2253,7 +2255,7 @@ span.msg-info {
   .main.obj {
     padding-top: 0;
   }
-  .container-wrapper.container-wrapper-obj {
+  .container-object {
     position: relative;
   }
 }

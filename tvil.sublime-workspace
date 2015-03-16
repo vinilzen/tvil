@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"3",
+				"371355.jpeg	w:722 h:483"
+			],
+			[
+				"37",
+				"371354.jpeg	w:725 h:482"
+			],
+			[
 				"border-left",
 				"border-bottom-left-radius"
 			],
@@ -506,10 +514,6 @@
 			[
 				"intr",
 				"introduction_content"
-			],
-			[
-				"ann",
-				"annotation_content"
 			]
 		]
 	},
@@ -519,15 +523,15 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 42975,
+				"buffer_size": 47711,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "slim/cabinet.slim",
+			"file": "slim/search.slim",
 			"settings":
 			{
-				"buffer_size": 11421,
+				"buffer_size": 19559,
 				"line_ending": "Unix"
 			}
 		},
@@ -535,15 +539,7 @@
 			"file": "js/main.js",
 			"settings":
 			{
-				"buffer_size": 4399,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "slim/index.slim",
-			"settings":
-			{
-				"buffer_size": 10461,
+				"buffer_size": 4608,
 				"line_ending": "Unix"
 			}
 		}
@@ -579,7 +575,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 429.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -610,13 +606,20 @@
 	],
 	"file_history":
 	[
-		"/www/tvil/sass/tvil/icontvil.scss",
-		"/www/tvil/slim/index.slim",
-		"/www/tvil/slim/o.slim",
 		"/www/tvil/slim/sidebar-left.slim",
-		"/www/tvil/slim/sidebar-left-light.slim",
+		"/www/tvil/slim/oc.slim",
 		"/www/tvil/slim/search.slim",
+		"/www/tvil/sass/tvil/icontvil.scss",
+		"/www/tvil/sass/tvil/_carousel.scss",
+		"/www/tvil/slim/o.slim",
+		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/js/main.js",
+		"/www/tvil/sass/bootstrap/_carousel.scss",
+		"/www/tvil/o.html",
+		"/www/tvil/slim/index.slim",
+		"/www/tvil/slim/sidebar-left-light.slim",
+		"/www/tvil/sass/tvil/slider.scss",
+		"/www/tvil/slim/cabinet.slim",
 		"/www/tvil/slim/nav_bottom2.slim",
 		"/www/tvil/slim/head.slim",
 		"/Users/vin/Downloads/icontvil/icontvil/style.css",
@@ -627,12 +630,9 @@
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/search.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
-		"/www/tvil/sass/bootstrap/_carousel.scss",
 		"/www/tvil/sass/_bootstrap.scss",
-		"/www/tvil/sass/tvil/_carousel.scss",
 		"/www/tvil/sass/bootstrap/_component-animations.scss",
 		"/www/tvil/slim/login.slim",
-		"/www/tvil/sass/tvil/slider.scss",
 		"/www/tvil/index.html",
 		"/www/tvil/js/bootstrap.min.js",
 		"/www/tvil/prepros.cfg",
@@ -660,7 +660,6 @@
 		"/www/tvil/sass/bootstrap/mixins/_labels.scss",
 		"/www/tvil/sass/bootstrap/mixins/_nav-divider.scss",
 		"/www/tvil/tvil.sublime-project",
-		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/sass/bootstrap/_alerts.scss",
 		"/www/tvil/sass/tvil_variables.scss",
 		"/www/tvil/sass/dashboard.scss",
@@ -734,10 +733,7 @@
 		"/www/cityquest/protected/views/site/contact_map.php",
 		"/www/cityquest/protected/controllers/HolidayController.php",
 		"/www/cityquest/css/jquery.formstyler.css",
-		"/www/cityquest/protected/extensions/ExtendedLogger/ExtendedLogger.php",
-		"/www/cityquest/protected/runtime/profile.log",
-		"/www/cityquest/sass/admin_bootstrap/_variables.scss",
-		"/www/cityquest/sass/admin_bootstrap/dashboard.scss"
+		"/www/cityquest/protected/extensions/ExtendedLogger/ExtendedLogger.php"
 	],
 	"find":
 	{
@@ -748,6 +744,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/www/tvil/slim",
 			"/www/tvil/sass/bootstrap",
 			"/www/tvil/sass",
 			"/www/cityquest/protected",
@@ -796,6 +793,48 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lightgray",
+			"lightg",
+			".dl-hori",
+			"a.btn-block.btn-more",
+			"a.btn-block ",
+			"p\n                              strong",
+			".col-sm-8\n                                a.search-photo href=\"#\"\n                                  img src=\"img/img-example2.jpg\"\n                              .col-sm-4",
+			".col-sm-9",
+			".col-sm-5.text-center.search-offer",
+			".col-sm-3.search-thumbs",
+			".col-sm-7",
+			".category-photo\n                              .col-sm-8",
+			".col-sm-8",
+			".col-sm-9",
+			"гост",
+			".glyphicon-chevron-right",
+			".glyphicon-chevron-left",
+			"rub",
+			"rubl",
+			"span.glyphicon.glyphicon-ruble",
+			"all",
+			"@",
+			"0.125",
+			".btn",
+			" .pagination > li",
+			", border-color",
+			"pagina",
+			"car",
+			" width=\"1400\"",
+			".thumbnail",
+			"affix",
+			"25",
+			".nav-sidebar",
+			".sidebar-right",
+			"5",
+			"background-color",
+			".sidebar-left",
+			".sidebar-right",
+			".container-wrapper",
+			".sidebar-right",
+			"bar-right",
+			".col-sm-12",
 			"		",
 			"	",
 			".h3-cabinet",
@@ -881,49 +920,7 @@
 			".col-sm-6",
 			"margin-r",
 			"margin-",
-			".icontvil-",
-			".icontvil",
-			"от",
-			"1",
-			"2",
-			"5px",
-			"|",
-			".obj",
-			"chevron",
-			" class=\"",
-			"img-",
-			"шьп-",
-			".sidebar-right",
-			"60",
-			".sidebar-left ",
-			"ffffff",
-			"\n        span.label\n          i.icontvil.icontvil-Exclamation",
-			"{",
-			"out",
-			"linear",
-			"http://lorempixel.com/82/54/nature",
-			"http://lorempixel.com/111/73/nature",
-			"0.75",
-			".container-map",
-			" data-placement=\"top\"",
-			"price_slider_values",
-			"parseInt",
-			"price_slider_values",
-			"[\n",
-			"value",
-			"slider-value",
-			"And here. Right?",
-			"toggle",
-			"Vertical",
-			"square",
-			"20",
-			"255",
-			"inset",
-			"255",
-			"handle",
-			".slider-selection",
-			".search-price",
-			"collapseExample"
+			".icontvil-"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -950,15 +947,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42975,
+						"buffer_size": 47711,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42649,
-								42649
+								28699,
+								28699
 							]
 						],
 						"settings":
@@ -971,11 +968,11 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -986,16 +983,11 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1006,21 +998,26 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
@@ -1028,7 +1025,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6806.0,
+						"translation.y": 5271.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1042,19 +1039,19 @@
 			[
 				{
 					"buffer": 1,
-					"file": "slim/cabinet.slim",
+					"file": "slim/search.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11421,
+						"buffer_size": 19559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11273,
-								11273
+								18455,
+								18455
 							]
 						],
 						"settings":
@@ -1062,21 +1059,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1087,26 +1084,16 @@
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1116,7 +1103,17 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
@@ -1124,7 +1121,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 154.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1136,15 +1133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4399,
+						"buffer_size": 4608,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1026,
-								1026
+								4596,
+								4596
 							]
 						],
 						"settings":
@@ -1157,11 +1154,11 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1172,16 +1169,11 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1192,100 +1184,6 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 437.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "slim/index.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10461,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10461,
-								10313
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1295,18 +1193,27 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3611.0,
+						"translation.y": 2337.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1370,6 +1277,38 @@
 				"js/main.js"
 			],
 			[
+				"sear",
+				"slim/search.slim"
+			],
+			[
+				"car",
+				"sass/tvil/_carousel.scss"
+			],
+			[
+				"sea",
+				"slim/search.slim"
+			],
+			[
+				"ico",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"o.s",
+				"slim/o.slim"
+			],
+			[
+				"sli",
+				"slim/sidebar-left-light.slim"
+			],
+			[
+				"o",
+				"o.html"
+			],
+			[
+				"si",
+				"slim/sidebar-left.slim"
+			],
+			[
 				"inde",
 				"slim/index.slim"
 			],
@@ -1386,10 +1325,6 @@
 				"slim/head.slim"
 			],
 			[
-				"ico",
-				"sass/tvil/icontvil.scss"
-			],
-			[
 				"na",
 				"slim/nav_bottom2.slim"
 			],
@@ -1398,20 +1333,12 @@
 				"sass/tvil/_variables.scss"
 			],
 			[
-				"sear",
-				"slim/search.slim"
-			],
-			[
 				"calen",
 				"sass/tvil/_calendar.scss"
 			],
 			[
 				"boot",
 				"sass/_bootstrap.scss"
-			],
-			[
-				"car",
-				"sass/bootstrap/_carousel.scss"
 			],
 			[
 				"slim",
@@ -1438,10 +1365,6 @@
 				"js/bootstrap-slider.js"
 			],
 			[
-				"sli",
-				"sass/tvil/slider.scss"
-			],
-			[
 				"icon",
 				"sass/tvil/icontvil.scss"
 			],
@@ -1464,10 +1387,6 @@
 			[
 				"nav",
 				"slim/nav_bottom.slim"
-			],
-			[
-				"si",
-				"slim/sidebar-left.slim"
 			],
 			[
 				"nav_b",
@@ -1716,7 +1635,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
