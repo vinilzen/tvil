@@ -2266,7 +2266,8 @@ i.icontvil.form-control-feedback {
 /* 
  * Cabinet
  */
-.container-wrapper-cabinet {
+.container-cabinet {
+  @extend .container-wrapper;
   padding-right: 0;
 }
 
