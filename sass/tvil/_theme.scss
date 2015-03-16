@@ -16,7 +16,7 @@ label {
   font-weight: 500;
 }
 .checkbox label {
-  color:#566777;
+  color:$text-color;
 }
 
 .main.obj .h1-fixtop {
@@ -161,7 +161,7 @@ label {
   tbody {
     th, td {
       background-color: #fff;
-      color:#566777;
+      color:$text-color;
     }
     td.empty {
       color:#b0b8c3;
@@ -203,7 +203,7 @@ label {
     }
     .descr {
       display: inline-block;
-      color:#566777;
+      color:$text-color;
       span {
         color:#b0b8c3;
       }
@@ -246,8 +246,8 @@ abbr[title]{
 }
 .btn-default {
   background-color: #fff;
-  border-color: #e5ecf3;
-  color:#566777;
+  border-color: $btn-border-color;
+  color:$text-color;
   &:hover, &:focus {
     color:#152438;
     background-color: #fff;
@@ -352,7 +352,7 @@ abbr[title]{
     padding-bottom: 8px;
     &:hover, &:focus {
       background-color: #f4f7f9;
-      color:#566777;
+      color:$text-color;
     }
   }
 }
@@ -799,7 +799,7 @@ input.flat[type='checkbox'] {
 }
 .container-search {
   @extend .container-wrapper;
-  float: left;
+  // float: left;
   width: 100%;
   padding: 60px 0 0 0;
   .search-result {
@@ -874,7 +874,7 @@ input.flat[type='checkbox'] {
       float: left;
     }
     & > a, span {
-      display: block;
+      display: inline-block;
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 22px;
@@ -966,7 +966,7 @@ input.flat[type='checkbox'] {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 .popover-content {
-  color: #566777;
+  color: $text-color;
   font-size: 13px;
 }
 
@@ -993,7 +993,7 @@ abbr.btn-link[title] {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-  border-color:#e5ecf3;
+  border-color:$btn-border-color;
   color:#b0b9c3;
   &::-webkit-input-placeholder {
     color: #b0b9c3;
@@ -1072,7 +1072,7 @@ abbr.btn-link[title] {
   p {
     margin: 12px 0 16px -16px;
     font-size: 16px;
-    color: #566777;
+    color: $text-color;
     line-height: 25px;
   }
   .btn {
@@ -1122,7 +1122,7 @@ select + .form-control-feedback {
     &.btn-link {
       padding-left: 0;
       margin-left: 0;
-      color:#566777;
+      color:$text-color;
     }
   }
   .search-all-filter {
@@ -1271,7 +1271,7 @@ select + .form-control-feedback {
     margin-right: 0;
   }
   .btn-default {
-    color:#566777;
+    color:$text-color;
     &.selected {
       color:#152438;
     }
@@ -1474,7 +1474,7 @@ select + .form-control-feedback {
         padding-bottom: 5px;
         position: relative;
         font-size: 14px;
-        color:#566777;
+        color:$text-color;
       }
     }
   }
@@ -1755,7 +1755,7 @@ select + .form-control-feedback {
     margin-top: 0;
   }
   p {
-    color:#566777;
+    color:$text-color;
     font-size: 14px;
   }
   .row-main {
@@ -1813,7 +1813,7 @@ select + .form-control-feedback {
         span {
           color:#152438;
           &.light {
-            color:#566777;
+            color:$text-color;
           }
         }
       }
@@ -2113,7 +2113,7 @@ span.msg-info {
 }
 .rate-label label {
   display: block;
-  color:#566777;
+  color:$text-color;
   font-size: 14px;
   font-weight: normal;
   height: 24px;
@@ -2341,7 +2341,7 @@ i.icontvil.form-control-feedback {
     position: relative;
     padding-right: 30px;
     p {
-      color:#566777;
+      color:$text-color;
     }
     h4 {
       margin-top: 22px;
@@ -2402,7 +2402,7 @@ i.icontvil.form-control-feedback {
     text-align: left;
     font-weight: normal;
     width: 100px;
-    color:#566777;
+    color:$text-color;
   }
   dd {
     font-weight: bold;
@@ -2538,7 +2538,7 @@ i.icontvil.form-control-feedback {
     padding: 18px 20px 0 20px;
     background-color: #fff;
     margin-top: 10px;
-    border:1px solid #e5ecf3;
+    border:1px solid $btn-border-color;
   }
   .search-offer .btn {
     margin-top: 0;
@@ -2563,7 +2563,7 @@ i.icontvil.form-control-feedback {
   border-top:1px solid $border-color;
   padding-top: 8px;
   padding-bottom: 8px;
-  color:#566777;
+  color:$text-color;
   font-size: 14px;
   .icontvil {
     margin-left: 8px;
@@ -2578,7 +2578,7 @@ i.icontvil.form-control-feedback {
 }
 .main.obj .col-category {
   .dl-horizontal {
-    border-top: 1px solid #e2e7ec;
+    border-top: 1px solid $border-color;
     border-bottom: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2590,7 +2590,7 @@ i.icontvil.form-control-feedback {
       color:#152438;
     }
     dd {
-      color:#566777;
+      color:$text-color;
     }
     &:last-child {
       margin-bottom: 30px;
@@ -2604,7 +2604,7 @@ i.icontvil.form-control-feedback {
   padding-bottom: 11px;
   padding-top: 13px;
   p {
-    color:#566777;
+    color:$text-color;
     line-height: 21px;
     padding-bottom: 6px;
   }

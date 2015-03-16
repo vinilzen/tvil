@@ -1334,7 +1334,7 @@ body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #333333;
+  color: #566777;
   background-color: #fff; }
 
 /* line 39, /www/tvil/sass/bootstrap/scaffolding */
@@ -3201,7 +3201,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #737373; }
+  color: #98a7b5; }
 
 @media (min-width: 768px) {
   /* line 433, /www/tvil/sass/bootstrap/forms */
@@ -4935,7 +4935,7 @@ a.badge:hover, a.badge:focus {
   /* line 27, /www/tvil/sass/bootstrap/thumbnails */
   .thumbnail .caption {
     padding: 9px;
-    color: #333333; }
+    color: #566777; }
 
 /* line 36, /www/tvil/sass/bootstrap/thumbnails */
 a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
@@ -6607,7 +6607,7 @@ i.icontvil {
   content: "\e606"; }
 
 /* line 94, /www/tvil/sass/tvil/icontvil */
-.icontvil-X:before {
+.icontvil-Bigx:before {
   content: "\e607"; }
 
 /* line 98, /www/tvil/sass/tvil/icontvil */
@@ -7789,7 +7789,6 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
 
 /* line 800, /www/tvil/sass/tvil/theme */
 .container-search {
-  float: left;
   width: 100%;
   padding: 60px 0 0 0; }
   /* line 805, /www/tvil/sass/tvil/theme */
@@ -7864,7 +7863,7 @@ input.flat[type='checkbox'], .activity input[type='checkbox'].check-custom {
       float: left; }
     /* line 876, /www/tvil/sass/tvil/theme */
     .navbar-inverse .navbar-nav.breadcrumb-tvil > li > a, .navbar-inverse .navbar-nav.breadcrumb-tvil > li span {
-      display: block;
+      display: inline-block;
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 22px;
