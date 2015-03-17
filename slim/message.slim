@@ -1,0 +1,124 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper-table
+      .container-table
+        .row.row-message
+          .col-sm-6
+            h1.page-header Запрос №123456
+            .nomer
+              .media
+                .media-left
+                  a href="#"
+                    img.img-responsive src="../img/right_preview.jpg" alt=""/
+                .media-body
+                  h4 Мини-отель на ул. Краснодарская дом 5 на берегу моря
+                  p 2-х местный номер, Улучшеный
+                  dl.dl-horizontal
+                    dt Даты поездки:
+                    dd
+                      strong с 21.01.14 по 31.01.14
+                      a href="#"
+                        span.glyphicon.glyphicon-edit
+                    dt Количество гостей:
+                    dd
+                      strong 2 взрослых, 1 ребенок
+                      a href="#"
+                        span.glyphicon.glyphicon-edit
+                    dt Стоимость проживания:
+                    dd
+                      strong 10000 руб.
+                      a href="#"
+                        i.icontvil.icontvil-Qw
+            .request-action
+              .alert.alert-default role="alert"
+                i.icontvil.icontvil-Exclamation
+                p Ваше сообщение отправлено владельцу жилья.
+                p Вы можете перейти к бронированию не дожидаясь ответа владельца.
+              .text-justified
+                .btn.btn-success Оплатить бронирование
+                .btn.btn-default.pull-right Отменить
+            .bottom-info
+              p
+                | Условия отмены бронирования: 
+                strong Строгие 
+                i.icontvil.icontvil-Qw
+              abbr title="Помощь" Помощь
+          .col-sm-6.col-gray
+            h2.page-header Переписка с владельцем
+            .owner.owner-message
+              .media
+                .media-left
+                  a
+                    img.img-responsive src="../img/ava200.png"
+                .media-body
+                  h4 Сергей и Татьяна
+                  dl.dl-horizontal
+                    dt Email: 
+                    dd Подтвержден
+                    dt Отзывы:
+                    dd 5 отзывов о поездках
+                    dt Телефон:
+                    dd
+                      strong + 7 952
+                      .btn.btn-default Показать телефон
+                  .btn.btn-default Попросить фото
+                  .btn.btn-default Другие запросы гостя
+            .messages#js_messages
+              .media
+                .media-left
+                  a
+                    img src="../img/ava.jpg" width="38" height="38"
+                .media-body
+                  h5
+                    | Сергей и Татьяна
+                    small.pull-right 14:18:00
+                  p Добрый день. Прибываем на Московский вокзал 29 мая в 5 утра, отбываем в тот же день в 20 вечера с Ладожского. Можно ли у вас остановиться? Как будет рассчитываться такое пребывание? Посчитайте из расчета двух человек. Спасибо.
+              .media
+                .media-left
+                  a
+                    img src="../img/ava38.png" width="38" height="38"
+                .media-body
+                  h5
+                    | Фильченко Филипп
+                    small.pull-right 14:34:10
+                  p Конечно, приезжайте!
+              .media
+                .media-left
+                  a
+                    img src="../img/ava.jpg" width="38" height="38"
+                .media-body
+                  h5
+                    | Сергей и Татьяна
+                    small.pull-right 14:18:00
+                  p Добрый день. Прибываем на Московский вокзал 29 мая в 5 утра, отбываем в тот же день в 20 вечера с Ладожского. Можно ли у вас остановиться? Как будет рассчитываться такое пребывание? Посчитайте из расчета двух человек. Спасибо.
+              .media
+                .media-left
+                  a
+                    img src="../img/ava38.png" width="38" height="38"
+                .media-body
+                  h5
+                    | Фильченко Филипп
+                    small.pull-right 14:34:10
+                  p Конечно, приезжайте!
+            .write
+               .media
+                  .media-left
+                    a
+                      img src="../img/ava38.png" width="38" height="38"
+                  .media-body
+                    form.form-inline
+                      .form-group
+                        .input-group
+                          input.form-control type="text" placeholder="Написать..."
+                          .input-group-addon
+                            .btn.btn-success
+                              i.icontvil.icontvil-Arrow_Big_Slider_Right
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

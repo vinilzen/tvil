@@ -90,6 +90,26 @@ $(function(){
 		}
 	});
 
+	function setMessageHeight(){
+		if ( $('#js_messages').length ){
+			var col_height = $('.col-gray').height(),
+				header_height = $('.col-gray .page-header').outerHeight(),
+				owner_message_height = $('.owner-message').outerHeight(),
+				write_height = $('.write').outerHeight();
+			$('#js_messages').height(
+				col_height-header_height-owner_message_height-write_height-65
+			);
+		}
+	}
+
+	setMessageHeight();
+	
+	if (window.addEventListener){
+		window.addEventListener(orientationEvent, setMapHeight);
+	} else {
+		window.attachEvent('resize', setMessageHeight);
+	}
+
 	if ($('.slider').length) {
 		// set price range for popover and show it
 		window.setSliderValue = function(){
