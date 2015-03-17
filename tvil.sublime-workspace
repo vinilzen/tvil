@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"inline",
+				"inline-block"
+			],
+			[
 				"3",
 				"371355.jpeg	w:722 h:483"
 			],
@@ -510,10 +514,6 @@
 			[
 				"dedic",
 				"dedication_content"
-			],
-			[
-				"intr",
-				"introduction_content"
 			]
 		]
 	},
@@ -523,23 +523,7 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 47711,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "slim/search.slim",
-			"settings":
-			{
-				"buffer_size": 19559,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/main.js",
-			"settings":
-			{
-				"buffer_size": 4608,
+				"buffer_size": 47827,
 				"line_ending": "Unix"
 			}
 		}
@@ -606,33 +590,40 @@
 	],
 	"file_history":
 	[
-		"/www/tvil/slim/sidebar-left.slim",
-		"/www/tvil/slim/oc.slim",
-		"/www/tvil/slim/search.slim",
 		"/www/tvil/sass/tvil/icontvil.scss",
-		"/www/tvil/sass/tvil/_carousel.scss",
+		"/www/tvil/slim/search.slim",
+		"/www/tvil/slim/oc.slim",
 		"/www/tvil/slim/o.slim",
-		"/www/tvil/sass/tvil/_theme.scss",
-		"/www/tvil/js/main.js",
-		"/www/tvil/sass/bootstrap/_carousel.scss",
-		"/www/tvil/o.html",
+		"/www/tvil/slim/login.slim",
 		"/www/tvil/slim/index.slim",
-		"/www/tvil/slim/sidebar-left-light.slim",
-		"/www/tvil/sass/tvil/slider.scss",
-		"/www/tvil/slim/cabinet.slim",
+		"/www/tvil/sass/bootstrap/_theme.scss",
+		"/www/tvil/slim/nav_top.slim",
+		"/www/tvil/sass/tvil/_variables.scss",
+		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/slim/nav_bottom2.slim",
+		"/www/tvil/js/main.js",
+		"/www/tvil/slim/cabinet.slim",
+		"/www/tvil/login.html",
+		"/www/tvil/cabinet.html",
+		"/www/tvil/sass/tvil/_carousel.scss",
+		"/www/tvil/slim/sidebar-left.slim",
+		"/www/tvil/slim/sidebar-left-light.slim",
+		"/www/tvil/fonts/icontvil.svg",
 		"/www/tvil/slim/head.slim",
+		"/www/tvil/tvil.sublime-project",
+		"/www/tvil/o.html",
+		"/www/tvil/oc.html",
+		"/www/tvil/sass/bootstrap/_carousel.scss",
+		"/www/tvil/sass/tvil/slider.scss",
 		"/Users/vin/Downloads/icontvil/icontvil/style.css",
 		"/Users/vin/Downloads/icontvil/style.css",
 		"/www/tvil/slim/nav_bottom.slim",
-		"/www/tvil/sass/tvil/_variables.scss",
 		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/search.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
 		"/www/tvil/sass/_bootstrap.scss",
 		"/www/tvil/sass/bootstrap/_component-animations.scss",
-		"/www/tvil/slim/login.slim",
 		"/www/tvil/index.html",
 		"/www/tvil/js/bootstrap.min.js",
 		"/www/tvil/prepros.cfg",
@@ -645,7 +636,6 @@
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff2",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
-		"/www/tvil/slim/nav_top.slim",
 		"/www/tvil/slim/nav_login.slim",
 		"/www/tvil/slim/nav.slim",
 		"/www/tvil/sass/bootstrap/_navbar.scss",
@@ -659,7 +649,6 @@
 		"/www/tvil/sass/bootstrap/_badges.scss",
 		"/www/tvil/sass/bootstrap/mixins/_labels.scss",
 		"/www/tvil/sass/bootstrap/mixins/_nav-divider.scss",
-		"/www/tvil/tvil.sublime-project",
 		"/www/tvil/sass/bootstrap/_alerts.scss",
 		"/www/tvil/sass/tvil_variables.scss",
 		"/www/tvil/sass/dashboard.scss",
@@ -728,12 +717,7 @@
 		"/www/cityquest/protected/models/Booking.php",
 		"/www/cityquest/protected/controllers/BookingController.php",
 		"/www/cityquest/protected/modules/user/components/UserIdentity.php",
-		"/www/yii/framework/web/auth/CBaseUserIdentity.php",
-		"/www/cityquest/protected/views/site/edit_mail.php",
-		"/www/cityquest/protected/views/site/contact_map.php",
-		"/www/cityquest/protected/controllers/HolidayController.php",
-		"/www/cityquest/css/jquery.formstyler.css",
-		"/www/cityquest/protected/extensions/ExtendedLogger/ExtendedLogger.php"
+		"/www/yii/framework/web/auth/CBaseUserIdentity.php"
 	],
 	"find":
 	{
@@ -744,6 +728,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/www/tvil/slim",
+			"/www/tvil/sass",
+			"/www/tvil/",
 			"/www/tvil/slim",
 			"/www/tvil/sass/bootstrap",
 			"/www/tvil/sass",
@@ -793,6 +780,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Date_In",
+			".icontvil-Rubl",
+			"Rubl",
+			"Delet_Photo",
+			"Delet",
+			"container-sear",
+			"icontvil-X",
+			"56677a",
+			"e5ecf3",
+			"#566777",
+			"566777",
+			"#e2e7ec",
+			"e5ecf3",
+			"container-wrapper-cabinet",
+			"Bubl",
+			"bubl",
+			"BUBBl",
+			".icontvil-Bad",
+			".icontvil-Bed",
+			"BAD",
+			"Hurt",
+			".container-wrapper",
 			"lightgray",
 			"lightg",
 			".dl-hori",
@@ -898,29 +907,7 @@
 			",#f8fafb 51",
 			"fff",
 			"45",
-			"45deg,#f8fafb",
-			"#fff",
-			"-45",
-			"ddd",
-			"obj",
-			"padding",
-			"30",
-			"span.price",
-			"dt \n                    h2",
-			"87",
-			".obj",
-			"glyphicon-chevron-left",
-			"glyphicon-chevron-right",
-			"ax",
-			".btn",
-			"form-sidebar",
-			".search-calendar-input",
-			"59",
-			"righr-",
-			".col-sm-6",
-			"margin-r",
-			"margin-",
-			".icontvil-"
+			"45deg,#f8fafb"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -947,15 +934,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47711,
+						"buffer_size": 47827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28699,
-								28699
+								16168,
+								16168
 							]
 						],
 						"settings":
@@ -963,61 +950,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
@@ -1025,7 +1012,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5271.0,
+						"translation.y": 13195.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1034,188 +1021,8 @@
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "slim/search.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19559,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								18455,
-								18455
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 154.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4608,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4596,
-								4596
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2337.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1273,8 +1080,64 @@
 		"selected_items":
 		[
 			[
+				"ico",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"the",
+				"sass/tvil/_theme.scss"
+			],
+			[
 				"main",
 				"js/main.js"
+			],
+			[
+				"var",
+				"sass/tvil/_variables.scss"
+			],
+			[
+				"index",
+				"slim/index.slim"
+			],
+			[
+				"login",
+				"slim/login.slim"
+			],
+			[
+				"cab",
+				"slim/cabinet.slim"
+			],
+			[
+				"cabinet",
+				"cabinet.html"
+			],
+			[
+				"icon",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"icont",
+				"fonts/icontvil.svg"
+			],
+			[
+				".slim",
+				"slim/login.slim"
+			],
+			[
+				"oc.s",
+				"slim/oc.slim"
+			],
+			[
+				"inde",
+				"slim/index.slim"
+			],
+			[
+				"sea",
+				"slim/search.slim"
+			],
+			[
+				"o.sli",
+				"slim/o.slim"
 			],
 			[
 				"sear",
@@ -1283,14 +1146,6 @@
 			[
 				"car",
 				"sass/tvil/_carousel.scss"
-			],
-			[
-				"sea",
-				"slim/search.slim"
-			],
-			[
-				"ico",
-				"sass/tvil/icontvil.scss"
 			],
 			[
 				"o.s",
@@ -1309,10 +1164,6 @@
 				"slim/sidebar-left.slim"
 			],
 			[
-				"inde",
-				"slim/index.slim"
-			],
-			[
 				"ic",
 				"sass/tvil/icontvil.scss"
 			],
@@ -1327,10 +1178,6 @@
 			[
 				"na",
 				"slim/nav_bottom2.slim"
-			],
-			[
-				"var",
-				"sass/tvil/_variables.scss"
 			],
 			[
 				"calen",
@@ -1365,10 +1212,6 @@
 				"js/bootstrap-slider.js"
 			],
 			[
-				"icon",
-				"sass/tvil/icontvil.scss"
-			],
-			[
 				"se",
 				"slim/search.slim"
 			],
@@ -1379,10 +1222,6 @@
 			[
 				"n",
 				"slim/nav_bottom.slim"
-			],
-			[
-				"index",
-				"slim/index.slim"
 			],
 			[
 				"nav",
@@ -1635,7 +1474,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
