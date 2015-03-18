@@ -89,10 +89,13 @@ $(function(){
 			$('.sidebar-left.sidebar-cabinet').height(wh);
 		}
 
+		console.log($('.container-object').outerHeight() - top_offset);
 
 		// 948 magic number, как её получить я не понял
-		if ($('.container-object').outerHeight() - top_offset < 948) {
-			var top_affix = $('.container-object').outerHeight() - top_offset - 948;
+		var magic_number = 320;
+		magic_number = $('.container-wrapper-center').height();//320;
+		if ($('.container-object').outerHeight() - top_offset < magic_number) {
+			var top_affix = $('.container-object').outerHeight() - top_offset - magic_number;
 			$('.sidebar-right.sidebar-right-obj.affix, .sidebar-left.sidebar-light.affix')
 				.css('top',top_affix);
 		} else {

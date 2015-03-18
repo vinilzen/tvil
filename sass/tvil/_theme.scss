@@ -1970,11 +1970,11 @@ span.msg-info {
   @media (max-width: 1199px) {
     padding:20px 10px 0;
   }
-  @media (min-width: 1441px) {
-    width: 400px;
-    position: fixed;
-    padding: 20px 0 0 40px;
-  }
+  // @media (min-width: 1441px) {
+  //   width: 400px;
+  //   position: fixed;
+  //   padding: 20px 0 0 40px;
+  // }
   p {
     padding: 0 20px;
     color:#8e9aa9;
@@ -2946,11 +2946,16 @@ i.icontvil.form-control-feedback {
 
 .footer-fix {
   height: 320px;
-  padding: 40px;
   position: relative;
   bottom:0;
   left:0;
   right:0;
-  background-color: #313541;
-  z-index: 1020;
+  .footer-container {
+    background-color: #313541;
+    padding: 40px;
+    position: absolute;
+    z-index: 1020;
+    height: 320px;
+    width: 100%;
+  }
 }

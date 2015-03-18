@@ -8336,11 +8336,6 @@ span.msg-info {
   @media (max-width: 1199px) {
     .sidebar-info {
       padding: 20px 10px 0; } }
-  @media (min-width: 1441px) {
-    .sidebar-info {
-      width: 400px;
-      position: fixed;
-      padding: 20px 0 0 40px; } }
   /* line 1978, /www/tvil/sass/tvil/theme */
   .sidebar-info p {
     padding: 0 20px;
@@ -9329,12 +9324,17 @@ i.icontvil.form-control-feedback {
 /* line 2947, /www/tvil/sass/tvil/theme */
 .footer-fix {
   height: 320px;
-  padding: 40px;
   position: relative;
   bottom: 0;
   left: 0;
-  right: 0;
-  background-color: #313541;
-  z-index: 1020; }
+  right: 0; }
+  /* line 2953, /www/tvil/sass/tvil/theme */
+  .footer-fix .footer-container {
+    background-color: #313541;
+    padding: 40px;
+    position: absolute;
+    z-index: 1020;
+    height: 320px;
+    width: 100%; }
 
 /*# sourceMappingURL=bootstrap.css.map */
