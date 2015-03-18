@@ -9,7 +9,7 @@ html
       .container-object
         .sidebar-left.sidebar-light data-spy="affix" data-offset-top="60"
           == Slim::Template.new("sidebar-left-light.slim").render
-        .main.obj
+        .main.obj#js_obj
           .container-fluid
             .media.media-head
               .media-left
@@ -587,7 +587,7 @@ html
                     i.icontvil.icontvil-Exclamation
                     | Даты и гости не выбраны
                   .btn.btn-danger.btn-block Рассчитать стоимость
-            .row.sidebar-info data-spy="affix" data-offset-bottom="0"
+            .sidebar-info
               .col-sm-6.text-center
                 p
                   strong 86%
@@ -603,7 +603,8 @@ html
                 .btn.btn-default
                   i.icontvil.icontvil-Go_Out
                   | Рассказать друзьям
-
+      .footer-fix#footer_fix data-spy="scroll"
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae et commodi, cum debitis minus laboriosam ipsa itaque dolor animi iure veritatis cupiditate, accusamus, accusantium nostrum molestiae fugit corporis quia laborum aliquid. Ut alias sint, ipsam minus, a modi cumque ad, sit consequatur repellendus asperiores atque earum animi necessitatibus non voluptas!
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
     script src="js/bootstrap.min.js"
     script src="js/main.js"

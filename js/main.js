@@ -88,6 +88,18 @@ $(function(){
 			$('.sidebar-right.sidebar-right-obj').height(wh)
 			$('.sidebar-left.sidebar-cabinet').height(wh);
 		}
+
+
+		// 948 magic number, как её получить я не понял
+		if ($('.container-object').outerHeight() - top_offset < 948) {
+			var top_affix = $('.container-object').outerHeight() - top_offset - 948;
+			$('.sidebar-right.sidebar-right-obj.affix, .sidebar-left.sidebar-light.affix')
+				.css('top',top_affix);
+		} else {
+			$('.sidebar-right.sidebar-right-obj.affix, .sidebar-left.sidebar-light.affix')
+				.css('top',0);
+		}
+
 	});
 
 	function setMessageHeight(){
@@ -167,7 +179,6 @@ $(function(){
 	$('.sidebar-left.sidebar-light')
 		.on('affixed.bs.affix affixed-top.bs.affix',function(a,b,c){
 			var st = $(document).scrollTop();
-			console.log(st,a,b,c);
 			ww = $(window).width();
 
 			if ($(document).scrollTop()>=60){
@@ -184,7 +195,6 @@ $(function(){
 		.height($(window).height()-60)
 		.on('affixed.bs.affix affixed-top.bs.affix',function(a,b,c){
 			var st = $(document).scrollTop();
-			console.log(st, a,b,c);
 			ww = $(window).width();
 			if ($(document).scrollTop()>=60){
 				if (ww>1440){

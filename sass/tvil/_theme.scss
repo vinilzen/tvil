@@ -1771,7 +1771,7 @@ select + .form-control-feedback {
     .carousel {
       margin: 0 -15px 11px;
 
-/*       @media (min-width: 1441px){
+      /*@media (min-width: 1441px){
         margin-left: auto;
         margin-right: auto;
         max-width: 720px;
@@ -1963,17 +1963,17 @@ span.msg-info {
   }
 }
 .sidebar-info {
-  padding: 20px 30px 0;
-  position: absolute;
+  padding: 20px 20px 0;
+    position: absolute;
   bottom:30px;
 
   @media (max-width: 1199px) {
-    padding:20px 20px 0;
+    padding:20px 10px 0;
   }
   @media (min-width: 1441px) {
     width: 400px;
     position: fixed;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 40px;
   }
   p {
     padding: 0 20px;
@@ -2289,10 +2289,10 @@ span.msg-info {
     top:0;
     position: absolute;
     @media (max-width: 1440px) {
-      -webkit-transition: all .4s ease-in-out;
-      -moz-transition: all .4s ease-in-out;
-      -o-transition: all .4s ease-in-out;
-      transition: all .4s ease-in-out;
+      -webkit-transition: height .4s ease-in-out;
+      -moz-transition: height .4s ease-in-out;
+      -o-transition: height .4s ease-in-out;
+      transition: height .4s ease-in-out;
     }
     &.affix {
       position: fixed;
@@ -2941,4 +2941,16 @@ i.icontvil.form-control-feedback {
   abbr {
     margin-left: 0;
   }
+}
+
+
+.footer-fix {
+  height: 320px;
+  padding: 40px;
+  position: relative;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color: #313541;
+  z-index: 1020;
 }
