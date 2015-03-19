@@ -4,6 +4,46 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-bottom-color"
+			],
+			[
+				"out",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"head",
+				"headr_height"
+			],
+			[
+				"border-ra",
+				"border-top-left-radius"
+			],
+			[
+				"oy",
+				"ovy-s	overflow-y: scroll;"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"table-",
+				"table-row"
+			],
+			[
+				"ava",
+				"ava200.png	w:200 h:200"
+			],
+			[
+				"ma",
+				"maw-n	max-width: none;"
+			],
+			[
 				"inline",
 				"inline-block"
 			],
@@ -340,10 +380,6 @@
 				"file_get_contents"
 			],
 			[
-				"ma",
-				"marchukilya@gmail"
-			],
-			[
 				"console",
 				"console.log('$0');"
 			],
@@ -478,42 +514,6 @@
 			[
 				"filter",
 				"filter_class"
-			],
-			[
-				"res",
-				"responseJSON"
-			],
-			[
-				"key",
-				"keyup	.keyup()"
-			],
-			[
-				"sett",
-				"settingsTags"
-			],
-			[
-				"target",
-				"targetId"
-			],
-			[
-				"atr",
-				"attributes"
-			],
-			[
-				"login",
-				"login_login"
-			],
-			[
-				"input",
-				"inputId"
-			],
-			[
-				"index",
-				"indexOf"
-			],
-			[
-				"dedic",
-				"dedication_content"
 			]
 		]
 	},
@@ -523,7 +523,23 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 47827,
+				"buffer_size": 55988,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slim/message.slim",
+			"settings":
+			{
+				"buffer_size": 5012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "slim/payment.slim",
+			"settings":
+			{
+				"buffer_size": 3166,
 				"line_ending": "Unix"
 			}
 		}
@@ -590,18 +606,27 @@
 	],
 	"file_history":
 	[
+		"/www/tvil/slim/o.slim",
+		"/www/tvil/message.html",
+		"/www/tvil/js/main.js",
+		"/www/tvil/sass/bootstrap/_grid.scss",
+		"/www/tvil/sass/bootstrap/_navbar.scss",
+		"/www/tvil/sass/tvil/_variables.scss",
+		"/www/tvil/slim/oc.slim",
+		"/www/tvil/slim/nav_bottom.slim",
+		"/www/tvil/slim/nav_bottom2.slim",
+		"/www/tvil/o.html",
+		"/www/tvil/slim/message.slim",
+		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
+		"/www/tvil/sass/bootstrap/_glyphicons.scss",
+		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/slim/search.slim",
-		"/www/tvil/slim/oc.slim",
-		"/www/tvil/slim/o.slim",
 		"/www/tvil/slim/login.slim",
 		"/www/tvil/slim/index.slim",
 		"/www/tvil/sass/bootstrap/_theme.scss",
 		"/www/tvil/slim/nav_top.slim",
-		"/www/tvil/sass/tvil/_variables.scss",
 		"/www/tvil/sass/tvil/_theme.scss",
-		"/www/tvil/slim/nav_bottom2.slim",
-		"/www/tvil/js/main.js",
 		"/www/tvil/slim/cabinet.slim",
 		"/www/tvil/login.html",
 		"/www/tvil/cabinet.html",
@@ -611,14 +636,11 @@
 		"/www/tvil/fonts/icontvil.svg",
 		"/www/tvil/slim/head.slim",
 		"/www/tvil/tvil.sublime-project",
-		"/www/tvil/o.html",
 		"/www/tvil/oc.html",
 		"/www/tvil/sass/bootstrap/_carousel.scss",
 		"/www/tvil/sass/tvil/slider.scss",
 		"/Users/vin/Downloads/icontvil/icontvil/style.css",
 		"/Users/vin/Downloads/icontvil/style.css",
-		"/www/tvil/slim/nav_bottom.slim",
-		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/search.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
@@ -632,13 +654,10 @@
 		"/www/tvil/sass/bootstrap/_jumbotron.scss",
 		"/www/tvil/css/bootstrap.css.map",
 		"/www/tvil/css/bootstrap.css",
-		"/www/tvil/sass/bootstrap/_glyphicons.scss",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff2",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.woff",
-		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
 		"/www/tvil/slim/nav_login.slim",
 		"/www/tvil/slim/nav.slim",
-		"/www/tvil/sass/bootstrap/_navbar.scss",
 		"/www/tvil/sass/bootstrap/mixins/_text-overflow.scss",
 		"/www/tvil/sass/bootstrap/_type.scss",
 		"/www/tvil/css/tvil/icontvil.css",
@@ -714,10 +733,7 @@
 		"/www/cityquest/protected/modules/user/views/admin/_search.php",
 		"/www/cityquest/protected/controllers/QuestController.php",
 		"/www/cityquest/protected/views/quest/popover.php",
-		"/www/cityquest/protected/models/Booking.php",
-		"/www/cityquest/protected/controllers/BookingController.php",
-		"/www/cityquest/protected/modules/user/components/UserIdentity.php",
-		"/www/yii/framework/web/auth/CBaseUserIdentity.php"
+		"/www/cityquest/protected/models/Booking.php"
 	],
 	"find":
 	{
@@ -780,6 +796,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".active",
+			"f4f7fa",
+			"948",
+			"all",
+			"obj",
+			".obj",
+			"col-sm",
+			"sidebar-info",
+			".sidebar-info",
+			"max",
+			"i.icontvil.icontvil",
+			".container-wrapper-center",
+			"a\n                    img ",
+			";\n",
 			"Date_In",
 			".icontvil-Rubl",
 			"Rubl",
@@ -893,21 +923,7 @@
 			".page-header",
 			"56677a",
 			"#e2e7ec",
-			"e5e5e5",
-			"label",
-			".col-sm-5",
-			".col-sm-7",
-			"pag",
-			".media-left",
-			"label",
-			".selected",
-			".table",
-			".selected",
-			"td",
-			",#f8fafb 51",
-			"fff",
-			"45",
-			"45deg,#f8fafb"
+			"e5e5e5"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -934,15 +950,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 47827,
+						"buffer_size": 55988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16168,
-								16168
+								55354,
+								55354
 							]
 						],
 						"settings":
@@ -950,61 +966,61 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
@@ -1012,17 +1028,198 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13195.0,
+						"translation.y": 12401.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "slim/message.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1716,
+								1716
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 116.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "slim/payment.slim",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1080,16 +1277,40 @@
 		"selected_items":
 		[
 			[
+				"me",
+				"slim/message.slim"
+			],
+			[
+				"navbar",
+				"sass/bootstrap/_navbar.scss"
+			],
+			[
+				"oc.sli",
+				"slim/oc.slim"
+			],
+			[
+				"grid",
+				"sass/bootstrap/_grid.scss"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"varia",
+				"sass/tvil/_variables.scss"
+			],
+			[
+				"o.s",
+				"slim/o.slim"
+			],
+			[
 				"ico",
 				"sass/tvil/icontvil.scss"
 			],
 			[
 				"the",
 				"sass/tvil/_theme.scss"
-			],
-			[
-				"main",
-				"js/main.js"
 			],
 			[
 				"var",
@@ -1146,10 +1367,6 @@
 			[
 				"car",
 				"sass/tvil/_carousel.scss"
-			],
-			[
-				"o.s",
-				"slim/o.slim"
 			],
 			[
 				"sli",
@@ -1262,10 +1479,6 @@
 			[
 				"_var",
 				"sass/tvil/_variables.scss"
-			],
-			[
-				"navbar",
-				"sass/bootstrap/_navbar.scss"
 			],
 			[
 				"tvil",
@@ -1474,7 +1687,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},

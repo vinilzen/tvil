@@ -1,0 +1,86 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper-table
+      .container-table
+        .row.row-payment
+          .col-sm-8.col-gray
+            h1.page-header Способы оплаты
+            .tabpanel role="tabpanel"
+              .nav.nav-tabs.nav-justified
+                li
+                  a href="#creditcard"
+                    i.icontvil.icontvil-Credit_Card
+                    | Банковская карта
+                li
+                  a href="#qiwi"
+                    i.icontvil.icontvil-Qiwi
+                    | Qiwi - кошелек
+                li.active
+                  a href="#terminal"
+                    i.icontvil.icontvil-Terminal
+                    | Терминал
+                li
+                  a href="#other"
+                    em ...
+                    |  Другие способы
+            .tab-content
+              .tab-pane.fade#creditcard 123
+              .tab-pane.fade#qiwi 345
+              .tab-pane.fade#terminal.in.active
+                h3 1. Оплати сейчас
+                p
+                  | Предоплата:
+                  strong 1000 руб.
+                .btn.btn-success Перейти к оплате на страницу банка
+                .form-inline
+                  .checkbox
+                    label
+                      input type="checkbox"
+                      |  Согласен с правилами отмены бронирования, с суммой оплаты при заселении, с условиями проживания
+                h3 2. Получи ваучер на заселение
+                p В течение 24 часов после оплаты Вам на электронную почту придет ваучер на заселение.
+                p Проверьте данные указанные в ваучере. Обратите внимание на сумму оплаты при заселении.
+
+                h3 3. Оплати оставшуюся сумму владельцу при заселении
+                p При заселении оплатите оставшуюся сумму за проживание
+
+              .tab-pane.fade#other 789
+            .bottom-info
+              abbr title="Помощь" Помощь
+          .col-sm-4
+            h1.page-header Ваша бронь
+            .reservation
+              a.img-center
+                img.img-responsive src="../img/room.jpg" alt=""/
+              h4 Мини-отель на ул. Краснодарская дом 5 на берегу моря
+              p 2-х местный номер, Улучшеный
+              dl.dl-horizontal
+                dt Заезд:
+                dd
+                  strong 21.01.14
+                dt Выезд:
+                dd
+                  strong 31.01.14
+                dt Количество гостей:
+                dd
+                  strong 2 взрослых, 1 ребенок
+                dt Правила отмены брони:
+                dd
+                  a.kind href="#" Суперстрогие
+                  a href="#"
+                    i.icontvil.icontvil-Qw
+                dt Полная стоимость:
+                dd
+                  strong 100000 руб.
+                dt Оплата при заселении:
+                dd
+                  strong 9000 руб.
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

@@ -1146,8 +1146,10 @@ select + .form-control-feedback {
 }
 .search-calendar-input {
   width: 112px;
-  input {
+  input.form-control {
     margin-top: 1px;
+    padding-right: 25px;
+    padding-left: 8px;
   }
 }
 .search-photo {
@@ -2957,5 +2959,132 @@ i.icontvil.form-control-feedback {
     z-index: 1020;
     height: 320px;
     width: 100%;
+  }
+}
+.row-payment {
+  display:table-row;
+  .col-gray {
+    border-left:none;
+    border-right:1px solid $border-color;
+  }
+  .col-sm-8, .col-sm-4  {
+    float: none;
+    display:table-cell;
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-sm-4 {
+  }
+}
+.reservation {
+  padding-left: 30px;
+  padding-right: 30px;
+  h4 {
+    margin-top: 15px;
+  }
+  dl {
+    margin-top: 25px;
+  }
+  dt {
+    font-weight: normal;
+    text-align: left;
+    width: 180px;
+  }
+  dd {
+    margin-left: 180px;
+    text-align: right;
+    margin-bottom: 11px;
+    padding-right: 8px;
+    strong {
+      padding-right: 2px;
+    }
+    .glyphicon {
+      font-size: 17px;
+      color: #8e9aa9;
+      position: relative;
+      top: 3px;
+    }
+    .icontvil {
+      padding-right: 2px;
+    }
+  }
+  .kind {
+    margin-right: 7px;
+    text-decoration: underline;
+    color:#152438;
+    font-weight: 500;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .icontvil {
+    color:#8e9aa9;
+    opacity:.2;
+  }
+}
+.img-center {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.tabpanel {
+  margin-top: -21px;
+  .nav-tabs.nav-justified > li > a {
+    border-radius:0;
+    background-color: #fff;
+    border-left-color: $border-color;
+    border-top-color: $border-color;
+  }
+  .nav-tabs.nav-justified > .active > a {
+    background-color: #f4f7fa;
+    border-bottom-color: #f4f7fa;
+  }
+  .nav-tabs.nav-justified > li.active + li {
+    a {
+      border-left:rgba(0,0,0,0);
+      overflow: hidden;
+    }
+  }
+  .glyphicon, .icontvil {
+    font-size: 16px;
+    margin-right: 5px;
+    position: relative;
+    top:3px;
+    &.icontvil-Credit_Card {
+      font-size: 18px;
+      top: 1px;
+    }
+  }
+}
+.tab-content {
+  padding-left: 40px;
+  padding-right: 40px;
+  .btn-success {
+    background-color: #43b162;
+  }
+  h3 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color:#061d2c;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    strong {
+      font-size: 22px;
+      font-weight: bold;
+      color:#061d2c;
+    }
+  }
+  .form-inline {
+    margin-top: 20px;
   }
 }
