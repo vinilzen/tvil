@@ -6274,19 +6274,19 @@ i.icontvil {
   margin: 0 auto; }
 
 /* line 1, /www/tvil/sass/tvil/calendar */
-.calendar {
+.entity-calendar {
   background-color: #fff;
   margin: 20px 13px;
   border: 1px solid #e2e7ec;
   border-radius: 3px;
   padding: 11px; }
   /* line 8, /www/tvil/sass/tvil/calendar */
-  .calendar .calendar-info span {
+  .entity-calendar .calendar-info span {
     display: inline-block;
     padding-left: 9px;
     padding-right: 30px; }
     /* line 12, /www/tvil/sass/tvil/calendar */
-    .calendar .calendar-info span:before {
+    .entity-calendar .calendar-info span:before {
       display: inline-block;
       content: ' ';
       height: 20px;
@@ -6298,54 +6298,54 @@ i.icontvil {
       top: 4px;
       position: relative; }
     /* line 25, /www/tvil/sass/tvil/calendar */
-    .calendar .calendar-info span.select:before {
+    .entity-calendar .calendar-info span.select:before {
       background-color: #f8fafb; }
     /* line 30, /www/tvil/sass/tvil/calendar */
-    .calendar .calendar-info span.free:before {
+    .entity-calendar .calendar-info span.free:before {
       background-color: #fff; }
     /* line 35, /www/tvil/sass/tvil/calendar */
-    .calendar .calendar-info span.booked:before {
+    .entity-calendar .calendar-info span.booked:before {
       background-color: #64d887; }
   /* line 41, /www/tvil/sass/tvil/calendar */
-  .calendar table {
+  .entity-calendar table {
     table-layout: fixed; }
   /* line 45, /www/tvil/sass/tvil/calendar */
-  .calendar .table-bordered > thead > tr > th, .calendar .table-bordered > thead > tr > td {
+  .entity-calendar .table-bordered > thead > tr > th, .entity-calendar .table-bordered > thead > tr > td {
     border-bottom-width: 1px; }
   /* line 48, /www/tvil/sass/tvil/calendar */
-  .calendar th {
+  .entity-calendar th {
     background-color: #ecf0f3;
     text-align: center;
     font-size: 12px;
     font-weight: normal; }
   /* line 54, /www/tvil/sass/tvil/calendar */
-  .calendar .table > tbody > tr > td {
+  .entity-calendar .table > tbody > tr > td {
     position: relative;
     text-align: right;
     padding: 0; }
     /* line 58, /www/tvil/sass/tvil/calendar */
-    .calendar .table > tbody > tr > td .box {
+    .entity-calendar .table > tbody > tr > td .box {
       height: 58px;
       padding: 8px; }
   /* line 63, /www/tvil/sass/tvil/calendar */
-  .calendar .row-tbl {
+  .entity-calendar .row-tbl {
     margin-left: -12px;
     margin-right: -12px; }
   /* line 67, /www/tvil/sass/tvil/calendar */
-  .calendar .btn-default {
+  .entity-calendar .btn-default {
     padding: 6px 10px;
     margin-bottom: 10px; }
     /* line 70, /www/tvil/sass/tvil/calendar */
-    .calendar .btn-default .glyphicon {
+    .entity-calendar .btn-default .glyphicon {
       margin-right: 0;
       color: #8991a2; }
   /* line 75, /www/tvil/sass/tvil/calendar */
-  .calendar .btn-link {
+  .entity-calendar .btn-link {
     padding-left: 7px;
     padding-right: 7px;
     margin-top: -6px; }
   /* line 80, /www/tvil/sass/tvil/calendar */
-  .calendar .month {
+  .entity-calendar .month {
     font-weight: bold;
     font-size: 14px;
     color: #8e9aa9;
@@ -6354,7 +6354,7 @@ i.icontvil {
     left: 12px;
     top: 7px; }
   /* line 89, /www/tvil/sass/tvil/calendar */
-  .calendar .price {
+  .entity-calendar .price {
     width: 100%;
     display: block;
     font-size: 13px;
@@ -6363,24 +6363,24 @@ i.icontvil {
     text-align: left;
     padding-top: 5px; }
   /* line 98, /www/tvil/sass/tvil/calendar */
-  .calendar .date {
+  .entity-calendar .date {
     display: inline-block;
     font-weight: bold;
     color: #061527; }
   /* line 104, /www/tvil/sass/tvil/calendar */
-  .calendar .selected .box {
+  .entity-calendar .selected .box {
     background-color: #f8fafb; }
     /* line 106, /www/tvil/sass/tvil/calendar */
-    .calendar .selected .box .date {
+    .entity-calendar .selected .box .date {
       color: #8e9aa9; }
   /* line 112, /www/tvil/sass/tvil/calendar */
-  .calendar .selected-half-end .box {
+  .entity-calendar .selected-half-end .box {
     -webkit-background: repeating-linear-gradient(-55deg, #fff 0%, #fff 50%, #f8fafb 51%, #f8fafb);
     -moz-background: repeating-linear-gradient(-55deg, #fff 0%, #fff 50%, #f8fafb 51%, #f8fafb);
     -o-background: repeating-linear-gradient(-55deg, #fff 0%, #fff 50%, #f8fafb 51%, #f8fafb);
     background: repeating-linear-gradient(-55deg, #fff 0%, #fff 50%, #f8fafb 51%, #f8fafb); }
   /* line 120, /www/tvil/sass/tvil/calendar */
-  .calendar .selected-half-start .box {
+  .entity-calendar .selected-half-start .box {
     -webkit-background: repeating-linear-gradient(-55deg, #f8fafb 0%, #f8fafb 50%, #fff 51%, #fff);
     -moz-background: repeating-linear-gradient(-55deg, #f8fafb 0%, #f8fafb 50%, #fff 51%, #fff);
     -o-background: repeating-linear-gradient(-55deg, #f8fafb 0%, #f8fafb 50%, #fff 51%, #fff);
@@ -9451,39 +9451,43 @@ i.icontvil.form-control-feedback {
     overflow: hidden; }
   /* line 3054, /www/tvil/sass/tvil/theme */
   .tabpanel .glyphicon, .tabpanel .icontvil {
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 5px;
     position: relative;
+    color: #8e9aa9;
+    opacity: 0.2;
     top: 3px; }
-    /* line 3059, /www/tvil/sass/tvil/theme */
-    .tabpanel .glyphicon.icontvil-Credit_Card, .tabpanel .icontvil.icontvil-Credit_Card {
-      font-size: 18px;
-      top: 1px; }
+    /* line 3061, /www/tvil/sass/tvil/theme */
+    .tabpanel .glyphicon.icontvil-Other, .tabpanel .icontvil.icontvil-Other {
+      top: 5px; }
+  /* line 3066, /www/tvil/sass/tvil/theme */
+  .tabpanel .nav-tabs.nav-justified > .active .glyphicon, .tabpanel .nav-tabs.nav-justified > .active .icontvil {
+    opacity: 1; }
 
-/* line 3065, /www/tvil/sass/tvil/theme */
+/* line 3071, /www/tvil/sass/tvil/theme */
 .tab-content {
   padding-left: 40px;
   padding-right: 40px; }
-  /* line 3068, /www/tvil/sass/tvil/theme */
+  /* line 3074, /www/tvil/sass/tvil/theme */
   .tab-content .btn-success {
     background-color: #43b162; }
-  /* line 3071, /www/tvil/sass/tvil/theme */
+  /* line 3077, /www/tvil/sass/tvil/theme */
   .tab-content h3 {
     margin-top: 50px;
     margin-bottom: 15px;
     font-size: 18px;
     font-weight: 500;
     color: #061d2c; }
-  /* line 3078, /www/tvil/sass/tvil/theme */
+  /* line 3084, /www/tvil/sass/tvil/theme */
   .tab-content p {
     font-size: 16px;
     margin-bottom: 15px; }
-    /* line 3081, /www/tvil/sass/tvil/theme */
+    /* line 3087, /www/tvil/sass/tvil/theme */
     .tab-content p strong {
       font-size: 22px;
       font-weight: bold;
       color: #061d2c; }
-  /* line 3087, /www/tvil/sass/tvil/theme */
+  /* line 3093, /www/tvil/sass/tvil/theme */
   .tab-content .form-inline {
     margin-top: 20px; }
 

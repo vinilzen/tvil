@@ -3052,13 +3052,19 @@ i.icontvil.form-control-feedback {
     }
   }
   .glyphicon, .icontvil {
-    font-size: 16px;
+    font-size: 20px;
     margin-right: 5px;
     position: relative;
+    color:#8e9aa9;
+    opacity:.2;
     top:3px;
-    &.icontvil-Credit_Card {
-      font-size: 18px;
-      top: 1px;
+    &.icontvil-Other {
+      top: 5px;
+    }
+  }
+  .nav-tabs.nav-justified > .active {
+    .glyphicon, .icontvil {
+      opacity:1;
     }
   }
 }
