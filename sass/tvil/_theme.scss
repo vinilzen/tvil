@@ -1901,7 +1901,7 @@ select + .form-control-feedback {
 }
 
 .col-left {
-  padding-left: 74px;
+  // padding-left: 74px;
   .has-feedback select.form-control {
     width: 90px;
     margin-left: 0;
@@ -1915,7 +1915,7 @@ select + .form-control-feedback {
   }
 }
 .col-right {
-  padding-right: 74px;
+  // padding-right: 74px;
   .has-feedback {
     // margin-left: -10px;
     select.form-control {
@@ -1956,8 +1956,6 @@ span.msg-info {
 }
 .calculate {
   margin-top: 0;
-  padding-left: 74px;
-  padding-right: 74px;
   .btn {
     text-transform: uppercase;
     padding: 10px 20px;
@@ -3116,5 +3114,37 @@ i.icontvil.form-control-feedback {
 .row-payment {
   .page-header {
     padding: 21px 29px 20px;
+  }
+}
+/* search options */
+.period {
+  .form-control {
+    padding-left: 10px;
+  }
+}
+.period {}
+.fix-top {
+  padding-left: 60px;
+  padding-right: 60px;
+  p {
+    color:#b0b8c3;
+    font-size: 14px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .dropdown-toggle {
+    padding-left: 4px;
+  }
+  .value {
+    display: inline-block;
+    width: 40px;
+  }
+  .dropdown-menu {
+    min-width: 72px;
+  }
+  .btn .caret {
+    right: 5px;
+    position: relative;
   }
 }

@@ -563,25 +563,66 @@ html
                   h2 2000 рублей за сутки
               .row
                 .col-sm-6.col-left
-                  .form-group.has-feedback.pull-right
+                  .form-group.has-feedback.pull-right.period
                     input.form-control type="text" placeholder="Заезд"
                     i.icontvil.icontvil-Date_In.form-control-feedback
                 .col-sm-6.col-right
-                  .form-group.has-feedback
+                  .form-group.has-feedback.period
                     input.form-control type="text" placeholder="Отъезд"
                     i.icontvil.icontvil-Date_Out.form-control-feedback
-                .col-sm-6.col-left
-                  .form-group.has-feedback
-                    select.form-control
-                      option 0
-                      option 1
-                    i.icontvil.icontvil-Male.form-control-feedback
-                .col-sm-6.col-right
-                  .form-group.has-feedback
-                    select.form-control
-                      option 0
-                      option 1
-                    i.icontvil.icontvil-Children.form-control-feedback
+                .col-sm-12
+                  .alert.alert-danger
+                    p Выбранные даты заняты.
+                    p Смотрите календарь занятости
+              .row
+                .col-sm-12
+                  p Укажите количествtо гостей:
+                .col-sm-4
+                  .dropdown
+                    button.btn.btn-default.btn-block.dropdown-toggle#dropdownMale type="button" data-toggle="dropdown" aria-expanded="true"
+                      i.icontvil.icontvil-Male
+                      span.value 0
+                      span.caret
+                    ul.dropdown-menu role="menu" aria-labelledby="dropdownMale"
+                      li
+                        a 0
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+                .col-sm-4
+                  .dropdown
+                    button.btn.btn-default.btn-block.dropdown-toggle#dropdownFemale type="button" data-toggle="dropdown" aria-expanded="true"
+                      i.icontvil.icontvil-Female
+                      span.value 0
+                      span.caret
+                    ul.dropdown-menu role="menu" aria-labelledby="dropdownFemale"
+                      li
+                        a 0
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+                  
+                .col-sm-4
+                  .dropdown
+                    button.btn.btn-default.btn-block.dropdown-toggle#dropdownChildren type="button" data-toggle="dropdown" aria-expanded="true"
+                      i.icontvil.icontvil-Children
+                      span.value 0
+                      span.caret
+                    ul.dropdown-menu role="menu" aria-labelledby="dropdownChildren"
+                      li
+                        a 0
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
                 .col-sm-12.text-center.calculate
                   span.msg-info
                     i.icontvil.icontvil-Exclamation

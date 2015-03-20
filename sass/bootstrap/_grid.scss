@@ -70,9 +70,9 @@
 //
 // Columns, offsets, pushes, and pulls for the desktop device range.
 
-//@media (min-width: $screen-md-min) {
-//  @include make-grid(md);
-//}
+@media (min-width: $screen-md-min) {
+  @include make-grid(md);
+}
 
 
 // Large grid
