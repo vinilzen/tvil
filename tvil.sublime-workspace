@@ -523,7 +523,7 @@
 			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 55988,
+				"buffer_size": 56685,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "slim/message.slim",
 			"settings":
 			{
-				"buffer_size": 5012,
+				"buffer_size": 5002,
 				"line_ending": "Unix"
 			}
 		},
@@ -539,7 +539,7 @@
 			"file": "slim/payment.slim",
 			"settings":
 			{
-				"buffer_size": 3166,
+				"buffer_size": 3335,
 				"line_ending": "Unix"
 			}
 		}
@@ -607,20 +607,21 @@
 	"file_history":
 	[
 		"/www/tvil/slim/o.slim",
+		"/www/tvil/sass/tvil/_calendar.scss",
+		"/www/tvil/slim/oc.slim",
+		"/www/tvil/o.html",
+		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/message.html",
 		"/www/tvil/js/main.js",
 		"/www/tvil/sass/bootstrap/_grid.scss",
 		"/www/tvil/sass/bootstrap/_navbar.scss",
 		"/www/tvil/sass/tvil/_variables.scss",
-		"/www/tvil/slim/oc.slim",
 		"/www/tvil/slim/nav_bottom.slim",
 		"/www/tvil/slim/nav_bottom2.slim",
-		"/www/tvil/o.html",
 		"/www/tvil/slim/message.slim",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
 		"/www/tvil/sass/bootstrap/_glyphicons.scss",
 		"/www/tvil/sass/bootstrap/_variables.scss",
-		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/slim/search.slim",
 		"/www/tvil/slim/login.slim",
 		"/www/tvil/slim/index.slim",
@@ -643,7 +644,6 @@
 		"/Users/vin/Downloads/icontvil/style.css",
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/search.html",
-		"/www/tvil/sass/tvil/_calendar.scss",
 		"/www/tvil/sass/_bootstrap.scss",
 		"/www/tvil/sass/bootstrap/_component-animations.scss",
 		"/www/tvil/index.html",
@@ -748,6 +748,9 @@
 			"/www/tvil/sass",
 			"/www/tvil/",
 			"/www/tvil/slim",
+			"/www/tvil/sass",
+			"/www/tvil/",
+			"/www/tvil/slim",
 			"/www/tvil/sass/bootstrap",
 			"/www/tvil/sass",
 			"/www/cityquest/protected",
@@ -796,6 +799,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".page-header",
+			"30px",
+			".calendar",
+			"span.glyphicon.glyphicon-edit",
+			"_X",
+			"_x",
 			".active",
 			"f4f7fa",
 			"948",
@@ -917,13 +926,7 @@
 			".hr-obj",
 			"dl-ho",
 			".nav-pagination",
-			"text",
-			".search-result",
-			"second-",
-			".page-header",
-			"56677a",
-			"#e2e7ec",
-			"e5e5e5"
+			"text"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -950,15 +953,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 55988,
+						"buffer_size": 56685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55354,
-								55354
+								56256,
+								56256
 							]
 						],
 						"settings":
@@ -1028,10 +1031,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12401.0,
+						"translation.y": 7980.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1046,15 +1049,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5012,
+						"buffer_size": 5002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1716,
-								1716
+								1583,
+								1583
 							]
 						],
 						"settings":
@@ -1124,7 +1127,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 116.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1136,15 +1139,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3166,
+						"buffer_size": 3335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								1215,
+								1215
 							]
 						],
 						"settings":
@@ -1214,10 +1217,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 65.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1277,6 +1280,22 @@
 		"selected_items":
 		[
 			[
+				"oc.s",
+				"slim/oc.slim"
+			],
+			[
+				"o.sli",
+				"slim/o.slim"
+			],
+			[
+				"ico",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"icon",
+				"sass/tvil/icontvil.scss"
+			],
+			[
 				"me",
 				"slim/message.slim"
 			],
@@ -1305,10 +1324,6 @@
 				"slim/o.slim"
 			],
 			[
-				"ico",
-				"sass/tvil/icontvil.scss"
-			],
-			[
 				"the",
 				"sass/tvil/_theme.scss"
 			],
@@ -1333,10 +1348,6 @@
 				"cabinet.html"
 			],
 			[
-				"icon",
-				"sass/tvil/icontvil.scss"
-			],
-			[
 				"icont",
 				"fonts/icontvil.svg"
 			],
@@ -1345,20 +1356,12 @@
 				"slim/login.slim"
 			],
 			[
-				"oc.s",
-				"slim/oc.slim"
-			],
-			[
 				"inde",
 				"slim/index.slim"
 			],
 			[
 				"sea",
 				"slim/search.slim"
-			],
-			[
-				"o.sli",
-				"slim/o.slim"
 			],
 			[
 				"sear",

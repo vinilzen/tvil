@@ -715,7 +715,7 @@ abbr[title]{
 }
 .page-header {
   margin-top: 0;
-  padding: 19px 39px;
+  padding: 19px 39px; //21px 29px;
   font-size: 26px;
   border-color:$border-color;
 }
@@ -3040,6 +3040,10 @@ i.icontvil.form-control-feedback {
     background-color: #fff;
     border-left-color: $border-color;
     border-top-color: $border-color;
+    font-size: 16px;
+    color:#7a8593;
+    padding-top: 8px;
+    padding-bottom: 14px;
   }
   .nav-tabs.nav-justified > .active > a {
     background-color: #f4f7fa;
@@ -3053,11 +3057,11 @@ i.icontvil.form-control-feedback {
   }
   .glyphicon, .icontvil {
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 13px;
     position: relative;
     color:#8e9aa9;
     opacity:.2;
-    top:3px;
+    top:4px;
     &.icontvil-Other {
       top: 5px;
     }
@@ -3069,28 +3073,48 @@ i.icontvil.form-control-feedback {
   }
 }
 .tab-content {
-  padding-left: 40px;
+  padding-left: 38px;
   padding-right: 40px;
   .btn-success {
     background-color: #43b162;
   }
   h3 {
-    margin-top: 50px;
-    margin-bottom: 15px;
+    margin-top: 49px;
+    margin-bottom: 13px;
     font-size: 18px;
     font-weight: 500;
     color:#061d2c;
+    display: inline-block;
   }
   p {
-    font-size: 16px;
-    margin-bottom: 15px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-top: 9px;
+    &.big {
+      margin-top: 0;
+      margin-bottom: 23px;
+      font-size: 16px;
+    }
     strong {
       font-size: 22px;
       font-weight: bold;
       color:#061d2c;
     }
   }
+  .btn {
+    padding: 10px 40px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
   .form-inline {
-    margin-top: 20px;
+    margin-top: 24px;
+  }
+  .condition {
+    margin-bottom: 10px;
+  }
+}
+.row-payment {
+  .page-header {
+    padding: 21px 29px 20px;
   }
 }
