@@ -572,13 +572,16 @@ html
                     i.icontvil.icontvil-Date_Out.form-control-feedback
                 .col-sm-12
                   .alert.alert-danger
+                    i.icontvil.icontvil-Exclamation
                     p Выбранные даты заняты.
-                    p Смотрите календарь занятости
+                    p
+                      | Смотрите 
+                      abbr title="календарь занятости" календарь занятости
               .row
                 .col-sm-12
-                  p Укажите количествtо гостей:
+                  p.dark Укажите количествtо гостей:
                 .col-sm-4
-                  .dropdown
+                  .dropdown.dropdown-select
                     button.btn.btn-default.btn-block.dropdown-toggle#dropdownMale type="button" data-toggle="dropdown" aria-expanded="true"
                       i.icontvil.icontvil-Male
                       span.value 0
@@ -593,7 +596,7 @@ html
                       li
                         a 3
                 .col-sm-4
-                  .dropdown
+                  .dropdown.dropdown-select
                     button.btn.btn-default.btn-block.dropdown-toggle#dropdownFemale type="button" data-toggle="dropdown" aria-expanded="true"
                       i.icontvil.icontvil-Female
                       span.value 0
@@ -607,27 +610,58 @@ html
                         a 2
                       li
                         a 3
-                  
                 .col-sm-4
-                  .dropdown
+                  .dropdown.count-child.dropdown-select
                     button.btn.btn-default.btn-block.dropdown-toggle#dropdownChildren type="button" data-toggle="dropdown" aria-expanded="true"
                       i.icontvil.icontvil-Children
                       span.value 0
-                      span.caret
+                      span.btn-xs +
                     ul.dropdown-menu role="menu" aria-labelledby="dropdownChildren"
                       li
-                        a 0
+                        a 1 год
                       li
-                        a 1
+                        a 2 года
                       li
-                        a 2
+                        a 3 года 
                       li
-                        a 3
+                        a 4 года 
+                      li
+                        a 5 лет
+                      li
+                        a 6 лет
+                .col-sm-12
+                  .alert.alert-danger
+                    i.icontvil.icontvil-Exclamation
+                    p Даты и гости не выбраны
+                .col-sm-12
+                  .btn.btn-count
+                    i.icontvil.icontvil-Male
+                    | ?
+                  .btn.btn-count
+                    i.icontvil.icontvil-Female
+                    | ?
+                  .btn.btn-count.btn-child
+                    i.icontvil.icontvil-Children
+                    | 2
+                    i.icontvil.icontvil-x
+                .col-sm-12.hide
+                  .alert.alert-danger
+                    i.icontvil.icontvil-Exclamation
+                    p На эти даты цена по запросу.
+                    p Свяжитесь с владельцем.
+                .col-sm-12.hide
+                  .alert.alert-danger
+                    i.icontvil.icontvil-Exclamation
+                    p Не принимаем с детьми до 3-х лет
                 .col-sm-12.text-center.calculate
-                  span.msg-info
+                  span.msg-info.hide
                     i.icontvil.icontvil-Exclamation
                     | Даты и гости не выбраны
                   .btn.btn-danger.btn-block Рассчитать стоимость
+                .col-sm-12.text-center.calculate
+                  .btn.btn-success.btn-block Рассчитать стоимость
+                .col-sm-12.text-center.calculate
+                  .btn.btn-default.btn-block Задать вопрос владельцу
             .sidebar-info
               .col-sm-6.text-center
                 p
