@@ -1244,6 +1244,7 @@ select + .form-control-feedback {
 }
 .category-photo {
   margin-bottom: 15px;
+  width: 368px;
   .search-photo {
     width: 255px;
     height: 170px;
@@ -3287,6 +3288,9 @@ p.dark {
   .dropdown-select {
     width: 88px;
     margin-bottom: 0;
+    .dropdown-toggle {
+      padding-left: 0;
+    }
     .dropdown-menu {
       min-width: 84px;
     }

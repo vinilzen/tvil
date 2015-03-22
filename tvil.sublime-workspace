@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"border",
-				"border-bottom-color"
+				"fs",
+				"fs-i	font-style: italic;"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"bgr",
+				"background-size"
 			],
 			[
 				"out",
-				"outerHeight	.outerHeight()"
+				"outline"
+			],
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"cp",
+				"cur-p	cursor: pointer;"
+			],
+			[
+				"border",
+				"border-bottom-color"
 			],
 			[
 				"head",
@@ -94,10 +114,6 @@
 			[
 				"db",
 				"d-b	display: block;"
-			],
-			[
-				"bgr",
-				"background-color"
 			],
 			[
 				"mh",
@@ -498,48 +514,24 @@
 			[
 				"parse",
 				"parseInt"
-			],
-			[
-				"data",
-				"data-page"
-			],
-			[
-				"num",
-				"num_page"
-			],
-			[
-				"eac",
-				"each	.each()"
-			],
-			[
-				"filter",
-				"filter_class"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "sass/tvil/_theme.scss",
+			"file": "sass/tvil/main.scss",
 			"settings":
 			{
-				"buffer_size": 56685,
+				"buffer_size": 696,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "slim/message.slim",
+			"file": "slim/main.slim",
 			"settings":
 			{
-				"buffer_size": 5002,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "slim/payment.slim",
-			"settings":
-			{
-				"buffer_size": 3335,
+				"buffer_size": 999,
 				"line_ending": "Unix"
 			}
 		}
@@ -606,33 +598,38 @@
 	],
 	"file_history":
 	[
+		"/www/tvil/sass/_bootstrap.scss",
+		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/slim/o.slim",
+		"/www/tvil/slim/nav_top_login.slim",
+		"/www/tvil/slim/nav_top.slim",
+		"/www/tvil/slim/nav_bottom2.slim",
+		"/www/tvil/slim/nav_bottom.slim",
+		"/www/tvil/slim/login.slim",
+		"/www/tvil/slim/search_dropdown.slim",
+		"/www/tvil/slim/message.slim",
+		"/www/tvil/slim/payment.slim",
+		"/www/tvil/slim/search.slim",
+		"/www/tvil/slim/sidebar-left.slim",
+		"/www/tvil/js/main.js",
+		"/www/tvil/payment.html",
+		"/www/tvil/sass/bootstrap/_grid.scss",
+		"/www/tvil/sass/bootstrap/_glyphicons.scss",
+		"/www/tvil/o.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
 		"/www/tvil/slim/oc.slim",
-		"/www/tvil/o.html",
 		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/message.html",
-		"/www/tvil/js/main.js",
-		"/www/tvil/sass/bootstrap/_grid.scss",
 		"/www/tvil/sass/bootstrap/_navbar.scss",
 		"/www/tvil/sass/tvil/_variables.scss",
-		"/www/tvil/slim/nav_bottom.slim",
-		"/www/tvil/slim/nav_bottom2.slim",
-		"/www/tvil/slim/message.slim",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
-		"/www/tvil/sass/bootstrap/_glyphicons.scss",
 		"/www/tvil/sass/bootstrap/_variables.scss",
-		"/www/tvil/slim/search.slim",
-		"/www/tvil/slim/login.slim",
 		"/www/tvil/slim/index.slim",
 		"/www/tvil/sass/bootstrap/_theme.scss",
-		"/www/tvil/slim/nav_top.slim",
-		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/slim/cabinet.slim",
 		"/www/tvil/login.html",
 		"/www/tvil/cabinet.html",
 		"/www/tvil/sass/tvil/_carousel.scss",
-		"/www/tvil/slim/sidebar-left.slim",
 		"/www/tvil/slim/sidebar-left-light.slim",
 		"/www/tvil/fonts/icontvil.svg",
 		"/www/tvil/slim/head.slim",
@@ -644,7 +641,6 @@
 		"/Users/vin/Downloads/icontvil/style.css",
 		"/www/tvil/slim/pagination.slim",
 		"/www/tvil/search.html",
-		"/www/tvil/sass/_bootstrap.scss",
 		"/www/tvil/sass/bootstrap/_component-animations.scss",
 		"/www/tvil/index.html",
 		"/www/tvil/js/bootstrap.min.js",
@@ -729,11 +725,7 @@
 		"/www/cityquest/js/admin_main.js",
 		"/Users/vin/Downloads/competitors_ids.csv",
 		"/www/cityquest/sass/admin_bootstrap/_forms.scss",
-		"/www/cityquest/protected/modules/user/views/admin/index.php",
-		"/www/cityquest/protected/modules/user/views/admin/_search.php",
-		"/www/cityquest/protected/controllers/QuestController.php",
-		"/www/cityquest/protected/views/quest/popover.php",
-		"/www/cityquest/protected/models/Booking.php"
+		"/www/cityquest/protected/modules/user/views/admin/index.php"
 	],
 	"find":
 	{
@@ -799,6 +791,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".dropdown-toggle",
+			", ",
+			"hr-s",
+			".btn-sm",
+			"auto",
+			"row-pa",
+			".row-payment",
+			".owner",
+			"=\"",
+			".btn-default",
+			"button.btn.btn-default",
+			".form-control-feedback",
+			".fix-top",
 			".page-header",
 			"30px",
 			".calendar",
@@ -913,20 +918,7 @@
 			"affix",
 			".sidebar-light",
 			".sidebar-left.sidebar-light",
-			"left",
-			"ww",
-			".sidebar-info",
-			"date",
-			"btn-de",
-			"background-color",
-			"icot",
-			"span\n                            |",
-			"dl-ho",
-			".pull-left",
-			".hr-obj",
-			"dl-ho",
-			".nav-pagination",
-			"text"
+			"left"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -949,19 +941,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sass/tvil/_theme.scss",
+					"file": "sass/tvil/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 56685,
+						"buffer_size": 696,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								56256,
-								56256
+								687,
+								687
 							]
 						],
 						"settings":
@@ -969,95 +961,93 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7980.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "slim/message.slim",
+					"file": "slim/main.slim",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5002,
+						"buffer_size": 999,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1583,
-								1583
+								685,
+								685
 							]
 						],
 						"settings":
@@ -1065,16 +1055,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1085,131 +1080,36 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 108.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "slim/payment.slim",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1215,
-								1215
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Ruby Slim/Syntaxes/Ruby Slim.tmLanguage",
@@ -1217,10 +1117,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 65.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1280,6 +1180,38 @@
 		"selected_items":
 		[
 			[
+				"boot",
+				"sass/_bootstrap.scss"
+			],
+			[
+				"nav_",
+				"slim/nav_top_login.slim"
+			],
+			[
+				"login",
+				"slim/login.slim"
+			],
+			[
+				"sea",
+				"slim/search.slim"
+			],
+			[
+				"me",
+				"slim/message.slim"
+			],
+			[
+				"pay",
+				"slim/payment.slim"
+			],
+			[
+				"grid",
+				"sass/bootstrap/_grid.scss"
+			],
+			[
+				"o.s",
+				"slim/o.slim"
+			],
+			[
 				"oc.s",
 				"slim/oc.slim"
 			],
@@ -1296,10 +1228,6 @@
 				"sass/tvil/icontvil.scss"
 			],
 			[
-				"me",
-				"slim/message.slim"
-			],
-			[
 				"navbar",
 				"sass/bootstrap/_navbar.scss"
 			],
@@ -1308,20 +1236,12 @@
 				"slim/oc.slim"
 			],
 			[
-				"grid",
-				"sass/bootstrap/_grid.scss"
-			],
-			[
 				"main",
 				"js/main.js"
 			],
 			[
 				"varia",
 				"sass/tvil/_variables.scss"
-			],
-			[
-				"o.s",
-				"slim/o.slim"
 			],
 			[
 				"the",
@@ -1334,10 +1254,6 @@
 			[
 				"index",
 				"slim/index.slim"
-			],
-			[
-				"login",
-				"slim/login.slim"
 			],
 			[
 				"cab",
@@ -1358,10 +1274,6 @@
 			[
 				"inde",
 				"slim/index.slim"
-			],
-			[
-				"sea",
-				"slim/search.slim"
 			],
 			[
 				"sear",
@@ -1402,10 +1314,6 @@
 			[
 				"calen",
 				"sass/tvil/_calendar.scss"
-			],
-			[
-				"boot",
-				"sass/_bootstrap.scss"
 			],
 			[
 				"slim",
@@ -1454,10 +1362,6 @@
 			[
 				"top",
 				"slim/nav_top.slim"
-			],
-			[
-				"nav_",
-				"slim/nav_bottom.slim"
 			],
 			[
 				"_boo",
@@ -1690,7 +1594,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

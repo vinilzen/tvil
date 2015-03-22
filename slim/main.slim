@@ -1,0 +1,413 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body.index
+    .navbar-main
+      .container
+        nav.navbar
+          .container
+            a.navbar-brand href="#"
+              / img src="favicon.png" alt=""/
+              | TVIL.RU
+            .navbar-right
+              .navbar-login
+                a.btn.btn-gray.navbar-btn href="#"
+                  i.icontvil.icontvil-margin-right.icontvil-Login
+                  | Войти
+                a.btn.btn-success.navbar-btn href="#"
+                  i.icontvil.icontvil-margin-right.icontvil-House
+                  | Сдать жилье
+
+    .jumbotron
+      .container
+        .row
+          .col-sm-12.text-center
+            h1 Бронирование гостиниц и квартир №1 в России
+            p 
+              em Более 50 000 объявлений — комиссия 0 %
+            form.form-inline
+              .form-group.has-feedback.form-group-lg
+                input.form-control type="text" placeholder="Введите название населенного пункта"
+                span.glyphicon.glyphicon-search.form-control-feedback
+              .btn.btn-danger Найти сейчас
+    .container-fluid.container-tabs
+      .container
+        .row
+          ul.nav.nav-tabs.nav-justified role="tablist"
+            li.active
+              a href="#option1" role="tab" data-toggle="tab"
+                i.icontvil.icontvil-Gift 
+                | Квартиры посуточно
+            li 
+              a href="#option2" role="tab" data-toggle="tab"
+                i.icontvil.icontvil-Gift 
+                | Гостиницы и отели
+            li 
+              a href="#option3" role="tab" data-toggle="tab"
+                i.icontvil.icontvil-Gift 
+                | Популярные направления
+            li 
+              a href="#option4" role="tab" data-toggle="tab"
+                i.icontvil.icontvil-Gift 
+                | Юг России
+            li 
+              a href="#option5" role="tab" data-toggle="tab"
+                i.icontvil.icontvil-Gift 
+                | Частный сектор
+
+    .container-fluid.container-map
+      .container.tab-content
+        .row.tab-pane#option1 role="tabpanel"
+          .col-sm-12 
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, voluptas.
+        .row.tab-pane.active#option2 role="tabpanel"
+          .col5-2
+            h3 Центр России
+            ul.list-unstyled
+              li
+                a href="#"
+                  strong Махачкала
+                  p 29 квартир
+              li
+                a href="#"
+                  strong Санкт-Петебруг
+                  p 14 квартир
+              li
+                a href="#"
+                  strong Севастополь
+                  p 99 квартир
+              li
+                a href="#"
+                  strong Екатеринбург
+                  p 5 квартир
+              li
+                a href="#"
+                  strong Пермь
+                  p 9 квартир
+          .col5-2
+            h3 Сибирь
+            ul.list-unstyled
+              li
+                a href="#"
+                  strong Красноярск
+                  p 29 квартир
+              li
+                a href="#"
+                  strong Новосибирск
+                  p 14 квартир
+              li
+                a href="#"
+                  strong Иркутск
+                  p 99 квартир
+              li
+                a href="#"
+                  strong Якутск
+                  p 5 квартир
+          .col5-2
+            h3 Кавказ
+            ul.list-unstyled
+              li
+                a href="#"
+                  strong Астрахань
+                  p 29 квартир
+              li
+                a href="#"
+                  strong Омск
+                  p 14 квартир
+              li
+                a href="#"
+                  strong Челябинск
+                  p 99 квартир
+              li
+                a href="#"
+                  strong Иркутск
+                  p 5 квартир
+              li
+                a href="#"
+                  strong Пермь
+                  p 9 квартир
+          .col5-2
+            h3 Краснодарский край
+            ul.list-unstyled
+              li
+                a href="#"
+                  strong Новороссийск
+                  p 29 квартир
+              li
+                a href="#"
+                  strong Сочи
+                  p 14 квартир
+              li
+                a href="#"
+                  strong Ростов-на-дону
+                  p 99 квартир
+              li
+                a href="#"
+                  strong Хабаравск
+                  p 5 квартир
+          .col5-2
+            h3 Поволжье
+            ul.list-unstyled
+              li
+                a href="#"
+                  strong Махачкала
+                  p 29 квартир
+              li
+                a href="#"
+                  strong Сочи
+                  p 14 квартир
+              li
+                a href="#"
+                  strong Ростов-на-дону
+                  p 99 квартир
+              li
+                a href="#"
+                  strong Уфа
+                  p 5 квартир
+        .row.tab-pane#option3 role="tabpanel"
+          .col-sm-12
+            p Lorem ipsum dolor sit amet 3.
+        .row.tab-pane#option4 role="tabpanel"
+          .col-sm-12
+            p Lorem ipsum dolor sit amet 4.
+        .row.tab-pane#option5 role="tabpanel"
+          .col-sm-12
+            p Lorem ipsum dolor sit amet 5.
+    .container-fluid.container-red
+      .container
+        .row
+          .col.sm-12.text-center
+            h2 Что мы предлагаем?
+          .col-sm-3.text-center
+            .circle
+              i.icontvil.icontvil-Conversation
+            h4
+              | Тысячи объявлений 
+              a href="#" Комиссия 0 %
+          .col-sm-3.text-center
+            .circle
+              i.icontvil.icontvil-Frame
+            h4
+              a href="#" Общайтесь напрямую 
+              | с хозяином
+          .col-sm-3.text-center
+            .circle
+              i.icontvil.icontvil-On_The_Web
+            h4
+              a href="#" Бронируйте 
+              | прямо 
+              a href="#" на сайте 
+          .col-sm-3.text-center
+            .circle
+              i.icontvil.icontvil-Real_Feedback
+            h4
+              a href="#" Реальные отзывы 
+              | гостей и владельцев
+    .container-fluid
+      .container
+        .row.hot_offers
+          .col-sm-12.text-center
+            h2 Горячие предложения 2015 года
+          .col-sm-4
+            a href="#"
+              img.img-responsive src="../img/i1.jpg" 
+              h3 Отели
+              p
+                strong 32 207 
+                | объявлений
+              .label.label-red
+                | от 
+                strong 630 
+                span Р
+          .col-sm-4
+            a href="#"
+              img.img-responsive src="../img/i2.jpg"
+                h3 Отели
+                p
+                  strong 32 207 
+                  | объявлений
+                .label.label-red
+                  | от 
+                  strong 630 
+                  span Р
+          .col-sm-4
+            a href="#"
+              img.img-responsive src="../img/i3.jpg"
+                h3 Отели
+                p
+                  strong 32 207 
+                  | объявлений
+                .label.label-red
+                  | от 
+                  strong 630 
+                  span Р
+          .clearfix
+          .col-sm-6
+            a href="#"
+              img.img-responsive src="../img/i5.jpg"
+              h3 Отели
+              p
+                strong 32 207 
+                | объявлений
+              .label.label-red
+                | от 
+                strong 630 
+                span Р
+          .col-sm-6
+            a href="#"
+              img.img-responsive src="../img/i4.jpg"
+              h3 Отели
+              p
+                strong 32 207 
+                | объявлений
+              .label.label-red
+                | от 
+                strong 630 
+                span Р
+    .container-fluid.container-gray
+      .container
+        .row
+          .col-sm-12.text-center
+            h2 Последние отзывы наших гостей
+          .col-sm-12
+            .row-last-review
+              .carousel.slide
+                .carousel-inner role="listbox"
+                  .item.active
+                    a.search-photo href="#"
+                      img.img-responsive src="img/img-example2.jpg"
+                      h3 Гостиница — Пансионат на ул. Гоголя 345
+                      p
+                        i.icontvil.icontvil-Mini_Pin.icontvil-margin-right
+                        | Ялта, ул. Московская, Крым
+                    .media-rate.media-rate-cabinet
+                      .media
+                        .media-left
+                          a href="#"
+                            img.img-circle src="../img/ava.jpg" width="56" height="56"
+                        .media-body
+                          h4 Мини-отель на ул. Краснодарская дом 5
+                          p 
+                            | Время поездки: 
+                            span с 24.05.14 по 10.06.2014 
+                            | из Новороссийска 
+                            i.icontvil.icontvil-Male
+                            i.icontvil.icontvil-Male
+                            i.icontvil.icontvil-Children
+                          .row
+                            .col-sm-6
+                              .row
+                                .col-sm-7.rate-label
+                                  label Соответствие фото
+                                  label Комфорт
+                                  label Чистота
+                                  label Хозяин/персонал
+                                  label Расположение
+                                .col-sm-5
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point
+                                    .point
+                                    .point
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                  .rate
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point.point-checked
+                                    .point
+                                    .point
+                            .col-sm-6
+                              p.rate-text
+                                | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                br
+                                a href="#" подробнее
+                  .item
+                    p 123
+                  .item
+                    p 345
+              a.left.carousel-control href="#carousel-example-generic" role="button" data-slide="prev"
+                  i.icontvil.icontvil-Arrow_Big_Slider_Left aria-hidden="true"
+              a.right.carousel-control href="#carousel-example-generic" role="button" data-slide="next"
+                  i.icontvil.icontvil-Arrow_Big_Slider_Right aria-hidden="true"
+    .container-fluid
+      .container
+        .row
+          .col5-2.text-center
+            a href="#"
+              img src="../img/logo_gray.jpg"
+          .col5-2.text-center
+            a href="#"
+              img src="../img/logo_gray1.jpg"
+          .col5-2.text-center
+            a href="#"
+              img src="../img/logo_gray2.jpg"
+          .col5-2.text-center
+            a href="#"
+              img src="../img/logo_gray3.jpg"
+          .col5-2.text-center
+            a href="#"
+              img src="../img/logo_gray4.jpg"
+    .container-fluid.container-lightblue
+      .container
+        .row
+          .col-sm-3
+            h3 TVIL.RU
+            p Бронирование гостиниц и квартир
+          .col-sm-3
+            h3 Разделы
+            ul
+              li
+                a href="#" О ТВИЛ.ру в прессе
+              li
+                a href="#" Отзывы пользователей
+              li
+                a href="#" Контакты
+              li
+                a href="#" Помощь
+          .col-sm-3
+            h3 Популярное:
+            ul
+              li
+                a href="#" Гостиницы и квартиры
+              li
+                a href="#" Отдых 2015
+              li
+                a href="#" Договор оферты
+          .col-sm-3
+            h3 Наши группы:
+            ul
+              li
+                a href="#" Forbes
+              li
+                a href="#" Facebook
+              li
+                a href="#" Вконтакте
+              li
+                a href="#" Одноклассники
+    .container-fluid.container-darkblue
+      .container
+        .row
+          .col-sm-12.text-center
+            p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
