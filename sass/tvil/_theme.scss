@@ -2517,6 +2517,13 @@ i.icontvil.form-control-feedback {
     border-top:none;
     p {
       color:#8e9aa9;
+      &.rate-text {
+        color:#152438;
+        a {
+          color:#8e9aa9;
+          border-color:#8e9aa9;
+        }
+      }
     }
     span {
       color:#152438;
@@ -2528,6 +2535,14 @@ i.icontvil.form-control-feedback {
   .media-left {
     padding-top: 43px;
     padding-left: 37px;
+  }
+  .media.media-last {
+    .media-left {
+      padding-top: 60px;
+    }
+    .media-body {
+      padding-top: 40px;
+    }
   }
 }
 .input-group-addon {
