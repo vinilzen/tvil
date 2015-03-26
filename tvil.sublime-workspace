@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"fs",
-				"fs-i	font-style: italic;"
+				"maw",
+				"max-width"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"gra",
+				"gradient"
 			],
 			[
 				"bac",
-				"background-position"
+				"background-repeat"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"mar",
+				"mr-a	margin-right: auto;"
+			],
+			[
+				"fs",
+				"fs-i	font-style: italic;"
 			],
 			[
 				"bgr",
@@ -34,10 +54,6 @@
 			[
 				"head",
 				"headr_height"
-			],
-			[
-				"border-ra",
-				"border-top-left-radius"
 			],
 			[
 				"oy",
@@ -114,10 +130,6 @@
 			[
 				"db",
 				"d-b	display: block;"
-			],
-			[
-				"mh",
-				"max-height"
 			],
 			[
 				"tt",
@@ -282,10 +294,6 @@
 			[
 				"setTime",
 				"setTimeout(${0:func}, delay)	Window"
-			],
-			[
-				"mar",
-				"margin-bottom"
 			],
 			[
 				"das",
@@ -506,40 +514,40 @@
 			[
 				"holida",
 				"holiday"
-			],
-			[
-				"holi",
-				"holiday_list"
-			],
-			[
-				"parse",
-				"parseInt"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "sass/tvil/main.scss",
+			"file": "sass/tvil/_theme.scss",
 			"settings":
 			{
-				"buffer_size": 696,
+				"buffer_size": 60684,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "doctype html\nhtml\n  head\n    == Slim::Template.new(\"head.slim\").render\n  body.index\n    .navbar-main\n      .container\n        nav.navbar\n          .container\n            a.navbar-brand href=\"#\"\n              / img src=\"favicon.png\" alt=\"\"/\n              | TVIL.RU\n            .navbar-right\n              .navbar-login\n                a.btn.btn-gray.navbar-btn href=\"#\"\n                  i.icontvil.icontvil-margin-right.icontvil-Login\n                  | Войти\n                a.btn.btn-success.navbar-btn href=\"#\"\n                  i.icontvil.icontvil-margin-right.icontvil-House\n                  | Сдать жилье\n\n    .jumbotron\n      .container\n        .row\n          .col-sm-12.text-center\n            h1 Бронирование гостиниц и квартир №1 в России\n            p \n              em Более 50 000 объявлений — комиссия 0 %\n            form.form-inline\n              .form-group.has-feedback.form-group-lg\n                input.form-control type=\"text\" placeholder=\"Введите название населенного пункта\"\n                span.glyphicon.glyphicon-search.form-control-feedback\n              .btn.btn-danger Найти сейчас\n    .container-fluid.container-tabs\n      .container\n        .row\n          ul.nav.nav-tabs.nav-justified role=\"tablist\"\n            li.active\n              a href=\"#option1\" role=\"tab\" data-toggle=\"tab\"\n                i.icontvil.icontvil-Gift \n                | Квартиры посуточно\n            li \n              a href=\"#option2\" role=\"tab\" data-toggle=\"tab\"\n                i.icontvil.icontvil-Gift \n                | Гостиницы и отели\n            li \n              a href=\"#option3\" role=\"tab\" data-toggle=\"tab\"\n                i.icontvil.icontvil-Gift \n                | Популярные направления\n            li \n              a href=\"#option4\" role=\"tab\" data-toggle=\"tab\"\n                i.icontvil.icontvil-Gift \n                | Юг России\n            li \n              a href=\"#option5\" role=\"tab\" data-toggle=\"tab\"\n                i.icontvil.icontvil-Gift \n                | Частный сектор\n\n    .container-fluid.container-map\n      .container.tab-content\n        .row.tab-pane#option1 role=\"tabpanel\"\n          .col-sm-12 \n            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, voluptas.\n        .row.tab-pane.active#option2 role=\"tabpanel\"\n          .col5-2\n            h3 Центр России\n            ul.list-unstyled\n              li\n                a href=\"#\"\n                  strong Махачкала\n                  p 29 квартир\n              li\n                a href=\"#\"\n                  strong Санкт-Петебруг\n                  p 14 квартир\n              li\n                a href=\"#\"\n                  strong Севастополь\n                  p 99 квартир\n              li\n                a href=\"#\"\n                  strong Екатеринбург\n                  p 5 квартир\n              li\n                a href=\"#\"\n                  strong Пермь\n                  p 9 квартир\n          .col5-2\n            h3 Сибирь\n            ul.list-unstyled\n              li\n                a href=\"#\"\n                  strong Красноярск\n                  p 29 квартир\n              li\n                a href=\"#\"\n                  strong Новосибирск\n                  p 14 квартир\n              li\n                a href=\"#\"\n                  strong Иркутск\n                  p 99 квартир\n              li\n                a href=\"#\"\n                  strong Якутск\n                  p 5 квартир\n          .col5-2\n            h3 Кавказ\n            ul.list-unstyled\n              li\n                a href=\"#\"\n                  strong Астрахань\n                  p 29 квартир\n              li\n                a href=\"#\"\n                  strong Омск\n                  p 14 квартир\n              li\n                a href=\"#\"\n                  strong Челябинск\n                  p 99 квартир\n              li\n                a href=\"#\"\n                  strong Иркутск\n                  p 5 квартир\n              li\n                a href=\"#\"\n                  strong Пермь\n                  p 9 квартир\n          .col5-2\n            h3 Краснодарский край\n            ul.list-unstyled\n              li\n                a href=\"#\"\n                  strong Новороссийск\n                  p 29 квартир\n              li\n                a href=\"#\"\n                  strong Сочи\n                  p 14 квартир\n              li\n                a href=\"#\"\n                  strong Ростов-на-дону\n                  p 99 квартир\n              li\n                a href=\"#\"\n                  strong Хабаравск\n                  p 5 квартир\n          .col5-2\n            h3 Поволжье\n            ul.list-unstyled\n              li\n                a href=\"#\"\n                  strong Махачкала\n                  p 29 квартир\n              li\n                a href=\"#\"\n                  strong Сочи\n                  p 14 квартир\n              li\n                a href=\"#\"\n                  strong Ростов-на-дону\n                  p 99 квартир\n              li\n                a href=\"#\"\n                  strong Уфа\n                  p 5 квартир\n        .row.tab-pane#option3 role=\"tabpanel\"\n          .col-sm-12\n            p Lorem ipsum dolor sit amet 3.\n        .row.tab-pane#option4 role=\"tabpanel\"\n          .col-sm-12\n            p Lorem ipsum dolor sit amet 4.\n        .row.tab-pane#option5 role=\"tabpanel\"\n          .col-sm-12\n            p Lorem ipsum dolor sit amet 5.\n    .container-fluid.container-red\n      .container\n        .row\n          .col.sm-12.text-center\n            h2 Что мы предлагаем?\n          .col-sm-3.text-center\n            .circle\n              i.icontvil.icontvil-Conversation\n            h4\n              | Тысячи объявлений \n              a href=\"#\" Комиссия 0 %\n          .col-sm-3.text-center\n            .circle\n              i.icontvil.icontvil-Frame\n            h4\n              a href=\"#\" Общайтесь напрямую \n              | с хозяином\n          .col-sm-3.text-center\n            .circle\n              i.icontvil.icontvil-On_The_Web\n            h4\n              a href=\"#\" Бронируйте \n              | прямо \n              a href=\"#\" на сайте \n          .col-sm-3.text-center\n            .circle\n              i.icontvil.icontvil-Real_Feedback\n            h4\n              a href=\"#\" Реальные отзывы \n              | гостей и владельцев\n    .container-fluid\n      .container\n        .row.hot_offers\n          .col-sm-12.text-center\n            h2 Горячие предложения 2015 года\n          .col-sm-4\n            a href=\"#\"\n              img.img-responsive src=\"../img/i1.jpg\" \n              h3 Отели\n              p\n                strong 32 207 \n                | объявлений\n              .label.label-red\n                | от \n                strong 630 \n                span Р\n          .col-sm-4\n            a href=\"#\"\n              img.img-responsive src=\"../img/i2.jpg\"\n                h3 Отели\n                p\n                  strong 32 207 \n                  | объявлений\n                .label.label-red\n                  | от \n                  strong 630 \n                  span Р\n          .col-sm-4\n            a href=\"#\"\n              img.img-responsive src=\"../img/i3.jpg\"\n                h3 Отели\n                p\n                  strong 32 207 \n                  | объявлений\n                .label.label-red\n                  | от \n                  strong 630 \n                  span Р\n          .clearfix\n          .col-sm-6\n            a href=\"#\"\n              img.img-responsive src=\"../img/i5.jpg\"\n              h3 Отели\n              p\n                strong 32 207 \n                | объявлений\n              .label.label-red\n                | от \n                strong 630 \n                span Р\n          .col-sm-6\n            a href=\"#\"\n              img.img-responsive src=\"../img/i4.jpg\"\n              h3 Отели\n              p\n                strong 32 207 \n                | объявлений\n              .label.label-red\n                | от \n                strong 630 \n                span Р\n    .container-fluid.container-gray\n      .container\n        .row\n          .col-sm-12.text-center\n            h2 Последние отзывы наших гостей\n          .col-sm-12\n            .row-last-review\n              .carousel.slide\n                .carousel-inner role=\"listbox\"\n                  .item.active\n                    a.search-photo href=\"#\"\n                      img.img-responsive src=\"img/img-example2.jpg\"\n                      h3 Гостиница — Пансионат на ул. Гоголя 345\n                      p\n                        i.icontvil.icontvil-Mini_Pin.icontvil-margin-right\n                        | Ялта, ул. Московская, Крым\n                    .media-rate.media-rate-cabinet.media-main\n                      .media.media-last\n                        .media-left\n                          a href=\"#\"\n                            img.img-circle src=\"../img/ava.jpg\" width=\"100\" height=\"100\"\n                          p.text-center Сергей\n                        .media-body\n                          p \n                            | Время поездки: \n                            span с 24.05.14 по 10.06.2014 \n                            | из Новороссийска \n                            i.icontvil.icontvil-Male\n                            i.icontvil.icontvil-Male\n                            i.icontvil.icontvil-Children\n                          .row\n                            .col-sm-6\n                              .row\n                                .col-sm-7.rate-label\n                                  label Соответствие фото\n                                  label Комфорт\n                                  label Чистота\n                                  label Хозяин/персонал\n                                  label Расположение\n                                .col-sm-5\n                                  .rate\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point\n                                    .point\n                                    .point\n                                  .rate\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point\n                                    .point\n                                  .rate\n                                    .point.point-checked\n                                    .point\n                                    .point\n                                    .point\n                                    .point\n                                  .rate\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point\n                                  .rate\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point.point-checked\n                                    .point\n                                    .point\n                            .col-sm-6\n                              p.rate-text\n                                | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки \n                                br\n                                a href=\"#\" подробнее\n                  .item\n                    p 123\n                  .item\n                    p 345\n              a.left.carousel-control href=\"#carousel-example-generic\" role=\"button\" data-slide=\"prev\"\n                  i.icontvil.icontvil-Arrow_Big_Slider_Left aria-hidden=\"true\"\n              a.right.carousel-control href=\"#carousel-example-generic\" role=\"button\" data-slide=\"next\"\n                  i.icontvil.icontvil-Arrow_Big_Slider_Right aria-hidden=\"true\"\n    .container-fluid\n      .container\n        .row\n          .col5-2.text-center\n            a href=\"#\"\n              img src=\"../img/logo_gray.jpg\"\n          .col5-2.text-center\n            a href=\"#\"\n              img src=\"../img/logo_gray1.jpg\"\n          .col5-2.text-center\n            a href=\"#\"\n              img src=\"../img/logo_gray2.jpg\"\n          .col5-2.text-center\n            a href=\"#\"\n              img src=\"../img/logo_gray3.jpg\"\n          .col5-2.text-center\n            a href=\"#\"\n              img src=\"../img/logo_gray4.jpg\"\n    .container-fluid.container-lightblue\n      .container\n        .row\n          .col-sm-3\n            h3 TVIL.RU\n            p Бронирование гостиниц и квартир\n          .col-sm-3\n            h3 Разделы\n            ul.list-unstyled\n              li\n                a href=\"#\" О ТВИЛ.ру в прессе\n              li\n                a href=\"#\" Отзывы пользователей\n              li\n                a href=\"#\" Контакты\n              li\n                a href=\"#\" Помощь\n          .col-sm-3\n            h3 Популярное:\n            ul.list-unstyled\n              li\n                a href=\"#\" Гостиницы и квартиры\n              li\n                a href=\"#\" Отдых 2015\n              li\n                a href=\"#\" Договор оферты\n          .col-sm-3\n            h3 Наши группы:\n            ul.list-unstyled\n              li\n                a href=\"#\" \n                i.icontvil.icontvil-Ruble.icolor-forbes\n                | Forbes\n              li\n                a href=\"#\" \n                i.icontvil.icontvil-Ruble.icolor-fb\n                | Facebook\n              li\n                a href=\"#\" \n                i.icontvil.icontvil-Ruble.icolor-vk\n                | Вконтакте\n              li\n                a href=\"#\" \n                i.icontvil.icontvil-Ruble.icolor-ok\n                | Одноклассники\n    .container-fluid.container-darkblue\n      .container\n        .row\n          .col-sm-12.text-center\n            p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.\n\n    script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js\"\n    script src=\"js/bootstrap.min.js\"",
 			"file": "slim/main.slim",
+			"file_size": 15400,
+			"file_write_time": 130718324050000000,
 			"settings":
 			{
-				"buffer_size": 999,
+				"buffer_size": 14134,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -598,9 +606,21 @@
 	],
 	"file_history":
 	[
-		"/www/tvil/sass/_bootstrap.scss",
-		"/www/tvil/sass/tvil/_theme.scss",
 		"/www/tvil/slim/o.slim",
+		"/www/tvil/sass/tvil/main.scss",
+		"/www/tvil/sass/tvil/_theme.scss",
+		"/www/tvil/sass/bootstrap/_theme.scss",
+		"/www/tvil/o.html",
+		"/www/tvil/sass/tvil/icontvil.scss",
+		"/www/tvil/Prepros Build/fonts/icontvil.woff",
+		"/www/tvil/Prepros Build/fonts/icontvil.svg",
+		"/www/tvil/slim/cabinet.slim",
+		"/www/tvil/slim/search.slim",
+		"/www/tvil/slim/oc.slim",
+		"/www/tvil/slim/sidebar-left.slim",
+		"/www/tvil/Prepros Build/cabinet.html",
+		"/www/tvil/cabinet.html",
+		"/www/tvil/sass/_bootstrap.scss",
 		"/www/tvil/slim/nav_top_login.slim",
 		"/www/tvil/slim/nav_top.slim",
 		"/www/tvil/slim/nav_bottom2.slim",
@@ -609,26 +629,18 @@
 		"/www/tvil/slim/search_dropdown.slim",
 		"/www/tvil/slim/message.slim",
 		"/www/tvil/slim/payment.slim",
-		"/www/tvil/slim/search.slim",
-		"/www/tvil/slim/sidebar-left.slim",
 		"/www/tvil/js/main.js",
 		"/www/tvil/payment.html",
 		"/www/tvil/sass/bootstrap/_grid.scss",
 		"/www/tvil/sass/bootstrap/_glyphicons.scss",
-		"/www/tvil/o.html",
 		"/www/tvil/sass/tvil/_calendar.scss",
-		"/www/tvil/slim/oc.slim",
-		"/www/tvil/sass/tvil/icontvil.scss",
 		"/www/tvil/message.html",
 		"/www/tvil/sass/bootstrap/_navbar.scss",
 		"/www/tvil/sass/tvil/_variables.scss",
 		"/www/tvil/fonts/bootstrap/glyphicons-halflings-regular.svg",
 		"/www/tvil/sass/bootstrap/_variables.scss",
 		"/www/tvil/slim/index.slim",
-		"/www/tvil/sass/bootstrap/_theme.scss",
-		"/www/tvil/slim/cabinet.slim",
 		"/www/tvil/login.html",
-		"/www/tvil/cabinet.html",
 		"/www/tvil/sass/tvil/_carousel.scss",
 		"/www/tvil/slim/sidebar-left-light.slim",
 		"/www/tvil/fonts/icontvil.svg",
@@ -721,11 +733,7 @@
 		"/www/cityquest/protected/views/layouts/admin.php",
 		"/www/cityquest/protected/views/city/admin.php",
 		"/www/cityquest/protected/views/booking/admin.php",
-		"/www/cityquest/sass/admin_bootstrap.scss",
-		"/www/cityquest/js/admin_main.js",
-		"/Users/vin/Downloads/competitors_ids.csv",
-		"/www/cityquest/sass/admin_bootstrap/_forms.scss",
-		"/www/cityquest/protected/modules/user/views/admin/index.php"
+		"/www/cityquest/sass/admin_bootstrap.scss"
 	],
 	"find":
 	{
@@ -791,6 +799,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"время поез",
+			"все врем",
+			"a href=\"#\" ",
+			"row-last-review",
+			";\n",
+			"alt=\"\"",
+			".col-sm-4",
+			"|",
+			"45deg",
+			"25",
+			".col-sm-3",
+			"li\n                ",
+			"li",
+			"a href",
+			" id=\"option2\"",
+			"ion2",
+			"flat",
+			"img ",
+			"76px",
+			".col5-2",
+			"li",
+			"\n              img ",
+			"отзы",
+			".icontvil",
 			".dropdown-toggle",
 			", ",
 			"hr-s",
@@ -894,31 +926,7 @@
 			".btn.btn-default",
 			" width=\"190\"",
 			"ad.icontvil",
-			".btn-default",
-			"39",
-			"0",
-			"39",
-			"padding",
-			"отз",
-			"icontvil-",
-			"| ",
-			"\n		        span.label\n		          i.icontvil.icontvil-Check.icontvil-green",
-			"\n		        span.label\n		          i.icontvil.icontvil-Exclamation",
-			"77",
-			"77px",
-			"77",
-			"dl-ho",
-			".column-2",
-			"select.",
-			"form-control-feedback",
-			"ащкь-сщтекщд-ауувифсл\nform-control-feedback",
-			"c6ccd4",
-			"=>",
-			"'affix",
-			"affix",
-			".sidebar-light",
-			".sidebar-left.sidebar-light",
-			"left"
+			".btn-default"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -941,19 +949,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sass/tvil/main.scss",
+					"file": "sass/tvil/_theme.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 696,
+						"buffer_size": 60684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								687,
-								687
+								46789,
+								46789
 							]
 						],
 						"settings":
@@ -961,31 +969,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -996,6 +999,21 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1005,26 +1023,18 @@
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_regex_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 42640.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1039,15 +1049,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 999,
+						"buffer_size": 14134,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								685,
-								685
+								11284,
+								11294
 							]
 						],
 						"settings":
@@ -1055,6 +1065,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1065,36 +1080,31 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1117,10 +1127,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4546.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1128,7 +1138,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -1168,17 +1178,51 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
 	"project": "tvil.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"theme",
+				"sass/tvil/_theme.scss"
+			],
+			[
+				"o.s",
+				"slim/o.slim"
+			],
+			[
+				"ico",
+				"sass/tvil/icontvil.scss"
+			],
+			[
+				"tvi",
+				"sass/tvil/_theme.scss"
+			],
+			[
+				"oc",
+				"slim/oc.slim"
+			],
+			[
+				"sea",
+				"slim/search.slim"
+			],
+			[
+				"cabin",
+				"slim/cabinet.slim"
+			],
 			[
 				"boot",
 				"sass/_bootstrap.scss"
@@ -1190,10 +1234,6 @@
 			[
 				"login",
 				"slim/login.slim"
-			],
-			[
-				"sea",
-				"slim/search.slim"
 			],
 			[
 				"me",
@@ -1208,20 +1248,12 @@
 				"sass/bootstrap/_grid.scss"
 			],
 			[
-				"o.s",
-				"slim/o.slim"
-			],
-			[
 				"oc.s",
 				"slim/oc.slim"
 			],
 			[
 				"o.sli",
 				"slim/o.slim"
-			],
-			[
-				"ico",
-				"sass/tvil/icontvil.scss"
 			],
 			[
 				"icon",
@@ -1573,6 +1605,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1589,12 +1622,13 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
