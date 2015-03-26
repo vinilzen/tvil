@@ -34,6 +34,11 @@ label {
   color:$text-color;
 }
 
+.form-control {
+  height: 35px;
+  padding: 7px 12px 6px;
+}
+
 .main.obj .h1-fixtop {
   font-size: 18px;
   font-weight: 500;
@@ -2958,6 +2963,9 @@ i.icontvil.form-control-feedback {
   p {
     padding-left: 35px;
   }
+  & > p + p {
+    margin-top: 2px;
+  }
   .icontvil {
     line-height: 20px;
     display: inline-block;
@@ -2969,6 +2977,7 @@ i.icontvil.form-control-feedback {
   abbr {
     display: inline-block;
     margin: 0;
+    line-height: 1;
   }
   &.alert-default {
     color: #8e9aa9;
@@ -3362,4 +3371,21 @@ p.dark {
 .caret.caret-reversed {
   border-top-width: 0;
   border-bottom: 4px solid $text-color;
+}
+.btn-lightgray.btn-lg {
+  color:#152438;
+  text-transform:none;
+  font-weight: normal;
+  padding: 10px 20px;
+  margin-bottom: 45px;
+  margin-top: 5px;
+  border-color:#f4f7fa;
+  strong {
+    font-weight: bold;
+  }
+  .icontvil {
+    font-size: 18px;
+    top: 0px;
+  }
+  font-size: 22px;
 }

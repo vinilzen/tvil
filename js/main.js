@@ -209,6 +209,16 @@ $(function(){
 	$('#js_tomap').click(function(){
 		$('.search-line').removeClass('ready');
 		$('.search-list').fadeOut();
-	})
+	});
+
+	if ($('.fix-top') && $('.sidebar-info')){
+		var sidebar_info_height = $('.sidebar-info').outerHeight() + 30;
+			fix_top_height = $('.fix-top').outerHeight()+60;
+
+		if ($(window).height() < (fix_top_height+sidebar_info_height)) {
+			$('.slim_hidden').hide();
+		}
+
+	}
 
 });
