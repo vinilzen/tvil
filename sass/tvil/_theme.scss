@@ -37,6 +37,7 @@ label {
 .form-control {
   height: 35px;
   padding: 7px 12px 6px;
+  border-radius: 3px;
 }
 
 .main.obj .h1-fixtop {
@@ -673,7 +674,7 @@ abbr[title]{
     padding-left: 0;
     padding-right: 0;
   }
-  hr {
+  hr.hr-40 {
     margin-left: -40px;
     margin-right: -40px;
     border-top-color: $border-color;
@@ -1012,7 +1013,7 @@ abbr.btn-link[title] {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   border-color:$btn-border-color;
-  color:#b0b9c3;
+  color:#566777;
   &::-webkit-input-placeholder {
     color: #b0b9c3;
   }
@@ -1331,16 +1332,14 @@ select + .form-control-feedback {
         padding: 6px 12px;
       }
     }
-   &:first-child > a,
-   &:last-child > a {
-    font-weight: 500;
-    padding-top: 4px;
-    padding-bottom: 6px;
-    &.selected, &:hover, &:focus {
-      padding-top: 5px;
-      padding-bottom: 7px;
+    &:first-child > a,
+    &:last-child > a {
+      font-weight: 500;
+      &.selected, &:hover, &:focus {
+        padding-top: 5px;
+        padding-bottom: 7px;
+      }
     }
-   }
     .glyphicon {
       top: 2px;
     }
@@ -1349,6 +1348,19 @@ select + .form-control-feedback {
     }
     .glyphicon-menu-left {
       padding-right: 7px;
+    }
+    &.disabled {
+      opacity:.5;
+      a:hover, a:focus {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+        color: #8e9aa9;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 5px 11px;
+      }
     }
   }
 }
@@ -1767,6 +1779,7 @@ select + .form-control-feedback {
   h1 {
     font-size: 26px;
     margin-top: 34px;
+    color:#152438;
   }
   h2 {
     font-size: 26px;
@@ -1973,8 +1986,10 @@ span.msg-info {
   margin-top: 0;
   .btn {
     text-transform: uppercase;
-    padding: 10px 20px;
+    padding: 13px 20px 12px;
     border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
   }
 }
 .sidebar-info {
@@ -2045,10 +2060,10 @@ span.msg-info {
     margin-right: 10px;
     cursor: pointer;
     &:hover, &.active {
-      border:2px solid #fff;
+      border:3px solid #fff;
       img {
-        width: 61px;
-        height: 38px;
+        width: 59px;
+        height: 36px;
       }
     }
   }
@@ -2113,7 +2128,6 @@ span.msg-info {
     border-radius:12px;
     position: relative;
     margin-right: 5px;
-    cursor:pointer;
     &:after {
       display: none;
       content:' ';
@@ -2144,9 +2158,7 @@ span.msg-info {
   margin-bottom: 0;
 }
 .media-rate {
-  margin-right: 14px;
-  margin-left: 14px;
-  margin-top: 20px;
+  margin:20px 14px 0px;
   border-top:1px solid #edeeef;
   .media-body {
     border-top:1px solid #edeeef;
@@ -2159,6 +2171,9 @@ span.msg-info {
     .media-body {
       border-top:none;
     }
+  }
+  .media:last-of-type {
+    margin-bottom: 20px;
   }
   .media-left {
     padding: 20px 37px 20px 17px;
@@ -2960,6 +2975,7 @@ i.icontvil.form-control-feedback {
 .alert {
   border:none;
   margin-bottom: 10px;
+  border-radius: 3px;
   p {
     padding-left: 35px;
   }
@@ -3013,7 +3029,6 @@ i.icontvil.form-control-feedback {
     margin-left: 0;
   }
 }
-
 
 .footer-fix {
   height: 320px;
@@ -3112,6 +3127,7 @@ i.icontvil.form-control-feedback {
     border-left-color: $border-color;
     border-top-color: $border-color;
     font-size: 16px;
+
     color:#7a8593;
     padding-top: 8px;
     padding-bottom: 14px;
@@ -3235,6 +3251,8 @@ p.dark {
   .dropdown-menu {
     min-width: 73px;
     text-align: center;
+    max-height: 200px;
+    overflow-y:auto;
     a {
       padding-left: 12px;
       padding-right: 12px;
@@ -3256,8 +3274,14 @@ p.dark {
     display: inline-block;
     width: 30px;
   }
+  .icontvil-Child {
+    font-size: 10px;
+    left:-7px;
+  }
 }
-
+.icontvil-transparent {
+  opacity:.4;
+}
 .count-child {
   .dropdown-toggle {
     background-color: #f4f7fa;
@@ -3301,6 +3325,15 @@ p.dark {
   &.btn-child {
     border-color:#e5ecf3;
     background-color: #f4f7f9;
+    position: relative;
+    .icontvil-Female {
+      left:4px;
+    }
+    .icontvil-Child {
+      font-size: 10px;
+      left:13px;
+      top:15px;
+    }
   }
   .icontvil {
     position: absolute;
@@ -3388,4 +3421,12 @@ p.dark {
     top: 0px;
   }
   font-size: 22px;
+}
+.row-10 {
+  margin-left: -10px;
+  margin-right: -10px;
+  .col-sm-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
