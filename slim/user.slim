@@ -1,0 +1,275 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper-center
+      .container-user
+        .sidebar-left.sidebar-light
+          .sidebar-scroll.sidebar-user
+            img.img-responsive src="../img/user.jpg" alt=""/
+            h2 Денис Гуляев
+            hr
+            dl
+              dt Отзывы(2):
+              dd 86% положительных
+              dt Рейтинг:
+              dd 4,3 из 5
+              dt Статус:
+              dd Проверенный владелец
+              dt Телефон:
+              dd
+                strong + 7 952
+                .btn.btn-default
+                  | Показать телефон
+            hr
+            p Социальыне сети:
+            .btn-vk.btn-soc
+                i.icontvil.icontvil-Vk
+            span.soc 165 друзей в Вконтакте
+            br
+            .btn-ok.btn-soc
+              i.icontvil.icontvil-Ok
+            span.soc 12 друзей в Одноклассниках
+            hr
+            .btn.btn-default.btn-block
+              i.icontvil.icontvil-Message
+              | Написать владельцу
+        .main.obj
+          .container-fluid
+            .container.userpage
+              .row
+                .col-sm-12
+                  h1 Здравствуйте, Меня зовут Денис!
+                  hr
+                  p.addres_label
+                    i.icontvil.icontvil-Mini_Pin 
+                    |  Россия, Крым, Ялта, Гаспра, ул. Лесная, дом 17
+                  p.lastvisit
+                    strong На сайте:
+                    span с 25 мая 2013 
+                    strong Заходил последний раз:
+                    span 24 июля 2014, 17:47
+                  hr
+                  h3.h3-user О себе:
+                  p.descr Экскурсовод со стажем, коренной ялтинец, с удовольствием поделюсь информацией о Ялте и других крымских городах и достопримечательностях. Есть свой транспорт - легковой и микроавтобус, поэтому возможно проведение индивидуальных и групповых экскурсий - пеших, автобусных, морских, комбинированных.
+                  hr
+                  h3.h3-user Мои объявления:
+                  .my_offers
+                    .col-white
+                      .row
+                        .col-sm-9
+                          a.search-photo.search-photo-sm href="o.html"
+                            img src="img/img-example2.jpg" width="268" height="172"
+                            h3 Гостиница — Пансионат на ул. Гоголя 345
+                            p
+                              i.icontvil.icontvil-Mini_Pin.icontvil-margin-right
+                              | Ялта, ул. Московская, Крым
+                        .col-sm-3.search-thumbs.search-thumbs-sm
+                          a href="#"
+                            img src="../img/img-sme2.jpg" width="82" height="54"
+                          a href="#"
+                            img src="../img/img-sme1.jpg" width="82" height="54"
+                          a href="#"
+                            img src="../img/img-sme3.jpg" width="82" height="54"
+                    .col-white
+                      .row
+                        .col-sm-9
+                          a.search-photo.search-photo-sm href="o.html"
+                            img src="img/img-example2.jpg" width="268" height="172"
+                            h3 Гостиница — Пансионат на ул. Гоголя 345
+                            p
+                              i.icontvil.icontvil-Mini_Pin.icontvil-margin-right
+                              | Ялта, ул. Московская, Крым
+                        .col-sm-3.search-thumbs.search-thumbs-sm
+                          a href="#"
+                            img src="../img/img-sme2.jpg" width="82" height="54"
+                          a href="#"
+                            img src="../img/img-sme1.jpg" width="82" height="54"
+                          a href="#"
+                            img src="../img/img-sme3.jpg" width="82" height="54"
+                  .clearfix
+                  hr
+                  h2 Отзывы
+                  p
+                    span.rate_guest Отзвы от гостей (2)
+                    abbr title="" Отзывы Дениса (14)
+                    .row.row-white
+                      .col-sm-12
+                        .media-rate
+                          .media
+                            .media-left
+                              a href="#"
+                                img.img-circle src="../img/ava.jpg" width="56" height="56"
+                              span Александра
+                            .media-body
+                              h4 Сдается 2-комнатная квартира
+                              p 
+                                | Время поездки: 
+                                span с 24.05.14 по 10.06.2014 
+                                | из Новороссийска
+                              .row
+                                .col-sm-6
+                                  .row
+                                    .col-sm-7.rate-label
+                                      label Соответствие фото
+                                      label Комфорт
+                                      label Чистота
+                                      label Хозяин/персонал
+                                      label Расположение
+                                    .col-sm-5
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                .col-sm-6
+                                  p.rate-text
+                                    | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                    br
+                                    a href="#" подробнее
+
+                          .media
+                            .media-left
+                              a href="#"
+                                img.img-circle src="../img/ava.jpg" width="56" height="56"
+                              span Андрей
+                            .media-body
+                              h4 Мини-отель на ул. Краснодарская дом 5
+                              p 
+                                | Время поездки: 
+                                span с 24.05.14 по 10.06.2014 
+                                | из Новороссийска
+                              .row
+                                .col-sm-6
+                                  .row
+                                    .col-sm-7.rate-label
+                                      label Соответствие фото
+                                      label Комфорт
+                                      label Чистота
+                                      label Хозяин/персонал
+                                      label Расположение
+                                    .col-sm-5
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                .col-sm-6
+                                  p.rate-text
+                                    | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                    br
+                                    a href="#" подробнее
+                          .media
+                            .media-left
+                              a href="#"
+                                img.img-circle src="../img/ava.jpg" width="56" height="56"
+                              span Наталья
+                            .media-body
+                              h4 Мини-отель на ул. Краснодарская дом 5
+                              p 
+                                | Время поездки: 
+                                span с 24.05.14 по 10.06.2014 
+                                | из Новороссийска
+                              .row
+                                .col-sm-6
+                                  .row
+                                    .col-sm-7.rate-label
+                                      label Соответствие фото
+                                      label Комфорт
+                                      label Чистота
+                                      label Хозяин/персонал
+                                      label Расположение
+                                    .col-sm-5
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                        .point
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                      .rate
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point.point-checked
+                                        .point
+                                        .point
+                                .col-sm-6
+                                  p.rate-text
+                                    | Очень понравилось! Из недостатков хотелось бы отметить отсутствие микроволновки 
+                                    br
+                                    a href="#" подробнее
+                    == Slim::Template.new("pagination.slim").render
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"
