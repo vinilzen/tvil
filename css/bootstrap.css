@@ -7085,7 +7085,9 @@ abbr[title] {
     font-weight: bold; }
   /* line 728, /www/tvil/sass/tvil/theme */
   .form-group label {
-    white-space: nowrap; }
+    white-space: nowrap; 
+    text-align: left;
+}
 
 /* line 732, /www/tvil/sass/tvil/theme */
 .page-header {
