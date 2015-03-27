@@ -9977,33 +9977,42 @@ p.dark {
 /* line 142, /www/tvil/sass/tvil/main */
 .navbar-main {
   position: absolute;
-  width: 100%;
-  padding-top: 21px; }
-  /* line 146, /www/tvil/sass/tvil/main */
-  .navbar-main .navbar {
-    min-width: 1px; }
-  /* line 149, /www/tvil/sass/tvil/main */
+  width: 100%; }
+  /* line 145, /www/tvil/sass/tvil/main */
   .navbar-main .navbar-brand {
     font-family: 'Proxima Nova';
     font-weight: bold;
     color: #fff;
-    font-size: 28px; }
-  /* line 156, /www/tvil/sass/tvil/main */
-  .navbar-main .navbar-login .btn {
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 14px; }
-    /* line 162, /www/tvil/sass/tvil/main */
-    .navbar-main .navbar-login .btn i.icontvil {
-      color: rgba(255, 255, 255, 0.5); }
-  /* line 167, /www/tvil/sass/tvil/main */
+    font-size: 28px;
+    padding-left: 0; }
+  /* line 152, /www/tvil/sass/tvil/main */
+  .navbar-main .navbar {
+    min-width: 1px; }
+    /* line 154, /www/tvil/sass/tvil/main */
+    .navbar-main .navbar > .container .navbar-brand {
+      margin-left: -8px; }
+  /* line 158, /www/tvil/sass/tvil/main */
+  .navbar-main .navbar-login {
+    margin-right: -14px; }
+    /* line 160, /www/tvil/sass/tvil/main */
+    .navbar-main .navbar-login .btn {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      margin-right: 0;
+      margin-left: 10px;
+      margin-top: 9px; }
+      /* line 169, /www/tvil/sass/tvil/main */
+      .navbar-main .navbar-login .btn i.icontvil {
+        color: rgba(255, 255, 255, 0.5); }
+  /* line 174, /www/tvil/sass/tvil/main */
   .navbar-main .navbar-right {
     margin-top: 3px;
     margin-right: 0; }
 
-/* line 172, /www/tvil/sass/tvil/main */
+/* line 179, /www/tvil/sass/tvil/main */
 .jumbotron {
   background-image: url(../img/main.jpg);
   background-size: cover;
@@ -10011,38 +10020,38 @@ p.dark {
   background-repeat: no-repeat;
   min-height: 765px;
   margin-bottom: 0; }
-  /* line 179, /www/tvil/sass/tvil/main */
+  /* line 186, /www/tvil/sass/tvil/main */
   .jumbotron h1, .jumbotron p {
     color: #fff; }
-  /* line 182, /www/tvil/sass/tvil/main */
+  /* line 189, /www/tvil/sass/tvil/main */
   .jumbotron h1 {
     font-size: 36px;
     font-weight: 500;
     margin-top: 183px; }
-  /* line 187, /www/tvil/sass/tvil/main */
+  /* line 194, /www/tvil/sass/tvil/main */
   .jumbotron p {
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 31px; }
-    /* line 191, /www/tvil/sass/tvil/main */
+    /* line 198, /www/tvil/sass/tvil/main */
     .jumbotron p em {
       font-family: Georgia;
       font-weight: normal;
       font-style: italic; }
-  /* line 197, /www/tvil/sass/tvil/main */
+  /* line 204, /www/tvil/sass/tvil/main */
   .jumbotron .form-inline {
     margin: 0 auto;
     width: 760px;
     padding: 11px 12px;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 3px; }
-    /* line 203, /www/tvil/sass/tvil/main */
+    /* line 210, /www/tvil/sass/tvil/main */
     .jumbotron .form-inline .form-control {
       width: 565px; }
-    /* line 206, /www/tvil/sass/tvil/main */
+    /* line 213, /www/tvil/sass/tvil/main */
     .jumbotron .form-inline .form-group {
       margin-right: 20px; }
-      /* line 208, /www/tvil/sass/tvil/main */
+      /* line 215, /www/tvil/sass/tvil/main */
       .jumbotron .form-inline .form-group .glyphicon {
         color: #313541;
         opacity: 0.3;
@@ -10050,13 +10059,13 @@ p.dark {
         height: 46px;
         line-height: 46px;
         right: 10px; }
-  /* line 219, /www/tvil/sass/tvil/main */
+  /* line 226, /www/tvil/sass/tvil/main */
   .jumbotron .btn {
     width: 150px;
     padding-top: 12px;
     padding-bottom: 12px; }
 
-/* line 225, /www/tvil/sass/tvil/main */
+/* line 232, /www/tvil/sass/tvil/main */
 .col5-2 {
   width: 20%;
   position: relative;
@@ -10065,14 +10074,14 @@ p.dark {
   padding-right: 15px;
   float: left; }
 
-/* line 234, /www/tvil/sass/tvil/main */
+/* line 241, /www/tvil/sass/tvil/main */
 .tab-pane .col5-2 {
   padding-left: 70px; }
 
-/* line 238, /www/tvil/sass/tvil/main */
+/* line 245, /www/tvil/sass/tvil/main */
 .container-lightblue {
   background-color: #1b2b40; }
-  /* line 240, /www/tvil/sass/tvil/main */
+  /* line 247, /www/tvil/sass/tvil/main */
   .container-lightblue h3 {
     color: #fff;
     text-transform: uppercase;
@@ -10080,34 +10089,34 @@ p.dark {
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 12px; }
-  /* line 248, /www/tvil/sass/tvil/main */
+  /* line 255, /www/tvil/sass/tvil/main */
   .container-lightblue p {
     color: rgba(176, 184, 195, 0.7); }
-  /* line 251, /www/tvil/sass/tvil/main */
+  /* line 258, /www/tvil/sass/tvil/main */
   .container-lightblue a {
     color: rgba(176, 184, 195, 0.7);
     line-height: 2.2; }
 
-/* line 256, /www/tvil/sass/tvil/main */
+/* line 263, /www/tvil/sass/tvil/main */
 .container-darkblue {
   background-color: #172639; }
-  /* line 258, /www/tvil/sass/tvil/main */
+  /* line 265, /www/tvil/sass/tvil/main */
   .container-darkblue p {
     margin-top: 10px; }
 
-/* line 262, /www/tvil/sass/tvil/main */
+/* line 269, /www/tvil/sass/tvil/main */
 .container-gray {
   background-color: #f5f8f9;
   border-top: 1px solid #e2e7ec;
   border-bottom: 1px solid #e2e7ec; }
 
-/* line 267, /www/tvil/sass/tvil/main */
+/* line 274, /www/tvil/sass/tvil/main */
 .container-red {
   background-color: #ff5d61; }
-  /* line 269, /www/tvil/sass/tvil/main */
+  /* line 276, /www/tvil/sass/tvil/main */
   .container-red h2 {
     color: #fff; }
-  /* line 272, /www/tvil/sass/tvil/main */
+  /* line 279, /www/tvil/sass/tvil/main */
   .container-red h4 {
     font-size: 22px;
     font-weight: normal;
@@ -10116,28 +10125,28 @@ p.dark {
     text-align: left;
     line-height: 1.5;
     margin-bottom: 27px; }
-    /* line 280, /www/tvil/sass/tvil/main */
+    /* line 287, /www/tvil/sass/tvil/main */
     .container-red h4 a {
       color: #fff;
       text-decoration: none; }
-      /* line 283, /www/tvil/sass/tvil/main */
+      /* line 290, /www/tvil/sass/tvil/main */
       .container-red h4 a:hover {
         text-decoration: none; }
 
-/* line 289, /www/tvil/sass/tvil/main */
+/* line 296, /www/tvil/sass/tvil/main */
 .container-map {
   background-image: url(../img/russia.jpg);
   background-repeat: no-repeat;
   background-position: center center; }
 
-/* line 294, /www/tvil/sass/tvil/main */
+/* line 301, /www/tvil/sass/tvil/main */
 .circle {
   margin: 86px auto 71px;
   text-align: center;
   position: relative;
   width: 100px;
   height: 100px; }
-  /* line 300, /www/tvil/sass/tvil/main */
+  /* line 307, /www/tvil/sass/tvil/main */
   .circle:before {
     display: block;
     content: ' ';
@@ -10159,7 +10168,7 @@ p.dark {
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 324, /www/tvil/sass/tvil/main */
+  /* line 331, /www/tvil/sass/tvil/main */
   .circle i.icontvil {
     display: block;
     position: absolute;
@@ -10172,7 +10181,7 @@ p.dark {
     height: 100px;
     color: #ff5d61; }
 
-/* line 338, /www/tvil/sass/tvil/main */
+/* line 345, /www/tvil/sass/tvil/main */
 .hot_offers a {
   position: relative;
   display: block;
@@ -10183,7 +10192,7 @@ p.dark {
   @media (max-width: 1120px) {
     .hot_offers a {
       height: 200px; } }
-  /* line 348, /www/tvil/sass/tvil/main */
+  /* line 355, /www/tvil/sass/tvil/main */
   .hot_offers a:before {
     display: block;
     content: ' ';
@@ -10196,11 +10205,11 @@ p.dark {
     background: -moz-linear-gradientlinear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
     background: -o-linear-gradientlinear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6));
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)); }
-  /* line 362, /www/tvil/sass/tvil/main */
+  /* line 369, /www/tvil/sass/tvil/main */
   .hot_offers a h3, .hot_offers a p, .hot_offers a .label {
     position: absolute;
     color: #fff; }
-  /* line 366, /www/tvil/sass/tvil/main */
+  /* line 373, /www/tvil/sass/tvil/main */
   .hot_offers a h3 {
     bottom: 60px;
     font-weight: bold;
@@ -10211,7 +10220,7 @@ p.dark {
         font-size: 24px;
         bottom: 45px;
         left: 20px; } }
-  /* line 378, /www/tvil/sass/tvil/main */
+  /* line 385, /www/tvil/sass/tvil/main */
   .hot_offers a p {
     left: 30px;
     margin-bottom: 0;
@@ -10222,10 +10231,10 @@ p.dark {
         font-size: 16px;
         bottom: 20px;
         left: 20px; } }
-  /* line 389, /www/tvil/sass/tvil/main */
+  /* line 396, /www/tvil/sass/tvil/main */
   .hot_offers a .img-responsive {
     width: 100%; }
-  /* line 392, /www/tvil/sass/tvil/main */
+  /* line 399, /www/tvil/sass/tvil/main */
   .hot_offers a .label {
     right: 30px;
     bottom: 27px;
@@ -10243,34 +10252,34 @@ p.dark {
         bottom: 16px;
         right: 20px; } }
 
-/* line 411, /www/tvil/sass/tvil/main */
+/* line 418, /www/tvil/sass/tvil/main */
 .row-last-review {
   max-width: 1360px;
   margin: 70px auto 0;
   position: relative; }
-  /* line 416, /www/tvil/sass/tvil/main */
+  /* line 423, /www/tvil/sass/tvil/main */
   .row-last-review .search-photo {
     display: block;
     float: left;
     width: 360px; }
-    /* line 420, /www/tvil/sass/tvil/main */
+    /* line 427, /www/tvil/sass/tvil/main */
     .row-last-review .search-photo:after {
       left: 0;
       width: 360px; }
     @media (max-width: 1024px) {
       .row-last-review .search-photo {
         width: 290px; }
-        /* line 426, /www/tvil/sass/tvil/main */
+        /* line 433, /www/tvil/sass/tvil/main */
         .row-last-review .search-photo:after {
           width: 290px; }
-        /* line 429, /www/tvil/sass/tvil/main */
+        /* line 436, /www/tvil/sass/tvil/main */
         .row-last-review .search-photo .img-responsive {
           height: 100%; }
-        /* line 432, /www/tvil/sass/tvil/main */
+        /* line 439, /www/tvil/sass/tvil/main */
         .row-last-review .search-photo h3 {
           font-size: 14px;
           width: 260px; } }
-  /* line 438, /www/tvil/sass/tvil/main */
+  /* line 445, /www/tvil/sass/tvil/main */
   .row-last-review .media-rate {
     float: left;
     width: 870px;
@@ -10286,14 +10295,14 @@ p.dark {
     @media (max-width: 1024px) {
       .row-last-review .media-rate {
         width: 610px; } }
-  /* line 454, /www/tvil/sass/tvil/main */
+  /* line 461, /www/tvil/sass/tvil/main */
   .row-last-review .item {
     min-height: 230px; }
-  /* line 457, /www/tvil/sass/tvil/main */
+  /* line 464, /www/tvil/sass/tvil/main */
   .row-last-review .media-body .icontvil {
     color: #8e9aa9;
     opacity: 0.5; }
-  /* line 461, /www/tvil/sass/tvil/main */
+  /* line 468, /www/tvil/sass/tvil/main */
   .row-last-review .carousel-inner {
     max-width: 1233px;
     margin: 0 auto; }
@@ -10306,42 +10315,42 @@ p.dark {
     @media (max-width: 1024px) {
       .row-last-review .carousel-inner {
         max-width: 900px; } }
-  /* line 474, /www/tvil/sass/tvil/main */
+  /* line 481, /www/tvil/sass/tvil/main */
   .row-last-review .carousel-control {
     width: 30px; }
     @media (min-width: 1441px) {
-      /* line 477, /www/tvil/sass/tvil/main */
+      /* line 484, /www/tvil/sass/tvil/main */
       .row-last-review .carousel-control.left {
         left: -60px; }
 
-      /* line 480, /www/tvil/sass/tvil/main */
+      /* line 487, /www/tvil/sass/tvil/main */
       .row-last-review .carousel-control.right {
         right: -60px; }
  }
 
-/* line 487, /www/tvil/sass/tvil/main */
+/* line 494, /www/tvil/sass/tvil/main */
 .container-lightblue .icontvil {
   width: 20px;
   margin-right: 5px;
   text-align: center; }
 
-/* line 493, /www/tvil/sass/tvil/main */
+/* line 500, /www/tvil/sass/tvil/main */
 .icolor-forbes {
   font-size: 15px;
   top: 0;
   color: #3e63cc; }
 
-/* line 498, /www/tvil/sass/tvil/main */
+/* line 505, /www/tvil/sass/tvil/main */
 .icolor-fb {
   color: #5284d0; }
 
-/* line 501, /www/tvil/sass/tvil/main */
+/* line 508, /www/tvil/sass/tvil/main */
 .icolor-vk {
   color: #40aae1;
   font-size: 9px;
   top: -1px; }
 
-/* line 507, /www/tvil/sass/tvil/main */
+/* line 514, /www/tvil/sass/tvil/main */
 .icolor-ok {
   color: #e47e25; }
 
