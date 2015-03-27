@@ -8278,7 +8278,7 @@ select + .form-control-feedback {
   column: 2; }
   /* line 1924, /www/tvil/sass/tvil/theme */
   .column-2 li {
-    width: 50%;
+    width: 49%;
     display: inline-block;
     vertical-align: text-top; }
 
