@@ -3552,6 +3552,13 @@ p.dark {
       text-align: center;
       min-width: 110px;
       margin-right: 10px;
+      a {
+        display: inline-block;
+      }
+      span {
+        margin-top: 6px;
+        display: inline-block;
+      }
     }
     .media-rate {
       border-top: none;
@@ -3559,11 +3566,21 @@ p.dark {
       margin-top: 0;
       .media-body {
         padding-top: 10px;
-        h4 {
+        a.h4, h4 {
           font-weight: normal;
           font-size: 16px;
           color: #152438;
           margin-bottom: 15px;
+          margin-top: 10px;
+          display: inline-block;
+        }
+        .icontvil {
+          color:#7f94ac;
+          margin-right: -6px;
+
+          &.icontvil-sm {
+            margin-left: -1px;
+          }
         }
       }
     }
@@ -3607,16 +3624,19 @@ p.dark {
     margin-right: -16px;
   }
   dt {
-    color:#152438;
+    color:#8e9aa9;
     font-weight: normal;    
   }
   dd {
-    color:#8e9aa9;
+    color:#152438;
     margin-bottom: 5px;
     strong {
       color:#152438;
       font-weight: bold;
       margin-right: 10px;
+    }
+    .btn {
+      font-weight: 600;
     }
   }
   .btn {
@@ -3674,7 +3694,7 @@ p.dark {
     // margin-left: 0;
   }
   .btn.btn-block {
-    font-weight: 500;
+    font-weight: 600;
     color:#566777;
   }
 }
@@ -3682,4 +3702,8 @@ p.dark {
   @media (max-width: 1279px) {
     display: block;
   }
+}
+.icontvil-sm {
+  font-size: 10px;
+  margin-left: -6px;
 }
