@@ -7076,7 +7076,7 @@ abbr[title] {
   .form-group .col-sm-6, .form-group .col-sm-4 {
     padding-right: 17px; }
   /* line 720, /www/tvil/sass/tvil/theme */
-  .form-group .required {
+  .form-group span.required {
     position: absolute;
     bottom: 4px;
     right: 0;
