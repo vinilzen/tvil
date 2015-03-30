@@ -606,6 +606,10 @@ abbr[title]{
     &.affix {
       top:0;
     }
+    @media (max-width: 1023px) {
+      right: 0;
+      left: inherit;
+    }
     @media (max-width: 1199px) {
       width: 340px;
     }
@@ -2005,11 +2009,10 @@ span.msg-info {
   @media (max-width: 1199px) {
     padding:20px 10px 0;
   }
-  // @media (min-width: 1441px) {
-  //   width: 400px;
-  //   position: fixed;
-  //   padding: 20px 0 0 40px;
-  // }
+  @media (max-width: 1023px) {
+    position: relative;
+    bottom:inherit;
+  }
   p {
     padding: 0 20px;
     color:#8e9aa9;
@@ -3042,6 +3045,7 @@ i.icontvil.form-control-feedback {
   bottom:0;
   left:0;
   right:0;
+  min-width: 1024px;
   .footer-container {
     background-color: #313541;
     padding: 40px;
