@@ -1407,6 +1407,7 @@ select + .form-control-feedback {
   margin-right: -19px;
   padding-left: 4px;
   padding-right: 4px;
+  padding-bottom: 20px;
   h2 {
     color:#3b4754;
     margin-top: 40px;
@@ -1868,7 +1869,9 @@ select + .form-control-feedback {
       a {
         color:#152438;
         text-decoration: none;
-        border-bottom: 1px dashed #152438;
+        border-bottom: 1px dotted #152438;
+        display: inline-block;
+        line-height: 1;
         &:hover {
           border-bottom-color:rgba(0,0,0,0);
         }
@@ -2206,7 +2209,7 @@ span.msg-info {
   a {
     text-decoration: none;
     display: inline-block;
-    border-bottom:1px dashed #152438;
+    border-bottom:1px dotted #152438;
     color:#152438;
     line-height: 14px;
     &:hover {
@@ -2611,7 +2614,7 @@ i.icontvil.form-control-feedback {
 .dotted {
   text-decoration: none;
   display: inline-block;
-  border-bottom: 1px dashed #b0b8c3;
+  border-bottom: 1px dotted #b0b8c3;
   color: #b0b8c3;
   top: 6px;
   line-height: 1;
@@ -3740,20 +3743,31 @@ p.dark {
 .col-right-border {
   border-right:1px solid $border-color;
   text-align: center;
+  padding-top: 9px;
+  padding-bottom: 7px;
+  margin-left: -5px;
+}
+
+.big_number {
+  font-size: 32px;
+  display: block;
 }
 .main_advantages {
   border-bottom:1px solid $border-color;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   padding-top: 10px;
   .icontvil {
     position: absolute;
-    left:0px;
-    top:10px;
+    left: -4px;
+    top: 17px;
     font-size: 32px;
     float: left;
     display: block;
     color:#b0b8c3;
     opacity:.5;
+    &.icontvil-Ruler {
+       left: 7px;
+    }
     &:hover {
       opacity:1;
     }
@@ -3765,15 +3779,19 @@ p.dark {
     margin: 0 auto;
     span {
       text-align: left;
+      display: block;
     }
   }
   .col-right-border:last-child {
     border:none;
+
+    .small_text {
+      min-width: 115px;
+    }
   }
-}
-.big_number {
-  font-size: 32px;
-  display: block;
+  .col-right-border:first-child {
+    margin-left: 0;
+  }
 }
 .pos-abs-xs {
   @media (max-width: 1023px) {

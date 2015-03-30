@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icontvil';
-	src:url('fonts/icontvil.eot?huxeeh');
-	src:url('fonts/icontvil.eot?#iefixhuxeeh') format('embedded-opentype'),
-		url('fonts/icontvil.woff?huxeeh') format('woff'),
-		url('fonts/icontvil.ttf?huxeeh') format('truetype'),
-		url('fonts/icontvil.svg?huxeeh#icontvil') format('svg');
+	src:url('fonts/icontvil.eot?7lcue3');
+	src:url('fonts/icontvil.eot?#iefix7lcue3') format('embedded-opentype'),
+		url('fonts/icontvil.woff?7lcue3') format('woff'),
+		url('fonts/icontvil.ttf?7lcue3') format('truetype'),
+		url('fonts/icontvil.svg?7lcue3#icontvil') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -35,7 +35,7 @@
 	content: "\e643";
 }
 
-.icontvil-Vk:before {
+.icontvil-vk:before {
 	content: "\e644";
 }
 
@@ -73,6 +73,22 @@
 
 .icontvil-Frame:before {
 	content: "\e63b";
+}
+
+.icontvil-Ruler:before {
+	content: "\e646";
+}
+
+.icontvil-Number_People:before {
+	content: "\e647";
+}
+
+.icontvil-Number_Rooms:before {
+	content: "\e648";
+}
+
+.icontvil-Floor:before {
+	content: "\e649";
 }
 
 .icontvil-Child:before {

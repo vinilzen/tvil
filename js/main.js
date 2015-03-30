@@ -113,11 +113,7 @@ $(function(){
 		$('.search-list').fadeOut();
 	});
 
-	console.log($(window).width());
-
 	if ($(window).width()>1023){
-
-
 
 		if (js_sidebar_scroll.length > 0 || $('#js-map').length > 0) {
 			$(document).scroll(function(){
