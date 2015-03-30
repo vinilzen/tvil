@@ -3,7 +3,7 @@ html
   head
     == Slim::Template.new("head.slim").render
   body
-    .container-wrapper
+    .container-wrapper.pos-abs-xs
       .sidebar-left data-spy="affix" data-offset-top="60"
         == Slim::Template.new("sidebar-left.slim").render
       .main data-spy="affix" data-offset-top="60"

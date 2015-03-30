@@ -416,6 +416,9 @@ abbr[title]{
   &.affix {
     position: fixed;
     top:51px;
+    @media (max-width: 1023px) {
+      position: absolute;
+    }
   }
 }
 .sidebar-left {
@@ -547,8 +550,8 @@ abbr[title]{
   overflow: hidden;
   position: absolute;
   @media (max-width: 1023px) {
-    left: 734px;
-    right: inherit;
+    left: inherit;
+    right: 0;
   }
   @media (min-width: 1600px) {
     width: 530px;
@@ -2739,6 +2742,7 @@ i.icontvil.form-control-feedback {
 .container-table {
   display:table;
   height: 100%;
+  min-width: 1024px;
 }
 .row-message {
   display:table-row;
@@ -3770,4 +3774,9 @@ p.dark {
 .big_number {
   font-size: 32px;
   display: block;
+}
+.pos-abs-xs {
+  @media (max-width: 1023px) {
+    position: relative;
+  }
 }
