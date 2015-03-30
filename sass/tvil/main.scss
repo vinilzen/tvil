@@ -73,6 +73,7 @@
 }
 .container-tabs {
 	margin-top: -75px;
+
 	.nav > li > a {
 		padding:0;
 		line-height:75px;
@@ -463,11 +464,15 @@
 	}
 	.media-body .icontvil {
 		color:#8e9aa9;
-		opacity:.5;
+		color:#7f94ac;
+		// opacity:.5;
 	}
 	.carousel-inner {
 		max-width: 1233px;
 		margin:0 auto;
+		.media-body {
+  			padding-left: 7px;
+		}
 		@media (max-width: 1300px){
 			max-width: 1100px;
 		}
@@ -476,6 +481,11 @@
 		}
 		@media (max-width: 1024px){
 			max-width: 900px;
+		}
+		.media-left {
+			p {
+				margin-top: 10px;
+			}
 		}
 	}
 	.carousel-control {

@@ -2117,6 +2117,7 @@ span.msg-info {
 }
 .row-white {
   background-color: #fff;
+  border: 1px solid $border-color;
 }
 /* Отзывы */
 .rate {
@@ -3564,25 +3565,6 @@ p.dark {
       border-top: none;
       margin-left: 0;
       margin-top: 0;
-      .media-body {
-        padding-top: 10px;
-        a.h4, h4 {
-          font-weight: normal;
-          font-size: 16px;
-          color: #152438;
-          margin-bottom: 15px;
-          margin-top: 10px;
-          display: inline-block;
-        }
-        .icontvil {
-          color:#7f94ac;
-          margin-right: -6px;
-
-          &.icontvil-sm {
-            margin-left: -1px;
-          }
-        }
-      }
     }
     .rate_guest {
       color:#152438;
@@ -3706,4 +3688,30 @@ p.dark {
 .icontvil-sm {
   font-size: 10px;
   margin-left: -6px;
+}
+.review_tab {
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.media.media-user {
+  margin-top: 23px;
+  .media-body {
+    padding-top: 14px;
+    a.h4, h4 {
+      font-weight: normal;
+      font-size: 16px;
+      color: #152438;
+      margin-bottom: 15px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    .icontvil {
+      color:#7f94ac;
+      margin-right: -6px;
+
+      &.icontvil-sm {
+        margin-left: -1px;
+      }
+    }
+  }
 }
