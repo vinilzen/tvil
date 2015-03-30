@@ -74,14 +74,14 @@
 .container-tabs {
 	margin-top: -75px;
 
-	.nav > li > a {
-		padding:0;
-		line-height:75px;
-		height:75px;
-		position:relative;
-		font-size: 16px;
-		color:#fff;
-		opacity:.9;
+  .nav > li > a {
+    padding:0;
+    line-height:75px;
+    height:75px;
+    position:relative;
+    font-size: 16px;
+    color:#fff;
+    opacity:.9;
     background-color: rgba(0, 0, 0, 0.3);
     border-right-color:rgba(0,0,0,.6);
     border-bottom-color:rgba(0,0,0,.6);
@@ -89,6 +89,10 @@
     border-top:none;
     border-radius: 0;
     cursor:pointer;
+
+    @media (max-width: 1023px){
+      margin-bottom: 0;
+    }
 		span {
 			display:inline-block;
 			height:64px;
@@ -144,11 +148,7 @@
 	position: absolute;
 	width: 100%;
 	.navbar-brand {
-		font-family: 'Proxima Nova';
-		font-weight: bold;
-		color:#fff;
-		font-size: 28px;
-    padding-left: 0;
+    	padding-left: 0;
 	}
   .navbar {
     min-width:1px;
@@ -191,6 +191,10 @@
 		font-size: 36px;
 		font-weight: 500;
 		margin-top: 183px;
+		@media (max-width: 1023px){
+			margin-top: 90px;
+			font-size: 28px;
+		}
 	}
 	p {
 		font-size: 18px;
@@ -222,7 +226,19 @@
 				right: 10px; 
 			}
 		}
-
+		
+    	@media (max-width: 1023px){
+			width: 90%;
+			.form-control {
+				width: 100%;
+			}
+			.form-group {
+				margin-right: 0;
+			}
+			.btn {
+				width: 100%;
+			}
+    	}
 	}
 	.btn {
 		width: 150px;
@@ -237,6 +253,9 @@
   padding-left: 15px;
   padding-right: 15px;
   float: left;
+  @media (max-width: 1023px){ 
+	width: 100%;
+  }
 }
 .tab-pane {
 	.col5-2 {
