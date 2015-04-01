@@ -2131,7 +2131,10 @@ span.msg-info {
 }
 .row-white {
   background-color: #fff;
-  border: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  &.row-bordered {
+    border: 1px solid $border-color;
+  }
 }
 /* Отзывы */
 .rate {
