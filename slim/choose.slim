@@ -1,0 +1,384 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-wrapper-center
+      .container-fluid
+        .container.container-choose
+          .row
+            .col-sm-12.text-center
+              h1.h1 Я сдаю
+              p Выберите тип жилья
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-block.btn-default Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected Одна комната
+                .col-sm-3
+                  .btn.btn-block.btn-default Койко-место
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+            .col-sm-12.text-center
+              form.form-inline
+                .form-group
+                  label Укажите город 
+                  input.form-control type="text" placeholder="Город" value="Санкт-Петербург"
+            .col-sm-12.text-center
+              .btn.btn-danger.btn-lg Продолжить оформление
+            
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default Одна комната
+                .col-sm-3
+                  .btn.btn-block.btn-default Койко-место
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3            
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default Одна комната
+                .col-sm-3
+                  .btn.btn-block.btn-default Койко-место
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3        
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-block.btn-default Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected Одна комната
+                .col-sm-3
+                  .btn.btn-block.btn-default Койко-место
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected Не целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default Целиком
+                .col-sm-3
+                  .btn.btn-block.btn-default Одна комната
+                .col-sm-3
+                  .btn.btn-block.btn-default Койко-место
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-block.btn-default В квартире
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В доме
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-block.btn-default Гостевой дом
+            .col-sm-12
+              hr
+
+            .col-sm-12
+              .row
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Hotel
+                    | Гостиничный объект
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Home
+                    | Дом
+                .col-sm-3
+                  .btn.btn-block.btn-default
+                    i.icontvil.icontvil-Flat
+                    | Квартира
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected
+                    i.icontvil.icontvil-Flat
+                    | Одну комнату
+            .col-sm-12
+              .row.tree-choose
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-invisible
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В квартире
+                .col-sm-3
+                  .btn.btn-block.btn-default В доме
+            .col-sm-12
+              .row.tree-choose.last-choose
+                .col-sm-3
+                  .btn.btn-block.btn-default В 1 комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default.selected В 2-х комнатной 
+                .col-sm-3
+                  .btn.btn-block.btn-default В 3-х комнатной 
+                .col-sm-3
+                  .dropdown.dropdown-select
+                    button.btn.btn-block.btn-default data-toggle="dropdown"
+                      span.value Другое?
+                      span.arrows
+                        span.caret.caret-reversed
+                        span.caret
+                    .dropdown-menu role="menu"
+                      li
+                        a 1
+                      li
+                        a 2
+                      li
+                        a 3
+            
+
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

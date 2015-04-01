@@ -39,7 +39,13 @@ label {
   padding: 7px 12px 6px;
   border-radius: 3px;
 }
-
+.h1 {
+  font-size: 26px;
+  font-weight: normal;
+  color:#152438;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 .main.obj .h1-fixtop {
   font-size: 18px;
   font-weight: 500;
@@ -3796,5 +3802,127 @@ p.dark {
 .pos-abs-xs {
   @media (max-width: 1023px) {
     position: relative;
+  }
+}
+.container-choose {
+  width: 880px;
+  margin-bottom: 20px;
+  .form-control {
+    margin-left: 15px;
+    width: 293px;
+  }
+  .form-inline {
+    margin-top: 20px;
+  }
+  .icontvil {
+    margin-right: 10px;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    position: relative;
+    &.btn-default {
+      padding-left: 13px;
+      padding-right: 12px;
+      opacity:.5;
+    }
+    &.selected {
+      opacity:1;
+      &:after {
+        content:'';
+        display: block;
+        width: 1px;
+        height: 20px;
+        background-color: $border-color;
+        position: absolute;
+        top:35px;
+        left:85px;
+      }
+    }
+  }
+  .tree-choose {
+    &:before {
+      content:'';
+      display: block;
+      width: 661px;
+      height: 1px;
+      background-color: $border-color;
+      position: absolute;
+      top:0px;
+      left:101px;
+      opacity:.5;
+    }
+    .btn {
+      &:after {
+        content:'';
+        display: block;
+        width: 1px;
+        height: 10px;
+        background-color: $border-color;
+        position: absolute;
+        top:-10px;
+        left:85px;
+      }
+      &.selected {
+         &:after,  &:before {
+          opacity:.5;
+         }
+          &:before {
+            content:'';
+            display: block;
+            width: 1px;
+            height: 10px;
+            background-color: $border-color;
+            position: absolute;
+            top:35px;
+            left:85px;
+          }
+      }
+    }
+    &.last-choose {
+      .btn {
+        &:before {
+          display: none;
+        }
+      }
+    }
+    .btn.btn-invisible {
+      &:before {
+        visibility: visible;
+        content:'';
+        display: block;
+        width:220px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        top:-11px;
+        left:85px;
+      }
+      &:after {
+        display: none;
+      }
+    }
+  }
+  .btn-default.selected {
+    color: #152438;
+    background-color: #eaeff4;
+    border-color: #eaeff4;
+  }
+  .btn-danger {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .btn-lg {
+    padding: 11px 45px;
+    margin-top: 20px;
+  }
+  .arrows  {
+    top: 0;
+    right: 0;
+  }
+  .dropdown-menu {
+    width: 100%;
   }
 }
