@@ -3967,7 +3967,7 @@ p.dark {
         padding-right: 0px;
         text-transform: uppercase;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 600;
         color:#566777;
         &:hover, &.active {
           color:#b0b8c3;
@@ -3993,14 +3993,24 @@ p.dark {
     padding-left: 3px;
     padding-right: 50px;
     a {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: normal;
-      text-decoration: underline;
+      text-decoration: none;
+      border-bottom:1px solid #ccd1d6;
       color:#566777;
-      line-height: 1.75em;
+      line-height:24px;
+      -webkit-transition : border 500ms ease-out;
+      -moz-transition : border 500ms ease-out;
+      -o-transition : border 500ms ease-out;
+      transition : border 500ms ease-out;
+      -webkit-transition : color 500ms ease-out;
+      -moz-transition : color 500ms ease-out;
+      -o-transition : color 500ms ease-out;
+      transition : color 500ms ease-out;
       &:hover, &:focus {
         text-decoration: none;
         color:#ff5d61;
+        border-bottom-color: #fff;
       }
     }
   }
@@ -4029,7 +4039,7 @@ p.dark {
     padding: 25px 50px;
   }
   .modal-header {
-    padding-top: 20px;
+    padding-top: 42px;
     padding-left: 50px;
     padding-right: 50px;
     border-radius: 4px;
@@ -4047,15 +4057,22 @@ p.dark {
       font-weight: normal;
       color:#b0b8c3;
       border-bottom: 4px solid rgba(0,0,0,0);
-      padding-bottom: 8px;
+      padding-bottom: 17px;
       text-decoration: none;
       margin-right: 20px;
+      -webkit-transition : border 500ms ease-out;
+      -moz-transition : border 500ms ease-out;
+      -o-transition : border 500ms ease-out;
+      transition : border 500ms ease-out;
     }
     .active {
       a {
         color:#152438;
         border-bottom-color: #d3dee5;
       }
+    }
+    .list-inline {
+      margin-bottom: 20px;
     }
   }
   .tab-pane {
@@ -4072,9 +4089,9 @@ p.dark {
       font-weight: bold;
       float: left;
       padding: 12px 20px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
       width: 164px;
-      margin-top: 0;
+      margin-top: 5px;
       &:first-child, &:nth-child(3) {
         margin-right: 10px;
       }
@@ -4082,10 +4099,13 @@ p.dark {
     abbr[title] {
       margin: 0;
       color:#566777;
+      font-size: 13px;
+      margin-top: 3px;
+      line-height: 1;
     }
     .or {
-      margin-top: 5px;
-      margin-bottom: 7px;
+      margin-top: 15px;
+      margin-bottom: 15px;
       span {
         color:#b0b8c3;
         font-size: 13px;
@@ -4107,6 +4127,7 @@ p.dark {
     }
     label {
       color:#b0b8c3;
+      font-size: 13px;
     }
     .checkbox {
       margin-top: 0;
@@ -4132,16 +4153,32 @@ p.dark {
   }
 }
 .btn-ya {
-  background-color: #ffd300;
+  $bg_color:#ffd300;
+  background-color: $bg_color;
+  &:hover, &:focus {
+    background-color:darken($bg_color, 10%);
+  }
 }
 .btn-fb {
-  background-color: #517fc8;
+  $bg_color:#517fc8;
+  background-color: $bg_color;
+  &:hover, &:focus {
+    background-color:darken($bg_color, 10%);
+  }
 }
 .btn-mail {
-  background-color: #6073c5;
+  $bg_color:#6073c5;
+  background-color: $bg_color;
+  &:hover, &:focus {
+    background-color:darken($bg_color, 10%);
+  }
 }
 .btn-google {
-  background-color: #ec6b5a;
+  $bg_color:#ec6b5a;
+  background-color: $bg_color;
+  &:hover, &:focus {
+    background-color:darken($bg_color, 10%);
+  }
 }
 
 .btn-lg.btn-modal {
@@ -4151,10 +4188,14 @@ p.dark {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 30px;
+  margin-bottom: 23px;
   &.btn-default {
     border-color:#d3dee5;
     background-color: #f4f7fa;
     color:#b0b8c3;
+    &:hover, &:focus {
+      background-color: darken(#f4f7fa, 5%);
+    }
   }
 }
 /* LOGIN MODAL */
