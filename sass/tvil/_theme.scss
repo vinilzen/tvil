@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&subset=cyrillic,cyrillic-ext,latin);
 
-html {
+html, body {
   height: 100%;
 }
 .btn {
@@ -3069,6 +3069,9 @@ i.icontvil.form-control-feedback {
     z-index: 1020;
     height: 320px;
     width: 100%;
+    &.footer-inner {
+      padding: 0;
+    }
   }
 }
 .row-payment {
@@ -4017,7 +4020,7 @@ p.dark {
 .modal-login {
   .modal-dialog {
     max-width: 440px;
-    margin-top: 140px;
+    margin-top: 142px;
   }
   .modal-content {
     border-radius: 6px;
@@ -4034,7 +4037,7 @@ p.dark {
     padding-bottom: 0;
     background-color: #f4f7fa;
     .close {
-      margin-top: 2px;
+      margin-top: 7px;
       .icontvil {
         font-size: 13px;
       }
@@ -4141,7 +4144,7 @@ p.dark {
   background-color: #ec6b5a;
 }
 
-.btn-lg {
+.btn-lg.btn-modal {
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 14px;

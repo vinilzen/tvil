@@ -17,3 +17,9 @@ http://tvil.to4ek.net/login.html  (Страница редактирования
 http://tvil.to4ek.net/message.html  (Страница переписки)
 
 http://tvil.to4ek.net/payment.html  (Страница выбора способа оплаты)
+
+http://tvil.to4ek.net/press.html  (Страница пресса)
+
+http://tvil.to4ek.net/press_login.html  (Модальное окно авторизации-регистрации)
+
+http://tvil.to4ek.net/calendar_message.html  (Модальное окно сообщение календаря)

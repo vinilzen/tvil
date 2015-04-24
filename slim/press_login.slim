@@ -2,7 +2,7 @@ doctype html
 html
   head
     == Slim::Template.new("head.slim").render
-  body
+  body.modal-open
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
     .container-fluid.container-fluid-inner.title
@@ -156,11 +156,11 @@ html
                       input type="checkbox" Запомнить меня
                     abbr.pull-right title="Забыли пароль?" Забыли пароль?
                   .form-group
-                    .btn.btn-default.btn-block.btn-lg Войти
+                    .btn.btn-default.btn-block.btn-lg.btn-modal Войти
 
                 .tab-pane.fade role="tabpanel" id="reg" aria-labelledby="profile-tab"
                   .form-group
-                    .btn.btn-success.btn-block.btn-lg Выслать пароль для входа
+                    .btn.btn-success.btn-block.btn-lg.btn-modal Выслать пароль для входа
 
     .modal-backdrop.fade.in
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"

@@ -2,7 +2,7 @@ doctype html
 html
   head
     == Slim::Template.new("head.slim").render
-  body
+  body.modal-open
     nav.navbar.navbar-inverse.navbar-tvil-fixed-top
       == Slim::Template.new("nav_top.slim").render
     .container-fluid.container-fluid-inner.title
@@ -199,7 +199,7 @@ html
               .form-group
                 textarea.form-control rows="7" placeholder="Текст сообщения"
               .form-group.text-right
-                .btn.btn-success.btn-lg Отправить сообщение
+                .btn.btn-success.btn-lg.btn-modal Отправить сообщение
 
     .modal-backdrop.fade.in
     script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
