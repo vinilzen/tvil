@@ -1,0 +1,124 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-fluid.container-fluid-inner.title
+      .container.container-wide
+        .row
+          .col-md-6
+            h1 О нас пишут
+            p Известные издания пишут о нас. Читайте десятки статей о нас
+          .col-md-6
+            ul.list-inline.list-unstyled
+              li
+                a href="#" Помощь
+              li
+                a href="#" Каталог
+              li
+                a href="#" Отзывы
+              li
+                a href="#" TVIL в прессе
+              li
+                a href="#" Контакты
+    .container-fluid.container-fluid-inner
+      .container.container-wide
+        .row.press
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/forbes.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/logo_mn.png" alt=""/
+            p
+              a href="#" Московские новости включили TVIL.ru в список лучших сайтов для самостоятельных путешественников.
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/planeta.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/komdir.png" alt=""/
+            p
+              a href="#" 12 лучших сайтов! Дюжина лучших сайтов и сервисов лета
+          .clearfix
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/kommer.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/finam.png" alt=""/
+            p
+              a href="#" 12 лучших сайтов! Дюжина лучших сайтов и сервисов лета
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/spb.png" alt=""/
+            p
+              a href="#" Московские новости включили TVIL.ru в список лучших сайтов для самостоятельных путешественников.
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/depo.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+    .footer-inner
+      .container-fluid.container-lightblue
+        .container.container-wide
+          .row
+            .col-md-3.col-sm-12
+              h3 TVIL.RU
+              p Бронирование гостиниц и квартир
+            .col-md-3.col-sm-12
+              h3 Разделы
+              ul.list-unstyled
+                li
+                  a href="#" О ТВИЛ.ру в прессе
+                li
+                  a href="#" Отзывы пользователей
+                li
+                  a href="#" Контакты
+                li
+                  a href="#" Помощь
+            .col-md-3.col-sm-12
+              h3 Популярное:
+              ul.list-unstyled
+                li
+                  a href="#" Гостиницы и квартиры
+                li
+                  a href="#" Отдых 2015
+                li
+                  a href="#" Договор оферты
+            .col-md-3.col-sm-12
+              h3 Наши группы:
+              ul.list-unstyled
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Forbes.icolor-forbes
+                  | Forbes
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Fb.icolor-fb
+                  | Facebook
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-vk.icolor-vk
+                  | Вконтакте
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Ok.icolor-ok
+                  | Одноклассники
+      .container-fluid.container-darkblue
+        .container.container-wide
+          .row
+            .col-sm-12.text-center
+              p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

@@ -1,0 +1,207 @@
+doctype html
+html
+  head
+    == Slim::Template.new("head.slim").render
+  body
+    nav.navbar.navbar-inverse.navbar-tvil-fixed-top
+      == Slim::Template.new("nav_top.slim").render
+    .container-fluid.container-fluid-inner.title
+      .container.container-wide
+        .row
+          .col-md-6
+            h1 О нас пишут
+            p Известные издания пишут о нас. Читайте десятки статей о нас
+          .col-md-6
+            ul.list-inline.list-unstyled
+              li
+                a href="#" Помощь
+              li
+                a href="#" Каталог
+              li
+                a href="#" Отзывы
+              li
+                a href="#" TVIL в прессе
+              li
+                a href="#" Контакты
+    .container-fluid.container-fluid-inner
+      .container.container-wide
+        .row.press
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/forbes.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/logo_mn.png" alt=""/
+            p
+              a href="#" Московские новости включили TVIL.ru в список лучших сайтов для самостоятельных путешественников.
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/planeta.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/komdir.png" alt=""/
+            p
+              a href="#" 12 лучших сайтов! Дюжина лучших сайтов и сервисов лета
+          .clearfix
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/kommer.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/finam.png" alt=""/
+            p
+              a href="#" 12 лучших сайтов! Дюжина лучших сайтов и сервисов лета
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/spb.png" alt=""/
+            p
+              a href="#" Московские новости включили TVIL.ru в список лучших сайтов для самостоятельных путешественников.
+          .col-md-3.col-sm-3
+            a.logo_source href=""
+              img.img-responsive src="../img/depo.png" alt=""/
+            p
+              a href="#" Новая статья о TVIL.ru на сайте журнала Forbes. Битва за туриста: как система бронирования Tvil.ru победила доски объявлений
+    .footer-inner
+      .container-fluid.container-lightblue
+        .container.container-wide
+          .row
+            .col-md-3.col-sm-12
+              h3 TVIL.RU
+              p Бронирование гостиниц и квартир
+            .col-md-3.col-sm-12
+              h3 Разделы
+              ul.list-unstyled
+                li
+                  a href="#" О ТВИЛ.ру в прессе
+                li
+                  a href="#" Отзывы пользователей
+                li
+                  a href="#" Контакты
+                li
+                  a href="#" Помощь
+            .col-md-3.col-sm-12
+              h3 Популярное:
+              ul.list-unstyled
+                li
+                  a href="#" Гостиницы и квартиры
+                li
+                  a href="#" Отдых 2015
+                li
+                  a href="#" Договор оферты
+            .col-md-3.col-sm-12
+              h3 Наши группы:
+              ul.list-unstyled
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Forbes.icolor-forbes
+                  | Forbes
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Fb.icolor-fb
+                  | Facebook
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-vk.icolor-vk
+                  | Вконтакте
+                li
+                  a href="#" 
+                  i.icontvil.icontvil-Ok.icolor-ok
+                  | Одноклассники
+      .container-fluid.container-darkblue
+        .container.container-wide
+          .row
+            .col-sm-12.text-center
+              p &copy; TVIL.ru - бронирование гостиниц и квартир посуточно. Работает с 25.08.2008 года.
+
+    #CalendarMessageModal.modal.fade.in.modal-calendar-message style="display:block;" aria-hidden="true" aria-labelledby="CalendarMessageModalLabel" role="dialog" tabindex="-1" 
+      .modal-dialog
+        .modal-content
+          .modal-body
+            button.close aria-label="Close" data-dismiss="modal" type="button" 
+              span aria-hidden="true" 
+                i.icontvil.icontvil-Bigx
+            h3 Уточните даты поездки и количество гостей
+
+            .row
+              .col-sm-f2
+                .form-group.has-feedback.search-calendar-input
+                  input.form-control placeholder="Заезд" type="text" /
+                  i.icontvil.icontvil-Date_Out.form-control-feedback
+              .col-sm-f2
+                .form-group.has-feedback.search-calendar-input
+                  input.form-control placeholder="Отъезд" type="text" /
+                  i.icontvil.icontvil-Date_In.form-control-feedback
+              .col-sm-l2
+                .dropdown.dropdown-select
+                  button#dropdownMale.btn.btn-default.btn-block.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+                    i.icontvil.icontvil-Male
+                    span.value 0
+                    span.arrows
+                      span.caret.caret-reversed
+                      span.caret
+                  ul.dropdown-menu aria-labelledby="dropdownMale" role="menu" 
+                    li
+                      a 0
+                    li
+                      a 1
+                    li
+                      a 2
+                    li
+                      a 3
+              .col-sm-l2
+                .dropdown.dropdown-select
+                  button#dropdownFemale.btn.btn-default.btn-block.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+                    i.icontvil.icontvil-Female
+                    span.value 0
+                    span.arrows
+                      span.caret.caret-reversed
+                      span.caret
+                  ul.dropdown-menu aria-labelledby="dropdownFemale" role="menu" 
+                    li
+                      a 0
+                    li
+                      a 1
+                    li
+                      a 2
+                    li
+                      a 3
+              .col-sm-l2
+                .dropdown.dropdown-select
+                  button#dropdownChildren.btn.btn-default.btn-block.dropdown-toggle aria-expanded="true" data-toggle="dropdown" type="button" 
+                    i.icontvil.icontvil-Children
+                    span.value 0
+                    span.arrows
+                      span.caret.caret-reversed
+                      span.caret
+                  ul.dropdown-menu aria-labelledby="dropdownChildren" role="menu" 
+                    li
+                      a 1
+                    li
+                      a 2
+                    li
+                      a 3
+                    li
+                      a 4
+                    li
+                      a 5
+                    li
+                      a 6
+
+            h3.second-title Задайте интересующий вопрос
+
+            form
+              .form-group
+                textarea.form-control rows="7" placeholder="Текст сообщения"
+              .form-group.text-right
+                .btn.btn-success.btn-lg Отправить сообщение
+
+    .modal-backdrop.fade.in
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
+    script src="js/main.js"

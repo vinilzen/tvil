@@ -66,10 +66,11 @@
   top: 0;
   right: 0;
   left: 0;
-  background-color: $modal-backdrop-bg;
+  bottom:0;
+  background-color: #152438;
   // Fade for backdrop
   &.fade { @include opacity(0); }
-  &.in { @include opacity($modal-backdrop-opacity); }
+  &.in { @include opacity(.9); }
 }
 
 // Modal header
