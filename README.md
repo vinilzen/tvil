@@ -2,6 +2,8 @@
 
 Demo:
 
+http://tvil.to4ek.net/main.html  (Главная страница)
+
 http://tvil.to4ek.net/edit.html  (Редактирование категории)
 
 http://tvil.to4ek.net/search.html (Поиск)
