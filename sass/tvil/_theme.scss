@@ -4003,10 +4003,10 @@ p.dark {
       -moz-transition : border 500ms ease-out;
       -o-transition : border 500ms ease-out;
       transition : border 500ms ease-out;
-      -webkit-transition : color 500ms ease-out;
-      -moz-transition : color 500ms ease-out;
-      -o-transition : color 500ms ease-out;
-      transition : color 500ms ease-out;
+      -webkit-transition : color 50ms ease-out;
+      -moz-transition : color 50ms ease-out;
+      -o-transition : color 50ms ease-out;
+      transition : color 50ms ease-out;
       &:hover, &:focus {
         text-decoration: none;
         color:#ff5d61;
